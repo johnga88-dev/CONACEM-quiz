@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360"><rect width="640" height="360" fill="#0b1322"/>
+<text x="320" y="28" text-anchor="middle" fill="white" font-size="22">Circuito ECMO simplificado</text>
+<circle cx="150" cy="185" r="75" fill="#7f1d1d"/><text x="150" y="193" text-anchor="middle" fill="white" font-size="25">Paciente</text>
+<circle cx="330" cy="185" r="55" fill="#1d4ed8"/><text x="330" y="193" text-anchor="middle" fill="white" font-size="22">Bomba</text>
+<rect x="455" y="125" width="120" height="120" rx="20" fill="#0f766e"/><text x="515" y="182" text-anchor="middle" fill="white" font-size="20">Oxigenador</text>
+<text x="515" y="206" text-anchor="middle" fill="white" font-size="15">Sweep gas</text>
+<path d="M225 185 L275 185" stroke="#93c5fd" stroke-width="12" marker-end="url(#a)"/><path d="M385 185 L450 185" stroke="#93c5fd" stroke-width="12"/>
+<path d="M515 250 Q360 330 150 265" fill="none" stroke="#f87171" stroke-width="12"/>
+</svg>

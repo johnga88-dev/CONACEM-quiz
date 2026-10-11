@@ -1,12 +1,12 @@
 {
-  "name": "CONACEM Quiz 1000",
-  "short_name": "CONACEM 1000",
-  "description": "1000 preguntas de cirugía general con análisis de rendimiento, repaso adaptativo y reportes.",
+  "name": "CONACEM Cirugía V3 — 2000",
+  "short_name": "CONACEM V3",
+  "description": "Banco avanzado de 2000 preguntas para preparación de cirugía general, con modo estudio, examen y fuentes.",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#0f172a",
-  "theme_color": "#0f172a",
+  "background_color": "#081120",
+  "theme_color": "#081120",
   "orientation": "portrait-primary",
   "icons": [
     {

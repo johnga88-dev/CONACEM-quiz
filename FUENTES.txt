@@ -1,15 +1,26 @@
-Fuentes marco revisadas para esta versión
-- SAGES Clinical / Practice Guidelines: laparoscopia, apendicitis, acalasia y cirugía mínimamente invasiva.
-- EAST Practice Management Guidelines: trauma, cirugía de emergencia y cuidados críticos quirúrgicos.
-- WSES guidelines/consensus: cirugía de emergencia, infecciones intraabdominales y trauma.
-- ERAS Society Guidelines: cuidados perioperatorios y cirugía gastrointestinal/bariátrica.
-- ESPEN Guideline on Clinical Nutrition in Surgery – Update 2025.
-- ELSO Guidelines: soporte ECMO venovenoso, venoarterial y circuitos.
-- Surviving Sepsis Campaign: shock séptico y reanimación.
-- ESVS Clinical Practice Guidelines: enfermedad arterial, aorta e isquemia aguda.
-- Principios oncológicos multidisciplinarios vigentes para tracto gastrointestinal y mama.
+FUENTES MARCO — V3 REHECHA
 
-Nota: material educativo para estudio de cirugía general. No sustituye protocolos institucionales ni decisiones clínicas individualizadas.
+- ATS/ESICM/SCCM Mechanical Ventilation in ARDS Guideline: https://pubmed.ncbi.nlm.nih.gov/28459336/
+- American Society of Breast Surgeons – Official Statements: https://www.breastsurgeons.org/resources/statements/
+- ASBrS Resource Guide – Breast Conservation Surgery Margins: https://www.sesc.breastsurgeons.org/docs/statements/asbrs-rg-margins.pdf
+- ASCRS Clinical Practice Guideline – Colon Cancer: https://fascrs.org/getattachment/Healthcare-Providers/Education/Clinical-Practice-Guidelines/2022ColonCancerVisualAbstract.pdf?lang=en-US
+- ASCRS Clinical Practice Guideline – Rectal Cancer: https://fascrs.org/ascrs/media/files/2023-Rectal-Cancer-Supplement.pdf
+- ASMBS/IFSO Indications for Metabolic and Bariatric Surgery: https://asmbs.org/resources/2022-asmbs-and-ifso-indications-for-metabolic-and-bariatric-surgery/
+- American Thyroid Association – Differentiated Thyroid Cancer Guidelines: https://www.thyroid.org/new-ata-guidelines-adult-patients-differentiated-thyroid-cancer/
+- EAST Practice Management Guidelines: https://www.east.org/education-resources/practice-management-guidelines
+- ELSO ECMO Guidelines: https://www.elso.org/ecmo-resources/elso-ecmo-guidelines.aspx
+- ESPEN Guideline on Clinical Nutrition in Surgery – Update 2025: https://www.espen.org/files/ESPEN-guideline-on-clinical-nutrition-in-surgery-Update-2025.pdf
+- ESVS 2024 Abdominal Aorto-Iliac Aneurysm Guidelines: https://esvs.org/guideline/2024-abdominal-aorto-iliac-artery-aneurysms-guidelines/
+- ESVS Clinical Practice Guidelines – Acute Limb Ischaemia: https://esvs.org/guideline/acute-limb-ischaemia/
+- NCI PDQ – Esophageal Cancer Treatment: https://www.cancer.gov/types/esophageal/hp/esophageal-treatment-pdq
+- NCI PDQ – Gastric Cancer Treatment: https://www.cancer.gov/types/stomach/hp/stomach-treatment-pdq
+- National Cancer Institute – Cancer Treatment: https://www.cancer.gov/about-cancer/treatment
+- NCI PDQ – Pancreatic Cancer Treatment: https://www.cancer.gov/types/pancreatic/hp/pancreatic-treatment-pdq
+- SAGES Multi-Society Safe Cholecystectomy Guideline: https://www.sages.org/publications/guidelines/safe-cholecystectomy-multi-society-practice-guideline/
+- SAGES Clinical / Practice Guidelines: https://www.sages.org/publications/guidelines/
+- Surviving Sepsis Campaign 2021: https://pubmed.ncbi.nlm.nih.gov/34599691/
+- WHO Global Guidelines for the Prevention of Surgical Site Infection: https://www.who.int/publications/i/item/9789241550475
+- WSES Jerusalem Guidelines – Acute Appendicitis: https://wjes.biomedcentral.com/articles/10.1186/s13017-020-00306-3
 
-
-La versión Especialista 501–1000 conserva el núcleo clínico del banco Base y lo reformula en formato de decisión/caso para entrenamiento de examen.
+Las fuentes aparecen además como enlaces clicables dentro de cada pregunta.
+Nota: banco educativo. Debe contrastarse con protocolos institucionales y actualizaciones de cada sociedad.

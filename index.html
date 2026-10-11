@@ -1,161 +1,92 @@
-<!doctype html>
-<html lang="es"><head>
+<!doctype html><html lang="es"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="theme-color" content="#0f172a"><meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="apple-mobile-web-app-title" content="CONACEM 1000">
-<link rel="manifest" href="manifest.json"><link rel="apple-touch-icon" href="apple-touch-icon.png">
-<title>CONACEM Quiz 1000</title>
+<meta name="theme-color" content="#081120"><meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="apple-mobile-web-app-title" content="CONACEM V3">
+<link rel="manifest" href="manifest.json"><link rel="apple-touch-icon" href="apple-touch-icon.png"><title>CONACEM Cirugía V3</title>
 <style>
-:root{--bg:#0f172a;--card:#111827;--soft:#1f2937;--text:#f8fafc;--muted:#94a3b8;--ok:#16a34a;--bad:#dc2626;--accent:#3b82f6;--border:#334155;--warn:#d97706}
-*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}body{margin:0;min-height:100vh;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;padding:env(safe-area-inset-top) 0 env(safe-area-inset-bottom)}
-.wrap{max-width:900px;margin:auto;padding:16px 14px 34px}header{display:flex;gap:12px;align-items:center;margin:5px 0 14px}.logo{width:48px;height:48px;border-radius:13px}h1{font-size:25px;margin:0}.sub{color:var(--muted);font-size:13px;margin-top:2px}
-.tabs{display:flex;gap:8px;margin:10px 0 14px}.tab{flex:1;border:1px solid var(--border);background:var(--soft);color:var(--text);padding:10px;border-radius:12px;font-weight:700}.tab.active{background:var(--accent)}
-.toolbar{display:grid;grid-template-columns:1fr 1fr;gap:9px;margin:12px 0}.toolbar select,.toolbar button{width:100%;border:1px solid var(--border);border-radius:12px;padding:11px;background:var(--soft);color:var(--text);font-size:14px}
-.stats{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0 14px}.pill{background:var(--soft);border:1px solid var(--border);padding:7px 10px;border-radius:999px;color:#dbeafe;font-size:13px}
-.progressbar{height:6px;background:#1e293b;border-radius:99px;overflow:hidden;margin:8px 0 14px}.progressbar span{display:block;height:100%;background:#3b82f6;width:0}
-.card{background:var(--card);border:1px solid var(--border);border-radius:20px;padding:17px;box-shadow:0 12px 30px rgba(0,0,0,.25)}.topic{font-size:13px;font-weight:700;color:#93c5fd;margin-bottom:8px}.question{font-size:20px;line-height:1.38;margin-bottom:14px}
-.option{display:flex;gap:11px;align-items:flex-start;width:100%;background:#0b1322;color:var(--text);border:1px solid var(--border);border-radius:14px;padding:13px;margin:9px 0;text-align:left;font-size:15px}.dot{width:22px;height:22px;border:2px solid #64748b;border-radius:50%;flex:0 0 22px;margin-top:1px;display:grid;place-items:center}.dot:after{content:"";width:10px;height:10px;border-radius:50%;background:transparent}
-.correct{border-color:#22c55e;background:rgba(22,163,74,.13)}.correct .dot{border-color:#22c55e}.correct .dot:after{background:#22c55e}.wrong{border-color:#ef4444;background:rgba(220,38,38,.13)}.wrong .dot{border-color:#ef4444}.wrong .dot:after{background:#ef4444}
-.feedback{display:none;margin-top:14px;padding:13px;border-radius:13px;line-height:1.45}.feedback.ok{display:block;background:rgba(22,163,74,.14);border:1px solid #22c55e}.feedback.bad{display:block;background:rgba(220,38,38,.14);border:1px solid #ef4444}.expl{margin-top:7px;color:#dbeafe}
-.controls{display:flex;gap:9px;margin-top:15px;flex-wrap:wrap}.controls button{flex:1;min-width:120px;border:0;border-radius:12px;padding:13px;color:white;background:var(--accent);font-weight:700;font-size:15px}.controls .secondary{background:#334155}.controls .report{background:#7c2d12}.controls button:disabled{opacity:.4}
-.panel{display:none}.panel.active{display:block}.dashgrid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.metric{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:14px}.metric .big{font-size:28px;font-weight:800}.metric .small{color:var(--muted);font-size:12px}
-.topicrow{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:12px;margin:8px 0}.topichead{display:flex;justify-content:space-between;gap:10px}.bar{height:7px;background:#1e293b;border-radius:99px;margin-top:8px;overflow:hidden}.bar span{display:block;height:100%;background:#3b82f6}
-.status{font-weight:700}.weak{color:#f87171}.mid{color:#fbbf24}.strong{color:#4ade80}.note{color:var(--muted);font-size:12px;line-height:1.45;margin-top:12px}
-.modal{display:none;position:fixed;inset:0;background:rgba(0,0,0,.62);align-items:center;justify-content:center;padding:20px;z-index:20}.modal.show{display:flex}.modalbox{width:min(560px,100%);background:#111827;border:1px solid var(--border);border-radius:18px;padding:18px}.modalbox select,.modalbox textarea{width:100%;margin:8px 0 12px;background:#0b1322;color:white;border:1px solid var(--border);border-radius:10px;padding:10px}.modalbox textarea{min-height:110px;resize:vertical}.modalactions{display:flex;gap:8px}.modalactions button{flex:1;padding:11px;border:0;border-radius:10px;color:white;font-weight:700}.save{background:#b45309}.cancel{background:#334155}
-.actionrow{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0}.actionrow button{flex:1;min-width:150px;border:0;border-radius:12px;padding:11px;color:white;background:#334155;font-weight:700}
-@media(min-width:700px){.toolbar{grid-template-columns:2fr 1fr 1fr 1fr}.question{font-size:22px}.dashgrid{grid-template-columns:repeat(4,1fr)}}
+:root{--bg:#081120;--card:#111827;--soft:#1f2937;--text:#f8fafc;--muted:#9ca3af;--border:#334155;--blue:#3b82f6;--green:#16a34a;--red:#dc2626;--amber:#d97706}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;padding:env(safe-area-inset-top) 0 env(safe-area-inset-bottom);min-height:100vh}
+.wrap{max-width:1000px;margin:auto;padding:14px}.head{display:flex;gap:12px;align-items:center}.logo{width:52px;height:52px;border-radius:14px}h1{font-size:24px;margin:0}.sub{font-size:13px;color:var(--muted);margin-top:3px}
+.tabs{display:flex;gap:7px;overflow:auto;margin:14px 0}.tab{white-space:nowrap;border:1px solid var(--border);background:var(--soft);color:white;border-radius:12px;padding:10px 13px;font-weight:700}.tab.active{background:var(--blue)}
+.panel{display:none}.panel.active{display:block}.modes{display:grid;grid-template-columns:1fr 1fr;gap:9px}.mode{background:var(--card);border:1px solid var(--border);border-radius:15px;padding:12px}.mode.active{border-color:#60a5fa;box-shadow:0 0 0 2px #1d4ed844}.mode b{display:block;font-size:17px}.mode span{font-size:12px;color:var(--muted)}
+.toolbar{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:10px 0}.toolbar select,.toolbar button,.toolbar input{background:var(--soft);color:white;border:1px solid var(--border);border-radius:11px;padding:10px;width:100%}
+.stats{display:flex;gap:7px;flex-wrap:wrap;margin:9px 0}.pill{border:1px solid var(--border);background:var(--soft);border-radius:999px;padding:7px 10px;font-size:12px}.progress{height:6px;background:#1e293b;border-radius:99px;overflow:hidden;margin:8px 0 12px}.progress span{display:block;height:100%;background:var(--blue)}
+.card{background:var(--card);border:1px solid var(--border);border-radius:18px;padding:16px}.meta{color:#93c5fd;font-size:12px;font-weight:700;margin-bottom:8px}.q{font-size:20px;line-height:1.42;white-space:pre-line}.labs{margin:12px 0;border:1px solid #475569;border-radius:12px;overflow:hidden}.labs .row{display:grid;grid-template-columns:1fr 1fr;border-top:1px solid #334155}.labs .row:first-child{border-top:0}.labs span{padding:8px 10px}.labs span:last-child{font-weight:700;text-align:right}.qimg{display:block;max-width:100%;max-height:360px;margin:12px auto;border:1px solid var(--border);border-radius:12px;background:#0b1322}
+.opt{display:flex;gap:10px;width:100%;text-align:left;background:#0b1322;color:white;border:1px solid var(--border);border-radius:13px;padding:12px;margin:8px 0;font-size:15px;line-height:1.35}.dot{width:21px;height:21px;border:2px solid #64748b;border-radius:50%;flex:0 0 21px;margin-top:1px}.selected{border-color:#60a5fa;background:#1d4ed822}.correct{border-color:#22c55e;background:#16a34a22}.wrong{border-color:#ef4444;background:#dc262622}
+.feedback{display:none;margin-top:14px;border-radius:13px;padding:13px}.feedback.show{display:block}.feedback.ok{border:1px solid #22c55e;background:#16a34a18}.feedback.bad{border:1px solid #ef4444;background:#dc262618}.reason{margin-top:9px;line-height:1.48}.rlist{margin:10px 0 0;padding-left:20px}.rlist li{margin:7px 0;color:#dbeafe}.srcs a{display:inline-block;margin:6px 7px 0 0;padding:7px 9px;border-radius:10px;background:#1e3a8a;color:#dbeafe;text-decoration:none;font-size:12px}
+.controls{display:flex;gap:8px;flex-wrap:wrap;margin-top:13px}.controls button{flex:1;min-width:115px;border:0;border-radius:11px;padding:11px;color:white;font-weight:700;background:var(--blue)}.controls .secondary{background:#334155}.controls .warn{background:#7c2d12}.controls .fav{background:#854d0e}.controls .finish{background:#166534}
+.examnav{display:grid;grid-template-columns:repeat(5,1fr);gap:5px;margin-top:12px}.qn{background:#1f2937;color:white;border:1px solid var(--border);border-radius:7px;padding:7px}.qn.answered{background:#1d4ed8}.qn.flagged{outline:2px solid #f59e0b}.qn.current{border-color:white}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:9px}.metric,.topicrow{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:12px}.metric .big{font-size:28px;font-weight:800}.small{font-size:12px;color:var(--muted)}.topicrow{margin:7px 0}.topichead{display:flex;justify-content:space-between;gap:8px}.bar{height:6px;background:#1e293b;border-radius:99px;margin-top:7px;overflow:hidden}.bar span{display:block;height:100%;background:var(--blue)}
+.modal{display:none;position:fixed;inset:0;background:#000a;z-index:20;align-items:center;justify-content:center;padding:18px}.modal.show{display:flex}.box{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:16px;width:min(560px,100%)}.box textarea,.box select{width:100%;background:#0b1322;color:white;border:1px solid var(--border);border-radius:10px;padding:9px;margin:7px 0;min-height:44px}.box textarea{min-height:100px}.hidden{display:none!important}.result{background:#052e16;border:1px solid #22c55e;border-radius:15px;padding:14px;margin-bottom:12px}.result .big{font-size:38px;font-weight:900}
+@media(min-width:720px){.toolbar{grid-template-columns:2fr 1fr 1fr 1fr}.grid{grid-template-columns:repeat(4,1fr)}.examnav{grid-template-columns:repeat(10,1fr)}}
 </style></head><body><div class="wrap">
-<header><img src="apple-touch-icon.png" class="logo"><div><h1>CONACEM Quiz 1000</h1><div class="sub">500 Base + 500 Especialista · rendimiento adaptativo</div></div></header>
-<div class="tabs"><button class="tab active" data-tab="quiz">Quiz</button><button class="tab" data-tab="dash">Rendimiento</button><button class="tab" data-tab="reports">Reportes</button></div>
+<div class="head"><img class="logo" src="apple-touch-icon.png"><div><h1>CONACEM Cirugía V3</h1><div class="sub">2.000 preguntas · dificultad alta · fuentes · casos integrados</div></div></div>
+<div class="tabs"><button class="tab active" data-tab="quiz">Quiz</button><button class="tab" data-tab="dash">Rendimiento</button><button class="tab" data-tab="errors">Errores</button><button class="tab" data-tab="favs">Favoritos</button><button class="tab" data-tab="reports">Reportes</button></div>
 
 <section id="quiz" class="panel active">
+<div class="modes"><div id="studyCard" class="mode active"><b>📚 Modo Estudio</b><span>Corrección inmediata, explicación larga y fuentes.</span></div><div id="examCard" class="mode"><b>📝 Modo Examen</b><span>Sin feedback hasta terminar; no repite objetivos clínicos.</span></div></div>
 <div class="toolbar">
-<select id="levelSel"><option value="ALL">Base + Especialista</option><option value="Base">Base (1–500)</option><option value="Especialista">Especialista (501–1000)</option></select>
 <select id="topicSel"></select>
-<select id="modeSel"><option value="ordered">Ordenadas</option><option value="random">Aleatorias</option><option value="weak">Temas débiles</option><option value="failed">Solo falladas</option></select>
-<button id="restart">Reiniciar sesión</button>
+<select id="diffSel"><option value="ALL">Toda dificultad</option><option>Alta</option><option>Muy alta</option></select>
+<select id="studySel"><option value="diverse">Variedad máxima</option><option value="weak">Temas débiles</option><option value="failed">Solo falladas</option><option value="due">Repetición espaciada</option><option value="all">Banco completo</option></select>
+<button id="newSession">Nueva sesión</button>
 </div>
-<div class="stats"><div class="pill" id="score">Puntaje 0/0</div><div class="pill" id="count">1/1000</div><div class="pill" id="percent">0%</div></div><div class="progressbar"><span id="bar"></span></div>
-<div class="card"><div class="topic" id="topic"></div><div class="question" id="question"></div><div id="options"></div><div id="feedback" class="feedback"></div>
-<div class="controls"><button id="prev" class="secondary">Anterior</button><button id="next">Siguiente</button><button id="reportBtn" class="report">⚑ Reportar pregunta</button></div></div>
+<div id="examCfg" class="toolbar hidden">
+<select id="examN"><option>20</option><option selected>50</option><option>100</option><option>150</option></select>
+<select id="examT"><option value="0">Sin límite</option><option value="30">30 min</option><option value="60" selected>60 min</option><option value="120">120 min</option><option value="180">180 min</option></select>
+<button id="startExam">Iniciar examen</button><button id="finishExam" class="hidden">Finalizar examen</button>
+</div>
+<div class="stats"><span class="pill" id="score">0/0</span><span class="pill" id="count">0/0</span><span class="pill" id="pct">0%</span><span class="pill" id="timer">Estudio</span></div><div class="progress"><span id="pbar"></span></div>
+<div id="resultArea"></div>
+<div class="card" id="qcard"><div id="meta" class="meta"></div><div id="q" class="q"></div><div id="labs" class="labs hidden"></div><img id="qimg" class="qimg hidden"><div id="opts"></div><div id="feedback" class="feedback"></div>
+<div class="controls"><button id="prev" class="secondary">Anterior</button><button id="next">Siguiente</button><button id="fav" class="fav">☆ Favorito</button><button id="flag" class="secondary hidden">⚑ Revisar</button><button id="report" class="warn">⚑ Reportar</button></div><div id="examNav" class="examnav hidden"></div></div>
 </section>
 
-<section id="dash" class="panel">
-<div class="dashgrid">
-<div class="metric"><div class="big" id="globalPct">0%</div><div class="small">Rendimiento global</div></div>
-<div class="metric"><div class="big" id="answeredTotal">0</div><div class="small">Preguntas respondidas</div></div>
-<div class="metric"><div class="big" id="strongCount">0</div><div class="small">Temas dominados</div></div>
-<div class="metric"><div class="big" id="weakCount">0</div><div class="small">Temas débiles</div></div>
-</div>
-<div class="actionrow"><button id="studyWeak">Estudiar temas débiles</button><button id="studyFailed">Repasar falladas</button><button id="resetStats">Borrar estadísticas</button></div>
-<h3>Rendimiento por tema</h3><div id="topicStats"></div>
-</section>
-
-<section id="reports" class="panel">
-<div class="actionrow"><button id="exportReports">Exportar reportes JSON</button><button id="clearReports">Borrar reportes</button></div>
-<div id="reportList"></div>
-</section>
-
-<div class="note">Dominado ≥85% con al menos 10 respuestas; En progreso 70–84%; Débil &lt;70%. Los datos se guardan localmente en este dispositivo.</div>
+<section id="dash" class="panel"><div class="grid"><div class="metric"><div class="big" id="gPct">0%</div><div class="small">Rendimiento global</div></div><div class="metric"><div class="big" id="attempts">0</div><div class="small">Intentos</div></div><div class="metric"><div class="big" id="mastered">0</div><div class="small">Temas dominados</div></div><div class="metric"><div class="big" id="weakN">0</div><div class="small">Temas débiles</div></div></div>
+<div class="controls"><button id="backup" class="secondary">Exportar respaldo</button><label class="secondary" style="flex:1;min-width:115px;border-radius:11px;padding:11px;text-align:center;background:#334155;font-weight:700">Importar respaldo<input id="restore" type="file" accept=".json" hidden></label></div><h3>Por tema</h3><div id="topicStats"></div></section>
+<section id="errors" class="panel"><h3>Cuaderno de errores</h3><div id="errorList"></div></section>
+<section id="favs" class="panel"><h3>Favoritos</h3><div id="favList"></div></section>
+<section id="reports" class="panel"><div class="controls"><button id="exportReports" class="secondary">Exportar reportes</button><button id="clearReports" class="warn">Borrar reportes</button></div><div id="reportList"></div></section>
 </div>
 
-<div class="modal" id="reportModal"><div class="modalbox">
-<h3>Reportar pregunta <span id="reportQid"></span></h3>
-<select id="reportReason">
-<option>Respuesta correcta parece errónea</option>
-<option>Pregunta ambigua</option>
-<option>Pregunta mal formulada</option>
-<option>Contenido desactualizado</option>
-<option>Alternativas problemáticas</option>
-<option>Otro</option>
-</select>
-<textarea id="reportNote" placeholder="Escribe qué está mal o cómo la corregirías…"></textarea>
-<div class="modalactions"><button class="cancel" id="cancelReport">Cancelar</button><button class="save" id="saveReport">Guardar reporte</button></div>
-</div></div>
+<div id="reportModal" class="modal"><div class="box"><h3>Reportar pregunta <span id="rq"></span></h3><select id="reason"><option>Respuesta correcta incorrecta</option><option>Pregunta ambigua</option><option>Mal formulada</option><option>Fuente no respalda la respuesta</option><option>Alternativas demasiado fáciles</option><option>Contenido desactualizado</option><option>Otro</option></select><textarea id="note" placeholder="Describe el problema y, si puedes, tu corrección propuesta."></textarea><div class="controls"><button id="cancelReport" class="secondary">Cancelar</button><button id="saveReport" class="warn">Guardar</button></div></div></div>
 
 <script>
-let bank=[],pool=[],idx=0,sessionCorrect=0,sessionAnswered={};
-const $=x=>document.getElementById(x);
-const STATS_KEY='conacem1000_stats_v1', REPORT_KEY='conacem1000_reports_v1';
-let stats=JSON.parse(localStorage.getItem(STATS_KEY)||'{}');
-let reports=JSON.parse(localStorage.getItem(REPORT_KEY)||'[]');
-
-function saveStats(){localStorage.setItem(STATS_KEY,JSON.stringify(stats))}
-function saveReports(){localStorage.setItem(REPORT_KEY,JSON.stringify(reports))}
-function shuffle(a){for(let i=a.length-1;i>0;i--){let j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
-function topicPerf(topic){
- let rows=Object.entries(stats).filter(([id,s])=>s.topic===topic);
- let a=rows.reduce((n,[id,s])=>n+(s.attempts||0),0), c=rows.reduce((n,[id,s])=>n+(s.correct||0),0);
- return {a,c,p:a?c/a*100:0};
-}
-function currentQuestion(){return pool[idx]}
-function buildPool(){
- let level=$('levelSel').value, topic=$('topicSel').value, mode=$('modeSel').value;
- pool=bank.filter(q=>(level==='ALL'||q.level===level)&&(topic==='ALL'||q.topic===topic));
- if(mode==='random') shuffle(pool);
- if(mode==='failed') pool=pool.filter(q=>stats[q.id] && stats[q.id].incorrect>0);
- if(mode==='weak'){
-   let perf={}; [...new Set(bank.map(q=>q.topic))].forEach(t=>perf[t]=topicPerf(t).p);
-   pool=pool.filter(q=>perf[q.topic]<70 || topicPerf(q.topic).a<10);
-   pool.sort((a,b)=>topicPerf(a.topic).p-topicPerf(b.topic).p);
- }
- idx=0;sessionCorrect=0;sessionAnswered={};render();
-}
-function render(){
- let q=currentQuestion();
- if(!q){$('topic').textContent='Sin preguntas';$('question').textContent='No hay preguntas para este filtro todavía.';$('options').innerHTML='';$('feedback').className='feedback';$('count').textContent='0/0';return}
- $('topic').textContent=`${q.topic} · ${q.level} · Pregunta ${q.id}`;
- $('question').textContent=q.question;$('options').innerHTML='';$('feedback').className='feedback';$('feedback').innerHTML='';
- q.options.forEach((o,i)=>{let b=document.createElement('button');b.className='option';b.innerHTML=`<span class="dot"></span><span><strong>${String.fromCharCode(65+i)}.</strong> ${o}</span>`;
-   if(sessionAnswered[q.id]!==undefined){if(i===q.answer)b.classList.add('correct');if(i===sessionAnswered[q.id]&&i!==q.answer)b.classList.add('wrong');b.disabled=true}
-   b.onclick=()=>answer(i);$('options').appendChild(b)});
- if(sessionAnswered[q.id]!==undefined)showFeedback(q);
- $('prev').disabled=idx===0;$('count').textContent=`${idx+1}/${pool.length}`;
- let n=Object.keys(sessionAnswered).length;$('score').textContent=`Puntaje ${sessionCorrect}/${n}`;$('percent').textContent=n?`${Math.round(sessionCorrect/n*100)}%`:'0%';$('bar').style.width=`${((idx+1)/Math.max(pool.length,1))*100}%`;
-}
-function answer(i){
- let q=currentQuestion(); if(sessionAnswered[q.id]!==undefined)return;
- sessionAnswered[q.id]=i; let ok=i===q.answer; if(ok)sessionCorrect++;
- let s=stats[q.id]||{topic:q.topic,level:q.level,attempts:0,correct:0,incorrect:0,last:null};
- s.attempts++; if(ok)s.correct++;else s.incorrect++; s.last={selected:i,correct:q.answer,date:new Date().toISOString()}; stats[q.id]=s;saveStats();render();
-}
-function showFeedback(q){let ok=sessionAnswered[q.id]===q.answer;$('feedback').className='feedback '+(ok?'ok':'bad');$('feedback').innerHTML=`<strong>${ok?'✅ Correcto':'❌ Incorrecto'}</strong><div class="expl">${q.explanation}</div>`}
-function renderDashboard(){
- let vals=Object.values(stats), attempts=vals.reduce((n,s)=>n+(s.attempts||0),0), correct=vals.reduce((n,s)=>n+(s.correct||0),0);
- $('globalPct').textContent=attempts?Math.round(correct/attempts*100)+'%':'0%'; $('answeredTotal').textContent=attempts;
- let topics=[...new Set(bank.map(q=>q.topic))], strong=0, weak=0, html='';
- topics.map(t=>({t,...topicPerf(t)})).sort((a,b)=>a.p-b.p).forEach(x=>{
-   let st=x.a>=10&&x.p>=85?'Dominado':x.p>=70?'En progreso':'Débil';
-   if(st==='Dominado')strong++; if(st==='Débil')weak++;
-   let cls=st==='Dominado'?'strong':st==='En progreso'?'mid':'weak';
-   html+=`<div class="topicrow"><div class="topichead"><strong>${x.t}</strong><span class="status ${cls}">${x.a?Math.round(x.p):0}% · ${st}</span></div><div class="small">${x.c}/${x.a} aciertos</div><div class="bar"><span style="width:${Math.min(x.p,100)}%"></span></div></div>`;
- });
- $('strongCount').textContent=strong;$('weakCount').textContent=weak;$('topicStats').innerHTML=html;
-}
-function renderReports(){
- if(!reports.length){$('reportList').innerHTML='<div class="topicrow">No has reportado preguntas.</div>';return}
- $('reportList').innerHTML=reports.slice().reverse().map(r=>`<div class="topicrow"><div class="topichead"><strong>Pregunta ${r.id}</strong><span>${r.reason}</span></div><div class="small">${r.topic} · ${new Date(r.date).toLocaleString()}</div><div style="margin-top:6px">${r.note||'Sin nota adicional.'}</div></div>`).join('');
-}
-function openReport(){let q=currentQuestion();if(!q)return;$('reportQid').textContent='#'+q.id;$('reportNote').value='';$('reportModal').classList.add('show')}
-function closeReport(){$('reportModal').classList.remove('show')}
-function doSaveReport(){let q=currentQuestion();reports.push({id:q.id,topic:q.topic,level:q.level,reason:$('reportReason').value,note:$('reportNote').value.trim(),date:new Date().toISOString()});saveReports();closeReport();renderReports();alert('Reporte guardado en este dispositivo.')}
-function exportReports(){
- let data=JSON.stringify(reports,null,2), blob=new Blob([data],{type:'application/json'}), a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='reportes_CONACEM_1000.json';a.click();URL.revokeObjectURL(a.href);
-}
-async function init(){
- bank=await(await fetch('questions.json')).json();
- let topics=[...new Set(bank.map(q=>q.topic))];
- $('topicSel').innerHTML='<option value="ALL">Todos los temas</option>'+topics.map(t=>`<option value="${t}">${t}</option>`).join('');
- $('levelSel').onchange=buildPool;$('topicSel').onchange=buildPool;$('modeSel').onchange=buildPool;$('restart').onclick=buildPool;
- $('prev').onclick=()=>{if(idx>0){idx--;render()}};$('next').onclick=()=>{if(idx<pool.length-1){idx++;render()}else{idx=0;render()}};
- $('reportBtn').onclick=openReport;$('cancelReport').onclick=closeReport;$('saveReport').onclick=doSaveReport;
- $('studyWeak').onclick=()=>{showTab('quiz');$('modeSel').value='weak';$('topicSel').value='ALL';buildPool()};
- $('studyFailed').onclick=()=>{showTab('quiz');$('modeSel').value='failed';$('topicSel').value='ALL';buildPool()};
- $('resetStats').onclick=()=>{if(confirm('¿Borrar todas las estadísticas de rendimiento?')){stats={};saveStats();renderDashboard()}};
- $('exportReports').onclick=exportReports;$('clearReports').onclick=()=>{if(confirm('¿Borrar todos los reportes guardados?')){reports=[];saveReports();renderReports()}};
- document.querySelectorAll('.tab').forEach(b=>b.onclick=()=>showTab(b.dataset.tab));
- buildPool();renderDashboard();renderReports();if('serviceWorker'in navigator)navigator.serviceWorker.register('./sw.js');
-}
-function showTab(id){document.querySelectorAll('.panel').forEach(p=>p.classList.remove('active'));document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));$(id).classList.add('active');document.querySelector(`.tab[data-tab="${id}"]`).classList.add('active');if(id==='dash')renderDashboard();if(id==='reports')renderReports()}
+let bank=[],pool=[],idx=0,mode='study',studyAnswers={},studyCorrect=0,examAnswers={},examFlags={},examReview=false,examActive=false,deadline=0,timerInt=null;
+const $=x=>document.getElementById(x), SK='conacem_v3_rehecha_stats', OK='conacem_v3_rehecha_objectives', RK='conacem_v3_rehecha_reports', FK='conacem_v3_rehecha_favs';
+let stats=JSON.parse(localStorage.getItem(SK)||'{}'), objStats=JSON.parse(localStorage.getItem(OK)||'{}'), reports=JSON.parse(localStorage.getItem(RK)||'[]'), favs=JSON.parse(localStorage.getItem(FK)||'[]');
+function save(){localStorage.setItem(SK,JSON.stringify(stats));localStorage.setItem(OK,JSON.stringify(objStats));localStorage.setItem(RK,JSON.stringify(reports));localStorage.setItem(FK,JSON.stringify(favs))}
+function shuf(a){for(let i=a.length-1;i>0;i--){let j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
+function baseFilter(){let t=$('topicSel').value,d=$('diffSel').value;return bank.filter(q=>(t==='ALL'||q.topic===t)&&(d==='ALL'||q.difficulty===d))}
+function perfTopic(t){let xs=Object.values(stats).filter(s=>s.topic===t),a=xs.reduce((z,s)=>z+(s.a||0),0),c=xs.reduce((z,s)=>z+(s.c||0),0);return{a,c,p:a?100*c/a:0}}
+function uniqueObjectives(arr){let seen=new Set(),out=[];for(let q of shuf([...arr])){if(q.objective_ids.every(o=>!seen.has(o))){out.push(q);q.objective_ids.forEach(o=>seen.add(o))}}return out}
+function due(arr){let now=Date.now();return arr.filter(q=>q.objective_ids.some(o=>!objStats[o]||!objStats[o].due||objStats[o].due<=now))}
+function buildStudy(){let arr=baseFilter(),m=$('studySel').value;if(m==='diverse')arr=uniqueObjectives(arr);else if(m==='weak'){arr=arr.filter(q=>perfTopic(q.topic).a<10||perfTopic(q.topic).p<70);arr=uniqueObjectives(arr)}else if(m==='failed'){arr=arr.filter(q=>q.objective_ids.some(o=>(objStats[o]?.wrong||0)>0));arr=uniqueObjectives(arr)}else if(m==='due'){arr=uniqueObjectives(due(arr))}else shuf(arr);pool=arr;idx=0;studyAnswers={};studyCorrect=0;render()}
+function setMode(m){mode=m;examActive=false;examReview=false;clearInterval(timerInt);$('studyCard').classList.toggle('active',m==='study');$('examCard').classList.toggle('active',m==='exam');$('studySel').classList.toggle('hidden',m==='exam');$('examCfg').classList.toggle('hidden',m!=='exam');$('flag').classList.toggle('hidden',m!=='exam');$('resultArea').innerHTML='';if(m==='study'){buildStudy();$('timer').textContent='Estudio'}else{pool=[];emptyExam()}}
+function emptyExam(){$('meta').textContent='Modo Examen';$('q').textContent='Configura el simulacro y pulsa “Iniciar examen”.';$('opts').innerHTML='';$('labs').classList.add('hidden');$('qimg').classList.add('hidden');$('feedback').className='feedback';$('examNav').classList.add('hidden');$('score').textContent='Sin corregir';$('count').textContent='0/0';$('pct').textContent='—';$('timer').textContent='No iniciado'}
+function startExam(){let arr=uniqueObjectives(baseFilter()),n=Math.min(+$('examN').value,arr.length);pool=arr.slice(0,n);idx=0;examAnswers={};examFlags={};examReview=false;examActive=true;$('finishExam').classList.remove('hidden');$('examNav').classList.remove('hidden');let mins=+$('examT').value;deadline=mins?Date.now()+mins*60000:0;clearInterval(timerInt);if(mins)timerInt=setInterval(tick,1000);else $('timer').textContent='Sin límite';render()}
+function tick(){let x=deadline-Date.now();if(x<=0){finishExam(true);return}let s=Math.floor(x/1000);$('timer').textContent=Math.floor(s/60)+':'+String(s%60).padStart(2,'0')}
+function renderLabs(l){if(!l){$('labs').classList.add('hidden');return}$('labs').classList.remove('hidden');let rows=[];function add(k,v){rows.push(`<div class="row"><span>${k}</span><span>${typeof v==='object'?JSON.stringify(v):v}</span></div>`)};for(let [k,v] of Object.entries(l))add(k,v);$('labs').innerHTML=rows.join('')}
+function render(){if(!pool.length){if(mode==='exam')emptyExam();else{$('q').textContent='No hay preguntas para este filtro.';$('opts').innerHTML=''};return}let q=pool[idx];$('meta').textContent=`${q.topic} · ${q.subtopic} · ${q.difficulty} · #${q.id}`;$('q').textContent=q.question;renderLabs(q.labs);if(q.image){$('qimg').src=q.image;$('qimg').classList.remove('hidden')}else $('qimg').classList.add('hidden');$('opts').innerHTML='';let ans=mode==='study'?studyAnswers[q.id]:examAnswers[q.id];q.options.forEach((o,i)=>{let b=document.createElement('button');b.className='opt';b.innerHTML=`<span class="dot"></span><span><b>${String.fromCharCode(65+i)}.</b> ${o}</span>`;if(mode==='study'&&ans!==undefined){if(i===q.answer)b.classList.add('correct');if(i===ans&&i!==q.answer)b.classList.add('wrong');b.disabled=true}else if(mode==='exam'&&examReview){if(i===q.answer)b.classList.add('correct');if(i===ans&&i!==q.answer)b.classList.add('wrong');b.disabled=true}else if(mode==='exam'&&ans===i)b.classList.add('selected');b.onclick=()=>choose(i);$('opts').appendChild(b)});if((mode==='study'&&ans!==undefined)||(mode==='exam'&&examReview))showFeedback(q,ans);else $('feedback').className='feedback';$('prev').disabled=idx===0;$('count').textContent=`${idx+1}/${pool.length}`;$('pbar').style.width=`${100*(idx+1)/pool.length}%`;if(mode==='study'){let n=Object.keys(studyAnswers).length;$('score').textContent=`${studyCorrect}/${n}`;$('pct').textContent=n?Math.round(100*studyCorrect/n)+'%':'0%'}else{$('score').textContent=examReview?'Corregido':`Respondidas ${Object.keys(examAnswers).length}/${pool.length}`;$('pct').textContent=examReview?'Revisión':'Sin feedback';renderNav()}updateFav();$('flag').textContent=examFlags[q.id]?'⚑ Marcada':'⚑ Revisar'}
+function choose(i){let q=pool[idx];if(mode==='study'){if(studyAnswers[q.id]!==undefined)return;studyAnswers[q.id]=i;let ok=i===q.answer;if(ok)studyCorrect++;record(q,ok);render()}else if(examActive&&!examReview){examAnswers[q.id]=i;render()}}
+function record(q,ok){let s=stats[q.id]||{topic:q.topic,a:0,c:0,w:0};s.a++;if(ok)s.c++;else s.w++;stats[q.id]=s;q.objective_ids.forEach(o=>{let x=objStats[o]||{a:0,c:0,wrong:0,streak:0,days:0};x.a++;if(ok){x.c++;x.streak++;x.days=x.streak===1?1:x.streak===2?3:x.streak===3?7:Math.min(60,Math.max(7,Math.round((x.days||7)*1.8)))}else{x.wrong++;x.streak=0;x.days=1}x.due=Date.now()+x.days*86400000;objStats[o]=x});save()}
+function showFeedback(q,sel){let ok=sel===q.answer,f=$('feedback');f.className='feedback show '+(ok?'ok':'bad');let rl=q.options.map((o,i)=>`<li><b>${String.fromCharCode(65+i)}.</b> ${q.rationales[i]}</li>`).join('');let src=q.sources.map(s=>`<a href="${s.url}" target="_blank" rel="noopener">${s.name} ↗</a>`).join('');f.innerHTML=`<b>${ok?'✅ Correcto':'❌ Incorrecto'}</b><div class="reason">${q.explanation}</div><h4>Por qué sí / por qué no</h4><ul class="rlist">${rl}</ul><div class="srcs"><h4>Fuentes</h4>${src}</div>`}
+function renderNav(){let h='';pool.forEach((q,i)=>{let c='qn';if(examAnswers[q.id]!==undefined)c+=' answered';if(examFlags[q.id])c+=' flagged';if(i===idx)c+=' current';h+=`<button class="${c}" onclick="idx=${i};render()">${i+1}</button>`});$('examNav').innerHTML=h}
+function finishExam(auto=false){if(!examActive)return;if(!auto&&!confirm('¿Finalizar y corregir el examen?'))return;clearInterval(timerInt);examActive=false;examReview=true;let c=0;let bt={};pool.forEach(q=>{let ok=examAnswers[q.id]===q.answer;if(ok)c++;if(!bt[q.topic])bt[q.topic]={c:0,n:0};bt[q.topic].n++;if(ok)bt[q.topic].c++;record(q,ok)});let p=Math.round(100*c/pool.length);let by=Object.entries(bt).sort().map(([t,v])=>`<div class="topicrow"><div class="topichead"><b>${t}</b><b>${Math.round(100*v.c/v.n)}%</b></div><div class="small">${v.c}/${v.n}</div></div>`).join('');$('resultArea').innerHTML=`<div class="result"><div class="big">${p}%</div><b>${c}/${pool.length} correctas · ${p>=65?'Aprobado sobre referencia 65%':'Bajo referencia 65%'}</b><p>Ahora puedes recorrer el examen: cada pregunta muestra respuesta, razonamiento y fuentes.</p>${by}</div>`;$('finishExam').classList.add('hidden');$('timer').textContent=auto?'Tiempo agotado':'Finalizado';idx=0;render();renderDash();window.scrollTo({top:0,behavior:'smooth'})}
+function toggleFav(){let q=pool[idx];if(!q)return;let k=favs.indexOf(q.id);if(k>=0)favs.splice(k,1);else favs.push(q.id);save();updateFav();renderFavs()}
+function updateFav(){let q=pool[idx];if(!q)return;$('fav').textContent=(favs.includes(q.id)?'★':'☆')+' Favorito'}
+function topicState(p,a){if(a>=15&&p>=85)return['Dominado','#4ade80'];if(p>=70)return['En progreso','#fbbf24'];return['Débil','#f87171']}
+function renderDash(){let vs=Object.values(stats),a=vs.reduce((z,s)=>z+s.a,0),c=vs.reduce((z,s)=>z+s.c,0);$('gPct').textContent=a?Math.round(100*c/a)+'%':'0%';$('attempts').textContent=a;let ts=[...new Set(bank.map(q=>q.topic))],m=0,w=0,h='';ts.map(t=>({t,...perfTopic(t)})).sort((x,y)=>x.p-y.p).forEach(x=>{let [st,col]=topicState(x.p,x.a);if(st==='Dominado')m++;if(st==='Débil')w++;h+=`<div class="topicrow"><div class="topichead"><b>${x.t}</b><b style="color:${col}">${Math.round(x.p||0)}% · ${st}</b></div><div class="small">${x.c}/${x.a} aciertos</div><div class="bar"><span style="width:${Math.min(100,x.p)}%"></span></div></div>`});$('mastered').textContent=m;$('weakN').textContent=w;$('topicStats').innerHTML=h}
+function renderErrors(){let arr=bank.filter(q=>q.objective_ids.some(o=>(objStats[o]?.wrong||0)>0));arr.sort((a,b)=>Math.max(...b.objective_ids.map(o=>objStats[o]?.wrong||0))-Math.max(...a.objective_ids.map(o=>objStats[o]?.wrong||0)));$('errorList').innerHTML=arr.slice(0,200).map(q=>`<div class="topicrow"><b>#${q.id} · ${q.topic}</b><div class="small">${q.subtopic}</div><div>${q.question.substring(0,240)}${q.question.length>240?'…':''}</div></div>`).join('')||'<div class="topicrow">Sin errores registrados.</div>'}
+function renderFavs(){$('favList').innerHTML=favs.map(id=>bank.find(q=>q.id===id)).filter(Boolean).map(q=>`<div class="topicrow"><b>#${q.id} · ${q.topic}</b><div>${q.question.substring(0,260)}${q.question.length>260?'…':''}</div></div>`).join('')||'<div class="topicrow">Sin favoritos.</div>'}
+function reportOpen(){let q=pool[idx];if(!q)return;$('rq').textContent='#'+q.id;$('note').value='';$('reportModal').classList.add('show')}
+function reportClose(){$('reportModal').classList.remove('show')}
+function reportSave(){let q=pool[idx];reports.push({id:q.id,topic:q.topic,reason:$('reason').value,note:$('note').value,date:new Date().toISOString()});save();reportClose();renderReports();alert('Reporte guardado. Puedes exportarlo desde la pestaña Reportes.')}
+function renderReports(){$('reportList').innerHTML=reports.slice().reverse().map(r=>`<div class="topicrow"><b>#${r.id} · ${r.reason}</b><div class="small">${r.topic} · ${new Date(r.date).toLocaleString()}</div><div>${r.note||'Sin comentario.'}</div></div>`).join('')||'<div class="topicrow">Sin reportes.</div>'}
+function exportObj(o,name){let b=new Blob([JSON.stringify(o,null,2)],{type:'application/json'}),a=document.createElement('a');a.href=URL.createObjectURL(b);a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000)}
+function backup(){exportObj({version:'V3-rehecha',date:new Date().toISOString(),stats,objStats,reports,favs},'CONACEM_V3_respaldo.json')}
+function restore(file){let r=new FileReader();r.onload=()=>{try{let d=JSON.parse(r.result);stats=d.stats||{};objStats=d.objStats||{};reports=d.reports||[];favs=d.favs||[];save();renderDash();renderErrors();renderFavs();renderReports();alert('Respaldo restaurado.')}catch(e){alert('Archivo no válido.')}};r.readAsText(file)}
+function showTab(id){document.querySelectorAll('.panel').forEach(x=>x.classList.remove('active'));document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));$(id).classList.add('active');document.querySelector(`.tab[data-tab="${id}"]`).classList.add('active');if(id==='dash')renderDash();if(id==='errors')renderErrors();if(id==='favs')renderFavs();if(id==='reports')renderReports()}
+async function init(){bank=await(await fetch('questions.json')).json();let topics=[...new Set(bank.map(q=>q.topic))];$('topicSel').innerHTML='<option value="ALL">Todos los temas</option>'+topics.map(t=>`<option>${t}</option>`).join('');$('studyCard').onclick=()=>setMode('study');$('examCard').onclick=()=>setMode('exam');$('topicSel').onchange=()=>mode==='study'&&buildStudy();$('diffSel').onchange=()=>mode==='study'&&buildStudy();$('studySel').onchange=buildStudy;$('newSession').onclick=()=>mode==='study'?buildStudy():emptyExam();$('startExam').onclick=startExam;$('finishExam').onclick=()=>finishExam(false);$('prev').onclick=()=>{if(idx>0){idx--;render()}};$('next').onclick=()=>{if(idx<pool.length-1){idx++;render()}};$('flag').onclick=()=>{let q=pool[idx];examFlags[q.id]=!examFlags[q.id];render()};$('fav').onclick=toggleFav;$('report').onclick=reportOpen;$('cancelReport').onclick=reportClose;$('saveReport').onclick=reportSave;$('backup').onclick=backup;$('restore').onchange=e=>e.target.files[0]&&restore(e.target.files[0]);$('exportReports').onclick=()=>exportObj(reports,'CONACEM_V3_reportes.json');$('clearReports').onclick=()=>{if(confirm('¿Borrar todos los reportes?')){reports=[];save();renderReports()}};document.querySelectorAll('.tab').forEach(b=>b.onclick=()=>showTab(b.dataset.tab));setMode('study');renderDash();renderErrors();renderFavs();renderReports();if('serviceWorker'in navigator)navigator.serviceWorker.register('./sw.js')}
 init();
 </script></body></html>

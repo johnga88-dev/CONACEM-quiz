@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360"><rect width="640" height="360" fill="#0b1322"/>
+<text x="320" y="28" text-anchor="middle" fill="white" font-size="22">Axila: nervios relevantes (esquema)</text>
+<ellipse cx="250" cy="190" rx="115" ry="100" fill="#be185d" opacity=".75"/><text x="250" y="195" text-anchor="middle" fill="white">Mama / pared torácica</text>
+<path d="M390 70 L390 300" stroke="#fde047" stroke-width="9"/><text x="405" y="110" fill="#fde047">Torácico largo</text>
+<path d="M465 90 L430 290" stroke="#60a5fa" stroke-width="9"/><text x="475" y="160" fill="#93c5fd">Toracodorsal</text></svg>
