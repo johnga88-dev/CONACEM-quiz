@@ -1,5 +1,5 @@
-const CACHE='surgiprep-v5-3000-new-1';
-const CORE=['./','./index.html','./manifest.json','./questions.json','./icon-192.png','./icon-512.png','./apple-touch-icon.png'];
-self.addEventListener('install',e=>{e.waitUntil(caches.open(CACHE).then(c=>c.addAll(CORE)));self.skipWaiting();});
-self.addEventListener('activate',e=>{e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE).map(k=>caches.delete(k)))));self.clients.claim();});
-self.addEventListener('fetch',e=>{if(e.request.mode==='navigate'||e.request.url.endsWith('questions.json')){e.respondWith(fetch(e.request).then(r=>{let c=r.clone();caches.open(CACHE).then(x=>x.put(e.request,c));return r;}).catch(()=>caches.match(e.request)));}else{e.respondWith(caches.match(e.request).then(r=>r||fetch(e.request)));}});
+const CACHE='surgiprep-v6-editorial-1';
+const ASSETS=["./", "./index.html", "./manifest.json", "./questions.json", "./icon-192.png", "./icon-512.png", "./apple-touch-icon.png", "./assets/retroperitoneo.svg", "./assets/vent_loop.svg", "./assets/whipple.svg", "./assets/roux.svg", "./assets/reboa.svg", "./assets/ecmo.svg", "./assets/anal_fistula.svg", "./assets/burn_tbsa.svg", "./assets/neck.svg", "./assets/breast_axilla.svg", "./assets/critical_view.svg"];
+self.addEventListener('install',e=>{e.waitUntil(caches.open(CACHE).then(c=>c.addAll(ASSETS)));self.skipWaiting()});
+self.addEventListener('activate',e=>{e.waitUntil(caches.keys().then(k=>Promise.all(k.filter(x=>x!==CACHE).map(x=>caches.delete(x)))));self.clients.claim()});
+self.addEventListener('fetch',e=>{e.respondWith(fetch(e.request).then(r=>{let c=r.clone();caches.open(CACHE).then(cache=>cache.put(e.request,c));return r}).catch(()=>caches.match(e.request).then(r=>r||caches.match('./index.html'))))});

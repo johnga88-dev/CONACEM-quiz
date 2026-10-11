@@ -1,13 +1,12 @@
 {
-  "name": "SurgiPrep V5.0 — 3000 nuevas",
+  "name": "SurgiPrep V6.0 Editorial",
   "short_name": "SurgiPrep",
-  "description": "Banco nuevo de 3000 preguntas de cirugía general basado en bibliografía personal, con cuatro niveles de dificultad, modo estudio y modo examen.",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#081120",
-  "theme_color": "#081120",
-  "orientation": "portrait-primary",
+  "background_color": "#08111f",
+  "theme_color": "#08111f",
+  "description": "SurgiPrep V6 editorial: 80 preguntas revisadas con fuentes actualizadas y control de calidad.",
   "icons": [
     {
       "src": "icon-192.png",

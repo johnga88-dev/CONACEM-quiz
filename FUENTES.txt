@@ -1,18 +1,17 @@
-SurgiPrep V5.0 — Fuentes
-
-FUENTES PRIMARIAS APORTADAS POR EL USUARIO
-- Resumen Cirugía Digestivo Alto — Hospital del Salvador 2019
-- Resumen Cirugía Digestivo Bajo — Hospital del Salvador 2019
-- Resumen Cirugía Hepatobiliopáncreas — Hospital del Salvador 2019
-- Resumen Cirugía Tórax — Hospital del Salvador 2019
-- Resumen Cirugía Vascular — Hospital del Salvador 2019
-- Resumen Cirugía Plástica y Reconstructiva — Hospital del Salvador 2019
-- Resumen Cirugía Cabeza y Cuello — Hospital del Salvador 2019
-- Reconstrucciones de exámenes CONACEM 2019, 2021, 2022 y junio de 2023: usadas únicamente para estudiar estilo, enfoque y dificultad.
-
-REFERENCIA DE ESTRUCTURA/ALCANCE
-The Washington Manual of Surgery, 9th Edition — Wolters Kluwer/LWW, 2023.
-Página oficial: https://shop.lww.com/The-Washington-Manual-of-Surgery/p/9781975201258
-The Washington Manual of Surgery, 8th Edition — Wolters Kluwer, 2019 (referencia bibliográfica pública).
-
-No se incorporó ni reprodujo contenido protegido del Washington Manual que no haya sido aportado legítimamente por el usuario. Las 3.000 preguntas de esta versión se construyeron a partir de la bibliografía personal arriba listada.
+American College of Gastroenterology — Guideline on Management of Acute Pancreatitis (2024) — https://gi.org/
+American Society of Breast Surgeons — Resource Guides and Official Statements (2026) — https://www.breastsurgeons.org/resources/statements/
+American Society of Colon and Rectal Surgeons — Clinical Practice Guidelines (2024) — https://fascrs.org/ascrs/media/files/downloads/clinical_practice_guidelines/
+American Thyroid Association — Management Guidelines for Adult Patients with Differentiated Thyroid Cancer (2025) — https://www.thyroid.org/professionals/ata-professional-guidelines/
+Eastern Association for the Surgery of Trauma — Practice Management Guidelines (2025) — https://www.east.org/education-resources/practice-management-guidelines
+European Society for Clinical Nutrition and Metabolism — Guideline on Clinical Nutrition in Surgery (2025) — https://www.espen.org/files/ESPEN-guideline-on-clinical-nutrition-in-surgery-Update-2025.pdf
+European Society for Vascular Surgery — Clinical Practice Guidelines on Abdominal Aorto-Iliac Artery Aneurysms (2024) — https://esvs.org/guideline/2024-abdominal-aorto-iliac-artery-aneurysms-guidelines/
+Extracorporeal Life Support Organization — Guidelines (2025) — https://www.elso.org/ecmo-resources/elso-ecmo-guidelines.aspx
+Japanese Gastric Cancer Association — Japanese Gastric Cancer Treatment Guidelines 2021, 6th edition (2023) — https://pubmed.ncbi.nlm.nih.gov/36342574/
+Resumen Cirugía Cabeza y Cuello — Hospital del Salvador (2019) — 
+Resumen Cirugía Digestivo Alto — Hospital del Salvador (2019) — 
+Resumen Cirugía Digestivo Bajo — Hospital del Salvador (2019) — 
+Resumen Cirugía Hepatobiliopáncreas — Hospital del Salvador (2019) — 
+Resumen Cirugía Plástica y Reconstructiva — Hospital del Salvador (2019) — 
+Resumen Cirugía Tórax — Hospital del Salvador (2019) — 
+Resumen Cirugía Vascular — Hospital del Salvador (2019) — 
+Society of American Gastrointestinal and Endoscopic Surgeons — Guidelines for the Surgical Treatment of Hiatal Hernias (2024) — https://www.sages.org/publications/guidelines/guidelines-for-the-surgical-treatment-of-hiatal-hernias/
