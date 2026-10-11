@@ -1,7 +1,7 @@
 {
-  "name": "CONACEM Quiz",
-  "short_name": "CONACEM",
-  "description": "Quiz de cirugía con corrección inmediata y explicaciones.",
+  "name": "CONACEM Quiz 1000",
+  "short_name": "CONACEM 1000",
+  "description": "1000 preguntas de cirugía general con análisis de rendimiento, repaso adaptativo y reportes.",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
