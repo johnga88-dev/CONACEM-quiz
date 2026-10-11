@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="theme-color" content="#0f172a" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="apple-mobile-web-app-title" content="CONACEM" />
+<link rel="manifest" href="manifest.json" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<title>CONACEM Quiz</title>
+<style>
+:root{
+  --bg:#0f172a;--card:#111827;--soft:#1f2937;--text:#f8fafc;--muted:#94a3b8;
+  --ok:#16a34a;--bad:#dc2626;--accent:#3b82f6;--border:#334155;
+}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{margin:0;min-height:100%;background:var(--bg);color:var(--text)}
+body{
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
+  padding:env(safe-area-inset-top) 0 env(safe-area-inset-bottom);
+}
+.wrap{max-width:760px;margin:0 auto;padding:18px 16px 40px}
+header{display:flex;align-items:center;gap:12px;margin:6px 0 16px}
+.logo{width:48px;height:48px;border-radius:13px}
+h1{font-size:26px;margin:0}
+.sub{color:var(--muted);font-size:14px;margin-top:3px}
+.topbar{display:flex;gap:10px;justify-content:space-between;margin:12px 0 18px}
+.pill{background:var(--soft);border:1px solid var(--border);padding:8px 12px;border-radius:999px;color:#dbeafe;font-size:14px}
+.card{background:var(--card);border:1px solid var(--border);border-radius:20px;padding:18px;box-shadow:0 12px 30px rgba(0,0,0,.25)}
+.qnum{color:#93c5fd;font-size:14px;font-weight:700;margin-bottom:8px}
+.question{font-size:21px;line-height:1.35;margin-bottom:16px}
+.option{
+  display:flex;align-items:flex-start;gap:12px;width:100%;
+  background:#0b1322;color:var(--text);border:1px solid var(--border);
+  border-radius:14px;padding:14px;margin:10px 0;text-align:left;font-size:16px;
+}
+.dot{width:22px;height:22px;border:2px solid #64748b;border-radius:50%;flex:0 0 22px;margin-top:1px;display:flex;align-items:center;justify-content:center}
+.dot::after{content:"";width:10px;height:10px;border-radius:50%;background:transparent}
+.option.correct{border-color:#22c55e;background:rgba(22,163,74,.12)}
+.option.correct .dot{border-color:#22c55e}
+.option.correct .dot::after{background:#22c55e}
+.option.wrong{border-color:#ef4444;background:rgba(220,38,38,.12)}
+.option.wrong .dot{border-color:#ef4444}
+.option.wrong .dot::after{background:#ef4444}
+.feedback{margin-top:16px;padding:14px;border-radius:14px;display:none;line-height:1.45}
+.feedback.ok{display:block;background:rgba(22,163,74,.14);border:1px solid rgba(34,197,94,.5)}
+.feedback.bad{display:block;background:rgba(220,38,38,.14);border:1px solid rgba(239,68,68,.5)}
+.expl{margin-top:7px;color:#dbeafe}
+.controls{display:flex;gap:10px;margin-top:16px}
+button.main{flex:1;border:none;border-radius:12px;padding:13px 16px;font-size:16px;font-weight:700;background:var(--accent);color:white}
+button.main.secondary{background:#334155}
+button:disabled{opacity:.45}
+.install{
+  margin:14px 0 0;padding:12px;border-radius:14px;background:#0b1322;border:1px dashed #475569;
+  color:#cbd5e1;font-size:13px;line-height:1.4
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <img class="logo" src="apple-touch-icon.png" alt="">
+    <div>
+      <h1>CONACEM Quiz</h1>
+      <div class="sub">Cirugía · corrección inmediata</div>
+    </div>
+  </header>
+
+  <div class="topbar">
+    <div class="pill" id="score">Puntaje: 0/0</div>
+    <div class="pill" id="progress">Pregunta 1/5</div>
+  </div>
+
+  <div class="card">
+    <div class="qnum" id="qnum"></div>
+    <div class="question" id="question"></div>
+    <div id="options"></div>
+    <div id="feedback" class="feedback"></div>
+
+    <div class="controls">
+      <button class="main secondary" id="prev">Anterior</button>
+      <button class="main" id="next">Siguiente</button>
+    </div>
+  </div>
+
+  <div class="install">
+    En iPhone/iPad: abre esta PWA desde Safari → Compartir → Añadir a pantalla de inicio.
+  </div>
+</div>
+
+<script>
+const questions = [
+  {
+    question: "Paciente politraumatizado, hipotenso, con FAST (Focused Assessment with Sonography for Trauma) positivo y signos de shock hemorrágico. ¿Cuál es la conducta más adecuada?",
+    options: [
+      "Tomografía computarizada de abdomen con contraste",
+      "Observación y control seriado de hemoglobina",
+      "Laparotomía de urgencia",
+      "Resonancia magnética abdominal",
+      "Alta con control ambulatorio"
+    ],
+    answer: 2,
+    explanation: "En un paciente hemodinámicamente inestable con FAST positivo, la conducta indicada es laparotomía de urgencia."
+  },
+  {
+    question: "En shock séptico, ¿cuál es el vasopresor de primera línea?",
+    options: ["Dopamina","Noradrenalina","Adrenalina","Fenilefrina","Dobutamina"],
+    answer: 1,
+    explanation: "La noradrenalina es el vasopresor de primera línea en shock séptico."
+  },
+  {
+    question: "¿Cuál es el volumen corriente recomendado en ventilación mecánica protectora para síndrome de distrés respiratorio agudo?",
+    options: [
+      "4–6 mL/kg de peso corporal predicho",
+      "8–10 mL/kg de peso real",
+      "10–12 mL/kg de peso corporal predicho",
+      "12–15 mL/kg de peso real",
+      "No existe una recomendación específica"
+    ],
+    answer: 0,
+    explanation: "La ventilación protectora utiliza volúmenes corrientes bajos, habitualmente alrededor de 6 mL/kg de peso corporal predicho."
+  },
+  {
+    question: "Un hematoma retroperitoneal de zona I en trauma cerrado debe manejarse habitualmente con:",
+    options: ["Observación","Exploración quirúrgica","Drenaje percutáneo","Angiografía diferida","Alta precoz"],
+    answer: 1,
+    explanation: "Los hematomas retroperitoneales de zona I se exploran por la alta probabilidad de lesión vascular mayor."
+  },
+  {
+    question: "En una lesión renal aguda, KDIGO (Kidney Disease: Improving Global Outcomes) define estadio 3 cuando la creatinina sérica:",
+    options: [
+      "Aumenta 1,1 veces el basal",
+      "Aumenta 1,5 veces el basal",
+      "Aumenta 2 veces el basal",
+      "Aumenta 3 veces el basal o alcanza ≥4,0 mg/dL",
+      "Disminuye 50% respecto del basal"
+    ],
+    answer: 3,
+    explanation: "KDIGO estadio 3 incluye aumento de creatinina ≥3 veces el basal, creatinina ≥4,0 mg/dL o inicio de terapia de reemplazo renal."
+  }
+];
+
+let idx = 0;
+let score = 0;
+let answered = Array(questions.length).fill(false);
+let selections = Array(questions.length).fill(null);
+
+const qnum = document.getElementById("qnum");
+const questionEl = document.getElementById("question");
+const optionsEl = document.getElementById("options");
+const feedback = document.getElementById("feedback");
+const scoreEl = document.getElementById("score");
+const progressEl = document.getElementById("progress");
+const prevBtn = document.getElementById("prev");
+const nextBtn = document.getElementById("next");
+
+function render(){
+  const q = questions[idx];
+  qnum.textContent = `Pregunta ${idx+1}`;
+  questionEl.textContent = q.question;
+  optionsEl.innerHTML = "";
+  feedback.className = "feedback";
+  feedback.innerHTML = "";
+
+  q.options.forEach((opt, i)=>{
+    const btn = document.createElement("button");
+    btn.className = "option";
+    btn.innerHTML = `<span class="dot"></span><span><strong>${String.fromCharCode(65+i)}.</strong> ${opt}</span>`;
+    if (answered[idx]) {
+      if (i === q.answer) btn.classList.add("correct");
+      if (i === selections[idx] && i !== q.answer) btn.classList.add("wrong");
+      btn.disabled = true;
+    }
+    btn.onclick = ()=>selectAnswer(i);
+    optionsEl.appendChild(btn);
+  });
+
+  if (answered[idx]) showFeedback();
+  updateTop();
+  prevBtn.disabled = idx === 0;
+  nextBtn.textContent = idx === questions.length-1 ? "Reiniciar" : "Siguiente";
+}
+
+function selectAnswer(i){
+  if (answered[idx]) return;
+  selections[idx] = i;
+  answered[idx] = true;
+  if (i === questions[idx].answer) score++;
+  render();
+}
+
+function showFeedback(){
+  const q = questions[idx];
+  const ok = selections[idx] === q.answer;
+  feedback.className = "feedback " + (ok ? "ok" : "bad");
+  feedback.innerHTML = `<strong>${ok ? "✅ Correcto" : "❌ Incorrecto"}</strong><div class="expl">${q.explanation}</div>`;
+}
+
+function updateTop(){
+  const nAnswered = answered.filter(Boolean).length;
+  scoreEl.textContent = `Puntaje: ${score}/${nAnswered}`;
+  progressEl.textContent = `Pregunta ${idx+1}/${questions.length}`;
+}
+
+prevBtn.onclick = ()=>{ if(idx>0){idx--;render();} };
+nextBtn.onclick = ()=>{
+  if(idx < questions.length-1){ idx++; render(); }
+  else{
+    idx=0; score=0;
+    answered = Array(questions.length).fill(false);
+    selections = Array(questions.length).fill(null);
+    render();
+  }
+};
+
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => navigator.serviceWorker.register("./sw.js"));
+}
+render();
+</script>
+</body>
+</html>
