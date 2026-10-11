@@ -1,7 +1,7 @@
 {
-  "name": "CONACEM Cirugía V3 — 2000",
-  "short_name": "CONACEM V3",
-  "description": "Banco avanzado de 2000 preguntas para preparación de cirugía general, con modo estudio, examen y fuentes.",
+  "name": "SurgiPrep V5.0 — 3000 nuevas",
+  "short_name": "SurgiPrep",
+  "description": "Banco nuevo de 3000 preguntas de cirugía general basado en bibliografía personal, con cuatro niveles de dificultad, modo estudio y modo examen.",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",

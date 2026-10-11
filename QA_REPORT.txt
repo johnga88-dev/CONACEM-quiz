@@ -1,0 +1,22 @@
+{
+  "total": 3000,
+  "difficulty": {
+    "Fácil": 750,
+    "Intermedio": 750,
+    "Difícil": 750,
+    "Muy difícil": 750
+  },
+  "topic": {
+    "Digestivo alto y pared abdominal": 500,
+    "Coloproctología": 450,
+    "Hepatopancreatobiliar": 427,
+    "Tórax": 373,
+    "Cirugía vascular": 400,
+    "Plástica, heridas y quemados": 400,
+    "Cabeza, cuello, endocrino y piel": 450
+  },
+  "bad_option_count": 0,
+  "duplicate_options_within_question": 0,
+  "invalid_answers": 0,
+  "exact_duplicate_full_items": 0
+}

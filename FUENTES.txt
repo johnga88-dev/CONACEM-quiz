@@ -1,26 +1,18 @@
-FUENTES MARCO — V3 REHECHA
+SurgiPrep V5.0 — Fuentes
 
-- ATS/ESICM/SCCM Mechanical Ventilation in ARDS Guideline: https://pubmed.ncbi.nlm.nih.gov/28459336/
-- American Society of Breast Surgeons – Official Statements: https://www.breastsurgeons.org/resources/statements/
-- ASBrS Resource Guide – Breast Conservation Surgery Margins: https://www.sesc.breastsurgeons.org/docs/statements/asbrs-rg-margins.pdf
-- ASCRS Clinical Practice Guideline – Colon Cancer: https://fascrs.org/getattachment/Healthcare-Providers/Education/Clinical-Practice-Guidelines/2022ColonCancerVisualAbstract.pdf?lang=en-US
-- ASCRS Clinical Practice Guideline – Rectal Cancer: https://fascrs.org/ascrs/media/files/2023-Rectal-Cancer-Supplement.pdf
-- ASMBS/IFSO Indications for Metabolic and Bariatric Surgery: https://asmbs.org/resources/2022-asmbs-and-ifso-indications-for-metabolic-and-bariatric-surgery/
-- American Thyroid Association – Differentiated Thyroid Cancer Guidelines: https://www.thyroid.org/new-ata-guidelines-adult-patients-differentiated-thyroid-cancer/
-- EAST Practice Management Guidelines: https://www.east.org/education-resources/practice-management-guidelines
-- ELSO ECMO Guidelines: https://www.elso.org/ecmo-resources/elso-ecmo-guidelines.aspx
-- ESPEN Guideline on Clinical Nutrition in Surgery – Update 2025: https://www.espen.org/files/ESPEN-guideline-on-clinical-nutrition-in-surgery-Update-2025.pdf
-- ESVS 2024 Abdominal Aorto-Iliac Aneurysm Guidelines: https://esvs.org/guideline/2024-abdominal-aorto-iliac-artery-aneurysms-guidelines/
-- ESVS Clinical Practice Guidelines – Acute Limb Ischaemia: https://esvs.org/guideline/acute-limb-ischaemia/
-- NCI PDQ – Esophageal Cancer Treatment: https://www.cancer.gov/types/esophageal/hp/esophageal-treatment-pdq
-- NCI PDQ – Gastric Cancer Treatment: https://www.cancer.gov/types/stomach/hp/stomach-treatment-pdq
-- National Cancer Institute – Cancer Treatment: https://www.cancer.gov/about-cancer/treatment
-- NCI PDQ – Pancreatic Cancer Treatment: https://www.cancer.gov/types/pancreatic/hp/pancreatic-treatment-pdq
-- SAGES Multi-Society Safe Cholecystectomy Guideline: https://www.sages.org/publications/guidelines/safe-cholecystectomy-multi-society-practice-guideline/
-- SAGES Clinical / Practice Guidelines: https://www.sages.org/publications/guidelines/
-- Surviving Sepsis Campaign 2021: https://pubmed.ncbi.nlm.nih.gov/34599691/
-- WHO Global Guidelines for the Prevention of Surgical Site Infection: https://www.who.int/publications/i/item/9789241550475
-- WSES Jerusalem Guidelines – Acute Appendicitis: https://wjes.biomedcentral.com/articles/10.1186/s13017-020-00306-3
+FUENTES PRIMARIAS APORTADAS POR EL USUARIO
+- Resumen Cirugía Digestivo Alto — Hospital del Salvador 2019
+- Resumen Cirugía Digestivo Bajo — Hospital del Salvador 2019
+- Resumen Cirugía Hepatobiliopáncreas — Hospital del Salvador 2019
+- Resumen Cirugía Tórax — Hospital del Salvador 2019
+- Resumen Cirugía Vascular — Hospital del Salvador 2019
+- Resumen Cirugía Plástica y Reconstructiva — Hospital del Salvador 2019
+- Resumen Cirugía Cabeza y Cuello — Hospital del Salvador 2019
+- Reconstrucciones de exámenes CONACEM 2019, 2021, 2022 y junio de 2023: usadas únicamente para estudiar estilo, enfoque y dificultad.
 
-Las fuentes aparecen además como enlaces clicables dentro de cada pregunta.
-Nota: banco educativo. Debe contrastarse con protocolos institucionales y actualizaciones de cada sociedad.
+REFERENCIA DE ESTRUCTURA/ALCANCE
+The Washington Manual of Surgery, 9th Edition — Wolters Kluwer/LWW, 2023.
+Página oficial: https://shop.lww.com/The-Washington-Manual-of-Surgery/p/9781975201258
+The Washington Manual of Surgery, 8th Edition — Wolters Kluwer, 2019 (referencia bibliográfica pública).
+
+No se incorporó ni reprodujo contenido protegido del Washington Manual que no haya sido aportado legítimamente por el usuario. Las 3.000 preguntas de esta versión se construyeron a partir de la bibliografía personal arriba listada.
