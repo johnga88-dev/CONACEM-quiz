@@ -1,14 +1,18 @@
-SurgiPrep V6.1 Editorial — QA
+SurgiPrep V6.3 — Auditoría CONACEM
 
-Total: 120
-Distribución de claves: A=24, B=24, C=24, D=24, E=24
-Preguntas con 5 alternativas: 120/120
-Preguntas con 5 racionales: 120/120
-Enunciados duplicados exactos: 0
-Alternativas duplicadas dentro del ítem: 0
+Total: 200 preguntas
+Preguntas con distractores revisados/reconstruidos en esta auditoría: 140
+Distribución de clave correcta: A=40, B=40, C=40, D=40, E=40
+Dificultad: {'Fácil': 50, 'Intermedio': 50, 'Difícil': 50, 'Muy difícil': 50}
+Temas: {'Trauma y urgencias': 20, 'Hepatobiliopancreática': 20, 'Digestivo alto': 20, 'Coloproctología': 20, 'Cirugía vascular': 20, 'Mama': 20, 'Cabeza y cuello y endocrino': 20, 'Cirugía torácica': 20, 'Paciente crítico y nutrición': 20, 'Pared abdominal y reconstructiva': 20}
 
-Cambios V6.1:
-- Rebalanceo exacto de claves A–E.
-- Profundización de ítems generales de V6.0.
-- 40 preguntas nuevas de mayor profundidad clínica/técnica.
-- Se mantienen fuentes personales como guía temática y fuentes internacionales como control de actualización.
+Criterios V6.3:
+- Todas las 200 preguntas fueron recorridas en la auditoría.
+- Se reconstruyeron los distractores de los ítems detectados como débiles o no discriminativos.
+- En Difícil/Muy difícil se priorizaron alternativas del mismo eje clínico/técnico.
+- Se eliminaron distractores absurdos o de órganos/sistemas sin relación.
+- Se mantuvo exactamente balanceada la clave A–E.
+- No hay preguntas duplicadas ni opciones duplicadas dentro de un ítem.
+- El material personal se usa como mapa temático; las recomendaciones clínicas se contrastan con fuentes internacionales incluidas en cada pregunta.
+
+Auditoría adicional de homogeneidad de alternativas: corregidos ítems de pared abdominal, visión crítica de seguridad, adenoma hepatocelular, shock séptico y nutrición para eliminar doble respuesta o ejes discordantes.
