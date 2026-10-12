@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360">
+<rect width="640" height="360" fill="#0b1322"/><text x="320" y="30" text-anchor="middle" fill="white" font-size="22">Zonas retroperitoneales</text>
+<path d="M230 60 L410 60 L455 300 L185 300 Z" fill="#172554" stroke="#93c5fd" stroke-width="3"/>
+<rect x="275" y="75" width="90" height="205" rx="25" fill="#7f1d1d" opacity=".85"/><text x="320" y="180" text-anchor="middle" fill="white" font-size="28">I</text>
+<path d="M195 95 Q135 140 155 260 L250 265 L260 90 Z" fill="#14532d" opacity=".9"/><text x="205" y="185" text-anchor="middle" fill="white" font-size="28">II</text>
+<path d="M445 95 Q505 140 485 260 L390 265 L380 90 Z" fill="#14532d" opacity=".9"/><text x="435" y="185" text-anchor="middle" fill="white" font-size="28">II</text>
+<rect x="205" y="270" width="230" height="55" rx="20" fill="#78350f"/><text x="320" y="305" text-anchor="middle" fill="white" font-size="26">III</text>
+</svg>
