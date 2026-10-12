@@ -1,0 +1,56 @@
+SURGIPREP V6.6 — IMÁGENES CLÍNICAS REALES DEL BLOQUE 3
+Las imágenes de la categoría Imagenología son estudios clínicos reales, no generados.
+Se enlazan desde Wikimedia Commons y requieren conexión a Internet la primera vez que se cargan.
+La aplicación puede almacenarlas en caché después de su visualización.
+
+1. Pneumoperitoneum chest X-ray.jpg
+Autor: Bill Rhodes
+Licencia: Creative Commons Attribution 2.0
+Fuente: https://commons.wikimedia.org/wiki/File:Pneumoperitoneum_chest_X-ray.jpg
+
+2. Upright X-ray demonstrating small bowel obstruction.jpg
+Autor: James Heilman, MD
+Licencia: Creative Commons Attribution-ShareAlike 3.0
+Fuente: https://commons.wikimedia.org/wiki/File:Upright_X-ray_demonstrating_small_bowel_obstruction.jpg
+
+3. Appendicitis.png
+Autor: James Heilman, MD
+Licencia: Creative Commons Attribution-ShareAlike 4.0
+Fuente: https://commons.wikimedia.org/wiki/File:Appendicitis.png
+
+4. Ultrasonography of cholecystitis.jpg
+Autor: Mikael Häggström, MD
+Licencia: Creative Commons CC0 1.0
+Fuente: https://commons.wikimedia.org/wiki/File:Ultrasonography_of_cholecystitis.jpg
+
+5. 09-01-Pneumothorax.png
+Autor: Hellerhoff
+Licencia: Creative Commons Attribution-ShareAlike 3.0
+Fuente: https://commons.wikimedia.org/wiki/File:09-01-Pneumothorax.png
+
+6. Contrast-enhanced CT scan demonstrating abdominal aortic aneurysm.jpg
+Autor: James Heilman, MD
+Licencia: Creative Commons Attribution-ShareAlike 3.0
+Fuente: https://commons.wikimedia.org/wiki/File:Contrast-enhanced_CT_scan_demonstrating_abdominal_aortic_aneurysm.jpg
+
+7. Diverticulitis.png
+Autor: James Heilman, MD
+Licencia: Creative Commons Attribution-ShareAlike 3.0
+Fuente: https://commons.wikimedia.org/wiki/File:Diverticulitis.png
+
+8. ColonCancer-LiverMeta.jpg
+Autor: 邱鈺鋒
+Licencia: Creative Commons Attribution-ShareAlike 4.0
+Fuente: https://commons.wikimedia.org/wiki/File:ColonCancer-LiverMeta.jpg
+
+9. Pancreatic Pseudocyst.PNG
+Autor: JasonRobertYoungMD
+Licencia: Creative Commons Attribution-ShareAlike 4.0
+Fuente: https://commons.wikimedia.org/wiki/File:Pancreatic_Pseudocyst.PNG
+
+10. Ischemicbowel.PNG
+Autor: James Heilman, MD
+Licencia: Creative Commons Attribution-ShareAlike 3.0
+Fuente: https://commons.wikimedia.org/wiki/File:Ischemicbowel.PNG
+
+Nota: conservar atribuciones y condiciones de licencia si se redistribuyen las imágenes o una copia local de ellas.

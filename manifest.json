@@ -1,7 +1,7 @@
 {
   "name": "SurgiPrep",
   "short_name": "SurgiPrep",
-  "description": "200 preguntas de Cirugía General nivel especialista, con componente visual",
+  "description": "300 preguntas de Cirugía General con nivel de especialista, casos integrados e imagenología clínica real",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#07111f",

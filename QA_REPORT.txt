@@ -1,12 +1,20 @@
-SurgiPrep V6.6 — Bloque 3
+SURGIPREP V6.6 — QA BLOQUE 3
+Total del banco: 300
+Preguntas Bloque 3: 100
+Enunciados duplicados exactos: 0
+Preguntas Bloque 3 con 5 alternativas: 100/100
+Preguntas Bloque 3 con 5 análisis de alternativas: 100/100
+Ítems con opciones duplicadas: 0
+Preguntas visuales reales en Bloque 3: 10
 
-Banco total: 300 preguntas
-Bloque 3: 100 preguntas (201–300)
-Temas Bloque 3: {'Trauma y urgencias': 9, 'Hepatopancreatobiliar': 9, 'Digestivo alto y bariátrica': 8, 'Coloproctología': 9, 'Cirugía vascular': 8, 'Cirugía torácica': 8, 'Cabeza, cuello, endocrino y mama': 8, 'Pared abdominal y hernias': 8, 'Plástica, heridas y quemados': 8, 'Cuidados perioperatorios y paciente crítico': 9, 'Generalidades': 8, 'Imagenología': 8}
-Dificultad Bloque 3: {'Difícil': 24, 'Muy difícil': 19, 'Intermedio': 29, 'Fácil': 28}
-Claves correctas Bloque 3: {'A': 20, 'B': 20, 'C': 20, 'D': 20, 'E': 20}
-Preguntas de Imagenología con imagen clínica real: 8
-Imágenes reales en Bloque 3: 8
-Enunciados exactos duplicados en banco total: 0
-Incidencias estructurales: []
-Nota: Bloques 1 y 2 se conservaron sin reescritura. Las imágenes de Imagenología usan estudios clínicos reales alojados en Wikimedia Commons y sus páginas de licencia/fuente se incluyen en cada pregunta.
+Dificultad Bloque 3:
+{'Intermedio': 25, 'Muy difícil': 25, 'Fácil': 25, 'Difícil': 25}
+
+Posición de respuesta correcta (0=A,1=B,2=C,3=D,4=E):
+{0: 20, 1: 20, 2: 20, 3: 20, 4: 20}
+
+Temas Bloque 3:
+{'Trauma y urgencias': 8, 'Hepatopancreatobiliar': 8, 'Digestivo alto y bariátrica': 8, 'Coloproctología': 8, 'Cirugía vascular': 8, 'Cirugía torácica': 8, 'Cabeza, cuello, endocrino y mama': 8, 'Pared abdominal y hernias': 8, 'Plástica, heridas y quemados': 8, 'Cuidados perioperatorios y paciente crítico': 8, 'Generalidades': 10, 'Imagenología': 10}
+
+Los Bloques 1 y 2 permanecen sin cambios respecto de la base V6.5.5.
+Los controles automáticos verifican estructura y consistencia formal; no sustituyen validación clínica externa.
