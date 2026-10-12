@@ -431,7 +431,7 @@
     "subtopic": "Colecistectomía difícil",
     "difficulty": "Difícil",
     "type": "Técnica de rescate",
-    "question": "Durante colecistectomía laparoscópica por colecistitis severa, el triángulo hepatocístico está densamente inflamado y no es posible obtener una visión crítica de seguridad. La vesícula está parcialmente desprendida del lecho, pero la anatomía del conducto cístico y del colédoco sigue siendo incierta. ¿Cuál es la estrategia que mejor reduce el riesgo de lesión mayor de vía biliar?",
+    "question": "Mujer de 62 años es sometida a colecistectomía laparoscópica por colecistitis severa. El triángulo hepatocístico está densamente inflamado y no es posible obtener una visión crítica de seguridad. La vesícula está parcialmente desprendida del lecho, pero la anatomía del conducto cístico y del colédoco sigue siendo incierta. ¿Cuál es la estrategia que mejor reduce el riesgo de lesión mayor de vía biliar?",
     "labs": null,
     "image": "assets/critical_view.svg",
     "options": [
@@ -469,7 +469,11 @@
     ],
     "review_status": "V6.4 — revisión editorial especialista, coherencia y distractores plausibles",
     "updated": "2026-10-12",
-    "origin": "V6.4 Especialista"
+    "origin": "V6.4 Especialista",
+    "case_id": "BILIAR_01",
+    "case_title": "Colecistectomía difícil y lesión mayor de vía biliar",
+    "case_step": 1,
+    "case_total": 2
   },
   {
     "id": 12,
@@ -478,7 +482,7 @@
     "subtopic": "Lesión de vía biliar",
     "difficulty": "Muy difícil",
     "type": "Derivación especializada",
-    "question": "Tras una colecistectomía difícil, una paciente desarrolla débito biliar abundante por drenaje y bilirrubina creciente. La colangiorresonancia sugiere sección completa de la vía biliar principal a nivel del hilio, sin continuidad con el duodeno. El hospital no dispone de cirujano hepatobiliar con experiencia en reconstrucción. La paciente está estable y no tiene peritonitis difusa. ¿Cuál es la estrategia que más favorece una reconstrucción definitiva exitosa?",
+    "question": "Mujer de 62 años desarrolla, después de una colecistectomía difícil, débito biliar abundante por drenaje y bilirrubina creciente. La colangiorresonancia sugiere sección completa de la vía biliar principal a nivel del hilio, sin continuidad con el duodeno. El hospital no dispone de cirujano hepatobiliar con experiencia en reconstrucción. Está estable y no tiene peritonitis difusa. ¿Cuál es la estrategia que más favorece una reconstrucción definitiva exitosa?",
     "labs": null,
     "image": null,
     "options": [
@@ -511,7 +515,11 @@
     ],
     "review_status": "V6.4 — revisión editorial especialista, coherencia y distractores plausibles",
     "updated": "2026-10-12",
-    "origin": "V6.4 Especialista"
+    "origin": "V6.4 Especialista",
+    "case_id": "BILIAR_01",
+    "case_title": "Colecistectomía difícil y lesión mayor de vía biliar",
+    "case_step": 2,
+    "case_total": 2
   },
   {
     "id": 13,
@@ -730,7 +738,7 @@
     "subtopic": "Cáncer de páncreas",
     "difficulty": "Intermedio",
     "type": "Resecabilidad",
-    "question": "Paciente de 63 años con adenocarcinoma de cabeza de páncreas tiene tomografía pancreática protocolizada que muestra contacto tumoral con la vena mesentérica superior en 200 grados y corto segmento de irregularidad venosa reconstruible, sin contacto con la arteria mesentérica superior ni metástasis. ¿Cuál es la estrategia más coherente con la clasificación moderna de resecabilidad?",
+    "question": "Varón de 63 años con adenocarcinoma de cabeza de páncreas tiene tomografía pancreática protocolizada que muestra contacto tumoral con la vena mesentérica superior en 200 grados y corto segmento de irregularidad venosa reconstruible, sin contacto con la arteria mesentérica superior ni metástasis. ¿Cuál es la estrategia más coherente con la clasificación moderna de resecabilidad?",
     "labs": null,
     "image": null,
     "options": [
@@ -763,7 +771,11 @@
     ],
     "review_status": "V6.4 — revisión editorial especialista, coherencia y distractores plausibles",
     "updated": "2026-10-12",
-    "origin": "V6.4 Especialista"
+    "origin": "V6.4 Especialista",
+    "case_id": "PANCREAS_01",
+    "case_title": "Adenocarcinoma pancreático borderline y complicación tras duodenopancreatectomía",
+    "case_step": 1,
+    "case_total": 2
   },
   {
     "id": 19,
@@ -772,7 +784,7 @@
     "subtopic": "Fístula pancreática posoperatoria",
     "difficulty": "Difícil",
     "type": "Manejo de complicación",
-    "question": "Al séptimo día después de duodenopancreatectomía, un paciente presenta débito por drenaje rico en amilasa, fiebre y una colección peripancreática de 6 cm. Está hemodinámicamente estable, sin hemorragia y sin peritonitis. ¿Cuál es la estrategia inicial que mejor corresponde a una fístula pancreática clínicamente relevante sin falla orgánica?",
+    "question": "Varón de 63 años con adenocarcinoma de cabeza de páncreas borderline resecable completa tratamiento neoadyuvante y posteriormente es sometido a duodenopancreatectomía. Al séptimo día presenta débito por drenaje rico en amilasa, fiebre y una colección peripancreática de 6 cm. Está hemodinámicamente estable, sin hemorragia y sin peritonitis. ¿Cuál es la estrategia inicial que mejor corresponde a una fístula pancreática clínicamente relevante sin falla orgánica?",
     "labs": null,
     "image": null,
     "options": [
@@ -810,7 +822,11 @@
     ],
     "review_status": "V6.4 — revisión editorial especialista, coherencia y distractores plausibles",
     "updated": "2026-10-12",
-    "origin": "V6.4 Especialista"
+    "origin": "V6.4 Especialista",
+    "case_id": "PANCREAS_01",
+    "case_title": "Adenocarcinoma pancreático borderline y complicación tras duodenopancreatectomía",
+    "case_step": 2,
+    "case_total": 2
   },
   {
     "id": 20,
@@ -1344,7 +1360,11 @@
     ],
     "review_status": "V6.4 — revisión editorial especialista, coherencia y distractores plausibles",
     "updated": "2026-10-12",
-    "origin": "V6.4 Especialista"
+    "origin": "V6.4 Especialista",
+    "case_id": "RECTO_01",
+    "case_title": "Adenocarcinoma de recto: etapificación, neoadyuvancia y complicación posoperatoria",
+    "case_step": 1,
+    "case_total": 3
   },
   {
     "id": 32,
@@ -1353,7 +1373,7 @@
     "subtopic": "Cáncer de recto localmente avanzado",
     "difficulty": "Muy difícil",
     "type": "Tratamiento neoadyuvante total",
-    "question": "Varón de 55 años con adenocarcinoma de recto medio. La resonancia magnética muestra cT3c, ganglios mesorrectales sospechosos, invasión venosa extramural y fascia mesorrectal amenazada a 1 mm. No hay metástasis y el paciente está en buen estado funcional. ¿Qué estrategia refleja mejor el objetivo contemporáneo de maximizar control sistémico y local antes de la cirugía?",
+    "question": "Varón de 58 años con adenocarcinoma de recto bajo a 4 cm del margen anal. La resonancia magnética pélvica muestra cT3c, ganglios mesorrectales sospechosos, invasión venosa extramural y fascia mesorrectal amenazada a 1 mm. La tomografía de tórax, abdomen y pelvis no muestra metástasis y el paciente está en buen estado funcional. ¿Qué estrategia refleja mejor el objetivo contemporáneo de maximizar control sistémico y local antes de la cirugía?",
     "labs": null,
     "image": null,
     "options": [
@@ -1386,7 +1406,11 @@
     ],
     "review_status": "V6.4 — revisión editorial especialista, coherencia y distractores plausibles",
     "updated": "2026-10-12",
-    "origin": "V6.4 Especialista"
+    "origin": "V6.4 Especialista",
+    "case_id": "RECTO_01",
+    "case_title": "Adenocarcinoma de recto: etapificación, neoadyuvancia y complicación posoperatoria",
+    "case_step": 2,
+    "case_total": 3
   },
   {
     "id": 33,
@@ -1479,7 +1503,7 @@
     "subtopic": "Fuga anastomótica",
     "difficulty": "Difícil",
     "type": "Manejo posoperatorio",
-    "question": "Al quinto día después de resección anterior baja por cáncer de recto, un paciente presenta fiebre y dolor pélvico. La tomografía muestra fuga contenida de la anastomosis con colección pélvica de 5 cm accesible por vía percutánea. Está normotenso, sin peritonitis, y tiene una ileostomía de protección funcionante. ¿Cuál es la estrategia inicial más apropiada?",
+    "question": "Varón de 58 años con adenocarcinoma de recto bajo, después de tratamiento neoadyuvante total y resección anterior baja con ileostomía de protección, presenta al quinto día fiebre y dolor pélvico. La tomografía muestra fuga contenida de la anastomosis con colección pélvica de 5 cm accesible por vía percutánea. Está normotenso, sin peritonitis, y la ileostomía funciona. ¿Cuál es la estrategia inicial más apropiada?",
     "labs": null,
     "image": null,
     "options": [
@@ -1517,7 +1541,11 @@
     ],
     "review_status": "V6.4 — revisión editorial especialista, coherencia y distractores plausibles",
     "updated": "2026-10-12",
-    "origin": "V6.4 Especialista"
+    "origin": "V6.4 Especialista",
+    "case_id": "RECTO_01",
+    "case_title": "Adenocarcinoma de recto: etapificación, neoadyuvancia y complicación posoperatoria",
+    "case_step": 3,
+    "case_total": 3
   },
   {
     "id": 36,
@@ -3486,7 +3514,7 @@
     "subtopic": "Reanimación del gran quemado",
     "difficulty": "Fácil",
     "type": "Titulación de fluidos",
-    "question": "Adulto de 80 kg con quemadura térmica de espesor parcial y total en 30% de la superficie corporal quemada llega dos horas después del accidente. Se inicia cristaloide según una estimación inicial. Durante las siguientes horas la diuresis cae a 0,2 mL/kg/h, no hay insuficiencia cardíaca y la perfusión periférica es pobre. ¿Cómo debe utilizarse la fórmula de reanimación?",
+    "question": "Varón de 40 años y 80 kg presenta quemadura térmica de espesor parcial y total en 30% de la superficie corporal quemada y llega dos horas después del accidente. No tiene cardiopatía ni insuficiencia renal. ¿Cuál es el principio correcto para iniciar y ajustar la reanimación con cristaloides durante las primeras 24 horas?",
     "labs": null,
     "image": null,
     "options": [
@@ -3519,7 +3547,11 @@
     ],
     "review_status": "V6.4 — revisión editorial especialista, coherencia y distractores plausibles",
     "updated": "2026-10-12",
-    "origin": "V6.4 Especialista"
+    "origin": "V6.4 Especialista",
+    "case_id": "QUEMADO_01",
+    "case_title": "Gran quemado: reanimación, vía aérea y escarotomía torácica",
+    "case_step": 1,
+    "case_total": 3
   },
   {
     "id": 82,
@@ -3528,7 +3560,7 @@
     "subtopic": "Lesión por inhalación",
     "difficulty": "Intermedio",
     "type": "Diagnóstico y vía aérea",
-    "question": "Paciente rescatado de incendio en espacio cerrado presenta quemaduras faciales, hollín en orofaringe y voz progresivamente ronca. La saturación por pulsioximetría es 99%. ¿Cuál es la conducta más importante respecto de la vía aérea y qué limitación tiene la pulsioximetría en este contexto?",
+    "question": "Varón de 40 años rescatado de un incendio en espacio cerrado presenta quemaduras faciales, hollín en orofaringe y voz progresivamente ronca. La saturación periférica es 97% con oxígeno suplementario, pero aumenta el edema facial. ¿Cuál es la conducta más apropiada respecto de la vía aérea?",
     "labs": null,
     "image": null,
     "options": [
@@ -3561,7 +3593,11 @@
     ],
     "review_status": "V6.4 — revisión editorial especialista, coherencia y distractores plausibles",
     "updated": "2026-10-12",
-    "origin": "V6.4 Especialista"
+    "origin": "V6.4 Especialista",
+    "case_id": "QUEMADO_01",
+    "case_title": "Gran quemado: reanimación, vía aérea y escarotomía torácica",
+    "case_step": 2,
+    "case_total": 3
   },
   {
     "id": 83,
@@ -3612,7 +3648,7 @@
     "subtopic": "Quemadura circunferencial",
     "difficulty": "Muy difícil",
     "type": "Escarotomía",
-    "question": "Paciente con quemadura circunferencial de espesor total en tórax presenta aumento progresivo de presiones ventilatorias y excursión torácica mínima pese a tubo endotraqueal bien posicionado y ausencia de neumotórax. El abdomen está blando. ¿Cuál es la intervención que trata directamente la restricción mecánica de la pared?",
+    "question": "Varón de 40 años con quemadura circunferencial de espesor total en tórax desarrolla aumento progresivo de presiones ventilatorias y excursión torácica limitada pese a ventilación mecánica adecuada. ¿Cuál es la intervención específica indicada para aliviar la restricción de la pared torácica?",
     "labs": null,
     "image": null,
     "options": [
@@ -3645,7 +3681,11 @@
     ],
     "review_status": "V6.4 — revisión editorial especialista, coherencia y distractores plausibles",
     "updated": "2026-10-12",
-    "origin": "V6.4 Especialista"
+    "origin": "V6.4 Especialista",
+    "case_id": "QUEMADO_01",
+    "case_title": "Gran quemado: reanimación, vía aérea y escarotomía torácica",
+    "case_step": 3,
+    "case_total": 3
   },
   {
     "id": 85,
@@ -3911,7 +3951,7 @@
     "subtopic": "Shock séptico",
     "difficulty": "Difícil",
     "type": "Vasopresores",
-    "question": "Paciente con peritonitis secundaria ya fue operado y tiene control de foco. Después de reanimación con cristaloides balanceados mantiene presión arterial media de 61 mmHg y lactato 3,8 mmol/L (rango aproximado 0,5–2,0 mmol/L). Se inicia norepinefrina y la dosis aumenta progresivamente para sostener presión. ¿Qué vasopresor suele añadirse para reducir requerimientos de norepinefrina cuando la hipotensión persiste?",
+    "question": "Paciente de 67 años fue reoperado por dehiscencia de anastomosis colónica con peritonitis fecal y tiene control de foco adecuado. Después de reanimación con cristaloides balanceados mantiene presión arterial media de 58 mmHg y signos de hipoperfusión. ¿Cuál es el vasopresor de primera elección para alcanzar una presión arterial media inicial cercana a 65 mmHg?",
     "labs": {
       "Lactato": {
         "value": "3,8 mmol/L",
@@ -3949,7 +3989,11 @@
     ],
     "review_status": "V6.4 — revisión editorial especialista, coherencia y distractores plausibles",
     "updated": "2026-10-12",
-    "origin": "V6.4 Especialista"
+    "origin": "V6.4 Especialista",
+    "case_id": "SEPSIS_01",
+    "case_title": "Dehiscencia colónica, control de foco, shock séptico y lesión renal aguda",
+    "case_step": 2,
+    "case_total": 3
   },
   {
     "id": 92,
@@ -4042,7 +4086,7 @@
     "subtopic": "Lesión renal aguda",
     "difficulty": "Intermedio",
     "type": "Clasificación",
-    "question": "Paciente posoperatorio tenía creatinina basal 0,9 mg/dL (rango aproximado 0,6–1,2 mg/dL). En 48 horas aumenta a 2,0 mg/dL y mantiene diuresis 0,4 mL/kg/h durante 14 horas. ¿Cómo debe interpretarse la gravedad de la lesión renal aguda según criterios funcionales habituales?",
+    "question": "Paciente de 67 años, 48 horas después de shock séptico por peritonitis posoperatoria, tenía creatinina basal de 0,9 mg/dL (rango aproximado 0,6–1,2 mg/dL). Ahora presenta creatinina de 2,0 mg/dL y diuresis conservada. ¿Cómo se clasifica la lesión renal aguda según el cambio de creatinina?",
     "labs": {
       "Creatinina basal": {
         "value": "0,9 mg/dL",
@@ -4088,7 +4132,11 @@
     ],
     "review_status": "V6.4 — revisión editorial especialista, coherencia y distractores plausibles",
     "updated": "2026-10-12",
-    "origin": "V6.4 Especialista"
+    "origin": "V6.4 Especialista",
+    "case_id": "SEPSIS_01",
+    "case_title": "Dehiscencia colónica, control de foco, shock séptico y lesión renal aguda",
+    "case_step": 3,
+    "case_total": 3
   },
   {
     "id": 95,
@@ -4270,7 +4318,7 @@
     "subtopic": "Control de foco en sepsis abdominal",
     "difficulty": "Difícil",
     "type": "Momento de intervención",
-    "question": "Paciente con shock séptico presenta anastomosis colónica dehiscente con extravasación libre y peritonitis difusa en tomografía. Recibe antibióticos, norepinefrina y reanimación; la presión arterial media alcanza 66 mmHg con soporte. ¿Cuál es el principio respecto del control de foco?",
+    "question": "Paciente de 67 años en el quinto día posoperatorio de una colectomía presenta shock séptico. La tomografía evidencia dehiscencia de la anastomosis colónica con extravasación libre y peritonitis difusa. Recibe antibióticos de amplio espectro y reanimación inicial. ¿Cuál es el principio prioritario de manejo que más probablemente modifique el pronóstico?",
     "labs": null,
     "image": null,
     "options": [
@@ -4303,7 +4351,11 @@
     ],
     "review_status": "V6.4 — revisión editorial especialista, coherencia y distractores plausibles",
     "updated": "2026-10-12",
-    "origin": "V6.4 Especialista"
+    "origin": "V6.4 Especialista",
+    "case_id": "SEPSIS_01",
+    "case_title": "Dehiscencia colónica, control de foco, shock séptico y lesión renal aguda",
+    "case_step": 1,
+    "case_total": 3
   },
   {
     "id": 100,

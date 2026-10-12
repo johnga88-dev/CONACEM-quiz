@@ -1,0 +1,17 @@
+SurgiPrep V6.7 — QA funcional
+
+- 300 preguntas totales; Bloques 1–3 conservados.
+- 5 alternativas por pregunta.
+- 5 análisis de alternativa por pregunta.
+- 0 enunciados exactamente duplicados.
+- JavaScript validado con node --check.
+- Seguro / Dudoso / Adiviné eliminados.
+- Reporte de pregunta con motivos de calidad específicos.
+- ¿Por qué fallé? visible tras respuesta incorrecta.
+- Cuaderno de errores guarda causa subjetiva y resume patrones.
+- Referencias bibliográficas compactas y desplegables.
+- Imagen ampliable a pantalla completa con controles de zoom y gesto de pellizcar del navegador.
+- 5 casos encadenados piloto (13 preguntas) con preguntas autónomas.
+- Simulación real conservada dentro de Modo Examen.
+- Progreso previo de V6.6.x se migra por fallback de localStorage.
+- Estudios reales externos de Imagenología se guardan en caché del PWA tras una carga exitosa; esquemas propios siguen empaquetados en assets/.
