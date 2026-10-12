@@ -11,18 +11,18 @@
     "image": null,
     "options": [
       "Tomografía computarizada de abdomen con contraste intravenoso",
-      "Laparotomía exploradora urgente",
       "Observación en unidad de cuidados intensivos con controles seriados",
       "Ecografía abdominal ambulatoria",
+      "Laparotomía exploradora urgente",
       "Resonancia magnética de abdomen"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "La inestabilidad hemodinámica asociada a peritonitis después de trauma abdominal obliga a control quirúrgico inmediato de la hemorragia o contaminación. Los estudios que retrasen el control de la fuente no son prioritarios.",
     "rationales": [
       "La tomografía computarizada es útil en pacientes hemodinámicamente estables; aquí retrasaría el control de la fuente.",
-      "Correcta: inestabilidad más peritonitis es indicación de laparotomía urgente.",
       "La observación no es apropiada ante shock y signos peritoneales.",
       "La ecografía puede apoyar el diagnóstico, pero no sustituye la laparotomía cuando ya existe indicación clínica.",
+      "Correcta: inestabilidad más peritonitis es indicación de laparotomía urgente.",
       "La resonancia magnética no tiene papel en la reanimación inicial de este escenario."
     ],
     "sources": [
@@ -48,18 +48,18 @@
     "image": null,
     "options": [
       "Esplenectomía obligatoria por tratarse de una lesión grado IV",
-      "Manejo no operatorio protocolizado, valorando angiografía y embolización según hallazgos vasculares",
       "Alta domiciliaria con control en 48 horas",
       "Laparoscopia diagnóstica de rutina",
+      "Manejo no operatorio protocolizado, valorando angiografía y embolización según hallazgos vasculares",
       "Resección esplénica parcial obligatoria"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "En pacientes hemodinámicamente estables y sin peritonitis, el grado de lesión esplénica por sí solo no obliga a laparotomía. Las lesiones de alto grado requieren vigilancia estrecha y con frecuencia valoración angiográfica.",
     "rationales": [
       "El grado IV aumenta el riesgo de fracaso, pero no constituye por sí solo indicación absoluta de esplenectomía en un paciente estable.",
-      "Correcta: es la estrategia recomendada en un centro capaz de monitorizar y rescatar de urgencia.",
       "El alta es insegura por el riesgo de hemorragia diferida.",
       "La laparoscopia no es un paso de rutina para una lesión sólida ya caracterizada en un paciente estable.",
+      "Correcta: es la estrategia recomendada en un centro capaz de monitorizar y rescatar de urgencia.",
       "La resección parcial no es obligatoria y rara vez es la estrategia inicial estándar en trauma cerrado."
     ],
     "sources": [
@@ -84,17 +84,17 @@
     "labs": null,
     "image": null,
     "options": [
-      "Laparotomía por el tamaño de la laceración",
       "Manejo no operatorio con monitorización clínica y hemodinámica",
+      "Laparotomía por el tamaño de la laceración",
       "Hepatectomía anatómica inmediata",
       "Empaquetamiento hepático profiláctico",
       "Alta inmediata porque no existe extravasación"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "El manejo del trauma hepático cerrado se guía principalmente por fisiología y signos de lesión asociada, no por el tamaño aislado de la laceración. La estabilidad hemodinámica y la ausencia de peritonitis favorecen manejo no operatorio.",
     "rationales": [
-      "El tamaño aislado no obliga a cirugía si la paciente permanece estable.",
       "Correcta: es el manejo habitual en un entorno con monitorización y capacidad de rescate.",
+      "El tamaño aislado no obliga a cirugía si la paciente permanece estable.",
       "La hepatectomía de urgencia tiene indicaciones muy restringidas y elevada morbilidad.",
       "El empaquetamiento es una maniobra de control de daños para hemorragia operatoria, no profilaxis.",
       "La ausencia de extravasación no elimina el riesgo de deterioro o sangrado tardío."
@@ -121,17 +121,17 @@
     "labs": null,
     "image": null,
     "options": [
-      "Mantener únicamente el tubo pleural y repetir radiografía en seis horas",
       "Toracotomía urgente para control de la hemorragia",
+      "Mantener únicamente el tubo pleural y repetir radiografía en seis horas",
       "Retirar el tubo para disminuir la pérdida sanguínea",
       "Solicitar tomografía computarizada antes de decidir",
       "Realizar pleurodesis química"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Un drenaje hemático inicial masivo asociado a inestabilidad indica hemorragia intratorácica importante que requiere control quirúrgico. El objetivo es detener el sangrado, no simplemente cuantificarlo.",
     "rationales": [
-      "La observación aislada es insuficiente ante sangrado masivo e inestabilidad.",
       "Correcta: el cuadro exige exploración quirúrgica urgente.",
+      "La observación aislada es insuficiente ante sangrado masivo e inestabilidad.",
       "Retirar el drenaje puede favorecer hemotórax retenido y no controla la fuente.",
       "La tomografía retrasaría una intervención necesaria en un paciente inestable.",
       "La pleurodesis no trata una hemorragia traumática activa."
@@ -164,19 +164,19 @@
     "image": null,
     "options": [
       "Cistografía por tomografía computarizada",
-      "Uretrografía retrógrada",
       "Ecografía renal",
       "Pielografía intravenosa",
-      "Resonancia magnética de pelvis"
+      "Resonancia magnética de pelvis",
+      "Uretrografía retrógrada"
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "La presencia de sangre en el meato después de trauma pélvico obliga a sospechar lesión uretral. La uretrografía retrógrada define la integridad de la uretra antes de instrumentarla.",
     "rationales": [
       "La cistografía evalúa principalmente lesión vesical.",
-      "Correcta: es el estudio inicial específico para sospecha de lesión uretral.",
       "La ecografía renal no define una ruptura uretral.",
       "La pielografía intravenosa no es la prueba de elección para la uretra.",
-      "La resonancia magnética no es el estudio inicial en trauma uretral agudo."
+      "La resonancia magnética no es el estudio inicial en trauma uretral agudo.",
+      "Correcta: es el estudio inicial específico para sospecha de lesión uretral."
     ],
     "sources": [
       {
@@ -201,18 +201,18 @@
     "image": null,
     "options": [
       "Completar todas las reconstrucciones definitivas antes del cierre",
-      "Abreviar la operación, controlar hemorragia y contaminación, realizar cierre temporal y continuar reanimación fisiológica",
       "Aumentar exclusivamente la administración de cristaloides hasta normalizar la presión arterial",
       "Realizar anastomosis intestinales múltiples para evitar una segunda cirugía",
+      "Abreviar la operación, controlar hemorragia y contaminación, realizar cierre temporal y continuar reanimación fisiológica",
       "Cerrar la fascia bajo tensión para evitar evisceración"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "La combinación de hipotermia, acidosis y coagulopatía indica agotamiento fisiológico. La cirugía de control de daños busca abreviar el tiempo operatorio y trasladar la corrección metabólica a cuidados críticos antes de una reconstrucción definitiva.",
     "rationales": [
       "La prolongación operatoria empeora la fisiología y aumenta el riesgo de muerte.",
-      "Correcta: control de daños prioriza hemostasia, control de contaminación y reanimación.",
       "La sobrecarga de cristaloides puede agravar hipotermia, coagulopatía y edema.",
       "Las anastomosis complejas aumentan tiempo y riesgo en un paciente fisiológicamente exhausto.",
+      "Correcta: control de daños prioriza hemostasia, control de contaminación y reanimación.",
       "El cierre fascial bajo tensión puede empeorar edema visceral y síndrome compartimental abdominal."
     ],
     "sources": [
@@ -239,18 +239,18 @@
     "options": [
       "Aorta torácica descendente proximal al tronco celíaco",
       "Aorta entre el tronco celíaco y la arteria mesentérica superior",
-      "Aorta infrarrenal por encima de la bifurcación aórtica",
       "Arco aórtico",
-      "Aorta ascendente"
+      "Aorta ascendente",
+      "Aorta infrarrenal por encima de la bifurcación aórtica"
     ],
-    "answer": 2,
+    "answer": 4,
     "explanation": "Para hemorragia pélvica, la oclusión se realiza en la zona III, correspondiente a la aorta infrarrenal y por encima de la bifurcación. Así se reduce flujo pélvico preservando perfusión visceral proximal.",
     "rationales": [
       "Corresponde a una oclusión más proximal utilizada en hemorragia intraabdominal grave.",
       "La zona II se evita habitualmente por las ramas viscerales que contiene.",
-      "Correcta: la zona III es el objetivo habitual para hemorragia pélvica aislada.",
       "El arco aórtico no corresponde a una zona de oclusión para esta técnica.",
-      "La aorta ascendente no se utiliza para este propósito."
+      "La aorta ascendente no se utiliza para este propósito.",
+      "Correcta: la zona III es el objetivo habitual para hemorragia pélvica aislada."
     ],
     "sources": [
       {
@@ -317,17 +317,17 @@
     "image": null,
     "options": [
       "Antibióticos profilácticos de amplio espectro en todos los pacientes",
-      "Reanimación con líquidos guiada por respuesta, analgesia y alimentación enteral temprana según tolerancia",
       "Colangiopancreatografía retrógrada endoscópica de urgencia en todos los casos",
+      "Reanimación con líquidos guiada por respuesta, analgesia y alimentación enteral temprana según tolerancia",
       "Nutrición parenteral total desde el ingreso",
       "Cirugía pancreática inmediata"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "En pancreatitis aguda no complicada, el manejo inicial es de soporte: líquidos individualizados, analgesia y reintroducción temprana de vía oral o enteral. Los antibióticos no se indican de rutina sin infección documentada.",
     "rationales": [
       "La profilaxis antibiótica sistemática no previene necrosis infectada y no se recomienda de rutina.",
-      "Correcta: resume el soporte inicial contemporáneo.",
       "La colangiopancreatografía retrógrada endoscópica urgente se reserva para escenarios como colangitis asociada u obstrucción biliar persistente seleccionada.",
+      "Correcta: resume el soporte inicial contemporáneo.",
       "La nutrición enteral se prefiere cuando es posible.",
       "La cirugía temprana no es tratamiento de una pancreatitis leve."
     ],
@@ -401,17 +401,17 @@
     "image": null,
     "options": [
       "Observación, porque la colecistectomía simple siempre es suficiente para invasión muscular",
-      "Reevaluación de etapificación y, si corresponde a enfermedad T1b resecable, considerar resección hepática del lecho y linfadenectomía regional según estrategia oncológica del centro",
       "Trasplante hepático",
+      "Reevaluación de etapificación y, si corresponde a enfermedad T1b resecable, considerar resección hepática del lecho y linfadenectomía regional según estrategia oncológica del centro",
       "Pancreatoduodenectomía sistemática",
       "Radioterapia exclusiva sin etapificación adicional"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "La invasión de la muscular en cáncer incidental de vesícula requiere discusión oncológica y etapificación. En pacientes resecables, muchas guías y centros consideran re-resección radical para enfermedad T1b o mayor, aunque la magnitud exacta puede individualizarse.",
     "rationales": [
       "La colecistectomía simple puede ser insuficiente para T1b y superiores.",
-      "Correcta: reconoce la necesidad de etapificación y potencial re-resección oncológica.",
       "El trasplante no es tratamiento estándar del cáncer de vesícula localizado.",
+      "Correcta: reconoce la necesidad de etapificación y potencial re-resección oncológica.",
       "La pancreatoduodenectomía no se realiza de forma sistemática.",
       "La radioterapia exclusiva no reemplaza la evaluación de resecabilidad."
     ],
@@ -437,17 +437,17 @@
     "labs": null,
     "image": null,
     "options": [
-      "Mantener anticonceptivos porque no influyen en la evolución",
       "Suspender exposición estrogénica y realizar seguimiento imagenológico especializado",
+      "Mantener anticonceptivos porque no influyen en la evolución",
       "Realizar trasplante hepático",
       "Biopsiar percutáneamente toda lesión antes de cualquier decisión",
       "Iniciar quimioterapia"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Los adenomas hepatocelulares se asocian a exposición estrogénica. En mujeres con lesiones pequeñas y sin características de alto riesgo, retirar el estímulo hormonal y reevaluar tamaño y características es una estrategia habitual.",
     "rationales": [
-      "La exposición estrogénica puede favorecer crecimiento.",
       "Correcta: permite valorar regresión y riesgo antes de indicar cirugía.",
+      "La exposición estrogénica puede favorecer crecimiento.",
       "El trasplante se reserva para circunstancias excepcionales.",
       "La biopsia no es obligatoria en toda lesión si la imagen es característica y debe ponderarse el riesgo hemorrágico.",
       "La quimioterapia no tiene papel en una lesión benigna."
@@ -475,17 +475,17 @@
     "image": null,
     "options": [
       "Seguimiento indefinido sin considerar cirugía",
-      "Resección pancreática oncológica en paciente apto, por el riesgo de malignidad",
       "Drenaje endoscópico del quiste como tratamiento definitivo",
+      "Resección pancreática oncológica en paciente apto, por el riesgo de malignidad",
       "Antibióticos durante seis semanas",
       "Radioterapia exclusiva"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "Las neoplasias quísticas mucinosas presentan potencial maligno y los hallazgos de alto riesgo refuerzan la indicación de resección en un paciente operable.",
     "rationales": [
       "El tamaño y el nódulo mural hacen poco apropiada la vigilancia aislada.",
-      "Correcta: la resección elimina la lesión con potencial maligno y permite estudio completo.",
       "El drenaje no trata una neoplasia mucinosa y puede generar complicaciones.",
+      "Correcta: la resección elimina la lesión con potencial maligno y permite estudio completo.",
       "No existe indicación infecciosa para antibióticos prolongados.",
       "La radioterapia no es tratamiento primario de una lesión quística resecable sin diagnóstico de cáncer avanzado."
     ],
@@ -549,17 +549,17 @@
     "image": null,
     "options": [
       "Continuar la disección a ciegas hasta identificar el colédoco",
-      "Aplicar una estrategia de rescate, como colecistectomía subtotal, en lugar de forzar la obtención de anatomía incierta",
       "Seccionar cualquier estructura tubular que parezca ser el conducto cístico",
+      "Aplicar una estrategia de rescate, como colecistectomía subtotal, en lugar de forzar la obtención de anatomía incierta",
       "Convertir a cirugía abierta garantiza por sí sola que la anatomía será segura",
       "Completar una colecistectomía total desde fondo sin reevaluar riesgos"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "Cuando no es posible obtener una visión crítica de seguridad confiable, debe cambiarse la estrategia. La colecistectomía subtotal u otra maniobra de rescate reduce el riesgo de una lesión mayor de la vía biliar frente a una disección peligrosa.",
     "rationales": [
       "La disección a ciegas es un mecanismo clásico de lesión biliar.",
-      "Correcta: reconoce que la seguridad exige abandonar el objetivo de colecistectomía total si la anatomía es incierta.",
       "La identificación visual no fiable de una estructura tubular no autoriza su sección.",
+      "Correcta: reconoce que la seguridad exige abandonar el objetivo de colecistectomía total si la anatomía es incierta.",
       "La conversión puede ayudar, pero no elimina automáticamente la dificultad anatómica.",
       "La disección desde fondo puede formar parte de una estrategia, pero no justifica continuar sin límites de seguridad."
     ],
@@ -585,17 +585,17 @@
     "labs": null,
     "image": null,
     "options": [
-      "La fuente principal probablemente depende de la vena cava retrohepática",
       "La hemorragia proviene probablemente del influjo hepático arterial o portal",
+      "La fuente principal probablemente depende de la vena cava retrohepática",
       "El sangrado es exclusivamente de venas hepáticas",
       "La maniobra demuestra una lesión duodenal",
       "La maniobra descarta lesión vascular"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "La oclusión temporal del pedículo hepatoduodenal interrumpe el flujo de arteria hepática y vena porta. Si el sangrado se reduce, la fuente depende principalmente del influjo hepático; si persiste intensamente, debe sospecharse salida venosa hepática o cava retrohepática.",
     "rationales": [
-      "El sangrado retrohepático suele persistir pese a oclusión del influjo.",
       "Correcta: es la interpretación fisiológica de la maniobra de Pringle.",
+      "El sangrado retrohepático suele persistir pese a oclusión del influjo.",
       "Las venas hepáticas constituyen flujo de salida y no son controladas por la oclusión del pedículo.",
       "La respuesta hemodinámica no diagnostica lesión duodenal.",
       "Una disminución del sangrado orienta el origen, pero no excluye otras lesiones."
@@ -618,24 +618,24 @@
     "subtopic": "Cáncer gástrico precoz",
     "difficulty": "Fácil",
     "type": "Definición",
-    "question": "¿Cuál de las siguientes descripciones define mejor un cáncer gástrico precoz?",
+    "question": "Una paciente de 63 años se somete a endoscopia digestiva alta por anemia ferropénica. Se identifica una lesión gástrica deprimida y la biopsia informa adenocarcinoma. La ecoendoscopia sugiere invasión limitada a la submucosa, sin evidencia de compromiso de la muscular propia. ¿Qué característica define que este tumor corresponda a cáncer gástrico precoz?",
     "labs": null,
     "image": null,
     "options": [
-      "Tumor limitado a mucosa o submucosa, independientemente del estado ganglionar",
-      "Tumor menor de 2 cm sin importar profundidad",
-      "Tumor sin metástasis a distancia, aunque invada serosa",
-      "Tumor exclusivamente intramucoso y sin ganglios",
-      "Tumor que puede resecarse endoscópicamente en todos los casos"
+      "El tumor mide menos de 2 cm, cualquiera sea la profundidad",
+      "La invasión se limita a mucosa o submucosa, independientemente del estado ganglionar",
+      "No existen metástasis ganglionares",
+      "La lesión está confinada al antro",
+      "La histología es obligatoriamente bien diferenciada"
     ],
-    "answer": 0,
-    "explanation": "El cáncer gástrico precoz se define por invasión limitada a mucosa o submucosa, con independencia del compromiso ganglionar. La indicación de tratamiento endoscópico es más restrictiva que la definición.",
+    "answer": 1,
+    "explanation": "El cáncer gástrico precoz se define por invasión limitada a mucosa o submucosa, con independencia de la presencia o ausencia de metástasis ganglionares. El tamaño, la localización y el grado histológico influyen en pronóstico y selección terapéutica, pero no forman parte de la definición anatómica básica.",
     "rationales": [
-      "Correcta: la profundidad hasta submucosa define esta categoría.",
-      "El tamaño no define por sí solo cáncer precoz.",
-      "La invasión de serosa corresponde a enfermedad avanzada.",
-      "La definición también incluye invasión submucosa.",
-      "No todos los cánceres precoces cumplen criterios de resección endoscópica."
+      "El tamaño es relevante para criterios de tratamiento endoscópico, pero no define por sí solo cáncer precoz.",
+      "Correcta: la profundidad hasta mucosa o submucosa define el cáncer gástrico precoz.",
+      "Puede existir compromiso ganglionar y seguir tratándose de un cáncer precoz por profundidad.",
+      "La definición no depende de que la lesión esté en el antro.",
+      "El grado de diferenciación modifica criterios terapéuticos, pero no la definición de cáncer precoz."
     ],
     "sources": [
       {
@@ -665,17 +665,17 @@
     "image": null,
     "options": [
       "Solo el tamaño macroscópico del estómago",
-      "Profundidad de invasión, tipo histológico, ulceración, invasión linfovascular y estado de márgenes, entre otros criterios",
       "Únicamente el nivel sérico de hemoglobina",
+      "Profundidad de invasión, tipo histológico, ulceración, invasión linfovascular y estado de márgenes, entre otros criterios",
       "Número de clips endoscópicos utilizados",
       "Tiempo total del procedimiento"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "La curación endoscópica exige valorar resección completa y riesgo de metástasis ganglionar. Esto depende de múltiples variables anatomopatológicas, no de un único dato aislado.",
     "rationales": [
       "El tamaño del órgano no determina curación oncológica.",
-      "Correcta: integra los elementos histopatológicos que determinan curación y riesgo ganglionar.",
       "La hemoglobina puede reflejar sangrado, pero no curación oncológica.",
+      "Correcta: integra los elementos histopatológicos que determinan curación y riesgo ganglionar.",
       "Los clips son un detalle técnico sin valor para estimar metástasis ganglionar.",
       "La duración del procedimiento no sustituye el análisis histopatológico."
     ],
@@ -706,19 +706,19 @@
     "labs": null,
     "image": null,
     "options": [
-      "Miotomía de Heller laparoscópica asociada habitualmente a procedimiento antirreflujo parcial",
       "Gastrectomía total",
       "Esofagectomía de rutina como primera opción",
       "Antibióticos prolongados",
+      "Miotomía de Heller laparoscópica asociada habitualmente a procedimiento antirreflujo parcial",
       "Colectomía derecha"
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "La miotomía de Heller laparoscópica es un tratamiento definitivo establecido para acalasia y suele acompañarse de una fundoplicatura parcial para reducir reflujo posmiotomía.",
     "rationales": [
-      "Correcta: trata la obstrucción funcional del esfínter esofágico inferior.",
       "La gastrectomía no trata la fisiopatología de la acalasia.",
       "La esofagectomía se reserva para enfermedad terminal seleccionada, no como primera opción habitual.",
       "No hay indicación infecciosa.",
+      "Correcta: trata la obstrucción funcional del esfínter esofágico inferior.",
       "La colectomía no tiene relación con la enfermedad esofágica."
     ],
     "sources": [
@@ -744,19 +744,19 @@
     "image": null,
     "options": [
       "Observación indefinida porque las hernias paraesofágicas nunca requieren cirugía",
-      "Reparación quirúrgica de la hernia, con reconstrucción hiatal y consideración de procedimiento antirreflujo según anatomía y motilidad",
       "Gastrectomía total de rutina",
       "Colocación de malla permanente obligatoria en todos los casos",
-      "Tratamiento exclusivo con antibióticos"
+      "Tratamiento exclusivo con antibióticos",
+      "Reparación quirúrgica de la hernia, con reconstrucción hiatal y consideración de procedimiento antirreflujo según anatomía y motilidad"
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "Los síntomas y complicaciones atribuibles a hernia paraesofágica constituyen motivos habituales para reparación. La técnica se individualiza; la evidencia no obliga a una sola estrategia de malla para todos los pacientes.",
     "rationales": [
       "La presencia de síntomas y anemia atribuible cambia la indicación.",
-      "Correcta: refleja el enfoque quirúrgico contemporáneo.",
       "La gastrectomía no es tratamiento estándar de una hernia hiatal sintomática.",
       "Las guías no respaldan que toda reparación requiera malla permanente obligatoria.",
-      "No existe un proceso infeccioso que justifique antibióticos como tratamiento definitivo."
+      "No existe un proceso infeccioso que justifique antibióticos como tratamiento definitivo.",
+      "Correcta: refleja el enfoque quirúrgico contemporáneo."
     ],
     "sources": [
       {
@@ -785,17 +785,17 @@
     "labs": null,
     "image": null,
     "options": [
-      "Determinar únicamente el diámetro de la luz esofágica",
       "Definir extensión local, compromiso ganglionar y metástasis a distancia para seleccionar tratamiento",
+      "Determinar únicamente el diámetro de la luz esofágica",
       "Confirmar si el paciente tiene reflujo gastroesofágico",
       "Decidir el calibre de la sonda nasogástrica",
       "Evitar toda biopsia"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "La estrategia del cáncer de esófago depende del estadio. La etapificación combina evaluación locorregional y búsqueda de enfermedad metastásica para decidir entre tratamiento endoscópico, cirugía, quimiorradiación y esquemas multimodales.",
     "rationales": [
-      "La luz esofágica no resume el estadio oncológico.",
       "Correcta: ese es el propósito de la etapificación.",
+      "La luz esofágica no resume el estadio oncológico.",
       "El reflujo no define el estadio tumoral.",
       "El calibre de una sonda no determina resecabilidad.",
       "La histología es necesaria para confirmar el diagnóstico."
@@ -860,19 +860,19 @@
     "image": null,
     "options": [
       "Úlcera duodenal aislada",
-      "Hernia interna con posible obstrucción y compromiso vascular",
       "Apendicitis crónica",
       "Colecistitis sin cálculos como única explicación",
-      "Síndrome de vaciamiento rápido sin obstrucción"
+      "Síndrome de vaciamiento rápido sin obstrucción",
+      "Hernia interna con posible obstrucción y compromiso vascular"
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "El signo de arremolinamiento mesentérico en un paciente con bypass gástrico plantea hernia interna. La progresión del dolor y la taquicardia obligan a actuar con urgencia por riesgo de isquemia intestinal.",
     "rationales": [
       "No explica el hallazgo mesentérico característico.",
-      "Correcta: es una complicación tardía relevante del bypass gástrico.",
       "La apendicitis no produce el patrón vascular descrito.",
       "La colecistitis no explica el arremolinamiento mesentérico.",
-      "El síndrome de vaciamiento rápido produce síntomas vasomotores y gastrointestinales, no una imagen de torsión mesentérica."
+      "El síndrome de vaciamiento rápido produce síntomas vasomotores y gastrointestinales, no una imagen de torsión mesentérica.",
+      "Correcta: es una complicación tardía relevante del bypass gástrico."
     ],
     "sources": [
       {
@@ -938,20 +938,20 @@
     "labs": null,
     "image": null,
     "options": [
-      "Colonoscopia diferida después de la resolución del episodio",
       "Colonoscopia durante el shock séptico inicial",
       "Resonancia magnética cerebral",
       "Broncoscopia",
-      "Ningún estudio porque el diagnóstico elimina toda posibilidad de neoplasia"
+      "Ningún estudio porque el diagnóstico elimina toda posibilidad de neoplasia",
+      "Colonoscopia diferida después de la resolución del episodio"
     ],
-    "answer": 0,
+    "answer": 4,
     "explanation": "Después de diverticulitis complicada, se recomienda evaluar el colon una vez resuelta la fase aguda para descartar patología coexistente, particularmente neoplasia.",
     "rationales": [
-      "Correcta: la evaluación se realiza diferida para reducir riesgo y mejorar interpretación.",
       "La colonoscopia durante inflamación severa aumenta riesgo y no es la estrategia habitual.",
       "No evalúa el colon.",
       "No evalúa el colon.",
-      "La diverticulitis no excluye cáncer colorrectal."
+      "La diverticulitis no excluye cáncer colorrectal.",
+      "Correcta: la evaluación se realiza diferida para reducir riesgo y mejorar interpretación."
     ],
     "sources": [
       {
@@ -976,24 +976,24 @@
     "subtopic": "Hemorroides",
     "difficulty": "Intermedio",
     "type": "Clasificación",
-    "question": "Paciente refiere prolapso hemorroidal durante la defecación que se reduce espontáneamente. ¿Qué grado corresponde?",
+    "question": "Un hombre de 49 años consulta por sangrado rojo rutilante y prolapso anal durante la defecación. Refiere que el tejido prolapsado regresa espontáneamente al finalizar el esfuerzo, sin necesidad de reducción manual. ¿Cómo se clasifica la enfermedad hemorroidal interna?",
     "labs": null,
     "image": null,
     "options": [
       "Grado I",
-      "Grado II",
       "Grado III",
       "Grado IV",
-      "No corresponde a enfermedad hemorroidal"
+      "Trombosis hemorroidal externa",
+      "Grado II"
     ],
-    "answer": 1,
-    "explanation": "Las hemorroides grado II prolapsan con la defecación y reducen espontáneamente. En grado III requieren reducción manual y en grado IV permanecen prolapsadas o son irreductibles.",
+    "answer": 4,
+    "explanation": "Las hemorroides internas grado II prolapsan con la defecación pero se reducen espontáneamente. En grado III requieren reducción manual y en grado IV permanecen prolapsadas e irreductibles.",
     "rationales": [
-      "Grado I no presenta prolapso clínico.",
-      "Correcta: prolapso con reducción espontánea.",
+      "Grado I no prolapsa.",
       "Grado III requiere reducción manual.",
-      "Grado IV es persistente o irreductible.",
-      "El patrón descrito es clásico de enfermedad hemorroidal."
+      "Grado IV permanece prolapsado e irreductible.",
+      "La trombosis externa es una entidad distinta y no corresponde a esta clasificación.",
+      "Correcta: prolapsa con esfuerzo y se reduce espontáneamente."
     ],
     "sources": [
       {
@@ -1017,20 +1017,20 @@
     "labs": null,
     "image": null,
     "options": [
-      "Esfinterotomía lateral interna",
       "Resección abdominoperineal",
       "Colectomía total",
       "Ligadura de arteria mesentérica inferior",
-      "Colostomía definitiva"
+      "Colostomía definitiva",
+      "Esfinterotomía lateral interna"
     ],
-    "answer": 0,
+    "answer": 4,
     "explanation": "La esfinterotomía lateral interna es una opción altamente efectiva para fisura anal crónica refractaria en pacientes adecuadamente seleccionados, ponderando el riesgo de alteración de continencia.",
     "rationales": [
-      "Correcta: reduce la hipertonía del esfínter interno, mecanismo central de muchas fisuras crónicas.",
       "Es una cirugía oncológica radical sin indicación aquí.",
       "No trata una fisura anal aislada.",
       "No tiene relación con la fisiopatología de la fisura.",
-      "Una colostomía definitiva sería desproporcionada."
+      "Una colostomía definitiva sería desproporcionada.",
+      "Correcta: reduce la hipertonía del esfínter interno, mecanismo central de muchas fisuras crónicas."
     ],
     "sources": [
       {
@@ -1060,19 +1060,19 @@
     "image": null,
     "options": [
       "Seccionar todo el complejo esfinteriano para asegurar curación",
-      "Equilibrar erradicación del trayecto con preservación del esfínter y continencia",
       "Realizar hemorroidectomía concomitante en todos los casos",
       "Evitar cualquier drenaje de absceso asociado",
-      "Tratar únicamente con antibióticos indefinidos"
+      "Tratar únicamente con antibióticos indefinidos",
+      "Equilibrar erradicación del trayecto con preservación del esfínter y continencia"
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "En fístulas complejas, una fistulotomía amplia puede causar incontinencia. La estrategia debe controlar sepsis y tratar el trayecto preservando el esfínter, mediante técnicas adaptadas a la anatomía.",
     "rationales": [
       "La sección extensa del esfínter aumenta el riesgo de incontinencia.",
-      "Correcta: es el principio que guía el manejo de fístulas complejas.",
       "La enfermedad hemorroidal no forma parte del tratamiento obligatorio.",
       "Un absceso debe drenarse cuando está presente.",
-      "Los antibióticos no erradican por sí solos una fístula crónica."
+      "Los antibióticos no erradican por sí solos una fístula crónica.",
+      "Correcta: es el principio que guía el manejo de fístulas complejas."
     ],
     "sources": [
       {
@@ -1101,19 +1101,19 @@
     "labs": null,
     "image": null,
     "options": [
-      "Resonancia magnética de pelvis de alta resolución",
       "Radiografía simple de cráneo",
       "Ecografía renal aislada",
       "Manometría esofágica",
+      "Resonancia magnética de pelvis de alta resolución",
       "Gammagrafía ósea rutinaria en todos los casos"
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "La resonancia magnética pélvica de alta resolución evalúa fascia mesorrectal, extensión extramural, ganglios y relación con esfínteres, información clave para estrategia neoadyuvante y quirúrgica.",
     "rationales": [
-      "Correcta: es el estudio de referencia para etapificación local del recto.",
       "No aporta etapificación rectal.",
       "No define extensión local rectal.",
       "Evalúa función esofágica.",
+      "Correcta: es el estudio de referencia para etapificación local del recto.",
       "La gammagrafía ósea no es un estudio rutinario universal de etapificación en enfermedad localizada."
     ],
     "sources": [
@@ -1143,18 +1143,18 @@
     "labs": null,
     "image": null,
     "options": [
-      "Resección abdominoperineal",
       "Repetir indefinidamente el mismo esquema de quimiorradiación sin evaluar resecabilidad",
       "Hemicolectomía derecha",
+      "Resección abdominoperineal",
       "Fistulotomía",
       "Observación únicamente"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "La resección abdominoperineal es la estrategia de rescate estándar para enfermedad local persistente o recurrente resecable después de quimiorradiación definitiva.",
     "rationales": [
-      "Correcta: es el procedimiento de rescate clásico.",
       "La repetición de radiación puede estar limitada por dosis y no sustituye una cirugía de rescate resecable.",
       "No aborda el canal anal ni la recurrencia local.",
+      "Correcta: es el procedimiento de rescate clásico.",
       "No es tratamiento oncológico del carcinoma anal.",
       "La observación no es apropiada ante recurrencia resecable."
     ],
@@ -1181,17 +1181,17 @@
     "image": null,
     "options": [
       "Conservar siempre la anastomosis sin importar contaminación ni estabilidad",
-      "Controlar la fuente mediante lavado, drenaje y decidir reparación, derivación o desmontaje según tamaño de fuga, perfusión, contaminación y fisiología del paciente",
       "Cerrar la piel y no intervenir la pelvis",
+      "Controlar la fuente mediante lavado, drenaje y decidir reparación, derivación o desmontaje según tamaño de fuga, perfusión, contaminación y fisiología del paciente",
       "Administrar únicamente antibióticos",
       "Realizar colonoscopia y dar alta si la fuga es pequeña"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "Una fuga con peritonitis generalizada es una urgencia de control de fuente. No existe una única operación válida para todos; la estrategia depende de la anatomía de la fuga y de la condición fisiológica.",
     "rationales": [
       "La preservación forzada puede dejar una fuente séptica no controlada.",
-      "Correcta: resume el enfoque individualizado de control de fuente.",
       "No trata la contaminación intrabdominal.",
+      "Correcta: resume el enfoque individualizado de control de fuente.",
       "Los antibióticos solos son insuficientes ante peritonitis por fuga.",
       "La presencia de peritonitis excluye manejo ambulatorio."
     ],
@@ -1223,17 +1223,17 @@
     "image": null,
     "options": [
       "Resolver únicamente el tumor y dejar el ciego isquémico",
-      "Resecar el segmento tumoral y cualquier intestino no viable, seleccionando reconstrucción o estoma según estabilidad y contaminación",
       "Descomprimir con laxantes y dar alta",
+      "Resecar el segmento tumoral y cualquier intestino no viable, seleccionando reconstrucción o estoma según estabilidad y contaminación",
       "Realizar apendicectomía aislada",
       "Esperar una semana sin descompresión"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "La isquemia intestinal convierte la obstrucción en una urgencia operatoria. Debe resecarse tejido no viable y controlar la obstrucción; la reconstrucción depende de fisiología, perfusión y contaminación.",
     "rationales": [
       "Dejar intestino isquémico mantiene una fuente de necrosis y perforación.",
-      "Correcta: prioriza viabilidad y control de la causa.",
       "Los laxantes pueden empeorar una obstrucción completa y no resuelven la isquemia.",
+      "Correcta: prioriza viabilidad y control de la causa.",
       "La apendicectomía no trata el tumor ni la isquemia cecal.",
       "La demora aumenta riesgo de perforación y sepsis."
     ],
@@ -1260,24 +1260,24 @@
     "subtopic": "Aneurisma de aorta abdominal",
     "difficulty": "Fácil",
     "type": "Definición anatómica",
-    "question": "¿Cuál es la localización más frecuente del aneurisma degenerativo de aorta abdominal?",
+    "question": "Durante el estudio ecográfico de un varón de 71 años fumador se identifica un aneurisma degenerativo de aorta abdominal. ¿En qué segmento anatómico se localiza con mayor frecuencia este tipo de aneurisma?",
     "labs": null,
     "image": null,
     "options": [
+      "Aorta supracelíaca",
       "Aorta infrarrenal",
-      "Aorta ascendente",
-      "Arco aórtico",
-      "Aorta torácica proximal exclusivamente",
-      "Arteria pulmonar"
+      "Aorta entre tronco celíaco y arterias renales",
+      "Aorta torácica descendente",
+      "Arco aórtico"
     ],
-    "answer": 0,
-    "explanation": "La mayoría de los aneurismas de aorta abdominal degenerativos se localizan en el segmento infrarrenal.",
+    "answer": 1,
+    "explanation": "La mayoría de los aneurismas degenerativos de aorta abdominal se originan en el segmento infrarrenal. La relación con arterias renales e ilíacas es fundamental para planificar reparación abierta o endovascular.",
     "rationales": [
-      "Correcta: es la localización típica.",
-      "Corresponde a aneurisma de aorta torácica ascendente.",
-      "Corresponde a enfermedad del arco aórtico.",
-      "No es la localización predominante de aneurisma abdominal.",
-      "La arteria pulmonar no forma parte de la aorta."
+      "La localización supracelíaca es mucho menos frecuente.",
+      "Correcta: el segmento infrarrenal es el más habitual.",
+      "El segmento visceral puede afectarse, pero no es la localización típica.",
+      "Corresponde a aorta torácica, no abdominal.",
+      "El arco aórtico pertenece a otra entidad anatómica."
     ],
     "sources": [
       {
@@ -1348,20 +1348,20 @@
     "labs": null,
     "image": null,
     "options": [
-      "Anticoagulación con heparina no fraccionada, salvo contraindicación, y evaluación vascular urgente para revascularización",
       "Esperar 48 horas sin tratamiento",
       "Indicar amputación primaria obligatoria",
       "Administrar únicamente analgésicos",
-      "Realizar compresión elástica intensa"
+      "Realizar compresión elástica intensa",
+      "Anticoagulación con heparina no fraccionada, salvo contraindicación, y evaluación vascular urgente para revascularización"
     ],
-    "answer": 0,
+    "answer": 4,
     "explanation": "Ante isquemia aguda viable o amenazada, se inicia anticoagulación para prevenir propagación del trombo y se organiza rápidamente la estrategia de revascularización según gravedad y etiología.",
     "rationales": [
-      "Correcta: anticoagulación temprana y valoración de revascularización son pilares iniciales.",
       "La demora puede convertir una extremidad viable en irreversible.",
       "La amputación se reserva para isquemia irreversible o extremidad no salvable.",
       "La analgesia no resuelve la oclusión arterial.",
-      "La compresión no trata una oclusión arterial aguda y puede empeorar síntomas."
+      "La compresión no trata una oclusión arterial aguda y puede empeorar síntomas.",
+      "Correcta: anticoagulación temprana y valoración de revascularización son pilares iniciales."
     ],
     "sources": [
       {
@@ -1386,17 +1386,17 @@
     "image": null,
     "options": [
       "Extremidad viable que permite observación",
-      "Isquemia irreversible, en la que la revascularización puede aportar daño por reperfusión sin posibilidad realista de salvataje",
       "Isquemia venosa superficial",
+      "Isquemia irreversible, en la que la revascularización puede aportar daño por reperfusión sin posibilidad realista de salvataje",
       "Síndrome compartimental sin compromiso arterial",
       "Claudicación crónica estable"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "La pérdida motora y sensitiva profunda asociada a rigidez indica daño tisular irreversible. En esta fase, la revascularización puede desencadenar reperfusión grave sin recuperar una extremidad funcional.",
     "rationales": [
       "Una extremidad viable conserva función neurológica.",
-      "Correcta: corresponde a isquemia irreversible.",
       "La clínica es arterial y mucho más severa que una trombosis venosa superficial.",
+      "Correcta: corresponde a isquemia irreversible.",
       "El síndrome compartimental puede coexistir, pero no explica por sí solo la ausencia de flujo y la evolución descrita.",
       "La claudicación no produce parálisis ni anestesia en reposo."
     ],
@@ -1423,17 +1423,17 @@
     "image": null,
     "options": [
       "El tratamiento depende solo del porcentaje de estenosis y nunca de síntomas ni riesgo perioperatorio",
-      "La indicación de revascularización considera síntomas, severidad de estenosis, anatomía, comorbilidades y riesgo del procedimiento",
       "Toda estenosis carotídea debe tratarse con stent",
+      "La indicación de revascularización considera síntomas, severidad de estenosis, anatomía, comorbilidades y riesgo del procedimiento",
       "Toda estenosis debe tratarse únicamente con fármacos",
       "La edad nunca influye en la elección entre técnicas"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "La decisión entre tratamiento médico óptimo, endarterectomía y abordaje endovascular requiere integrar síntomas, grado de estenosis, anatomía y riesgo individual.",
     "rationales": [
       "Ignora variables fundamentales de beneficio y riesgo.",
-      "Correcta: refleja la toma de decisiones moderna.",
       "El stent no es la opción universal para todos los pacientes.",
+      "Correcta: refleja la toma de decisiones moderna.",
       "En estenosis sintomática de alto grado, algunos pacientes obtienen beneficio de revascularización además del tratamiento médico.",
       "La edad y anatomía pueden modificar el riesgo de cada estrategia."
     ],
@@ -1459,19 +1459,19 @@
     "labs": null,
     "image": null,
     "options": [
-      "Hipertensión venosa crónica",
       "Isquemia arterial crítica",
       "Neuropatía aislada sin enfermedad vascular",
       "Vasculitis sistémica obligatoria",
+      "Hipertensión venosa crónica",
       "Embolia arterial aguda"
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "La localización perimaleolar medial, edema y cambios cutáneos son típicos de insuficiencia venosa crónica. Un índice tobillo-brazo normal hace menos probable una causa arterial dominante.",
     "rationales": [
-      "Correcta: corresponde al patrón clásico de úlcera venosa.",
       "La isquemia arterial suele producir úlceras distales dolorosas y un índice tobillo-brazo reducido.",
       "La neuropatía suele afectar puntos de presión y no explica la hiperpigmentación venosa.",
       "La vasculitis tiene otras características y no es obligatoria.",
+      "Correcta: corresponde al patrón clásico de úlcera venosa.",
       "La embolia aguda no causa este patrón crónico."
     ],
     "sources": [
@@ -1497,17 +1497,17 @@
     "image": null,
     "options": [
       "Continuar vigilancia indefinida porque solo se operan aneurismas rotos",
-      "Evaluar reparación electiva, seleccionando técnica abierta o endovascular según anatomía, expectativa de vida y riesgo",
       "Indicar anticoagulación como tratamiento definitivo del aneurisma",
+      "Evaluar reparación electiva, seleccionando técnica abierta o endovascular según anatomía, expectativa de vida y riesgo",
       "Realizar ligadura de ambas arterias ilíacas",
       "No tratar factores cardiovasculares porque no modifican riesgo global"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "Un aneurisma de este tamaño supera el umbral habitual de reparación electiva en varones si el paciente es candidato. La elección de técnica depende de anatomía, durabilidad esperada y riesgo individual.",
     "rationales": [
       "La vigilancia exclusiva deja un riesgo creciente de ruptura.",
-      "Correcta: integra indicación y selección de técnica.",
       "La anticoagulación no reduce el diámetro aneurismático ni evita ruptura.",
+      "Correcta: integra indicación y selección de técnica.",
       "La ligadura ilíaca bilateral no constituye tratamiento estándar.",
       "El control cardiovascular sigue siendo esencial."
     ],
@@ -1538,19 +1538,19 @@
     "labs": null,
     "image": null,
     "options": [
-      "Síndrome compartimental",
       "Trombosis venosa superficial aislada",
       "Celulitis crónica",
       "Linfedema estable",
+      "Síndrome compartimental",
       "Artritis de rodilla"
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "La reperfusión de músculo isquémico puede producir edema marcado dentro de compartimentos cerrados. El síndrome compartimental requiere diagnóstico clínico rápido y, cuando corresponde, fasciotomía.",
     "rationales": [
-      "Correcta: la combinación clínica es típica y puede amenazar la extremidad.",
       "No explica el dolor con estiramiento ni la tensión compartimental.",
       "La celulitis no aparece de forma inmediata por reperfusión con este patrón.",
       "El linfedema no suele producir dolor desproporcionado agudo.",
+      "Correcta: la combinación clínica es típica y puede amenazar la extremidad.",
       "La artritis no explica la tensión de toda la pantorrilla."
     ],
     "sources": [
@@ -1575,17 +1575,17 @@
     "labs": null,
     "image": null,
     "options": [
-      "Seguimiento imagenológico a corto intervalo",
       "Mastectomía inmediata",
+      "Seguimiento imagenológico a corto intervalo",
       "Quimioterapia",
       "Biopsia excisional obligatoria en todos los casos",
       "No realizar nunca más controles"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "BI-RADS (Sistema de informes y datos de imágenes mamarias) 3 corresponde a un hallazgo probablemente benigno y suele manejarse con seguimiento imagenológico corto para demostrar estabilidad.",
     "rationales": [
-      "Correcta: es la conducta estándar ante un hallazgo probablemente benigno y concordante.",
       "La cirugía radical no está indicada.",
+      "Correcta: es la conducta estándar ante un hallazgo probablemente benigno y concordante.",
       "No existe diagnóstico oncológico que justifique quimioterapia.",
       "La biopsia no es obligatoria si la evaluación es concordante y no aparecen factores que aumenten sospecha.",
       "El seguimiento es precisamente parte del manejo."
@@ -1608,24 +1608,24 @@
     "subtopic": "Evaluación de nódulo",
     "difficulty": "Intermedio",
     "type": "Diagnóstico",
-    "question": "Mujer de 52 años presenta nódulo mamario palpable nuevo. ¿Cuál es el principio diagnóstico correcto?",
+    "question": "Una mujer de 52 años detecta un nódulo mamario nuevo, duro y poco móvil de 2,5 cm. No tiene estudios mamarios recientes. ¿Cuál es la estrategia diagnóstica inicial más apropiada para establecer la naturaleza de la lesión?",
     "labs": null,
     "image": null,
     "options": [
-      "La evaluación debe integrar examen clínico, imagen apropiada para la edad y biopsia percutánea cuando el hallazgo es sospechoso",
-      "Toda masa palpable debe extirparse sin imágenes",
-      "La citología de secreción mamaria sustituye toda imagen",
-      "Una mamografía normal excluye por completo malignidad palpable",
-      "La edad elimina la necesidad de correlación clínica"
+      "Evaluación clínica, imagen mamaria diagnóstica apropiada para la edad y biopsia percutánea si la imagen es sospechosa",
+      "Resección quirúrgica inmediata sin imágenes",
+      "Marcadores tumorales séricos como único estudio",
+      "Control clínico en seis meses sin imágenes",
+      "Resonancia magnética mamaria como único examen inicial"
     ],
     "answer": 0,
-    "explanation": "La evaluación moderna utiliza concordancia clínica, imagenológica y patológica. Una lesión sospechosa debe obtener diagnóstico tisular, preferentemente con biopsia percutánea adecuada.",
+    "explanation": "La evaluación de una masa mamaria palpable se basa en correlación clínica, imagen apropiada para la edad y biopsia percutánea cuando existe sospecha. La resonancia magnética y los marcadores séricos no reemplazan este enfoque inicial.",
     "rationales": [
-      "Correcta: resume el enfoque triple y la necesidad de concordancia.",
-      "La cirugía diagnóstica inmediata no es necesaria en todos los nódulos.",
-      "La citología de secreción no sustituye la evaluación de una masa.",
-      "Una masa clínicamente sospechosa requiere evaluación aunque una imagen inicial sea negativa.",
-      "La edad orienta el tipo de imagen, pero no elimina la valoración clínica."
+      "Correcta: integra examen, imagen y confirmación histológica cuando corresponde.",
+      "La cirugía diagnóstica primaria suele evitarse si es posible obtener diagnóstico percutáneo.",
+      "Los marcadores séricos no diagnostican una masa mamaria.",
+      "Una masa nueva y sospechosa no debe observarse sin evaluación.",
+      "La resonancia magnética puede ser complementaria, pero no sustituye la evaluación estándar inicial."
     ],
     "sources": [
       {
@@ -1645,24 +1645,24 @@
     "subtopic": "Ganglio centinela",
     "difficulty": "Intermedio",
     "type": "Concepto",
-    "question": "¿Qué representa el ganglio centinela en cáncer de mama clínicamente sin adenopatías?",
+    "question": "Una paciente con carcinoma invasor de mama de 1,8 cm no presenta adenopatías axilares clínicas. Se planifica biopsia de ganglio centinela. ¿Qué principio anatómico-oncológico explica el valor de esta técnica?",
     "labs": null,
     "image": null,
     "options": [
-      "El primer ganglio o grupo ganglionar que recibe drenaje linfático del tumor",
-      "El ganglio axilar de mayor tamaño",
-      "Cualquier ganglio teñido de rojo en la cirugía",
-      "El ganglio más alejado del tumor",
-      "Un ganglio necesariamente metastásico"
+      "Siempre es el ganglio de mayor tamaño de la axila",
+      "El ganglio centinela es el primer ganglio o grupo ganglionar que recibe drenaje linfático del tumor y predice el estado de la cuenca regional",
+      "Corresponde obligatoriamente a un ganglio del nivel III axilar",
+      "Es el ganglio más cercano físicamente al tumor sin relación con drenaje linfático",
+      "Su identificación elimina la necesidad de evaluar histológicamente el ganglio"
     ],
-    "answer": 0,
-    "explanation": "El concepto de ganglio centinela se basa en el drenaje linfático secuencial. Su estado predice el compromiso de la cuenca ganglionar y permite etapificación axilar selectiva.",
+    "answer": 1,
+    "explanation": "El concepto de ganglio centinela se basa en el drenaje linfático ordenado: el primer ganglio o grupo receptor representa el estado de la cuenca regional en pacientes seleccionados.",
     "rationales": [
-      "Correcta: define el fundamento fisiológico del procedimiento.",
-      "El tamaño no define el ganglio centinela.",
-      "La identificación depende de trazadores, no de un color rojo específico.",
-      "Por definición es un ganglio de drenaje inicial, no el más distante.",
-      "Puede ser negativo para metástasis."
+      "El tamaño no define al ganglio centinela.",
+      "Correcta: esa es la base fisiológica de la técnica.",
+      "Puede localizarse en distintos niveles o incluso fuera de la axila.",
+      "La proximidad física no reemplaza el patrón de drenaje.",
+      "El ganglio identificado debe evaluarse histológicamente."
     ],
     "sources": [
       {
@@ -1686,18 +1686,18 @@
     "labs": null,
     "image": null,
     "options": [
-      "Es un margen positivo que requiere valoración de nueva resección según contexto",
       "Es un margen negativo porque cualquier distancia menor de 2 mm es suficiente",
       "La radioterapia hace irrelevante cualquier margen positivo",
+      "Es un margen positivo que requiere valoración de nueva resección según contexto",
       "Obliga a mastectomía bilateral",
       "No requiere discusión multidisciplinaria"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "En carcinoma invasor tratado con conservación mamaria, “tumor en tinta” define un margen positivo. Debe valorarse re-excisión u otra estrategia según anatomía, extensión y plan terapéutico.",
     "rationales": [
-      "Correcta: tumor en tinta es margen positivo.",
       "No puede considerarse negativo cuando existe contacto con tinta.",
       "La radioterapia no convierte un margen positivo en adecuado automáticamente.",
+      "Correcta: tumor en tinta es margen positivo.",
       "La mastectomía bilateral no es una consecuencia obligatoria.",
       "La conducta debe individualizarse y puede requerir discusión multidisciplinaria."
     ],
@@ -1719,24 +1719,24 @@
     "subtopic": "Axila",
     "difficulty": "Difícil",
     "type": "Anatomía quirúrgica",
-    "question": "Durante disección axilar, la lesión de qué nervio produce escápula alada por denervación del serrato anterior?",
+    "question": "Durante una disección axilar por cáncer de mama se observa posteriormente protrusión del borde medial de la escápula al empujar una pared con el brazo extendido. ¿Qué nervio fue probablemente lesionado durante la cirugía?",
     "labs": null,
     "image": null,
     "options": [
-      "Nervio torácico largo",
       "Nervio toracodorsal",
-      "Nervio mediano",
-      "Nervio frénico",
-      "Nervio hipogloso"
+      "Nervio intercostobraquial",
+      "Nervio pectoral medial",
+      "Nervio torácico largo",
+      "Nervio supraescapular"
     ],
-    "answer": 0,
-    "explanation": "El nervio torácico largo inerva el serrato anterior. Su lesión produce escápula alada y alteración de la elevación del miembro superior.",
+    "answer": 3,
+    "explanation": "El nervio torácico largo inerva el músculo serrato anterior; su lesión produce escápula alada. Debe reconocerse y preservarse durante disección axilar.",
     "rationales": [
-      "Correcta: es la relación anatómica relevante en cirugía axilar.",
-      "El nervio toracodorsal inerva principalmente el músculo dorsal ancho.",
-      "El nervio mediano pertenece al plexo braquial distal y no inerva serrato anterior.",
-      "El nervio frénico inerva el diafragma.",
-      "El hipogloso inerva músculos de la lengua."
+      "El toracodorsal inerva principalmente dorsal ancho.",
+      "El intercostobraquial es sensitivo y su lesión produce alteraciones sensitivas.",
+      "El pectoral medial no produce este patrón.",
+      "Correcta: la denervación del serrato anterior causa escápula alada.",
+      "El supraescapular no es el nervio en riesgo típico durante disección axilar."
     ],
     "sources": [
       {
@@ -1765,17 +1765,17 @@
     "labs": null,
     "image": null,
     "options": [
-      "La estrategia axilar debe considerar estado inicial, respuesta al tratamiento y técnica de estadificación; no todos requieren automáticamente disección axilar completa",
       "Toda paciente debe recibir disección axilar completa independientemente de respuesta",
+      "La estrategia axilar debe considerar estado inicial, respuesta al tratamiento y técnica de estadificación; no todos requieren automáticamente disección axilar completa",
       "Nunca puede realizarse cirugía conservadora después de tratamiento neoadyuvante",
       "La axila no necesita ningún tipo de evaluación",
       "La respuesta clínica sustituye siempre la evaluación patológica"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "El manejo axilar después de neoadyuvancia es cada vez más selectivo. La decisión depende de la carga inicial, respuesta y calidad de la técnica de estadificación, siguiendo protocolos y guías actualizadas.",
     "rationales": [
-      "Correcta: refleja el enfoque contemporáneo y selectivo.",
       "La disección completa no es universal tras una buena respuesta en todos los escenarios.",
+      "Correcta: refleja el enfoque contemporáneo y selectivo.",
       "La cirugía conservadora puede ser posible si se logran criterios oncológicos adecuados.",
       "La axila sigue aportando información pronóstica y terapéutica.",
       "La evaluación clínica por sí sola no sustituye siempre la estadificación patológica."
@@ -1802,19 +1802,19 @@
     "labs": null,
     "image": null,
     "options": [
-      "Concordancia entre imagen y patología, tipo de lesión, método de biopsia, extensión y riesgo individual",
       "Color de ojos de la paciente",
       "Preferencia del radiólogo sin revisar la histología",
       "Tamaño de la mama como único criterio",
+      "Concordancia entre imagen y patología, tipo de lesión, método de biopsia, extensión y riesgo individual",
       "Edad aislada sin considerar la lesión"
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "Las lesiones de alto riesgo no se manejan todas igual. El riesgo de subestimación depende de la lesión específica y de la concordancia radiológico-patológica, entre otros factores.",
     "rationales": [
-      "Correcta: integra las variables que determinan riesgo de “upgrade” y necesidad de escisión.",
       "No tiene relación con el riesgo histológico.",
       "La decisión requiere revisión multidisciplinaria y concordancia objetiva.",
       "El tamaño mamario no define riesgo de malignidad oculta.",
+      "Correcta: integra las variables que determinan riesgo de “upgrade” y necesidad de escisión.",
       "La edad puede influir, pero no sustituye las características de la lesión."
     ],
     "sources": [
@@ -1839,20 +1839,20 @@
     "labs": null,
     "image": null,
     "options": [
-      "Obtener evaluación pleural dirigida, incluyendo análisis del líquido y confirmación citológica o histológica cuando sea necesario",
       "Tratar siempre con diuréticos sin estudiar el líquido",
       "Asumir tuberculosis en toda paciente oncológica",
       "Realizar mastectomía contralateral",
-      "Ignorar el derrame si no hay dolor"
+      "Ignorar el derrame si no hay dolor",
+      "Obtener evaluación pleural dirigida, incluyendo análisis del líquido y confirmación citológica o histológica cuando sea necesario"
     ],
-    "answer": 0,
+    "answer": 4,
     "explanation": "En una paciente oncológica, un derrame unilateral recurrente obliga a considerar malignidad, infección y otras causas. La confirmación etiológica dirige tratamiento y eventual pleurodesis o catéter pleural.",
     "rationales": [
-      "Correcta: la etiología debe establecerse antes de una intervención definitiva.",
       "El tratamiento empírico sin diagnóstico puede retrasar una causa maligna.",
       "La tuberculosis es una posibilidad epidemiológica, no una certeza automática.",
       "La cirugía mamaria contralateral no diagnostica el derrame.",
-      "La ausencia de dolor no excluye enfermedad pleural relevante."
+      "La ausencia de dolor no excluye enfermedad pleural relevante.",
+      "Correcta: la etiología debe establecerse antes de una intervención definitiva."
     ],
     "sources": [
       {
@@ -1881,18 +1881,18 @@
     "labs": null,
     "image": null,
     "options": [
-      "Lobectomía tiroidea",
       "Tiroidectomía total obligatoria en todos los casos",
       "Disección radical bilateral de cuello",
+      "Lobectomía tiroidea",
       "Laringectomía total",
       "No se requiere ninguna evaluación adicional"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "Las guías de la American Thyroid Association de 2025 favorecen una cirugía menos extensa en cáncer diferenciado de bajo riesgo confinado a un lóbulo, especialmente en tumores pequeños sin enfermedad ganglionar o extensión extratiroidea.",
     "rationales": [
-      "Correcta: una lobectomía puede ser tratamiento suficiente en este escenario.",
       "La tiroidectomía total ya no es obligatoria para todos los tumores pequeños de bajo riesgo.",
       "No existe indicación de disección radical bilateral sin enfermedad ganglionar.",
+      "Correcta: una lobectomía puede ser tratamiento suficiente en este escenario.",
       "La laringe no está afectada.",
       "Aunque la cirugía sea limitada, el paciente requiere evaluación y seguimiento."
     ],
@@ -1919,24 +1919,24 @@
     "subtopic": "Cáncer medular de tiroides",
     "difficulty": "Intermedio",
     "type": "Marcador tumoral",
-    "question": "¿Qué marcador sérico es característico para seguimiento de carcinoma medular de tiroides?",
+    "question": "Una paciente fue tratada por carcinoma medular de tiroides y se encuentra en seguimiento posoperatorio. ¿Qué marcador sérico es especialmente útil para detectar enfermedad persistente o recurrente?",
     "labs": null,
     "image": null,
     "options": [
+      "Tiroglobulina",
       "Calcitonina",
+      "Antígeno carcinoembrionario como único marcador",
       "Alfafetoproteína",
-      "Antígeno prostático específico",
-      "CA 19-9 (antígeno carbohidrato 19-9)",
-      "Troponina"
+      "CA 19-9 (antígeno carbohidrato 19-9)"
     ],
-    "answer": 0,
-    "explanation": "El carcinoma medular deriva de células C y secreta calcitonina. La calcitonina y el antígeno carcinoembrionario tienen utilidad en evaluación y seguimiento.",
+    "answer": 1,
+    "explanation": "La calcitonina es producida por las células C parafoliculares y constituye el principal marcador bioquímico del carcinoma medular de tiroides. El antígeno carcinoembrionario puede aportar información complementaria.",
     "rationales": [
-      "Correcta: refleja la biología de las células C parafoliculares.",
-      "Se relaciona principalmente con hepatocarcinoma y tumores germinales.",
-      "Es un marcador prostático.",
-      "Se usa sobre todo en neoplasias pancreatobiliares y gastrointestinales seleccionadas.",
-      "Es un marcador de lesión miocárdica."
+      "La tiroglobulina se utiliza en cáncer diferenciado derivado de células foliculares.",
+      "Correcta: es el marcador más directamente relacionado con la masa tumoral de células C.",
+      "El antígeno carcinoembrionario es complementario, no sustituye a calcitonina.",
+      "No corresponde a este tumor.",
+      "No corresponde a este tumor."
     ],
     "sources": [
       {
@@ -1960,20 +1960,20 @@
     "labs": null,
     "image": null,
     "options": [
-      "Patrón ecográfico de riesgo y tamaño del nódulo",
       "Solo la edad",
       "Color de piel",
       "Presencia de colelitiasis",
-      "Frecuencia cardíaca en reposo si es normal"
+      "Frecuencia cardíaca en reposo si es normal",
+      "Patrón ecográfico de riesgo y tamaño del nódulo"
     ],
-    "answer": 0,
+    "answer": 4,
     "explanation": "La decisión de biopsiar un nódulo tiroideo se basa en el patrón ecográfico y el tamaño, integrados con factores clínicos. No existe un único umbral aplicable a todos los patrones.",
     "rationales": [
-      "Correcta: riesgo ecográfico y tamaño guían la indicación de punción.",
       "La edad modifica contexto, pero no reemplaza la evaluación ecográfica.",
       "No determina malignidad tiroidea.",
       "No guarda relación con el nódulo.",
-      "Una frecuencia normal no define el riesgo oncológico."
+      "Una frecuencia normal no define el riesgo oncológico.",
+      "Correcta: riesgo ecográfico y tamaño guían la indicación de punción."
     ],
     "sources": [
       {
@@ -1998,24 +1998,24 @@
     "subtopic": "Parótida",
     "difficulty": "Difícil",
     "type": "Anatomía quirúrgica",
-    "question": "¿Qué estructura atraviesa la glándula parótida y divide quirúrgicamente sus lóbulos superficial y profundo?",
+    "question": "Durante una parotidectomía superficial, el cirujano identifica una estructura que atraviesa el parénquima glandular y cuya disección permite separar quirúrgicamente los lóbulos superficial y profundo. ¿Cuál es esa estructura?",
     "labs": null,
     "image": null,
     "options": [
-      "Nervio facial",
       "Nervio hipogloso",
-      "Arteria carótida interna exclusivamente",
-      "Nervio frénico",
-      "Conducto torácico"
+      "Arteria carótida interna",
+      "Nervio laríngeo recurrente",
+      "Nervio facial",
+      "Nervio accesorio espinal"
     ],
-    "answer": 0,
-    "explanation": "El nervio facial emerge del foramen estilomastoideo y se ramifica dentro de la parótida. Su relación es crítica durante parotidectomía.",
+    "answer": 3,
+    "explanation": "El nervio facial atraviesa la glándula parótida y constituye el plano quirúrgico clásico que separa sus lóbulos superficial y profundo. La identificación cuidadosa de su tronco y ramas es esencial en parotidectomía.",
     "rationales": [
-      "Correcta: es la estructura anatómica clave para la disección parotídea.",
-      "El hipogloso se relaciona con el piso de boca y cuello, no divide la parótida.",
-      "La carótida externa y sus ramas se relacionan con la glándula; la interna no es la estructura que define los lóbulos.",
-      "El frénico desciende por el cuello hacia el tórax.",
-      "El conducto torácico no divide la parótida."
+      "No atraviesa la parótida de este modo.",
+      "La carótida interna no define este plano quirúrgico.",
+      "Se relaciona con tiroides y tráquea, no con la parótida.",
+      "Correcta: constituye el principal reparo quirúrgico intraparotídeo.",
+      "El nervio accesorio espinal discurre en el cuello posterior."
     ],
     "sources": [
       {
@@ -2035,24 +2035,24 @@
     "subtopic": "Paratiroides",
     "difficulty": "Difícil",
     "type": "Anatomía",
-    "question": "Durante tiroidectomía, ¿cuál es el principio para preservar función paratiroidea?",
+    "question": "Durante una tiroidectomía total se identifica una glándula paratiroides con irrigación preservada. ¿Cuál es la conducta técnica que mejor protege su función posoperatoria?",
     "labs": null,
     "image": null,
     "options": [
-      "Mantener vascularización de las paratiroides y autotrasplantar tejido viable si una glándula queda claramente devascularizada",
-      "Resecar todas las paratiroides de rutina",
-      "Ligar siempre todas las ramas de la arteria tiroidea inferior junto a la glándula",
-      "No identificar el plano capsular de la tiroides",
-      "Administrar calcio intraoperatorio como sustituto de la preservación anatómica"
+      "Resecarla de rutina para evitar hiperparatiroidismo",
+      "Ligadura amplia del tejido que la rodea",
+      "Coagular su pedículo y dejarla in situ",
+      "Preservarla in situ manteniendo su pedículo vascular",
+      "Fragmentarla y descartarla"
     ],
-    "answer": 0,
-    "explanation": "La preservación de la vascularización paratiroidea es central. Una glándula inadvertidamente resecada o claramente devascularizada puede ser candidata a autotrasplante.",
+    "answer": 3,
+    "explanation": "La preservación in situ con su vascularización intacta es la estrategia preferida. Si una paratiroides queda claramente desvacularizada, puede considerarse autotrasplante según el contexto.",
     "rationales": [
-      "Correcta: reduce hipoparatiroidismo posoperatorio.",
-      "La resección rutinaria produciría hipoparatiroidismo.",
-      "Las ligaduras alejadas o selectivas buscan preservar perfusión; no se sacrifican sistemáticamente todas las ramas.",
-      "Una disección capsular cuidadosa ayuda a preservar estructuras.",
-      "El calcio trata consecuencias metabólicas, pero no reemplaza la preservación quirúrgica."
+      "La resección rutinaria aumenta riesgo de hipoparatiroidismo.",
+      "La ligadura amplia puede comprometer la irrigación.",
+      "Una glándula desvacularizada no conserva función fiable solo por permanecer in situ.",
+      "Correcta: conserva anatomía y perfusión.",
+      "Descartarla elimina tejido funcional."
     ],
     "sources": [
       {
@@ -2077,24 +2077,24 @@
     "subtopic": "Nervio laríngeo recurrente",
     "difficulty": "Muy difícil",
     "type": "Técnica quirúrgica",
-    "question": "Durante tiroidectomía, se identifica el nervio laríngeo recurrente. ¿Qué estrategia reduce mejor el riesgo de lesión?",
+    "question": "Durante una tiroidectomía, el nervio laríngeo recurrente ya fue identificado visualmente en el surco traqueoesofágico. ¿Qué maniobra técnica es más importante para disminuir el riesgo de lesión durante la disección restante?",
     "labs": null,
     "image": null,
     "options": [
-      "Visualización cuidadosa del nervio y disección bajo visión directa, evitando tracción térmica o mecánica excesiva",
-      "Confiar únicamente en la anatomía esperada sin identificarlo",
-      "Coagular tejidos adyacentes con energía a máxima potencia",
-      "Seccionarlo preventivamente si dificulta la exposición",
-      "Disecar a ciegas el ligamento de Berry"
+      "Seccionarlo temporalmente y reanastomosarlo al finalizar",
+      "Coagular sistemáticamente los vasos junto al nervio con energía de alta potencia",
+      "Evitar identificar su trayecto distal para disminuir manipulación",
+      "Ligarlo junto con la arteria tiroidea inferior",
+      "Seguir el nervio bajo visión directa, evitando tracción, coagulación térmica y ligaduras adyacentes"
     ],
-    "answer": 0,
-    "explanation": "La anatomía del nervio es variable. La identificación visual y la disección cuidadosa siguen siendo fundamentales, con neuromonitorización como ayuda cuando se utiliza, no como sustituto del conocimiento anatómico.",
+    "answer": 4,
+    "explanation": "La preservación del nervio laríngeo recurrente depende de identificación anatómica y disección meticulosa bajo visión directa, minimizando tracción y daño térmico. La neuromonitorización puede complementar, pero no reemplaza la técnica anatómica.",
     "rationales": [
-      "Correcta: combina identificación y protección mecánica/térmica.",
-      "Las variantes anatómicas hacen inseguro confiar solo en la posición esperada.",
-      "La energía térmica cercana puede lesionar el nervio.",
-      "La sección deliberada causa parálisis vocal y no es una maniobra de exposición rutinaria.",
-      "El ligamento de Berry es precisamente una zona de riesgo donde se requiere disección bajo visión."
+      "La sección deliberada no es una estrategia preventiva.",
+      "La energía térmica próxima puede causar neuropraxia o lesión irreversible.",
+      "La disección ciega aumenta el riesgo.",
+      "El nervio no debe ligarse con el pedículo vascular.",
+      "Correcta: resume los principios de protección del nervio."
     ],
     "sources": [
       {
@@ -2123,17 +2123,17 @@
     "labs": null,
     "image": null,
     "options": [
-      "La lobectomía o la tiroidectomía total pueden ser consideradas según características tumorales, nódulos contralaterales y preferencias del paciente",
       "La tiroidectomía total es obligatoria para todo tumor mayor de 1 cm",
+      "La lobectomía o la tiroidectomía total pueden ser consideradas según características tumorales, nódulos contralaterales y preferencias del paciente",
       "La lobectomía está contraindicada para cualquier tumor mayor de 2 cm",
       "Debe agregarse disección lateral profiláctica bilateral",
       "La cirugía está contraindicada y solo se utiliza yodo radiactivo"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "Las recomendaciones de 2025 amplían el papel de la lobectomía. En tumores de más de 2 y hasta 4 cm confinados a un lóbulo y sin enfermedad ganglionar, la extensión puede individualizarse mediante decisión compartida.",
     "rationales": [
-      "Correcta: refleja la actualización de 2025.",
       "Es una recomendación histórica más agresiva y ya no es universal.",
+      "Correcta: refleja la actualización de 2025.",
       "La lobectomía puede ser una opción seleccionada entre 2 y 4 cm.",
       "No se indica disección lateral profiláctica sin enfermedad ganglionar.",
       "El yodo radiactivo no reemplaza el tratamiento quirúrgico primario de un tumor localizado resecable."
@@ -2160,17 +2160,17 @@
     "labs": null,
     "image": null,
     "options": [
-      "Rama temporal del nervio facial",
       "Nervio hipogloso",
+      "Rama temporal del nervio facial",
       "Nervio recurrente laríngeo",
       "Nervio frénico",
       "Nervio vago intratorácico"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "La elevación de la ceja depende del músculo frontal, inervado por la rama temporal del nervio facial. La localización de la herida permite correlacionar déficit motor con anatomía.",
     "rationales": [
-      "Correcta: explica el déficit motor específico.",
       "El hipogloso controla musculatura lingual.",
+      "Correcta: explica el déficit motor específico.",
       "El recurrente laríngeo participa en función laríngea.",
       "El frénico inerva diafragma.",
       "El vago intratorácico no explica una parálisis frontal aislada."
@@ -2202,17 +2202,17 @@
     "labs": null,
     "image": null,
     "options": [
-      "Descompresión pleural inmediata seguida de drenaje torácico definitivo",
       "Esperar radiografía de tórax antes de intervenir",
+      "Descompresión pleural inmediata seguida de drenaje torácico definitivo",
       "Realizar broncoscopia",
       "Administrar diuréticos",
       "Indicar fisioterapia respiratoria"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "El neumotórax a tensión es un diagnóstico clínico y no debe esperarse confirmación radiológica en un paciente inestable. La prioridad es aliviar la presión intrapleural y después establecer drenaje definitivo.",
     "rationales": [
-      "Correcta: trata de inmediato la fisiología obstructiva.",
       "Esperar imagen puede ser fatal.",
+      "Correcta: trata de inmediato la fisiología obstructiva.",
       "La broncoscopia no descomprime el espacio pleural.",
       "Los diuréticos no corrigen la causa.",
       "La fisioterapia no trata una emergencia obstructiva."
@@ -2244,19 +2244,19 @@
     "labs": null,
     "image": null,
     "options": [
-      "Antibióticos y drenaje pleural",
       "Observación sin antibióticos",
       "Diuréticos como único tratamiento",
       "Pleurodesis química inmediata",
+      "Antibióticos y drenaje pleural",
       "Alta ambulatoria"
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "Un pH pleural bajo, glucosa reducida y aspecto purulento o turbio indican derrame parapneumónico complicado o empiema, que requiere antibióticos y drenaje adecuado.",
     "rationales": [
-      "Correcta: controla infección y colección pleural.",
       "La observación permite progresión de una infección pleural complicada.",
       "Los diuréticos tratan sobrecarga de volumen, no pus pleural.",
       "La pleurodesis no es tratamiento inicial de infección activa.",
+      "Correcta: controla infección y colección pleural.",
       "El paciente requiere manejo hospitalario y control de fuente."
     ],
     "sources": [
@@ -2318,17 +2318,17 @@
     "labs": null,
     "image": null,
     "options": [
-      "La edad cronológica por sí sola contraindica cirugía",
       "La resecabilidad y operabilidad dependen de estadio y reserva funcional más que de la edad aislada",
+      "La edad cronológica por sí sola contraindica cirugía",
       "Todo cáncer pulmonar localizado se trata exclusivamente con quimioterapia",
       "La cirugía se contraindica si el paciente tiene más de 70 años",
       "La función respiratoria no influye en la decisión"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "La edad es un factor de riesgo, pero no una contraindicación aislada. El estadio oncológico, la capacidad funcional, comorbilidades y reserva pulmonar determinan si una resección puede ofrecer beneficio.",
     "rationales": [
-      "La edad aislada no decide operabilidad.",
       "Correcta: es la evaluación multidimensional apropiada.",
+      "La edad aislada no decide operabilidad.",
       "Los tumores localizados resecables pueden beneficiarse de cirugía.",
       "No existe un umbral cronológico universal de 70 años.",
       "La reserva respiratoria es fundamental para planificar resección."
@@ -2355,17 +2355,17 @@
     "labs": null,
     "image": null,
     "options": [
-      "Analgesia multimodal y prevención de hipoventilación mediante fisioterapia e incentivo respiratorio",
       "Vendaje torácico circunferencial rígido",
+      "Analgesia multimodal y prevención de hipoventilación mediante fisioterapia e incentivo respiratorio",
       "Toracotomía rutinaria",
       "Intubación obligatoria",
       "Restricción absoluta de analgesia para evitar depresión respiratoria"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "El dolor mal controlado favorece hipoventilación, atelectasias y neumonía. La analgesia adecuada y la higiene pulmonar son pilares en fracturas costales no complicadas.",
     "rationales": [
-      "Correcta: preserva ventilación y reduce complicaciones pulmonares.",
       "Los vendajes restrictivos pueden empeorar ventilación.",
+      "Correcta: preserva ventilación y reduce complicaciones pulmonares.",
       "No hay indicación de cirugía torácica rutinaria.",
       "La intubación se reserva para insuficiencia respiratoria u otras indicaciones.",
       "La falta de analgesia empeora la mecánica respiratoria."
@@ -2392,18 +2392,18 @@
     "labs": null,
     "image": null,
     "options": [
-      "Desbridamiento y drenaje mediante cirugía torácica videoasistida en un paciente operable",
       "Retirar el drenaje y observar",
       "Pleurodesis química como primera opción",
+      "Desbridamiento y drenaje mediante cirugía torácica videoasistida en un paciente operable",
       "Diuréticos",
       "No intervenir porque los tabiques siempre se resuelven espontáneamente"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "El fracaso del drenaje simple en una fase fibrinopurulenta loculada es una indicación habitual para escalar el control de fuente, con cirugía torácica videoasistida en pacientes adecuados.",
     "rationales": [
-      "Correcta: permite romper loculaciones, evacuar material y favorecer expansión pulmonar.",
       "Retirar el drenaje deja la infección no controlada.",
       "La pleurodesis no se realiza sobre un espacio pleural infectado activo.",
+      "Correcta: permite romper loculaciones, evacuar material y favorecer expansión pulmonar.",
       "Los diuréticos no eliminan pus ni septos.",
       "La persistencia séptica demuestra que la resolución espontánea no está ocurriendo."
     ],
@@ -2429,18 +2429,18 @@
     "labs": null,
     "image": null,
     "options": [
-      "Pleurodesis o catéter pleural tunelizado según preferencias, pronóstico y logística",
       "Toracotomía radical obligatoria",
       "Antibióticos indefinidos",
+      "Pleurodesis o catéter pleural tunelizado según preferencias, pronóstico y logística",
       "Lobectomía pulmonar en todos los casos",
       "No drenar nunca más"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "En derrame maligno sintomático recurrente, la pleurodesis y los catéteres pleurales tunelizados son estrategias paliativas válidas. La elección depende de expansión pulmonar, expectativa de vida y preferencias.",
     "rationales": [
-      "Correcta: son opciones aceptadas de control sintomático.",
       "La cirugía radical no es necesaria para paliar la mayoría de derrames malignos.",
       "No existe infección que justifique antibióticos prolongados.",
+      "Correcta: son opciones aceptadas de control sintomático.",
       "La lobectomía no trata un derrame maligno por sí sola.",
       "La recurrencia sintomática justifica una estrategia de control."
     ],
@@ -2503,18 +2503,18 @@
     "labs": null,
     "image": null,
     "options": [
-      "Norepinefrina",
       "Dopamina en todos los pacientes",
       "Nitroglicerina",
+      "Norepinefrina",
       "Furosemida",
       "Adenosina"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "La norepinefrina es el vasopresor de primera línea más utilizado en shock séptico por su eficacia y perfil de efectos adversos frente a otras catecolaminas.",
     "rationales": [
-      "Correcta: es la primera elección habitual.",
       "La dopamina tiene más riesgo de arritmias y se reserva para situaciones seleccionadas.",
       "La nitroglicerina es vasodilatadora.",
+      "Correcta: es la primera elección habitual.",
       "La furosemida no sostiene la presión arterial en shock distributivo.",
       "La adenosina se usa para determinadas taquiarritmias supraventriculares."
     ],
@@ -2540,18 +2540,18 @@
     "labs": null,
     "image": null,
     "options": [
-      "Nutrición enteral",
       "Nutrición parenteral total de rutina desde el primer día",
       "Ayuno prolongado hasta recuperar ruidos intestinales",
+      "Nutrición enteral",
       "Solo soluciones glucosadas intravenosas",
       "Ningún soporte durante una semana"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "Cuando el tubo digestivo funciona, la nutrición enteral se prefiere por efectos sobre integridad intestinal, menor carga infecciosa en muchos escenarios y alineación con recuperación mejorada.",
     "rationales": [
-      "Correcta: usar el intestino cuando es funcional es un principio central.",
       "La nutrición parenteral se reserva para cuando la enteral es insuficiente o no factible según riesgo nutricional y evolución.",
       "No es necesario esperar ruidos intestinales para iniciar alimentación en muchos pacientes.",
+      "Correcta: usar el intestino cuando es funcional es un principio central.",
       "Las soluciones glucosadas no aportan nutrición completa.",
       "El ayuno prolongado empeora déficit energético y proteico."
     ],
@@ -2614,18 +2614,18 @@
     "labs": null,
     "image": null,
     "options": [
-      "ECMO (oxigenación por membrana extracorpórea) veno-venosa",
       "ECMO (oxigenación por membrana extracorpórea) veno-arterial por defecto",
       "Balón de contrapulsación intraaórtico",
+      "ECMO (oxigenación por membrana extracorpórea) veno-venosa",
       "Marcapasos transvenoso",
       "Hemodiálisis aislada"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "La ECMO (oxigenación por membrana extracorpórea) veno-venosa proporciona soporte respiratorio cuando la función circulatoria es suficiente. La modalidad veno-arterial aporta soporte cardíaco y respiratorio.",
     "rationales": [
-      "Correcta: corresponde a falla respiratoria aislada.",
       "La modalidad veno-arterial se reserva para compromiso circulatorio significativo o escenarios específicos.",
       "El balón de contrapulsación no oxigena sangre.",
+      "Correcta: corresponde a falla respiratoria aislada.",
       "El marcapasos trata alteraciones del ritmo.",
       "La hemodiálisis reemplaza función renal, no pulmonar."
     ],
@@ -2651,20 +2651,20 @@
     "labs": null,
     "image": null,
     "options": [
-      "Flujo de gas de barrido",
       "Frecuencia cardíaca del paciente",
       "Volumen urinario",
       "Presión venosa central aislada",
-      "Concentración de sodio"
+      "Concentración de sodio",
+      "Flujo de gas de barrido"
     ],
-    "answer": 0,
+    "answer": 4,
     "explanation": "El flujo de gas de barrido regula el gradiente para eliminación de dióxido de carbono a través de la membrana. La oxigenación depende en mayor medida del flujo sanguíneo extracorpóreo, saturación venosa y fracción de oxígeno del gas.",
     "rationales": [
-      "Correcta: es el determinante operativo principal de eliminación de dióxido de carbono.",
       "La frecuencia cardíaca afecta gasto cardíaco, pero no es el control directo del gas de barrido.",
       "El volumen urinario refleja función renal y perfusión.",
       "La presión venosa central puede influir en drenaje, pero no es el ajuste primario de eliminación de dióxido de carbono.",
-      "El sodio no regula el intercambio gaseoso del oxigenador."
+      "El sodio no regula el intercambio gaseoso del oxigenador.",
+      "Correcta: es el determinante operativo principal de eliminación de dióxido de carbono."
     ],
     "sources": [
       {
@@ -2688,20 +2688,20 @@
     "labs": null,
     "image": null,
     "options": [
-      "Reducir volumen corriente hacia aproximadamente 6 mL/kg de peso predicho y limitar presión meseta",
       "Aumentar volumen corriente a 14 mL/kg para abrir alveolos",
       "Eliminar la presión positiva al final de la espiración en todos los casos",
       "Usar peso corporal real para calcular volumen corriente en obesidad",
-      "Aceptar presiones meseta superiores a 40 cmH2O de rutina"
+      "Aceptar presiones meseta superiores a 40 cmH2O de rutina",
+      "Reducir volumen corriente hacia aproximadamente 6 mL/kg de peso predicho y limitar presión meseta"
     ],
-    "answer": 0,
+    "answer": 4,
     "explanation": "La ventilación protectora utiliza volúmenes corrientes bajos basados en peso predicho y limita presiones alveolares para reducir volutrauma y barotrauma.",
     "rationales": [
-      "Correcta: es el fundamento de ventilación protectora.",
       "Volúmenes altos aumentan lesión pulmonar inducida por ventilador.",
       "La presión positiva al final de la espiración se individualiza y puede prevenir colapso alveolar.",
       "El peso predicho, basado en talla y sexo, es la referencia para volumen corriente.",
-      "Presiones meseta muy elevadas aumentan riesgo de lesión."
+      "Presiones meseta muy elevadas aumentan riesgo de lesión.",
+      "Correcta: es el fundamento de ventilación protectora."
     ],
     "sources": [
       {
@@ -2721,24 +2721,24 @@
     "subtopic": "Nutrición en cirugía",
     "difficulty": "Muy difícil",
     "type": "Inflamación y marcadores",
-    "question": "Paciente séptico posoperatorio tiene prealbúmina baja. ¿Cuál es la interpretación más correcta?",
+    "question": "Un paciente con sepsis abdominal posoperatoria presenta prealbúmina 8 mg/dL (referencia aproximada: 15–35 mg/dL) y proteína C reactiva 180 mg/L (referencia habitual: <5 mg/L). ¿Cómo debe interpretarse la prealbúmina en este contexto?",
     "labs": null,
     "image": null,
     "options": [
-      "Una prealbúmina baja en inflamación aguda no debe interpretarse de forma aislada como medida pura de reservas nutricionales",
-      "Demuestra por sí sola desnutrición severa independientemente de inflamación",
-      "Es un marcador que nunca cambia con inflamación",
-      "Permite calcular masa muscular directamente",
-      "Sustituye la historia de pérdida de peso e ingesta"
+      "Como demostración específica de déficit proteico calórico grave",
+      "Como un marcador afectado por la respuesta inflamatoria y no como estimador aislado fiable de reservas nutricionales",
+      "Como indicador independiente del estado inflamatorio",
+      "Como prueba suficiente para decidir nutrición parenteral total",
+      "Como marcador de función renal exclusivamente"
     ],
-    "answer": 0,
-    "explanation": "La prealbúmina es una proteína negativa de fase aguda y desciende con inflamación. El diagnóstico nutricional requiere integrar ingesta, pérdida de peso, masa muscular, funcionalidad y contexto inflamatorio.",
+    "answer": 1,
+    "explanation": "La prealbúmina es una proteína visceral negativa de fase aguda y disminuye con inflamación sistémica. En sepsis, un valor bajo debe interpretarse junto con ingesta, pérdida de peso, masa muscular, función orgánica y marcadores inflamatorios.",
     "rationales": [
-      "Correcta: evita sobrediagnosticar desnutrición basándose en un reactante de fase aguda.",
-      "La inflamación puede reducirla de forma marcada.",
-      "Precisamente cambia con inflamación.",
-      "No mide masa muscular de forma directa.",
-      "La historia nutricional sigue siendo esencial."
+      "Un valor bajo no distingue por sí solo inflamación de desnutrición.",
+      "Correcta: la inflamación limita su especificidad nutricional.",
+      "Sí está influida por inflamación.",
+      "La vía nutricional no debe decidirse con un único biomarcador.",
+      "No es un marcador exclusivo de función renal."
     ],
     "sources": [
       {
@@ -2762,20 +2762,20 @@
     "labs": null,
     "image": null,
     "options": [
-      "Control rápido de la fuente, reposición equilibrada de componentes sanguíneos o sangre total según protocolo, prevención de hipotermia y corrección de coagulopatía",
       "Administrar grandes volúmenes de cristaloides antes de considerar sangre",
       "Normalizar de inmediato la presión arterial a valores supranormales antes del control de la hemorragia",
       "Evitar calcio durante transfusión masiva",
-      "Retrasar el control quirúrgico hasta normalizar todos los análisis"
+      "Retrasar el control quirúrgico hasta normalizar todos los análisis",
+      "Control rápido de la fuente, reposición equilibrada de componentes sanguíneos o sangre total según protocolo, prevención de hipotermia y corrección de coagulopatía"
     ],
-    "answer": 0,
+    "answer": 4,
     "explanation": "La reanimación hemostática limita cristaloides, prioriza productos sanguíneos, control térmico y corrección de coagulopatía mientras se obtiene hemostasia definitiva.",
     "rationales": [
-      "Correcta: integra control de fuente y resucitación orientada a coagulación.",
       "El exceso de cristaloides favorece dilución, edema e hipotermia.",
       "Una presión excesivamente alta antes de hemostasia puede aumentar sangrado en determinados escenarios.",
       "La hipocalcemia por citrato es frecuente y debe vigilarse y tratarse.",
-      "La reanimación y el control de la fuente deben avanzar en paralelo."
+      "La reanimación y el control de la fuente deben avanzar en paralelo.",
+      "Correcta: integra control de fuente y resucitación orientada a coagulación."
     ],
     "sources": [
       {
@@ -2799,19 +2799,19 @@
     "labs": null,
     "image": null,
     "options": [
-      "Reduce el riesgo de recurrencia en muchos escenarios seleccionados",
       "Elimina por completo el riesgo de infección",
       "Hace innecesaria la técnica quirúrgica",
       "Permite ignorar contaminación y calidad tisular",
+      "Reduce el riesgo de recurrencia en muchos escenarios seleccionados",
       "Garantiza que nunca habrá dolor crónico"
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "La incorporación de malla redujo la recurrencia de muchas reparaciones de pared. Sin embargo, el material, plano y estrategia deben adaptarse al campo quirúrgico y al paciente.",
     "rationales": [
-      "Correcta: es la razón principal del uso protésico en muchas reparaciones.",
       "La malla puede infectarse.",
       "La técnica sigue siendo determinante.",
       "La contaminación modifica selección de material y estrategia.",
+      "Correcta: es la razón principal del uso protésico en muchas reparaciones.",
       "El dolor crónico sigue siendo una complicación posible."
     ],
     "sources": [
@@ -2873,18 +2873,18 @@
     "labs": null,
     "image": null,
     "options": [
-      "Exploración quirúrgica urgente por sospecha de estrangulación",
       "Intentar reducción manual repetida durante horas pese a peritonitis",
       "Dar alta con analgésicos",
+      "Exploración quirúrgica urgente por sospecha de estrangulación",
       "Programar cirugía en seis meses",
       "Solicitar colonoscopia antes de decidir"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "La irreductibilidad asociada a toxicidad sistémica o peritonitis sugiere estrangulación y posible necrosis intestinal. La prioridad es exploración y control de la lesión.",
     "rationales": [
-      "Correcta: no debe retrasarse una posible isquemia intestinal.",
       "La reducción forzada puede devolver intestino necrótico al abdomen y retrasar el diagnóstico.",
       "El alta es peligrosa.",
+      "Correcta: no debe retrasarse una posible isquemia intestinal.",
       "La cirugía electiva diferida no corresponde a estrangulación.",
       "La colonoscopia no evalúa la viabilidad del contenido herniario."
     ],
@@ -2915,20 +2915,20 @@
     "labs": null,
     "image": null,
     "options": [
-      "Respuesta fisiológica, especialmente diuresis y perfusión, evitando seguir una fórmula de manera ciega",
       "Alcanzar edema máximo de extremidades",
       "Administrar la misma cantidad fija a todos los pacientes",
       "Evitar cualquier reevaluación después del cálculo inicial",
-      "Usar exclusivamente soluciones glucosadas"
+      "Usar exclusivamente soluciones glucosadas",
+      "Respuesta fisiológica, especialmente diuresis y perfusión, evitando seguir una fórmula de manera ciega"
     ],
-    "answer": 0,
+    "answer": 4,
     "explanation": "Las fórmulas de reanimación proporcionan un punto de partida, pero el volumen debe titularse según respuesta clínica, perfusión y diuresis para evitar tanto hipoperfusión como sobrecarga.",
     "rationales": [
-      "Correcta: la reanimación se ajusta dinámicamente.",
       "El edema excesivo aumenta complicaciones.",
       "Los requerimientos varían por peso, superficie y respuesta.",
       "La reevaluación es parte esencial del manejo.",
-      "La reanimación inicial se realiza habitualmente con cristaloides balanceados, no solo glucosa."
+      "La reanimación inicial se realiza habitualmente con cristaloides balanceados, no solo glucosa.",
+      "Correcta: la reanimación se ajusta dinámicamente."
     ],
     "sources": [
       {
@@ -2952,20 +2952,20 @@
     "labs": null,
     "image": null,
     "options": [
-      "Cierre primario si no existen factores que aumenten el riesgo de infección",
       "Dejar toda herida facial abierta solo por tener más de seis horas",
       "Resecar piel sana hasta duplicar el tamaño del defecto",
       "Administrar antibióticos intravenosos durante dos semanas de rutina",
-      "No explorar función motora ni sensibilidad"
+      "No explorar función motora ni sensibilidad",
+      "Cierre primario si no existen factores que aumenten el riesgo de infección"
     ],
-    "answer": 0,
+    "answer": 4,
     "explanation": "Las heridas faciales tienen buena vascularización y pueden cerrarse de forma primaria en ventanas más amplias que otras regiones cuando están limpias y adecuadamente evaluadas.",
     "rationales": [
-      "Correcta: el tiempo aislado no obliga a dejar abierta una herida facial limpia.",
       "La regla rígida de seis horas no se aplica de forma universal.",
       "El desbridamiento debe ser conservador en cara y retirar tejido no viable, no piel sana de forma indiscriminada.",
       "Los antibióticos prolongados no son rutinarios en una herida simple limpia.",
-      "La evaluación neurovascular y funcional es importante antes del cierre."
+      "La evaluación neurovascular y funcional es importante antes del cierre.",
+      "Correcta: el tiempo aislado no obliga a dejar abierta una herida facial limpia."
     ],
     "sources": [
       {
@@ -2989,20 +2989,20 @@
     "labs": null,
     "image": null,
     "options": [
-      "Desbridar tejido necrótico y controlar infección y presión antes de plantear reconstrucción definitiva",
       "Realizar colgajo inmediato sobre tejido infectado sin desbridamiento",
       "Cubrir con apósito oclusivo y no volver a inspeccionar",
       "Usar únicamente antibióticos sin control local",
-      "Cerrar la herida a tensión"
+      "Cerrar la herida a tensión",
+      "Desbridar tejido necrótico y controlar infección y presión antes de plantear reconstrucción definitiva"
     ],
-    "answer": 0,
+    "answer": 4,
     "explanation": "Una reconstrucción definitiva fracasa si persisten necrosis, infección, presión y déficit nutricional. El manejo comienza con control de fuente, desbridamiento y optimización del lecho.",
     "rationales": [
-      "Correcta: prepara el lecho y controla la causa local.",
       "Un colgajo sobre infección activa tiene alto riesgo de fracaso.",
       "La herida requiere evaluación seriada.",
       "Los antibióticos no sustituyen el desbridamiento de tejido necrótico.",
-      "El cierre a tensión aumenta dehiscencia e isquemia."
+      "El cierre a tensión aumenta dehiscencia e isquemia.",
+      "Correcta: prepara el lecho y controla la causa local."
     ],
     "sources": [
       {
@@ -3026,20 +3026,20 @@
     "labs": null,
     "image": null,
     "options": [
-      "Síndrome compartimental abdominal",
       "Apendicitis crónica",
       "Síndrome de vaciamiento rápido",
       "Neumotórax espontáneo aislado",
-      "Hipertiroidismo"
+      "Hipertiroidismo",
+      "Síndrome compartimental abdominal"
     ],
-    "answer": 0,
+    "answer": 4,
     "explanation": "La hipertensión intraabdominal puede comprometer retorno venoso, perfusión renal y mecánica respiratoria. Cuando se acompaña de nueva disfunción orgánica, se considera síndrome compartimental abdominal.",
     "rationales": [
-      "Correcta: explica simultáneamente alteraciones renales, respiratorias y hemodinámicas.",
       "No explica la fisiología global.",
       "Es una complicación gastrointestinal posgastrectomía.",
       "Puede elevar presiones ventilatorias, pero no explica hipertensión intraabdominal.",
-      "No produce el patrón mecánico descrito."
+      "No produce el patrón mecánico descrito.",
+      "Correcta: explica simultáneamente alteraciones renales, respiratorias y hemodinámicas."
     ],
     "sources": [
       {
@@ -3063,19 +3063,19 @@
     "labs": null,
     "image": null,
     "options": [
-      "Por riesgo de adherencias, erosión y fístula enterocutánea",
       "Porque el polipropileno se disuelve en minutos",
       "Porque produce siempre cáncer intestinal",
       "Porque impide toda cicatrización fascial",
+      "Por riesgo de adherencias, erosión y fístula enterocutánea",
       "Porque reduce de forma aguda la presión arterial"
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "Las mallas no diseñadas para contacto visceral pueden inducir adherencias intensas y complicaciones como erosión o fístula. El plano y el tipo de prótesis deben seleccionarse según la anatomía de la reparación.",
     "rationales": [
-      "Correcta: es una consideración técnica fundamental.",
       "El polipropileno es un material permanente.",
       "No existe una relación causal universal con cáncer intestinal.",
       "Puede integrarse a tejidos y favorecer refuerzo de la pared.",
+      "Correcta: es una consideración técnica fundamental.",
       "No tiene un efecto hemodinámico directo de ese tipo."
     ],
     "sources": [
@@ -3087,6 +3087,1646 @@
     ],
     "review_status": "Revisada editorialmente",
     "updated": "2026-10-11",
+    "origin": "V6 Editorial"
+  },
+  {
+    "id": 81,
+    "objective_id": "V6-0081",
+    "topic": "Trauma y urgencias",
+    "subtopic": "Trauma abdominal",
+    "difficulty": "Difícil",
+    "type": "Conducta siguiente",
+    "question": "Un hombre de 38 años con trauma abdominal cerrado responde inicialmente a cristaloides y hemoderivados, pero vuelve a hipotensión. La ecografía enfocada para trauma muestra líquido libre intraperitoneal y no hay una fuente torácica evidente. ¿Cuál es la conducta que mejor prioriza el control de la hemorragia?",
+    "labs": null,
+    "image": null,
+    "options": [
+      "Tomografía computarizada con contraste antes de cualquier intervención",
+      "Observación con ecografías seriadas durante seis horas",
+      "Angiografía diagnóstica antes de decidir cirugía",
+      "Laparotomía urgente para control de daños si persiste la inestabilidad",
+      "Alta si mejora transitoriamente con transfusión"
+    ],
+    "answer": 3,
+    "explanation": "La respuesta transitoria a reanimación con nueva hipotensión, más líquido intraperitoneal, sugiere hemorragia activa que requiere control definitivo sin demoras diagnósticas innecesarias.",
+    "rationales": [
+      "La tomografía se reserva para pacientes suficientemente estables.",
+      "La observación no controla una hemorragia en curso.",
+      "La angiografía puede ser útil en escenarios seleccionados, pero no debe retrasar cirugía en un paciente inestable con hemoperitoneo.",
+      "Correcta: la fisiología inestable y el hemoperitoneo hacen prioritaria la laparotomía",
+      "La mejoría transitoria no equivale a estabilidad."
+    ],
+    "sources": [
+      {
+        "name": "Reconstrucciones históricas de examen y material de trauma del usuario",
+        "year": "2019–2023"
+      },
+      {
+        "name": "Eastern Association for the Surgery of Trauma — Practice Management Guidelines",
+        "year": "2026 portal",
+        "url": "https://www.east.org/education-resources/practice-management-guidelines"
+      }
+    ],
+    "review_status": "Revisada editorialmente V6.1",
+    "updated": "2026-10-12",
+    "origin": "V6 Editorial"
+  },
+  {
+    "id": 82,
+    "objective_id": "V6-0082",
+    "topic": "Trauma y urgencias",
+    "subtopic": "Pelvis y uretra",
+    "difficulty": "Intermedio",
+    "type": "Procedimiento diagnóstico",
+    "question": "Varón de 29 años con fractura pélvica presenta sangre en el meato uretral y vejiga palpable. Está hemodinámicamente estable. Antes de intentar colocar una sonda vesical, ¿qué estudio debe realizarse?",
+    "labs": null,
+    "image": null,
+    "options": [
+      "Uretrografía retrógrada",
+      "Cistoscopia flexible inmediata",
+      "Tomografía computarizada de abdomen sin contraste",
+      "Ecografía renal",
+      "Pielografía intravenosa"
+    ],
+    "answer": 0,
+    "explanation": "La sangre en el meato después de trauma pélvico obliga a sospechar lesión uretral. La uretrografía retrógrada define continuidad y localización antes de instrumentar la uretra.",
+    "rationales": [
+      "Correcta: evalúa de forma directa la uretra lesionada antes del sondaje",
+      "La cistoscopia puede tener un papel en escenarios seleccionados, pero no es el estudio inicial clásico.",
+      "No define adecuadamente la uretra.",
+      "No evalúa la lesión uretral.",
+      "No es el estudio de elección para esta pregunta."
+    ],
+    "sources": [
+      {
+        "name": "Reconstrucciones históricas de examen y material de trauma del usuario",
+        "year": "2019–2023"
+      },
+      {
+        "name": "Eastern Association for the Surgery of Trauma — Practice Management Guidelines",
+        "year": "2026 portal",
+        "url": "https://www.east.org/education-resources/practice-management-guidelines"
+      }
+    ],
+    "review_status": "Revisada editorialmente V6.1",
+    "updated": "2026-10-12",
+    "origin": "V6 Editorial"
+  },
+  {
+    "id": 83,
+    "objective_id": "V6-0083",
+    "topic": "Trauma y urgencias",
+    "subtopic": "Trauma duodenal",
+    "difficulty": "Muy difícil",
+    "type": "Decisión operatoria",
+    "question": "En laparotomía por trauma penetrante se identifica una laceración duodenal de 2 cm en la segunda porción, con bordes viables, sin lesión ampular ni pancreática y sin pérdida extensa de pared. El paciente está estable. ¿Cuál es la estrategia más apropiada?",
+    "labs": null,
+    "image": null,
+    "options": [
+      "Pancreatoduodenectomía de urgencia",
+      "Debridamiento limitado y reparación primaria sin procedimientos de derivación complejos de rutina",
+      "Exclusión pilórica obligatoria en toda lesión duodenal",
+      "Duodenostomía lateral permanente",
+      "Resección de la segunda porción con anastomosis término-terminal"
+    ],
+    "answer": 1,
+    "explanation": "La mayoría de las lesiones duodenales reparables con tejido viable pueden tratarse con reparación primaria. Procedimientos complejos se reservan para lesiones destructivas o asociadas específicas.",
+    "rationales": [
+      "La pancreatoduodenectomía se reserva para destrucción pancreatoduodenal extrema.",
+      "Correcta: evita sobretratamiento en una lesión simple y viable",
+      "La exclusión pilórica no es obligatoria en lesiones simples.",
+      "No es una estrategia estándar para una lesión pequeña reparable.",
+      "La resección segmentaria de D2 puede comprometer anatomía crítica y no se justifica aquí."
+    ],
+    "sources": [
+      {
+        "name": "Reconstrucciones históricas de examen y material de trauma del usuario",
+        "year": "2019–2023"
+      },
+      {
+        "name": "Eastern Association for the Surgery of Trauma — Practice Management Guidelines",
+        "year": "2026 portal",
+        "url": "https://www.east.org/education-resources/practice-management-guidelines"
+      }
+    ],
+    "review_status": "Revisada editorialmente V6.1",
+    "updated": "2026-10-12",
+    "origin": "V6 Editorial"
+  },
+  {
+    "id": 84,
+    "objective_id": "V6-0084",
+    "topic": "Trauma y urgencias",
+    "subtopic": "Trauma cervical",
+    "difficulty": "Difícil",
+    "type": "Anatomía y conducta",
+    "question": "Paciente con herida penetrante de cuello está estable, sin sangrado activo ni compromiso de vía aérea. La trayectoria atraviesa el platisma. ¿Cuál es el enfoque contemporáneo más apropiado?",
+    "labs": null,
+    "image": null,
+    "options": [
+      "Evaluación selectiva basada en signos clínicos y angiotomografía en pacientes estables, en vez de exploración obligatoria por zona anatómica",
+      "Exploración quirúrgica obligatoria de toda lesión que atraviese el platisma",
+      "Observación sin imágenes durante 24 horas en todos los pacientes estables",
+      "Ligadura profiláctica de la carótida externa",
+      "Intubación nasotraqueal de rutina"
+    ],
+    "answer": 0,
+    "explanation": "El manejo moderno del trauma cervical penetrante en pacientes estables utiliza evaluación selectiva y angiotomografía, reservando exploración inmediata para signos duros o lesiones demostradas.",
+    "rationales": [
+      "Correcta: integra fisiología, examen e imagen moderna",
+      "La exploración obligatoria por zonas ha sido reemplazada en muchos centros por evaluación selectiva.",
+      "La observación aislada puede omitir lesiones vasculares o aerodigestivas.",
+      "No tiene indicación profiláctica.",
+      "La intubación nasotraqueal no es una conducta rutinaria y puede ser riesgosa en determinados traumas."
+    ],
+    "sources": [
+      {
+        "name": "Reconstrucciones históricas de examen y material de trauma del usuario",
+        "year": "2019–2023"
+      },
+      {
+        "name": "Eastern Association for the Surgery of Trauma — Practice Management Guidelines",
+        "year": "2026 portal",
+        "url": "https://www.east.org/education-resources/practice-management-guidelines"
+      }
+    ],
+    "review_status": "Revisada editorialmente V6.1",
+    "updated": "2026-10-12",
+    "origin": "V6 Editorial"
+  },
+  {
+    "id": 85,
+    "objective_id": "V6-0085",
+    "topic": "Hepatobiliopancreática",
+    "subtopic": "Colecistitis aguda",
+    "difficulty": "Intermedio",
+    "type": "Decisión terapéutica",
+    "question": "Mujer de 58 años con colecistitis aguda calculosa de 36 horas de evolución, sin falla orgánica y con riesgo anestésico aceptable. ¿Cuál es la estrategia preferida durante la hospitalización índice?",
+    "labs": null,
+    "image": null,
+    "options": [
+      "Colecistectomía laparoscópica temprana durante el mismo ingreso",
+      "Antibióticos y colecistectomía electiva obligatoria después de 8–12 semanas",
+      "Drenaje percutáneo como tratamiento inicial de rutina",
+      "Colangiopancreatografía retrógrada endoscópica antes de operar aunque no haya sospecha de coledocolitiasis",
+      "Colecistectomía abierta primaria en todos los casos"
+    ],
+    "answer": 0,
+    "explanation": "En una paciente apta para cirugía con colecistitis aguda no complicada, la colecistectomía laparoscópica temprana en el mismo ingreso reduce recurrencias y nuevos eventos biliares.",
+    "rationales": [
+      "Correcta: es el estándar para la mayoría de pacientes operables",
+      "Retrasar de rutina expone a recurrencias y no ofrece ventaja en la mayoría de casos.",
+      "El drenaje se reserva para pacientes seleccionados de alto riesgo o sepsis no controlada.",
+      "No hay indicación de intervención endoscópica biliar sin evidencia de obstrucción o colangitis.",
+      "La vía abierta se reserva para situaciones específicas o conversión."
+    ],
+    "sources": [
+      {
+        "name": "Resumen Cirugía Hepatobiliopáncreas — Hospital del Salvador",
+        "year": "2019"
+      },
+      {
+        "name": "World Society of Emergency Surgery — Guidelines",
+        "year": "current portal",
+        "url": "https://wjes.biomedcentral.com/"
+      }
+    ],
+    "review_status": "Revisada editorialmente V6.1",
+    "updated": "2026-10-12",
+    "origin": "V6 Editorial"
+  },
+  {
+    "id": 86,
+    "objective_id": "V6-0086",
+    "topic": "Hepatobiliopancreática",
+    "subtopic": "Pancreatitis aguda",
+    "difficulty": "Difícil",
+    "type": "Interpretación clínica",
+    "question": "Paciente con pancreatitis aguda presenta necrosis pancreática en tomografía computarizada. A las 48 horas está afebril, hemodinámicamente estable y sin datos de infección. ¿Cuál es la conducta respecto de antibióticos?",
+    "labs": null,
+    "image": null,
+    "options": [
+      "No indicar antibióticos profilácticos solo por necrosis estéril",
+      "Iniciar carbapenémico de rutina hasta resolución radiológica",
+      "Administrar antifúngico profiláctico",
+      "Indicar antibióticos hasta normalizar amilasa",
+      "Iniciar vancomicina por siete días"
+    ],
+    "answer": 0,
+    "explanation": "La necrosis pancreática estéril no se beneficia de antibióticos profilácticos. Los antibióticos se reservan para infección demostrada o fuertemente sospechada.",
+    "rationales": [
+      "Correcta: evita exposición innecesaria sin beneficio demostrado",
+      "La necrosis estéril no justifica carbapenémico profiláctico.",
+      "No existe indicación de antifúngico profiláctico.",
+      "La amilasa no guía duración de antibióticos.",
+      "No existe indicación específica de vancomicina."
+    ],
+    "sources": [
+      {
+        "name": "Resumen Cirugía Hepatobiliopáncreas — Hospital del Salvador",
+        "year": "2019"
+      },
+      {
+        "name": "American College of Gastroenterology — Acute Pancreatitis Guideline",
+        "year": "2024",
+        "url": "https://gi.org/"
+      }
+    ],
+    "review_status": "Revisada editorialmente V6.1",
+    "updated": "2026-10-12",
+    "origin": "V6 Editorial"
+  },
+  {
+    "id": 87,
+    "objective_id": "V6-0087",
+    "topic": "Hepatobiliopancreática",
+    "subtopic": "Lesión de vía biliar",
+    "difficulty": "Muy difícil",
+    "type": "Técnica y conducta",
+    "question": "Durante colecistectomía laparoscópica, el cirujano identifica una sección completa de la vía biliar principal cerca de la confluencia hepática. No tiene experiencia en reconstrucción hepatobiliar compleja. La paciente está estable y el campo no muestra sepsis. ¿Cuál es la conducta más prudente?",
+    "labs": null,
+    "image": null,
+    "options": [
+      "Evitar una reparación definitiva improvisada, controlar contaminación/drenar según necesidad y derivar precozmente a un equipo hepatobiliar experto",
+      "Realizar una hepaticoyeyunostomía inmediata aunque no se tenga experiencia",
+      "Colocar clips en ambos extremos y finalizar sin drenaje",
+      "Convertir a cirugía abierta y realizar anastomosis término-terminal bajo tensión",
+      "Introducir una prótesis biliar a ciegas a través del defecto"
+    ],
+    "answer": 0,
+    "explanation": "Las lesiones mayores de la vía biliar tienen mejores resultados cuando la reconstrucción definitiva es realizada por equipos hepatobiliares experimentados. Una reparación improvisada puede agravar pérdida de longitud, isquemia y estenosis futura.",
+    "rationales": [
+      "Correcta: prioriza preservar anatomía y derivar a experiencia especializada",
+      "La reconstrucción compleja sin experiencia aumenta fracaso y estenosis.",
+      "Clipar extremos no resuelve la lesión ni controla adecuadamente sus consecuencias.",
+      "Una anastomosis bajo tensión e isquemia tiene mal pronóstico.",
+      "La instrumentación a ciegas puede empeorar la lesión."
+    ],
+    "sources": [
+      {
+        "name": "Resumen Cirugía Hepatobiliopáncreas — Hospital del Salvador",
+        "year": "2019"
+      },
+      {
+        "name": "Society of American Gastrointestinal and Endoscopic Surgeons — Clinical Guidelines",
+        "year": "current portal",
+        "url": "https://www.sages.org/publications/guidelines/"
+      }
+    ],
+    "review_status": "Revisada editorialmente V6.1",
+    "updated": "2026-10-12",
+    "origin": "V6 Editorial"
+  },
+  {
+    "id": 88,
+    "objective_id": "V6-0088",
+    "topic": "Hepatobiliopancreática",
+    "subtopic": "Cáncer de páncreas",
+    "difficulty": "Difícil",
+    "type": "Resecabilidad",
+    "question": "Paciente con adenocarcinoma de cabeza pancreática sin metástasis presenta contacto tumoral de 120° con la arteria mesentérica superior, sin deformidad ni estenosis arterial. La vena mesentérica superior es permeable y reconstruible. ¿Cómo debe conceptualizarse inicialmente este hallazgo?",
+    "labs": null,
+    "image": null,
+    "options": [
+      "Como enfermedad localmente avanzada irresecable por cualquier contacto arterial",
+      "Como indicación de pancreatectomía total inmediata sin tratamiento sistémico",
+      "Como enfermedad potencialmente resecable o limítrofe según el resto de criterios anatómicos y biológicos, no como irresecabilidad automática",
+      "Como contraindicación absoluta de tratamiento oncológico",
+      "Como tumor metastásico por definición"
+    ],
+    "answer": 2,
+    "explanation": "La relación vascular debe interpretarse con criterios anatómicos precisos y en contexto multidisciplinario. Un contacto limitado con la arteria mesentérica superior no equivale automáticamente a enfermedad irresecable.",
+    "rationales": [
+      "La irresecabilidad no se define por cualquier contacto arterial.",
+      "La pancreatectomía total no se decide solo por este hallazgo.",
+      "Correcta: reconoce que la resecabilidad depende del grado de contacto y otros factores",
+      "El tratamiento oncológico sigue siendo central.",
+      "No existe metástasis por definición anatómica vascular."
+    ],
+    "sources": [
+      {
+        "name": "Resumen Cirugía Hepatobiliopáncreas — Hospital del Salvador",
+        "year": "2019"
+      },
+      {
+        "name": "World Society of Emergency Surgery — Guidelines",
+        "year": "current portal",
+        "url": "https://wjes.biomedcentral.com/"
+      }
+    ],
+    "review_status": "Revisada editorialmente V6.1",
+    "updated": "2026-10-12",
+    "origin": "V6 Editorial"
+  },
+  {
+    "id": 89,
+    "objective_id": "V6-0089",
+    "topic": "Digestivo alto",
+    "subtopic": "Cáncer gástrico",
+    "difficulty": "Difícil",
+    "type": "Técnica oncológica",
+    "question": "Varón de 66 años con adenocarcinoma distal de estómago resecable, sin invasión del cardias. Se planifica gastrectomía subtotal oncológica. ¿Qué principio determina la extensión de la linfadenectomía en un paciente operable?",
+    "labs": null,
+    "image": null,
+    "options": [
+      "Resecar únicamente ganglios macroscópicamente aumentados",
+      "Evitar cualquier linfadenectomía para disminuir morbilidad",
+      "Realizar disección paraaórtica rutinaria en todo paciente",
+      "Realizar una linfadenectomía oncológica adecuada al estadio y al estándar del centro, habitualmente D2 en cirugía curativa avanzada",
+      "Limitar siempre la resección ganglionar al grupo perigástrico inmediato"
+    ],
+    "answer": 3,
+    "explanation": "En cáncer gástrico resecable tratado con intención curativa, la disección ganglionar sistemática forma parte de la cirugía oncológica. En centros experimentados, D2 es el estándar habitual para enfermedad avanzada resecable.",
+    "rationales": [
+      "La enfermedad microscópica no se identifica solo por tamaño ganglionar.",
+      "Omitir ganglios compromete estadificación y control oncológico.",
+      "La disección paraaórtica rutinaria no es estándar.",
+      "Correcta: integra extensión oncológica y experiencia del centro",
+      "Una disección limitada puede ser insuficiente para enfermedad avanzada."
+    ],
+    "sources": [
+      {
+        "name": "Resumen Cirugía Digestivo Alto — Hospital del Salvador",
+        "year": "2019"
+      },
+      {
+        "name": "Japanese Gastric Cancer Association — Gastric Cancer Treatment Guidelines",
+        "year": "2021, 6th edition",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36342574/"
+      }
+    ],
+    "review_status": "Revisada editorialmente V6.1",
+    "updated": "2026-10-12",
+    "origin": "V6 Editorial"
+  },
+  {
+    "id": 90,
+    "objective_id": "V6-0090",
+    "topic": "Digestivo alto",
+    "subtopic": "Acalasia",
+    "difficulty": "Intermedio",
+    "type": "Selección terapéutica",
+    "question": "Paciente de 42 años con acalasia tipo III confirmada por manometría de alta resolución presenta dolor torácico y disfagia importantes. ¿Qué característica del subtipo influye en la elección del tratamiento?",
+    "labs": null,
+    "image": null,
+    "options": [
+      "El tratamiento debe ser idéntico al de todos los subtipos y nunca depende de la longitud del espasmo",
+      "La presencia de contracciones espásticas largas puede favorecer una miotomía más extensa",
+      "La dilatación neumática es obligatoria antes de cualquier miotomía",
+      "La cirugía está contraindicada en todo paciente menor de 50 años",
+      "El tratamiento se decide solo por el diámetro esofágico"
+    ],
+    "answer": 1,
+    "explanation": "La acalasia tipo III se caracteriza por actividad espástica y puede beneficiarse de una miotomía que abarque el segmento espástico. La longitud de la miotomía y la técnica se individualizan.",
+    "rationales": [
+      "Los subtipos manométricos sí influyen en respuesta y elección terapéutica.",
+      "Correcta: relaciona fisiopatología con extensión de la miotomía",
+      "No existe obligatoriedad de dilatación previa.",
+      "La edad no contraindica por sí sola una miotomía.",
+      "El diámetro esofágico es solo una parte de la evaluación."
+    ],
+    "sources": [
+      {
+        "name": "Resumen Cirugía Digestivo Alto — Hospital del Salvador",
+        "year": "2019"
+      },
+      {
+        "name": "Society of American Gastrointestinal and Endoscopic Surgeons — Clinical Guidelines",
+        "year": "current portal",
+        "url": "https://www.sages.org/publications/guidelines/"
+      }
+    ],
+    "review_status": "Revisada editorialmente V6.1",
+    "updated": "2026-10-12",
+    "origin": "V6 Editorial"
+  },
+  {
+    "id": 91,
+    "objective_id": "V6-0091",
+    "topic": "Digestivo alto",
+    "subtopic": "Bypass gástrico en Y de Roux",
+    "difficulty": "Muy difícil",
+    "type": "Complicación tardía",
+    "question": "Paciente tres años después de bypass gástrico en Y de Roux presenta episodios de dolor abdominal posprandial, náuseas y vómitos intermitentes. La tomografía computarizada muestra agrupamiento de asas y signo de remolino mesentérico. ¿Cuál es la conducta más apropiada?",
+    "labs": null,
+    "image": null,
+    "options": [
+      "Tratamiento con inhibidor de bomba de protones y control ambulatorio",
+      "Exploración quirúrgica temprana por sospecha de hernia interna",
+      "Colonoscopia urgente",
+      "Dilatación endoscópica de la gastro-yeyuno anastomosis sin más estudio",
+      "Observación hasta que aparezca peritonitis"
+    ],
+    "answer": 1,
+    "explanation": "La hernia interna después de bypass puede causar isquemia intestinal y tener presentación intermitente. El signo de remolino aumenta la sospecha; si el cuadro clínico es compatible, debe existir umbral bajo para exploración.",
+    "rationales": [
+      "Un inhibidor de bomba de protones trata úlcera marginal, no una hernia interna.",
+      "Correcta: prioriza prevenir estrangulación e isquemia",
+      "La colonoscopia no aborda este diagnóstico.",
+      "La estenosis anastomótica no explica el signo de remolino.",
+      "Esperar peritonitis puede significar llegar tarde a la isquemia."
+    ],
+    "sources": [
+      {
+        "name": "Resumen Cirugía Digestivo Alto — Hospital del Salvador",
+        "year": "2019"
+      },
+      {
+        "name": "Society of American Gastrointestinal and Endoscopic Surgeons — Clinical Guidelines",
+        "year": "current portal",
+        "url": "https://www.sages.org/publications/guidelines/"
+      }
+    ],
+    "review_status": "Revisada editorialmente V6.1",
+    "updated": "2026-10-12",
+    "origin": "V6 Editorial"
+  },
+  {
+    "id": 92,
+    "objective_id": "V6-0092",
+    "topic": "Digestivo alto",
+    "subtopic": "Esófago de Barrett",
+    "difficulty": "Difícil",
+    "type": "Vigilancia y tratamiento",
+    "question": "Paciente con esófago de Barrett presenta una lesión visible y biopsias con displasia de alto grado. ¿Cuál es el principio de manejo endoscópico actual?",
+    "labs": null,
+    "image": null,
+    "options": [
+      "Resecar endoscópicamente la lesión visible para estadificación histológica y tratar el epitelio de Barrett residual según resultados",
+      "Realizar esofagectomía obligatoria en todos los casos",
+      "Observar sin intervención porque no existe carcinoma invasor demostrado",
+      "Ablacionar la lesión visible sin obtener pieza histológica",
+      "Indicar únicamente antiácidos y repetir endoscopia en cinco años"
+    ],
+    "answer": 0,
+    "explanation": "Las lesiones visibles en Barrett con displasia avanzada deben resecarse para conocer profundidad, márgenes y características histológicas. La ablación del epitelio residual puede completar la erradicación endoscópica en pacientes apropiados.",
+    "rationales": [
+      "Correcta: permite estadificación y tratamiento dirigido",
+      "La cirugía no es obligatoria para toda displasia de alto grado.",
+      "La displasia avanzada requiere tratamiento.",
+      "Ablación sin pieza impide estadificación histológica adecuada.",
+      "El tratamiento ácido aislado no resuelve la neoplasia."
+    ],
+    "sources": [
+      {
+        "name": "Resumen Cirugía Digestivo Alto — Hospital del Salvador",
+        "year": "2019"
+      },
+      {
+        "name": "Society of American Gastrointestinal and Endoscopic Surgeons — Clinical Guidelines",
+        "year": "current portal",
+        "url": "https://www.sages.org/publications/guidelines/"
+      }
+    ],
+    "review_status": "Revisada editorialmente V6.1",
+    "updated": "2026-10-12",
+    "origin": "V6 Editorial"
+  },
+  {
+    "id": 93,
+    "objective_id": "V6-0093",
+    "topic": "Coloproctología",
+    "subtopic": "Diverticulitis complicada",
+    "difficulty": "Difícil",
+    "type": "Conducta después de absceso",
+    "question": "Paciente de 57 años tuvo diverticulitis sigmoidea con absceso de 5 cm tratado con drenaje percutáneo y antibióticos. Se recuperó por completo. ¿Qué elemento debe considerarse al decidir una sigmoidectomía electiva posterior?",
+    "labs": null,
+    "image": null,
+    "options": [
+      "Toda diverticulitis con absceso obliga a colectomía electiva en exactamente seis semanas",
+      "Nunca debe operarse después de un primer episodio complicado",
+      "La edad menor de 60 años es por sí sola indicación absoluta",
+      "La decisión debe individualizarse según gravedad del episodio, riesgo de recurrencia, comorbilidad y preferencias del paciente",
+      "La cirugía depende únicamente del número de episodios previos"
+    ],
+    "answer": 3,
+    "explanation": "La cirugía electiva después de diverticulitis complicada no se decide con una regla única. Debe integrar características del absceso, evolución, inmunosupresión, calidad de vida, recurrencia y riesgo operatorio.",
+    "rationales": [
+      "No existe una obligación universal con plazo fijo.",
+      "Algunos pacientes sí se benefician de resección.",
+      "La edad aislada no es una indicación absoluta.",
+      "Correcta: refleja el enfoque individualizado actual",
+      "El número de episodios no debe ser el único criterio."
+    ],
+    "sources": [
+      {
+        "name": "Resumen Cirugía Digestivo Bajo — Hospital del Salvador",
+        "year": "2019"
+      },
+      {
+        "name": "American Society of Colon and Rectal Surgeons — Clinical Practice Guidelines",
+        "year": "current portal",
+        "url": "https://fascrs.org/ascrs/media/files/downloads/clinical_practice_guidelines/"
+      }
+    ],
+    "review_status": "Revisada editorialmente V6.1",
+    "updated": "2026-10-12",
+    "origin": "V6 Editorial"
+  },
+  {
+    "id": 94,
+    "objective_id": "V6-0094",
+    "topic": "Coloproctología",
+    "subtopic": "Cáncer de recto",
+    "difficulty": "Muy difícil",
+    "type": "Resonancia y margen circunferencial",
+    "question": "Paciente con adenocarcinoma de recto medio tiene resonancia magnética de pelvis que muestra tumor a 1 mm de la fascia mesorrectal, sin metástasis a distancia. ¿Por qué este hallazgo es clínicamente importante?",
+    "labs": null,
+    "image": null,
+    "options": [
+      "Indica metástasis hematógena por definición",
+      "Obliga a amputación abdominoperineal independientemente de la altura tumoral",
+      "Predice amenaza del margen circunferencial y puede modificar la estrategia neoadyuvante y quirúrgica",
+      "Demuestra invasión de esfínter anal",
+      "Hace innecesaria la estadificación ganglionar"
+    ],
+    "answer": 2,
+    "explanation": "La relación del tumor con la fascia mesorrectal predice riesgo de margen circunferencial comprometido y es uno de los elementos que guía tratamiento multidisciplinario.",
+    "rationales": [
+      "No equivale a enfermedad metastásica.",
+      "El tipo de resección depende de altura, esfínteres y respuesta, no solo de este dato.",
+      "Correcta: conecta anatomía radiológica con planificación oncológica",
+      "La fascia mesorrectal no es el esfínter anal.",
+      "El estado ganglionar sigue siendo relevante."
+    ],
+    "sources": [
+      {
+        "name": "Resumen Cirugía Digestivo Bajo — Hospital del Salvador",
+        "year": "2019"
+      },
+      {
+        "name": "American Society of Colon and Rectal Surgeons — Clinical Practice Guidelines",
+        "year": "current portal",
+        "url": "https://fascrs.org/ascrs/media/files/downloads/clinical_practice_guidelines/"
+      }
+    ],
+    "review_status": "Revisada editorialmente V6.1",
+    "updated": "2026-10-12",
+    "origin": "V6 Editorial"
+  },
+  {
+    "id": 95,
+    "objective_id": "V6-0095",
+    "topic": "Coloproctología",
+    "subtopic": "Fístula anal",
+    "difficulty": "Difícil",
+    "type": "Selección de técnica",
+    "question": "Paciente con fístula transesfintérica alta tiene trayecto que compromete una proporción importante del esfínter externo. Mantiene continencia normal. ¿Cuál debe ser el objetivo principal al elegir tratamiento?",
+    "labs": null,
+    "image": null,
+    "options": [
+      "Erradicar la fístula preservando al máximo la función esfinteriana",
+      "Realizar fistulotomía completa aunque se seccione gran parte del esfínter",
+      "Priorizar cierre del orificio cutáneo sin tratar el trayecto",
+      "Resecar el recto para prevenir recurrencia",
+      "Evitar cualquier drenaje aunque exista absceso asociado"
+    ],
+    "answer": 0,
+    "explanation": "En fístulas altas, la sección extensa del aparato esfinteriano puede causar incontinencia. Deben considerarse técnicas preservadoras de esfínter y control adecuado de sepsis.",
+    "rationales": [
+      "Correcta: equilibra curación y continencia",
+      "Una fistulotomía extensa puede producir incontinencia.",
+      "Cerrar solo piel favorece persistencia de infección.",
+      "No existe indicación de resección rectal por una fístula criptoglandular aislada.",
+      "La sepsis debe drenarse cuando está presente."
+    ],
+    "sources": [
+      {
+        "name": "Resumen Cirugía Digestivo Bajo — Hospital del Salvador",
+        "year": "2019"
+      },
+      {
+        "name": "American Society of Colon and Rectal Surgeons — Clinical Practice Guidelines",
+        "year": "current portal",
+        "url": "https://fascrs.org/ascrs/media/files/downloads/clinical_practice_guidelines/"
+      }
+    ],
+    "review_status": "Revisada editorialmente V6.1",
+    "updated": "2026-10-12",
+    "origin": "V6 Editorial"
+  },
+  {
+    "id": 96,
+    "objective_id": "V6-0096",
+    "topic": "Coloproctología",
+    "subtopic": "Cáncer de colon obstructivo",
+    "difficulty": "Intermedio",
+    "type": "Conducta quirúrgica",
+    "question": "Paciente con obstrucción completa por cáncer de colon derecho, sin perforación, con ciego viable y sin metástasis conocidas. Está estable y tiene riesgo operatorio aceptable. ¿Cuál es una opción quirúrgica estándar?",
+    "labs": null,
+    "image": null,
+    "options": [
+      "Hemicolectomía derecha oncológica con anastomosis primaria si las condiciones locales y sistémicas son favorables",
+      "Colostomía terminal izquierda sin resección del tumor",
+      "Resección anterior baja",
+      "Amputación abdominoperineal",
+      "Apendicectomía y observación"
+    ],
+    "answer": 0,
+    "explanation": "En obstrucción por cáncer de colon derecho, la resección oncológica con anastomosis primaria suele ser factible en pacientes estables y con condiciones adecuadas.",
+    "rationales": [
+      "Correcta: corresponde al segmento y permite tratamiento oncológico",
+      "No resuelve de forma adecuada un tumor de colon derecho.",
+      "Es una operación rectal.",
+      "Es una operación para enfermedad anorrectal seleccionada.",
+      "No trata la causa de la obstrucción."
+    ],
+    "sources": [
+      {
+        "name": "Resumen Cirugía Digestivo Bajo — Hospital del Salvador",
+        "year": "2019"
+      },
+      {
+        "name": "American Society of Colon and Rectal Surgeons — Clinical Practice Guidelines",
+        "year": "current portal",
+        "url": "https://fascrs.org/ascrs/media/files/downloads/clinical_practice_guidelines/"
+      }
+    ],
+    "review_status": "Revisada editorialmente V6.1",
+    "updated": "2026-10-12",
+    "origin": "V6 Editorial"
+  },
+  {
+    "id": 97,
+    "objective_id": "V6-0097",
+    "topic": "Cirugía vascular",
+    "subtopic": "Isquemia aguda de extremidad",
+    "difficulty": "Muy difícil",
+    "type": "Clasificación fisiológica",
+    "question": "Paciente con isquemia aguda de miembro inferior presenta dolor, frialdad, ausencia de pulsos y pérdida sensitiva limitada a los dedos, pero mantiene fuerza muscular y señal Doppler arterial débil. ¿Qué principio guía la urgencia terapéutica?",
+    "labs": null,
+    "image": null,
+    "options": [
+      "La extremidad es irreversible y debe amputarse sin intento de revascularización",
+      "Puede observarse ambulatoriamente porque conserva fuerza",
+      "La presencia de cualquier señal Doppler excluye isquemia crítica",
+      "La anticoagulación está contraindicada mientras se decide el tratamiento",
+      "La extremidad es amenazada pero potencialmente salvable y requiere revascularización urgente"
+    ],
+    "answer": 4,
+    "explanation": "La presencia de déficit sensitivo sin parálisis sugiere una extremidad amenazada pero viable, en la que el tiempo a revascularización es determinante. La clasificación clínica integra sensibilidad, fuerza y señales Doppler.",
+    "rationales": [
+      "La irreversibilidad suele asociar anestesia profunda, parálisis y rigidez.",
+      "La pérdida sensitiva indica amenaza y no permite manejo ambulatorio.",
+      "Una señal débil no excluye isquemia significativa.",
+      "La anticoagulación sistémica suele iniciarse precozmente salvo contraindicación.",
+      "Correcta: reconoce una extremidad todavía salvable que necesita acción urgente"
+    ],
+    "sources": [
+      {
+        "name": "Resumen Cirugía Vascular — Hospital del Salvador",
+        "year": "2019"
+      },
+      {
+        "name": "European Society for Vascular Surgery — Clinical Practice Guidelines",
+        "year": "2024",
+        "url": "https://esvs.org/guideline/2024-abdominal-aorto-iliac-artery-aneurysms-guidelines/"
+      }
+    ],
+    "review_status": "Revisada editorialmente V6.1",
+    "updated": "2026-10-12",
+    "origin": "V6 Editorial"
+  },
+  {
+    "id": 98,
+    "objective_id": "V6-0098",
+    "topic": "Cirugía vascular",
+    "subtopic": "Aneurisma poplíteo",
+    "difficulty": "Difícil",
+    "type": "Complicación",
+    "question": "Varón de 70 años con aneurisma poplíteo conocido consulta por dolor súbito, frialdad del pie y pérdida de pulsos distales. ¿Cuál es la complicación más probable?",
+    "labs": null,
+    "image": null,
+    "options": [
+      "Rotura libre intraperitoneal",
+      "Fístula aortoentérica",
+      "Disección de aorta ascendente",
+      "Trombosis del aneurisma con isquemia aguda de la extremidad",
+      "Síndrome de vena cava superior"
+    ],
+    "answer": 3,
+    "explanation": "Los aneurismas poplíteos se complican con frecuencia por trombosis y embolización distal, pudiendo producir isquemia aguda y pérdida de extremidad.",
+    "rationales": [
+      "La arteria poplítea no se rompe hacia el peritoneo.",
+      "Es una complicación de aorta y prótesis, no poplítea.",
+      "No corresponde al territorio anatómico.",
+      "Correcta: corresponde al patrón clínico típico",
+      "No guarda relación con este aneurisma."
+    ],
+    "sources": [
+      {
+        "name": "Resumen Cirugía Vascular — Hospital del Salvador",
+        "year": "2019"
+      },
+      {
+        "name": "European Society for Vascular Surgery — Clinical Practice Guidelines",
+        "year": "2024",
+        "url": "https://esvs.org/guideline/2024-abdominal-aorto-iliac-artery-aneurysms-guidelines/"
+      }
+    ],
+    "review_status": "Revisada editorialmente V6.1",
+    "updated": "2026-10-12",
+    "origin": "V6 Editorial"
+  },
+  {
+    "id": 99,
+    "objective_id": "V6-0099",
+    "topic": "Cirugía vascular",
+    "subtopic": "Úlcera venosa",
+    "difficulty": "Intermedio",
+    "type": "Diagnóstico diferencial",
+    "question": "Paciente con úlcera crónica de pierna presenta edema, hiperpigmentación y lipodermatoesclerosis. La úlcera es superficial, irregular y se localiza cerca del maléolo medial. ¿Qué etiología es más probable?",
+    "labs": null,
+    "image": null,
+    "options": [
+      "Isquemia arterial crítica",
+      "Neuropatía diabética pura",
+      "Insuficiencia venosa crónica",
+      "Vasculitis necrosante como primera posibilidad",
+      "Úlcera por presión"
+    ],
+    "answer": 2,
+    "explanation": "La combinación de cambios cutáneos por hipertensión venosa y localización gaiter, especialmente perimaleolar medial, es típica de úlcera venosa.",
+    "rationales": [
+      "Las úlceras arteriales suelen ser distales, dolorosas y asociadas a hipoperfusión.",
+      "Las neuropáticas predominan en puntos de presión plantar.",
+      "Correcta: integra localización y signos de hipertensión venosa",
+      "La vasculitis tiene otros patrones clínicos y requiere contexto.",
+      "Las úlceras por presión aparecen sobre prominencias sometidas a presión mantenida."
+    ],
+    "sources": [
+      {
+        "name": "Resumen Cirugía Vascular — Hospital del Salvador",
+        "year": "2019"
+      },
+      {
+        "name": "European Society for Vascular Surgery — Clinical Practice Guidelines",
+        "year": "2024",
+        "url": "https://esvs.org/guideline/2024-abdominal-aorto-iliac-artery-aneurysms-guidelines/"
+      }
+    ],
+    "review_status": "Revisada editorialmente V6.1",
+    "updated": "2026-10-12",
+    "origin": "V6 Editorial"
+  },
+  {
+    "id": 100,
+    "objective_id": "V6-0100",
+    "topic": "Cirugía vascular",
+    "subtopic": "Síndrome compartimental",
+    "difficulty": "Difícil",
+    "type": "Procedimiento",
+    "question": "Tras revascularización de una isquemia aguda prolongada, un paciente desarrolla dolor desproporcionado, dolor con estiramiento pasivo y compartimentos tensos. ¿Cuál es la conducta definitiva si la sospecha clínica de síndrome compartimental es alta?",
+    "labs": null,
+    "image": null,
+    "options": [
+      "Elevar la extremidad por encima del corazón y observar",
+      "Aplicar vendaje compresivo",
+      "Administrar diuréticos como único tratamiento",
+      "Esperar pérdida de pulsos antes de intervenir",
+      "Fasciotomía urgente de los compartimentos comprometidos"
+    ],
+    "answer": 4,
+    "explanation": "El síndrome compartimental es una urgencia quirúrgica. Los pulsos pueden persistir hasta etapas tardías; retrasar la fasciotomía aumenta necrosis muscular y lesión nerviosa.",
+    "rationales": [
+      "Elevar excesivamente puede reducir perfusión y no resuelve la presión.",
+      "La compresión externa empeora la fisiopatología.",
+      "Los diuréticos no descomprimen el compartimento.",
+      "La pérdida de pulsos es un hallazgo tardío.",
+      "Correcta: descomprime antes de daño irreversible"
+    ],
+    "sources": [
+      {
+        "name": "Resumen Cirugía Vascular — Hospital del Salvador",
+        "year": "2019"
+      },
+      {
+        "name": "European Society for Vascular Surgery — Clinical Practice Guidelines",
+        "year": "2024",
+        "url": "https://esvs.org/guideline/2024-abdominal-aorto-iliac-artery-aneurysms-guidelines/"
+      }
+    ],
+    "review_status": "Revisada editorialmente V6.1",
+    "updated": "2026-10-12",
+    "origin": "V6 Editorial"
+  },
+  {
+    "id": 101,
+    "objective_id": "V6-0101",
+    "topic": "Mama",
+    "subtopic": "Axila después de neoadyuvancia",
+    "difficulty": "Muy difícil",
+    "type": "Estrategia axilar",
+    "question": "Paciente con cáncer de mama inicialmente con ganglio axilar positivo comprobado por biopsia recibe tratamiento sistémico neoadyuvante y queda sin adenopatías clínicas. ¿Qué principio mejora la precisión de una estadificación axilar limitada?",
+    "labs": null,
+    "image": null,
+    "options": [
+      "Omitir siempre cualquier evaluación axilar después de neoadyuvancia",
+      "Realizar disección axilar completa obligatoria en toda paciente inicialmente positiva",
+      "Recuperar el ganglio previamente marcado y combinarlo con técnica de ganglio centinela cuando el protocolo lo permita",
+      "Biopsiar solo el ganglio de mayor tamaño en la ecografía",
+      "Decidir la cirugía axilar únicamente por el tamaño del tumor mamario residual"
+    ],
+    "answer": 2,
+    "explanation": "En pacientes que convierten de ganglio positivo a clínicamente negativo, estrategias como recuperación del ganglio marcado junto con ganglio centinela pueden reducir la tasa de falsos negativos y permitir desescalamiento seleccionado.",
+    "rationales": [
+      "La axila aún aporta información pronóstica y terapéutica.",
+      "La disección completa no es obligatoria en todos los escenarios actuales.",
+      "Correcta: mejora la representación del lecho ganglionar inicialmente afectado",
+      "El mayor tamaño no garantiza que sea el ganglio inicialmente positivo.",
+      "La carga axilar no se infiere solo del tumor mamario residual."
+    ],
+    "sources": [
+      {
+        "name": "Resumen Cirugía Plástica y Reconstructiva — Hospital del Salvador",
+        "year": "2019"
+      },
+      {
+        "name": "American Society of Breast Surgeons — Resource Guides and Official Statements",
+        "year": "2026 portal",
+        "url": "https://www.breastsurgeons.org/resources/statements/"
+      }
+    ],
+    "review_status": "Revisada editorialmente V6.1",
+    "updated": "2026-10-12",
+    "origin": "V6 Editorial"
+  },
+  {
+    "id": 102,
+    "objective_id": "V6-0102",
+    "topic": "Mama",
+    "subtopic": "Cirugía conservadora",
+    "difficulty": "Difícil",
+    "type": "Márgenes",
+    "question": "Paciente con carcinoma invasor de mama tratada con tumorectomía tiene tinta quirúrgica libre de tumor, aunque el margen microscópico más cercano mide 1 mm. Recibirá radioterapia mamaria. ¿Cuál es el principio general sobre el margen para carcinoma invasor?",
+    "labs": null,
+    "image": null,
+    "options": [
+      "Todo margen menor de 10 mm obliga a mastectomía",
+      "Debe reoperarse hasta obtener al menos 5 cm de margen",
+      "El margen no tiene relevancia si se administrará quimioterapia",
+      "La ausencia de tumor en tinta es suficiente en la mayoría de los casos y no se exige rutinariamente un margen mayor solo por medir 1 mm",
+      "La radioterapia está contraindicada con un margen de 1 mm"
+    ],
+    "answer": 3,
+    "explanation": "Para carcinoma invasor tratado con cirugía conservadora y radioterapia, el estándar general es “no tumor en tinta”; ampliar márgenes negativos de rutina no reduce de forma demostrada la recurrencia local.",
+    "rationales": [
+      "No existe requisito rutinario de 10 mm.",
+      "Cinco centímetros es innecesario y mutilante.",
+      "El margen sí importa para control local.",
+      "Correcta: refleja el estándar de margen negativo en carcinoma invasor",
+      "Un margen negativo de 1 mm no contraindica radioterapia."
+    ],
+    "sources": [
+      {
+        "name": "Resumen Cirugía Plástica y Reconstructiva — Hospital del Salvador",
+        "year": "2019"
+      },
+      {
+        "name": "American Society of Breast Surgeons — Resource Guides and Official Statements",
+        "year": "2026 portal",
+        "url": "https://www.breastsurgeons.org/resources/statements/"
+      }
+    ],
+    "review_status": "Revisada editorialmente V6.1",
+    "updated": "2026-10-12",
+    "origin": "V6 Editorial"
+  },
+  {
+    "id": 103,
+    "objective_id": "V6-0103",
+    "topic": "Mama",
+    "subtopic": "Lesión papilar",
+    "difficulty": "Intermedio",
+    "type": "Correlación radiológico-patológica",
+    "question": "Una biopsia con aguja gruesa de lesión mamaria informa papiloma intraductal sin atipia. Antes de decidir vigilancia o escisión, ¿qué elemento es esencial?",
+    "labs": null,
+    "image": null,
+    "options": [
+      "Confirmar concordancia entre la imagen, la lesión biopsiada y el resultado histológico",
+      "Indicar mastectomía porque todo papiloma es premaligno",
+      "Solicitar antígeno carcinoembrionario sérico",
+      "Asumir que la biopsia es definitiva aunque no explique la imagen",
+      "Realizar disección axilar preventiva"
+    ],
+    "answer": 0,
+    "explanation": "Las lesiones de alto riesgo o papilares requieren correlación radiológico-patológica. La discordancia puede indicar muestreo insuficiente y cambiar la conducta.",
+    "rationales": [
+      "Correcta: determina si el tejido obtenido explica el hallazgo radiológico",
+      "Un papiloma sin atipia no implica mastectomía.",
+      "Los marcadores séricos no resuelven la concordancia diagnóstica.",
+      "La discordancia obliga a reevaluar el muestreo.",
+      "No hay indicación de cirugía axilar preventiva."
+    ],
+    "sources": [
+      {
+        "name": "Resumen Cirugía Plástica y Reconstructiva — Hospital del Salvador",
+        "year": "2019"
+      },
+      {
+        "name": "American Society of Breast Surgeons — Resource Guides and Official Statements",
+        "year": "2026 portal",
+        "url": "https://www.breastsurgeons.org/resources/statements/"
+      }
+    ],
+    "review_status": "Revisada editorialmente V6.1",
+    "updated": "2026-10-12",
+    "origin": "V6 Editorial"
+  },
+  {
+    "id": 104,
+    "objective_id": "V6-0104",
+    "topic": "Mama",
+    "subtopic": "Mastitis abscedada",
+    "difficulty": "Difícil",
+    "type": "Tratamiento",
+    "question": "Mujer lactante presenta colección mamaria de 4 cm confirmada por ecografía, fiebre y dolor localizado. ¿Cuál es el principio de tratamiento?",
+    "labs": null,
+    "image": null,
+    "options": [
+      "Antibióticos sin drenaje aunque exista colección bien formada",
+      "Drenaje de la colección junto con antibióticos apropiados y apoyo para mantener el vaciamiento mamario cuando sea posible",
+      "Suspender obligatoriamente la lactancia de ambos lados",
+      "Mastectomía simple",
+      "Esperar resolución espontánea porque el drenaje aumenta recurrencia"
+    ],
+    "answer": 1,
+    "explanation": "Un absceso mamario requiere control de fuente mediante aspiración percutánea o drenaje según características, además de antibióticos y manejo de la lactancia.",
+    "rationales": [
+      "Una colección organizada suele requerir drenaje.",
+      "Correcta: combina control de fuente y tratamiento antimicrobiano",
+      "La lactancia no debe suspenderse automáticamente en todos los casos.",
+      "La mastectomía no es tratamiento habitual.",
+      "La demora prolonga infección y dolor."
+    ],
+    "sources": [
+      {
+        "name": "Resumen Cirugía Plástica y Reconstructiva — Hospital del Salvador",
+        "year": "2019"
+      },
+      {
+        "name": "American Society of Breast Surgeons — Resource Guides and Official Statements",
+        "year": "2026 portal",
+        "url": "https://www.breastsurgeons.org/resources/statements/"
+      }
+    ],
+    "review_status": "Revisada editorialmente V6.1",
+    "updated": "2026-10-12",
+    "origin": "V6 Editorial"
+  },
+  {
+    "id": 105,
+    "objective_id": "V6-0105",
+    "topic": "Cabeza y cuello y endocrino",
+    "subtopic": "Cáncer diferenciado de tiroides",
+    "difficulty": "Muy difícil",
+    "type": "Extensión de cirugía",
+    "question": "Mujer de 36 años con carcinoma papilar intratiroideo de 1,8 cm, unilateral, sin adenopatías clínicas ni extensión extratiroidea. No tiene antecedentes de radiación ni enfermedad contralateral. Según el enfoque contemporáneo, ¿qué extensión quirúrgica puede ser suficiente?",
+    "labs": null,
+    "image": null,
+    "options": [
+      "Tiroidectomía total obligatoria en todos los carcinomas mayores de 1 cm",
+      "Tiroidectomía total más disección central profiláctica obligatoria",
+      "Tiroidectomía total más yodo radiactivo obligatorio",
+      "Observación sin cirugía independientemente de preferencias y hallazgos",
+      "Lobectomía tiroidea en una paciente adecuadamente seleccionada"
+    ],
+    "answer": 4,
+    "explanation": "Las guías actuales permiten lobectomía para muchos carcinomas diferenciados de bajo riesgo, intratiroideos y unilaterales, individualizando según características tumorales y del paciente.",
+    "rationales": [
+      "La tiroidectomía total ya no es obligatoria para todo tumor de este tamaño.",
+      "La disección central profiláctica no es universal.",
+      "El yodo radiactivo tampoco es obligatorio en todo tumor de bajo riesgo.",
+      "La vigilancia activa se reserva para escenarios específicos, especialmente microcarcinomas seleccionados.",
+      "Correcta: representa la desescalada aceptada en tumores de bajo riesgo seleccionados"
+    ],
+    "sources": [
+      {
+        "name": "Resumen Cirugía Cabeza y Cuello — Hospital del Salvador",
+        "year": "2019"
+      },
+      {
+        "name": "American Thyroid Association — Management Guidelines for Adult Patients with Differentiated Thyroid Cancer",
+        "year": "2025",
+        "url": "https://www.thyroid.org/professionals/ata-professional-guidelines/"
+      }
+    ],
+    "review_status": "Revisada editorialmente V6.1",
+    "updated": "2026-10-12",
+    "origin": "V6 Editorial"
+  },
+  {
+    "id": 106,
+    "objective_id": "V6-0106",
+    "topic": "Cabeza y cuello y endocrino",
+    "subtopic": "Paratiroides",
+    "difficulty": "Difícil",
+    "type": "Localización intraoperatoria",
+    "question": "Durante tiroidectomía se identifica una glándula paratiroides claramente desvacularizada después de completar la disección. ¿Qué estrategia puede preservar tejido paratiroideo funcional?",
+    "labs": null,
+    "image": null,
+    "options": [
+      "Descartar la glándula y administrar calcio de por vida",
+      "Autotrasplante de fragmentos de paratiroides viable en un músculo apropiado",
+      "Coagularla y dejarla en el lecho",
+      "Ligadura adicional de su pedículo residual",
+      "Resecar de rutina las demás paratiroides"
+    ],
+    "answer": 1,
+    "explanation": "Cuando una paratiroides queda irreversiblemente desvacularizada, el autotrasplante puede conservar tejido funcional. La prioridad sigue siendo preservar glándulas vascularizadas in situ cuando es posible.",
+    "rationales": [
+      "Descartar tejido funcional aumenta el riesgo de hipoparatiroidismo.",
+      "Correcta: ofrece una vía para preservar función de tejido viable sin perfusión local",
+      "Una glándula desvacularizada no recupera función por coagularla.",
+      "No mejora perfusión.",
+      "Resecar glándulas sanas empeora el riesgo."
+    ],
+    "sources": [
+      {
+        "name": "Resumen Cirugía Cabeza y Cuello — Hospital del Salvador",
+        "year": "2019"
+      },
+      {
+        "name": "American Thyroid Association — Management Guidelines for Adult Patients with Differentiated Thyroid Cancer",
+        "year": "2025",
+        "url": "https://www.thyroid.org/professionals/ata-professional-guidelines/"
+      }
+    ],
+    "review_status": "Revisada editorialmente V6.1",
+    "updated": "2026-10-12",
+    "origin": "V6 Editorial"
+  },
+  {
+    "id": 107,
+    "objective_id": "V6-0107",
+    "topic": "Cabeza y cuello y endocrino",
+    "subtopic": "Parótida",
+    "difficulty": "Intermedio",
+    "type": "Anatomía quirúrgica",
+    "question": "Durante una parotidectomía superficial se busca el tronco principal del nervio facial. ¿Cuál de las siguientes estructuras es un reparo anatómico clásico para localizarlo?",
+    "labs": null,
+    "image": null,
+    "options": [
+      "Nervio hipogloso dentro del triángulo carotídeo",
+      "Puntero cartilaginoso del trago",
+      "Arteria tiroidea inferior",
+      "Cartílago cricoides",
+      "Nervio laríngeo recurrente"
+    ],
+    "answer": 1,
+    "explanation": "El puntero tragal, el vientre posterior del digástrico y la sutura timpanomastoidea son reparos clásicos utilizados para identificar el tronco del nervio facial en cirugía parotídea.",
+    "rationales": [
+      "El hipogloso es un reparo cervical, no el principal para el tronco facial intraparotídeo.",
+      "Correcta: es uno de los reparos anatómicos clásicos",
+      "Corresponde a cirugía tiroidea.",
+      "No es un reparo parotídeo directo.",
+      "No se utiliza para localizar el facial en parótida."
+    ],
+    "sources": [
+      {
+        "name": "Resumen Cirugía Cabeza y Cuello — Hospital del Salvador",
+        "year": "2019"
+      },
+      {
+        "name": "American Thyroid Association — Management Guidelines for Adult Patients with Differentiated Thyroid Cancer",
+        "year": "2025",
+        "url": "https://www.thyroid.org/professionals/ata-professional-guidelines/"
+      }
+    ],
+    "review_status": "Revisada editorialmente V6.1",
+    "updated": "2026-10-12",
+    "origin": "V6 Editorial"
+  },
+  {
+    "id": 108,
+    "objective_id": "V6-0108",
+    "topic": "Cabeza y cuello y endocrino",
+    "subtopic": "Nódulo tiroideo",
+    "difficulty": "Difícil",
+    "type": "Estratificación ecográfica",
+    "question": "Paciente eutiroideo presenta nódulo tiroideo sólido de 1,6 cm, marcadamente hipoecoico, con márgenes irregulares y microcalcificaciones. ¿Qué característica del estudio debe guiar la indicación de punción aspirativa con aguja fina?",
+    "labs": null,
+    "image": null,
+    "options": [
+      "El tamaño aislado sin considerar características ecográficas",
+      "La edad como único criterio",
+      "El nivel de calcio sérico",
+      "El patrón ecográfico de riesgo combinado con el tamaño del nódulo",
+      "La presencia de síntomas de reflujo gastroesofágico"
+    ],
+    "answer": 3,
+    "explanation": "La decisión de biopsiar un nódulo tiroideo integra tamaño y patrón ecográfico de sospecha. Hallazgos como marcada hipoecogenicidad, microcalcificaciones y márgenes irregulares elevan el riesgo.",
+    "rationales": [
+      "El tamaño aislado es insuficiente.",
+      "La edad modifica contexto, pero no sustituye la estratificación ecográfica.",
+      "El calcio no estratifica malignidad del nódulo tiroideo.",
+      "Correcta: integra probabilidad pretest y umbral de tamaño",
+      "No guarda relación con el riesgo tiroideo."
+    ],
+    "sources": [
+      {
+        "name": "Resumen Cirugía Cabeza y Cuello — Hospital del Salvador",
+        "year": "2019"
+      },
+      {
+        "name": "American Thyroid Association — Management Guidelines for Adult Patients with Differentiated Thyroid Cancer",
+        "year": "2025",
+        "url": "https://www.thyroid.org/professionals/ata-professional-guidelines/"
+      }
+    ],
+    "review_status": "Revisada editorialmente V6.1",
+    "updated": "2026-10-12",
+    "origin": "V6 Editorial"
+  },
+  {
+    "id": 109,
+    "objective_id": "V6-0109",
+    "topic": "Cirugía torácica",
+    "subtopic": "Nódulo pulmonar",
+    "difficulty": "Difícil",
+    "type": "Probabilidad de malignidad",
+    "question": "Varón de 69 años con 50 paquetes-año de tabaquismo presenta nódulo pulmonar sólido de 18 mm, espiculado y ubicado en lóbulo superior. ¿Qué combinación de factores aumenta más la probabilidad pretest de malignidad?",
+    "labs": null,
+    "image": null,
+    "options": [
+      "Bordes lisos, edad joven y estabilidad radiológica prolongada",
+      "Calcificación central densa y tamaño decreciente",
+      "Ausencia de tabaquismo y nódulo de 3 mm",
+      "Edad avanzada, tabaquismo importante, espiculación y localización en lóbulo superior",
+      "Resolución parcial del nódulo después de antibióticos"
+    ],
+    "answer": 3,
+    "explanation": "La estimación de malignidad de un nódulo pulmonar integra edad, exposición tabáquica, tamaño, morfología y localización. El patrón descrito es de alto riesgo.",
+    "rationales": [
+      "Es un patrón de bajo riesgo.",
+      "La calcificación benigna y reducción de tamaño disminuyen sospecha.",
+      "Es un escenario de bajo riesgo.",
+      "Correcta: suma factores clínicos y radiológicos clásicos de alto riesgo",
+      "La reducción favorece etiología inflamatoria, aunque requiere contexto."
+    ],
+    "sources": [
+      {
+        "name": "Resumen Cirugía Tórax — Hospital del Salvador",
+        "year": "2019"
+      },
+      {
+        "name": "Society of American Gastrointestinal and Endoscopic Surgeons — Clinical Guidelines",
+        "year": "current portal",
+        "url": "https://www.sages.org/publications/guidelines/"
+      }
+    ],
+    "review_status": "Revisada editorialmente V6.1",
+    "updated": "2026-10-12",
+    "origin": "V6 Editorial"
+  },
+  {
+    "id": 110,
+    "objective_id": "V6-0110",
+    "topic": "Cirugía torácica",
+    "subtopic": "Empiema",
+    "difficulty": "Muy difícil",
+    "type": "Fase fibrinopurulenta",
+    "question": "Paciente con neumonía presenta empiema loculado con tabiques múltiples. Persiste séptico pese a antibióticos y un tubo pleural bien posicionado no logra evacuar las colecciones. ¿Cuál es el siguiente principio terapéutico?",
+    "labs": null,
+    "image": null,
+    "options": [
+      "Escalar el control de fuente, considerando cirugía toracoscópica para drenaje y desbridamiento",
+      "Mantener indefinidamente el mismo drenaje aunque no funcione",
+      "Retirar el tubo y continuar solo antibióticos",
+      "Realizar pleurodesis química como tratamiento de la infección",
+      "Esperar organización fibrotrórax antes de intervenir"
+    ],
+    "answer": 0,
+    "explanation": "El empiema loculado que no responde a drenaje adecuado requiere escalamiento del control de fuente. La cirugía toracoscópica puede evacuar loculaciones y retirar material fibrinopurulento.",
+    "rationales": [
+      "Correcta: prioriza control de fuente cuando el drenaje fracasa",
+      "La sepsis persistente indica fracaso del tratamiento actual.",
+      "Retirar drenaje empeora el control de fuente.",
+      "La pleurodesis no trata una cavidad infectada.",
+      "Esperar puede favorecer organización y atrapamiento pulmonar."
+    ],
+    "sources": [
+      {
+        "name": "Resumen Cirugía Tórax — Hospital del Salvador",
+        "year": "2019"
+      },
+      {
+        "name": "Society of American Gastrointestinal and Endoscopic Surgeons — Clinical Guidelines",
+        "year": "current portal",
+        "url": "https://www.sages.org/publications/guidelines/"
+      }
+    ],
+    "review_status": "Revisada editorialmente V6.1",
+    "updated": "2026-10-12",
+    "origin": "V6 Editorial"
+  },
+  {
+    "id": 111,
+    "objective_id": "V6-0111",
+    "topic": "Cirugía torácica",
+    "subtopic": "Hemotórax retenido",
+    "difficulty": "Intermedio",
+    "type": "Tratamiento",
+    "question": "Paciente con trauma torácico fue tratado con tubo pleural. A las 72 horas persiste una colección hemática significativa y coagulada en pleura, con drenaje mínimo por el tubo. Está estable. ¿Qué estrategia suele favorecer mejor evacuación temprana y prevenir empiema/fibrotórax?",
+    "labs": null,
+    "image": null,
+    "options": [
+      "Cirugía toracoscópica temprana para evacuar hemotórax retenido",
+      "Colocar el tubo a succión más intensa durante dos semanas sin reevaluación",
+      "Toracotomía abierta obligatoria en todos los casos",
+      "Retirar el tubo y observar",
+      "Pleurodesis con talco"
+    ],
+    "answer": 0,
+    "explanation": "El hemotórax retenido después de drenaje inicial puede beneficiarse de evacuación toracoscópica temprana, reduciendo infección y organización pleural.",
+    "rationales": [
+      "Correcta: permite retirar coágulos y evaluar la cavidad de forma mínimamente invasiva",
+      "La succión aislada no suele resolver coágulos organizados.",
+      "La toracotomía se reserva para situaciones específicas.",
+      "La observación puede favorecer empiema y fibrotrórax.",
+      "La pleurodesis no trata el hemotórax retenido."
+    ],
+    "sources": [
+      {
+        "name": "Resumen Cirugía Tórax — Hospital del Salvador",
+        "year": "2019"
+      },
+      {
+        "name": "Eastern Association for the Surgery of Trauma — Practice Management Guidelines",
+        "year": "2026 portal",
+        "url": "https://www.east.org/education-resources/practice-management-guidelines"
+      }
+    ],
+    "review_status": "Revisada editorialmente V6.1",
+    "updated": "2026-10-12",
+    "origin": "V6 Editorial"
+  },
+  {
+    "id": 112,
+    "objective_id": "V6-0112",
+    "topic": "Cirugía torácica",
+    "subtopic": "Cáncer pulmonar",
+    "difficulty": "Difícil",
+    "type": "Evaluación preoperatoria",
+    "question": "Paciente con cáncer pulmonar resecable tiene volumen espiratorio forzado en el primer segundo reducido. Antes de lobectomía se requiere estimar reserva respiratoria posoperatoria. ¿Cuál es el principio correcto?",
+    "labs": null,
+    "image": null,
+    "options": [
+      "Usar solo la edad para decidir operabilidad",
+      "Descartar cirugía si el volumen espiratorio forzado en el primer segundo es menor de 80% sin más evaluación",
+      "Calcular función pulmonar predicha posoperatoria y complementar con pruebas de ejercicio cuando el riesgo es intermedio o alto",
+      "Solicitar únicamente gasometría arterial",
+      "La función pulmonar no influye en la selección quirúrgica"
+    ],
+    "answer": 2,
+    "explanation": "La valoración fisiológica para resección pulmonar utiliza función pulmonar basal, estimaciones predichas posoperatorias y, cuando corresponde, capacidad de ejercicio.",
+    "rationales": [
+      "La edad aislada no define operabilidad.",
+      "Un valor aislado no sustituye una evaluación escalonada.",
+      "Correcta: cuantifica la reserva esperada después de resección",
+      "La gasometría no resume reserva ventilatoria ni ejercicio.",
+      "La evaluación funcional es central para estimar riesgo."
+    ],
+    "sources": [
+      {
+        "name": "Resumen Cirugía Tórax — Hospital del Salvador",
+        "year": "2019"
+      },
+      {
+        "name": "Society of American Gastrointestinal and Endoscopic Surgeons — Clinical Guidelines",
+        "year": "current portal",
+        "url": "https://www.sages.org/publications/guidelines/"
+      }
+    ],
+    "review_status": "Revisada editorialmente V6.1",
+    "updated": "2026-10-12",
+    "origin": "V6 Editorial"
+  },
+  {
+    "id": 113,
+    "objective_id": "V6-0113",
+    "topic": "Paciente crítico y nutrición",
+    "subtopic": "Shock séptico",
+    "difficulty": "Difícil",
+    "type": "Objetivo hemodinámico",
+    "question": "Paciente con shock séptico continúa hipotenso tras reanimación inicial y comienza norepinefrina. No tiene antecedente de hipertensión arterial crónica. ¿Qué presión arterial media inicial suele utilizarse como objetivo en la mayoría de adultos?",
+    "labs": null,
+    "image": null,
+    "options": [
+      "45 mmHg",
+      "Aproximadamente 65 mmHg",
+      "85–90 mmHg obligatoriamente para todos",
+      "110 mmHg",
+      "La presión arterial media no se utiliza para guiar vasopresores"
+    ],
+    "answer": 1,
+    "explanation": "Un objetivo inicial de presión arterial media cercano a 65 mmHg es apropiado para la mayoría de adultos con shock séptico, individualizando según perfusión, comorbilidades y respuesta.",
+    "rationales": [
+      "Es generalmente insuficiente para perfusión de órganos.",
+      "Correcta: equilibra perfusión y exposición a vasopresores",
+      "Objetivos más altos no son obligatorios para todos y aumentan exposición a vasopresores.",
+      "Es innecesariamente alto en la mayoría.",
+      "La presión arterial media es una variable hemodinámica fundamental."
+    ],
+    "sources": [
+      {
+        "name": "Diplomado Cirugía — Capítulo Chileno American College of Surgeons",
+        "year": "2024"
+      },
+      {
+        "name": "European Society for Clinical Nutrition and Metabolism — Clinical Nutrition in Surgery",
+        "year": "2025",
+        "url": "https://www.espen.org/files/ESPEN-guideline-on-clinical-nutrition-in-surgery-Update-2025.pdf"
+      }
+    ],
+    "review_status": "Revisada editorialmente V6.1",
+    "updated": "2026-10-12",
+    "origin": "V6 Editorial"
+  },
+  {
+    "id": 114,
+    "objective_id": "V6-0114",
+    "topic": "Paciente crítico y nutrición",
+    "subtopic": "Nutrición enteral",
+    "difficulty": "Intermedio",
+    "type": "Vía nutricional",
+    "question": "Paciente posoperatorio de cirugía abdominal mayor está hemodinámicamente estable, con tubo digestivo funcionante, pero no puede cubrir requerimientos por vía oral. ¿Cuál es la vía nutricional preferida si no existen contraindicaciones?",
+    "labs": null,
+    "image": null,
+    "options": [
+      "Nutrición parenteral total inmediata como primera opción",
+      "Ayuno completo hasta recuperación de apetito",
+      "Suero glucosado como único aporte calórico",
+      "Nutrición enteral",
+      "Nutrición parenteral periférica prolongada aunque el intestino funcione"
+    ],
+    "answer": 3,
+    "explanation": "Cuando el tubo digestivo funciona, la nutrición enteral es generalmente preferible por sus ventajas fisiológicas y menor riesgo de complicaciones relacionadas con acceso venoso.",
+    "rationales": [
+      "La vía parenteral se reserva para imposibilidad o insuficiencia de la enteral.",
+      "El ayuno prolongado favorece deterioro nutricional.",
+      "El suero glucosado no cubre necesidades nutricionales.",
+      "Correcta: utiliza el intestino funcionante y es la vía preferida",
+      "No hay motivo para evitar el intestino funcionante."
+    ],
+    "sources": [
+      {
+        "name": "Diplomado Cirugía — Capítulo Chileno American College of Surgeons",
+        "year": "2024"
+      },
+      {
+        "name": "European Society for Clinical Nutrition and Metabolism — Clinical Nutrition in Surgery",
+        "year": "2025",
+        "url": "https://www.espen.org/files/ESPEN-guideline-on-clinical-nutrition-in-surgery-Update-2025.pdf"
+      }
+    ],
+    "review_status": "Revisada editorialmente V6.1",
+    "updated": "2026-10-12",
+    "origin": "V6 Editorial"
+  },
+  {
+    "id": 115,
+    "objective_id": "V6-0115",
+    "topic": "Paciente crítico y nutrición",
+    "subtopic": "Ventilación mecánica",
+    "difficulty": "Muy difícil",
+    "type": "Protección pulmonar",
+    "question": "Paciente con síndrome de dificultad respiratoria aguda está ventilado con volumen corriente de 6 mL/kg de peso corporal predicho. La presión plateau es 34 cmH2O. ¿Qué modificación debe considerarse para limitar lesión pulmonar inducida por ventilador?",
+    "labs": null,
+    "image": null,
+    "options": [
+      "Aumentar volumen corriente a 10 mL/kg para mejorar eliminación de dióxido de carbono",
+      "Eliminar presión positiva al final de la espiración en todos los casos",
+      "Aumentar presión plateau a 40 cmH2O para reclutar más alvéolos",
+      "Cambiar a ventilación espontánea sin evaluar estabilidad",
+      "Reducir aún más el volumen corriente si es necesario para mantener presión plateau alrededor de 30 cmH2O o menos, aceptando hipercapnia permisiva cuando sea apropiado"
+    ],
+    "answer": 4,
+    "explanation": "La ventilación protectora busca limitar sobredistensión alveolar. Cuando la presión plateau permanece elevada, puede requerirse reducir volumen corriente y aceptar cierto aumento de dióxido de carbono si no existen contraindicaciones.",
+    "rationales": [
+      "Aumentar volumen corriente empeora sobredistensión.",
+      "La presión positiva al final de la espiración forma parte de estrategias de oxigenación y no se elimina de rutina.",
+      "Presiones plateau altas aumentan riesgo de lesión.",
+      "La transición a espontánea depende de múltiples criterios.",
+      "Correcta: prioriza limitar presión alveolar y volutrauma"
+    ],
+    "sources": [
+      {
+        "name": "Diplomado Cirugía — Capítulo Chileno American College of Surgeons",
+        "year": "2024"
+      },
+      {
+        "name": "Extracorporeal Life Support Organization — Guidelines",
+        "year": "current portal",
+        "url": "https://www.elso.org/ecmo-resources/elso-ecmo-guidelines.aspx"
+      }
+    ],
+    "review_status": "Revisada editorialmente V6.1",
+    "updated": "2026-10-12",
+    "origin": "V6 Editorial"
+  },
+  {
+    "id": 116,
+    "objective_id": "V6-0116",
+    "topic": "Paciente crítico y nutrición",
+    "subtopic": "ECMO (oxigenación por membrana extracorpórea)",
+    "difficulty": "Difícil",
+    "type": "Fisiología del circuito",
+    "question": "En ECMO (oxigenación por membrana extracorpórea) veno-venosa, un paciente mantiene hipercapnia marcada pese a flujo sanguíneo adecuado y oxigenación estable. ¿Qué ajuste del circuito modifica principalmente la eliminación de dióxido de carbono?",
+    "labs": null,
+    "image": null,
+    "options": [
+      "Aumentar únicamente la fracción inspirada de oxígeno del ventilador",
+      "Disminuir el flujo de gas de barrido",
+      "Reducir el flujo sanguíneo del circuito",
+      "Aumentar el flujo de gas de barrido a través del oxigenador",
+      "Cerrar parcialmente la línea de retorno"
+    ],
+    "answer": 3,
+    "explanation": "En ECMO (oxigenación por membrana extracorpórea) veno-venosa, la eliminación de dióxido de carbono depende principalmente del flujo de gas de barrido, mientras que la oxigenación se relaciona de forma importante con el flujo sanguíneo del circuito.",
+    "rationales": [
+      "Puede cambiar oxigenación pulmonar pero no es el principal ajuste del circuito para dióxido de carbono.",
+      "Empeoraría la eliminación de dióxido de carbono.",
+      "Puede reducir soporte de oxigenación y no corrige el problema.",
+      "Correcta: aumenta el gradiente para eliminación de dióxido de carbono",
+      "Es una maniobra insegura y no terapéutica."
+    ],
+    "sources": [
+      {
+        "name": "Diplomado Cirugía — Capítulo Chileno American College of Surgeons",
+        "year": "2024"
+      },
+      {
+        "name": "Extracorporeal Life Support Organization — Guidelines",
+        "year": "current portal",
+        "url": "https://www.elso.org/ecmo-resources/elso-ecmo-guidelines.aspx"
+      }
+    ],
+    "review_status": "Revisada editorialmente V6.1",
+    "updated": "2026-10-12",
+    "origin": "V6 Editorial"
+  },
+  {
+    "id": 117,
+    "objective_id": "V6-0117",
+    "topic": "Pared abdominal y reconstructiva",
+    "subtopic": "Hernia ventral",
+    "difficulty": "Difícil",
+    "type": "Plano de malla",
+    "question": "En reparación abierta electiva de hernia incisional, el cirujano logra cierre fascial sin tensión y dispone de un plano retromuscular adecuado. ¿Qué ventaja anatómica ofrece colocar la malla en este plano?",
+    "labs": null,
+    "image": null,
+    "options": [
+      "Obliga a dejar la fascia abierta",
+      "Permite amplio solapamiento con buena integración tisular y evita el contacto directo de una malla convencional con las vísceras",
+      "Sitúa la malla en contacto directo con intestino para mejorar fijación",
+      "Elimina por completo el riesgo de infección",
+      "Hace innecesario cualquier solapamiento más allá del defecto"
+    ],
+    "answer": 1,
+    "explanation": "El plano retromuscular ofrece un lecho vascularizado, permite amplio solapamiento y separa la prótesis de las vísceras, razones por las que es un plano de reparación muy utilizado.",
+    "rationales": [
+      "El cierre fascial suele ser deseable cuando es posible.",
+      "Correcta: resume ventajas mecánicas y biológicas del plano",
+      "El contacto visceral directo con polipropileno convencional aumenta complicaciones.",
+      "Ningún plano elimina por completo el riesgo infeccioso.",
+      "El solapamiento sigue siendo importante."
+    ],
+    "sources": [
+      {
+        "name": "Resumen Cirugía Digestivo Alto / Plástica y Reconstructiva — Hospital del Salvador",
+        "year": "2019"
+      },
+      {
+        "name": "Society of American Gastrointestinal and Endoscopic Surgeons — Clinical Guidelines",
+        "year": "current portal",
+        "url": "https://www.sages.org/publications/guidelines/"
+      }
+    ],
+    "review_status": "Revisada editorialmente V6.1",
+    "updated": "2026-10-12",
+    "origin": "V6 Editorial"
+  },
+  {
+    "id": 118,
+    "objective_id": "V6-0118",
+    "topic": "Pared abdominal y reconstructiva",
+    "subtopic": "Abdomen abierto",
+    "difficulty": "Muy difícil",
+    "type": "Cierre fascial",
+    "question": "Paciente con abdomen abierto después de cirugía de control de daños se estabiliza hemodinámicamente, disminuye el edema visceral y no tiene sepsis no controlada. ¿Cuál debe ser el objetivo reconstructivo prioritario si técnicamente es posible?",
+    "labs": null,
+    "image": null,
+    "options": [
+      "Mantener abdomen abierto hasta que aparezca una hernia ventral madura",
+      "Cerrar solo piel y abandonar fascia en todos los casos",
+      "Colocar una malla intraperitoneal permanente en contacto directo con intestino de rutina",
+      "Esperar varios meses para cualquier intento de cierre aunque las condiciones sean favorables",
+      "Cierre fascial definitivo temprano durante el mismo ingreso, antes de que progrese retracción lateral"
+    ],
+    "answer": 4,
+    "explanation": "En abdomen abierto, el cierre fascial definitivo tan pronto como sea fisiológica y técnicamente posible reduce pérdida de dominio y complicaciones del abdomen abierto prolongado.",
+    "rationales": [
+      "Prolongar innecesariamente el abdomen abierto aumenta complicaciones.",
+      "El cierre cutáneo aislado deja una hernia planificada y no es el objetivo si puede cerrarse fascia.",
+      "El contacto directo de determinadas mallas permanentes con intestino puede causar complicaciones.",
+      "No hay beneficio en retrasar si ya existen condiciones para cierre.",
+      "Correcta: aprovecha la ventana antes de retracción y adherencias progresivas"
+    ],
+    "sources": [
+      {
+        "name": "Resumen Cirugía Digestivo Alto / Plástica y Reconstructiva — Hospital del Salvador",
+        "year": "2019"
+      },
+      {
+        "name": "World Society of Emergency Surgery — Guidelines",
+        "year": "current portal",
+        "url": "https://wjes.biomedcentral.com/"
+      }
+    ],
+    "review_status": "Revisada editorialmente V6.1",
+    "updated": "2026-10-12",
+    "origin": "V6 Editorial"
+  },
+  {
+    "id": 119,
+    "objective_id": "V6-0119",
+    "topic": "Pared abdominal y reconstructiva",
+    "subtopic": "Quemaduras",
+    "difficulty": "Intermedio",
+    "type": "Reanimación",
+    "question": "Adulto de 70 kg con quemaduras de espesor parcial y total que afectan 25% de superficie corporal quemada requiere reanimación con cristaloides. ¿Qué principio es correcto durante las primeras horas?",
+    "labs": null,
+    "image": null,
+    "options": [
+      "Administrar exactamente el volumen calculado sin modificarlo aunque cambie la diuresis",
+      "Usar coloides como único líquido desde el primer minuto en todos los casos",
+      "No iniciar líquidos hasta completar desbridamiento quirúrgico",
+      "Usar una fórmula como estimación inicial y titular líquidos según respuesta fisiológica, especialmente diuresis, evitando tanto infra como sobre-resucitación",
+      "El peso y la extensión de la quemadura no influyen en la estimación inicial"
+    ],
+    "answer": 3,
+    "explanation": "Las fórmulas de reanimación son puntos de partida. La administración debe ajustarse a respuesta clínica y diuresis para evitar hipoperfusión y “fluid creep”.",
+    "rationales": [
+      "Las fórmulas no reemplazan monitorización.",
+      "Los coloides no son la única opción inicial rutinaria.",
+      "Retrasar líquidos en quemaduras extensas es perjudicial.",
+      "Correcta: reconoce que la reanimación es dinámica",
+      "Peso y superficie quemada son componentes de las fórmulas iniciales."
+    ],
+    "sources": [
+      {
+        "name": "Resumen Cirugía Digestivo Alto / Plástica y Reconstructiva — Hospital del Salvador",
+        "year": "2019"
+      },
+      {
+        "name": "European Society for Clinical Nutrition and Metabolism — Clinical Nutrition in Surgery",
+        "year": "2025",
+        "url": "https://www.espen.org/files/ESPEN-guideline-on-clinical-nutrition-in-surgery-Update-2025.pdf"
+      }
+    ],
+    "review_status": "Revisada editorialmente V6.1",
+    "updated": "2026-10-12",
+    "origin": "V6 Editorial"
+  },
+  {
+    "id": 120,
+    "objective_id": "V6-0120",
+    "topic": "Pared abdominal y reconstructiva",
+    "subtopic": "Herida contaminada",
+    "difficulty": "Difícil",
+    "type": "Cierre de herida",
+    "question": "Paciente se somete a laparotomía por perforación colónica con contaminación fecal importante. Al finalizar, la fascia puede cerrarse, pero la piel y tejido subcutáneo están muy contaminados. ¿Qué principio disminuye riesgo de infección superficial?",
+    "labs": null,
+    "image": null,
+    "options": [
+      "Considerar dejar piel abierta o cierre diferido según contaminación y evolución, en vez de forzar cierre primario hermético",
+      "Cerrar piel herméticamente siempre porque reduce infección",
+      "Colocar una malla subcutánea para sellar la herida",
+      "Aplicar adhesivo cutáneo sobre tejido contaminado sin desbridar",
+      "No realizar irrigación ni desbridamiento porque aumenta bacteriemia"
+    ],
+    "answer": 0,
+    "explanation": "En heridas muy contaminadas, la estrategia de la piel debe individualizarse. El cierre diferido o manejo abierto puede ser preferible a encerrar una gran carga bacteriana bajo cierre primario.",
+    "rationales": [
+      "Correcta: evita atrapar contaminación cuando el riesgo infeccioso es alto",
+      "El cierre primario no es obligatorio en una herida sucia.",
+      "Una malla subcutánea no es una estrategia para sellar contaminación.",
+      "El adhesivo no sustituye control de contaminación.",
+      "El desbridamiento y control de contaminación son principios básicos."
+    ],
+    "sources": [
+      {
+        "name": "Resumen Cirugía Digestivo Alto / Plástica y Reconstructiva — Hospital del Salvador",
+        "year": "2019"
+      },
+      {
+        "name": "World Society of Emergency Surgery — Guidelines",
+        "year": "current portal",
+        "url": "https://wjes.biomedcentral.com/"
+      }
+    ],
+    "review_status": "Revisada editorialmente V6.1",
+    "updated": "2026-10-12",
     "origin": "V6 Editorial"
   }
 ]

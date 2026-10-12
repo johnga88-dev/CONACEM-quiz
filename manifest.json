@@ -1,12 +1,12 @@
 {
-  "name": "SurgiPrep V6.0 Editorial",
+  "name": "SurgiPrep V6.1 Editorial",
   "short_name": "SurgiPrep",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
   "background_color": "#08111f",
   "theme_color": "#08111f",
-  "description": "SurgiPrep V6 editorial: 80 preguntas revisadas con fuentes actualizadas y control de calidad.",
+  "description": "Banco editorial de cirugía general con 120 preguntas revisadas, dificultad progresiva y fuentes actualizadas.",
   "icons": [
     {
       "src": "icon-192.png",
