@@ -1,18 +1,12 @@
-SurgiPrep V6.3 — Auditoría CONACEM
-
-Total: 200 preguntas
-Preguntas con distractores revisados/reconstruidos en esta auditoría: 140
-Distribución de clave correcta: A=40, B=40, C=40, D=40, E=40
-Dificultad: {'Fácil': 50, 'Intermedio': 50, 'Difícil': 50, 'Muy difícil': 50}
-Temas: {'Trauma y urgencias': 20, 'Hepatobiliopancreática': 20, 'Digestivo alto': 20, 'Coloproctología': 20, 'Cirugía vascular': 20, 'Mama': 20, 'Cabeza y cuello y endocrino': 20, 'Cirugía torácica': 20, 'Paciente crítico y nutrición': 20, 'Pared abdominal y reconstructiva': 20}
-
-Criterios V6.3:
-- Todas las 200 preguntas fueron recorridas en la auditoría.
-- Se reconstruyeron los distractores de los ítems detectados como débiles o no discriminativos.
-- En Difícil/Muy difícil se priorizaron alternativas del mismo eje clínico/técnico.
-- Se eliminaron distractores absurdos o de órganos/sistemas sin relación.
-- Se mantuvo exactamente balanceada la clave A–E.
-- No hay preguntas duplicadas ni opciones duplicadas dentro de un ítem.
-- El material personal se usa como mapa temático; las recomendaciones clínicas se contrastan con fuentes internacionales incluidas en cada pregunta.
-
-Auditoría adicional de homogeneidad de alternativas: corregidos ítems de pared abdominal, visión crítica de seguridad, adenoma hepatocelular, shock séptico y nutrición para eliminar doble respuesta o ejes discordantes.
+SurgiPrep V6.4 — QA REPORT
+Total preguntas: 100
+Distribución A-E: A=20, B=20, C=20, D=20, E=20
+Dificultad: Fácil=25, Intermedio=25, Difícil=25, Muy difícil=25
+Módulos: Trauma y urgencias=10, Hepatopancreatobiliar=10, Digestivo alto y bariátrica=10, Coloproctología=10, Cirugía vascular=10, Cirugía torácica=10, Cabeza, cuello, endocrino y mama=10, Pared abdominal y hernias=10, Plástica, heridas y quemados=10, Cuidados perioperatorios y paciente crítico=10
+Todas con 5 alternativas: SÍ
+Alternativas duplicadas dentro de un ítem: 0
+Explicación general presente: 100/100
+Racionales por alternativa: 500/500
+Metadatos visibles durante resolución: solo dificultad
+Revisión conceptual: enunciado autosuficiente + distractores mismo eje clínico/técnico
+Nota: la auditoría editorial y clínica fue realizada para este lote de 100; no se afirma validación externa por un comité CONACEM.

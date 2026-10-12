@@ -1,17 +1,9 @@
-American College of Gastroenterology — Guideline on Management of Acute Pancreatitis (2024) — https://gi.org/
-American Society of Breast Surgeons — Resource Guides and Official Statements (2026) — https://www.breastsurgeons.org/resources/statements/
-American Society of Colon and Rectal Surgeons — Clinical Practice Guidelines (2024) — https://fascrs.org/ascrs/media/files/downloads/clinical_practice_guidelines/
-American Thyroid Association — Management Guidelines for Adult Patients with Differentiated Thyroid Cancer (2025) — https://www.thyroid.org/professionals/ata-professional-guidelines/
-Eastern Association for the Surgery of Trauma — Practice Management Guidelines (2025) — https://www.east.org/education-resources/practice-management-guidelines
-European Society for Clinical Nutrition and Metabolism — Guideline on Clinical Nutrition in Surgery (2025) — https://www.espen.org/files/ESPEN-guideline-on-clinical-nutrition-in-surgery-Update-2025.pdf
-European Society for Vascular Surgery — Clinical Practice Guidelines on Abdominal Aorto-Iliac Artery Aneurysms (2024) — https://esvs.org/guideline/2024-abdominal-aorto-iliac-artery-aneurysms-guidelines/
-Extracorporeal Life Support Organization — Guidelines (2025) — https://www.elso.org/ecmo-resources/elso-ecmo-guidelines.aspx
-Japanese Gastric Cancer Association — Japanese Gastric Cancer Treatment Guidelines 2021, 6th edition (2023) — https://pubmed.ncbi.nlm.nih.gov/36342574/
-Resumen Cirugía Cabeza y Cuello — Hospital del Salvador (2019) — 
-Resumen Cirugía Digestivo Alto — Hospital del Salvador (2019) — 
-Resumen Cirugía Digestivo Bajo — Hospital del Salvador (2019) — 
-Resumen Cirugía Hepatobiliopáncreas — Hospital del Salvador (2019) — 
-Resumen Cirugía Plástica y Reconstructiva — Hospital del Salvador (2019) — 
-Resumen Cirugía Tórax — Hospital del Salvador (2019) — 
-Resumen Cirugía Vascular — Hospital del Salvador (2019) — 
-Society of American Gastrointestinal and Endoscopic Surgeons — Guidelines for the Surgical Treatment of Hiatal Hernias (2024) — https://www.sages.org/publications/guidelines/guidelines-for-the-surgical-treatment-of-hiatal-hernias/
+FUENTES Y JERARQUÍA — V6.4
+
+1. Guías internacionales y documentos de sociedades científicas vigentes: prioridad para conducta actual.
+2. Bibliografía personal del usuario: guía temática y contraste conceptual.
+3. Reconstrucciones históricas CONACEM: patrón de dificultad, arquitectura de casos y distractores; no fuente de verdad clínica por sí solas.
+4. The Washington Manual of Surgery, 9th Edition (Wolters Kluwer, 2023): se utilizó únicamente dentro de la información pública/legal disponible sobre alcance, organización y enfoque.
+5. Zollinger’s Atlas of Surgical Operations, 11th Edition (McGraw Hill, 2022): se utilizó únicamente dentro de la información pública/legal disponible sobre organización de técnica quirúrgica; no se copiaron ilustraciones ni texto protegido.
+
+Fuentes actuales enlazadas por pregunta incluyen, según el tema: Eastern Association for the Surgery of Trauma; European Society for Vascular Surgery; American Society of Colon and Rectal Surgeons; American Thyroid Association; American Society of Breast Surgeons; European Hernia Society; Society of Thoracic Surgeons; Surviving Sepsis Campaign; European Society for Clinical Nutrition and Metabolism; Extracorporeal Life Support Organization; American Burn Association; Kidney Disease: Improving Global Outcomes; American Heart Association/American College of Cardiology.

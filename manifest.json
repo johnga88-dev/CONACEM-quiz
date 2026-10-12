@@ -1,12 +1,12 @@
 {
-  "name": "SurgiPrep V6.3 — Auditoría CONACEM",
-  "short_name": "SurgiPrep V6.3",
+  "name": "SurgiPrep V6.4 — Especialista",
+  "short_name": "SurgiPrep V6.4",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
   "background_color": "#08111f",
   "theme_color": "#08111f",
-  "description": "Banco editorial de 200 preguntas de cirugía general, con cuatro niveles de dificultad, modo estudio, examen y fuentes actualizadas.",
+  "description": "Banco editorial de 100 preguntas de cirugía general auditadas a nivel especialista, con cuatro niveles de dificultad, modo estudio, examen y fuentes actualizadas.",
   "icons": [
     {
       "src": "icon-192.png",
