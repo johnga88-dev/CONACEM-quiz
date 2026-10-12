@@ -1,7 +1,12 @@
-QA SurgiPrep V6.5
-Total 200; nuevas 100
-Dificultad: {'Fácil': 50, 'Intermedio': 50, 'Difícil': 50, 'Muy difícil': 50}
-Claves: {0: 40, 1: 40, 2: 40, 3: 40, 4: 40}
-Temas: {'Trauma y urgencias': 20, 'Hepatopancreatobiliar': 20, 'Digestivo alto y bariátrica': 20, 'Coloproctología': 20, 'Cirugía vascular': 20, 'Cirugía torácica': 20, 'Cabeza, cuello, endocrino y mama': 20, 'Pared abdominal y hernias': 20, 'Plástica, heridas y quemados': 20, 'Cuidados perioperatorios y paciente crítico': 20}
-Visuales total: 29; nuevas: 25
-Duplicados exactos: 0
+SurgiPrep V6.6 — Bloque 3
+
+Banco total: 300 preguntas
+Bloque 3: 100 preguntas (201–300)
+Temas Bloque 3: {'Trauma y urgencias': 9, 'Hepatopancreatobiliar': 9, 'Digestivo alto y bariátrica': 8, 'Coloproctología': 9, 'Cirugía vascular': 8, 'Cirugía torácica': 8, 'Cabeza, cuello, endocrino y mama': 8, 'Pared abdominal y hernias': 8, 'Plástica, heridas y quemados': 8, 'Cuidados perioperatorios y paciente crítico': 9, 'Generalidades': 8, 'Imagenología': 8}
+Dificultad Bloque 3: {'Difícil': 24, 'Muy difícil': 19, 'Intermedio': 29, 'Fácil': 28}
+Claves correctas Bloque 3: {'A': 20, 'B': 20, 'C': 20, 'D': 20, 'E': 20}
+Preguntas de Imagenología con imagen clínica real: 8
+Imágenes reales en Bloque 3: 8
+Enunciados exactos duplicados en banco total: 0
+Incidencias estructurales: []
+Nota: Bloques 1 y 2 se conservaron sin reescritura. Las imágenes de Imagenología usan estudios clínicos reales alojados en Wikimedia Commons y sus páginas de licencia/fuente se incluyen en cada pregunta.

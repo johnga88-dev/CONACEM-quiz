@@ -1,3 +1,4 @@
-SurgiPrep V6.5 — Especialista Visual
-200 preguntas: 100 V6.4 aprobadas + 100 nuevas.
-Durante la resolución solo se muestra la dificultad.
+SurgiPrep V6.6 — 300 preguntas.
+Bloques 1 y 2 preservados.
+Bloque 3: preguntas 201–300, mixtas, con las nuevas categorías Generalidades e Imagenología.
+En Imagenología se usan estudios clínicos reales con fuente/licencia abierta indicada.
