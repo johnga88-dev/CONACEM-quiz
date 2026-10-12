@@ -1,12 +1,11 @@
 {
-  "name": "SurgiPrep V6.4 — Especialista",
-  "short_name": "SurgiPrep V6.4",
+  "name": "SurgiPrep V6.5 — Especialista Visual",
+  "short_name": "SurgiPrep",
+  "description": "200 preguntas de Cirugía General nivel especialista, con componente visual",
   "start_url": "./index.html",
-  "scope": "./",
   "display": "standalone",
-  "background_color": "#08111f",
-  "theme_color": "#08111f",
-  "description": "Banco editorial de 100 preguntas de cirugía general auditadas a nivel especialista, con cuatro niveles de dificultad, modo estudio, examen y fuentes actualizadas.",
+  "background_color": "#07111f",
+  "theme_color": "#0b63f6",
   "icons": [
     {
       "src": "icon-192.png",

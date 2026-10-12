@@ -1,9 +1,1 @@
-FUENTES Y JERARQUÍA — V6.4
-
-1. Guías internacionales y documentos de sociedades científicas vigentes: prioridad para conducta actual.
-2. Bibliografía personal del usuario: guía temática y contraste conceptual.
-3. Reconstrucciones históricas CONACEM: patrón de dificultad, arquitectura de casos y distractores; no fuente de verdad clínica por sí solas.
-4. The Washington Manual of Surgery, 9th Edition (Wolters Kluwer, 2023): se utilizó únicamente dentro de la información pública/legal disponible sobre alcance, organización y enfoque.
-5. Zollinger’s Atlas of Surgical Operations, 11th Edition (McGraw Hill, 2022): se utilizó únicamente dentro de la información pública/legal disponible sobre organización de técnica quirúrgica; no se copiaron ilustraciones ni texto protegido.
-
-Fuentes actuales enlazadas por pregunta incluyen, según el tema: Eastern Association for the Surgery of Trauma; European Society for Vascular Surgery; American Society of Colon and Rectal Surgeons; American Thyroid Association; American Society of Breast Surgeons; European Hernia Society; Society of Thoracic Surgeons; Surviving Sepsis Campaign; European Society for Clinical Nutrition and Metabolism; Extracorporeal Life Support Organization; American Burn Association; Kidney Disease: Improving Global Outcomes; American Heart Association/American College of Cardiology.
+Guías internacionales contemporáneas + bibliografía personal y reconstrucciones CONACEM como guía temática/arquitectura. Los esquemas del paquete son originales y se usan como apoyo visual.

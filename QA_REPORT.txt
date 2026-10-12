@@ -1,12 +1,7 @@
-SurgiPrep V6.4 — QA REPORT
-Total preguntas: 100
-Distribución A-E: A=20, B=20, C=20, D=20, E=20
-Dificultad: Fácil=25, Intermedio=25, Difícil=25, Muy difícil=25
-Módulos: Trauma y urgencias=10, Hepatopancreatobiliar=10, Digestivo alto y bariátrica=10, Coloproctología=10, Cirugía vascular=10, Cirugía torácica=10, Cabeza, cuello, endocrino y mama=10, Pared abdominal y hernias=10, Plástica, heridas y quemados=10, Cuidados perioperatorios y paciente crítico=10
-Todas con 5 alternativas: SÍ
-Alternativas duplicadas dentro de un ítem: 0
-Explicación general presente: 100/100
-Racionales por alternativa: 500/500
-Metadatos visibles durante resolución: solo dificultad
-Revisión conceptual: enunciado autosuficiente + distractores mismo eje clínico/técnico
-Nota: la auditoría editorial y clínica fue realizada para este lote de 100; no se afirma validación externa por un comité CONACEM.
+QA SurgiPrep V6.5
+Total 200; nuevas 100
+Dificultad: {'Fácil': 50, 'Intermedio': 50, 'Difícil': 50, 'Muy difícil': 50}
+Claves: {0: 40, 1: 40, 2: 40, 3: 40, 4: 40}
+Temas: {'Trauma y urgencias': 20, 'Hepatopancreatobiliar': 20, 'Digestivo alto y bariátrica': 20, 'Coloproctología': 20, 'Cirugía vascular': 20, 'Cirugía torácica': 20, 'Cabeza, cuello, endocrino y mama': 20, 'Pared abdominal y hernias': 20, 'Plástica, heridas y quemados': 20, 'Cuidados perioperatorios y paciente crítico': 20}
+Visuales total: 29; nuevas: 25
+Duplicados exactos: 0
