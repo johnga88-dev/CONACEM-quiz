@@ -1,4 +1,4 @@
-const CACHE='surgiprep-v682-visual-audit-1';
+const CACHE='surgiprep-v692-compact-new-1';
 const CORE=['./', './index.html', './questions.json', './manifest.json', './icon-192.png', './icon-512.png', './apple-touch-icon.png'];
 self.addEventListener('install',e=>e.waitUntil((async()=>{const c=await caches.open(CACHE);await c.addAll(CORE);try{const r=await fetch('./questions.json');const bank=await r.clone().json();const imgs=[...new Set(bank.map(q=>q.image).filter(x=>x&&/^https?:/.test(x)))];for(const u of imgs){try{const ir=await fetch(u,{mode:'no-cors'});await c.put(u,ir)}catch(_){}}}catch(_){}})()));
 self.addEventListener('activate',e=>e.waitUntil(caches.keys().then(ks=>Promise.all(ks.filter(k=>k!==CACHE).map(k=>caches.delete(k))))));
