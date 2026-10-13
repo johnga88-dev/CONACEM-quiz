@@ -1,0 +1,52 @@
+SurgiPrep V6.8.1 — Reclasificación de tipos
+Objetivo: aplicar de forma coherente la taxonomía Caso clínico / Teoría / Técnica / Imagenología a los 400 ítems, con auditoría específica de Bloques 1–3.
+Preguntas revisadas en Bloques 1–3: 300
+Reclasificaciones efectivas: 35
+Distribución global: {'Caso clínico': 285, 'Técnica': 62, 'Teoría': 24, 'Imagenología': 29}
+Bloque 1: {'Caso clínico': 85, 'Técnica': 15}
+Bloque 2: {'Caso clínico': 94, 'Técnica': 5, 'Teoría': 1}
+Bloque 3: {'Caso clínico': 73, 'Técnica': 17, 'Imagenología': 10}
+Bloque 4: {'Teoría': 23, 'Caso clínico': 33, 'Técnica': 25, 'Imagenología': 19}
+
+Criterios:
+- Imagenología: requiere interpretación de un estudio clínico real.
+- Técnica: evalúa ejecución, abordaje, maniobra, reconstrucción o procedimiento.
+- Teoría: conocimiento directo de definición, clasificación, anatomía o criterio.
+- Caso clínico: integra datos de un paciente para diagnóstico, conducta o decisión terapéutica.
+
+Cambios realizados:
+008: Imagenología -> Técnica | Paciente con fractura pélvica inestable presenta shock hemorrágico refractario. La evaluación ecográfica focalizada para trauma es negativa y no hay evidencia de hemorragia torácic
+017: Teoría -> Caso clínico | Paciente de 69 años tiene una neoplasia mucinosa papilar intraductal del páncreas de rama lateral. En la resonancia se observa un nódulo mural realzado de 7 mm dentro del quiste y 
+026: Imagenología -> Caso clínico | Mujer de 38 años, 18 meses después de bypass gástrico en Y de Roux, consulta por dolor abdominal intermitente intenso, náuseas y vómitos. La tomografía muestra remolino de vasos me
+037: Imagenología -> Caso clínico | Varón de 44 años con fístula anal supraesfintérica recurrente presenta dos cirugías previas y continencia conservada. La resonancia pélvica muestra un trayecto que compromete una p
+041: Teoría -> Caso clínico | Paciente con fibrilación auricular presenta dolor súbito, palidez y frialdad de la pierna. No se detecta señal arterial con Doppler, pero sí señal venosa. Tiene parestesias de los 
+065: Teoría -> Caso clínico | Cantante profesional desarrolla pérdida de capacidad para alcanzar tonos agudos después de una tiroidectomía, sin disfonía marcada en la conversación y con movilidad cordal aparent
+077: Teoría -> Técnica | En una reconstrucción de hernia ventral compleja se realiza liberación del músculo transverso del abdomen como parte de una separación posterior de componentes. ¿Cuál es el objetiv
+094: Teoría -> Caso clínico | Paciente de 67 años, 48 horas después de shock séptico por peritonitis posoperatoria, tenía creatinina basal de 0,9 mg/dL (rango aproximado 0,6–1,2 mg/dL). Ahora presenta creatinin
+101: Imagenología -> Caso clínico | Varón de 31 años con fractura pélvica inestable persiste con presión arterial 76/44 mmHg pese a cinturón pélvico y transfusión masiva. La evaluación ecográfica focalizada para trau
+103: Imagenología -> Técnica | Durante laparotomía por herida penetrante se identifica hematoma retroperitoneal central supramesocólico en zona I, expansivo, con requerimiento transfusional continuo. ¿Cuál es la
+104: Imagenología -> Técnica | Paciente de 27 años con trauma cerrado presenta sección completa del cuerpo pancreático a la izquierda de los vasos mesentéricos, con interrupción del conducto pancreático principa
+108: Imagenología -> Caso clínico | Paciente estable con herida cervical que atraviesa platisma no tiene signos duros. Angiotomografía sin lesión vascular, pero la trayectoria pasa junto al esófago y hay aire paraeso
+109: Imagenología -> Caso clínico | Varón de 24 años con herida por arma blanca precordial pierde signos vitales en traslado. Llega tras 6 minutos de reanimación cardiopulmonar, con actividad eléctrica organizada y s
+111: Imagenología -> Técnica | Durante colecistectomía laparoscópica por colecistitis gangrenosa no es posible identificar con seguridad conducto y arteria cística, y la pared posterior está fusionada al lecho h
+112: Imagenología -> Caso clínico | Al segundo día de una colecistectomía difícil, paciente estable presenta débito biliar alto. Colangiorresonancia sugiere sección completa de vía biliar hiliar con confluencia prese
+116: Imagenología -> Caso clínico | Adenocarcinoma de cabeza pancreática con contacto tumoral de 220° con vena mesentérica superior/porta en segmento corto reconstruible, sin contacto con arteria mesentérica superior
+119: Imagenología -> Caso clínico | Día 6 tras duodenopancreatectomía: drenaje con amilasa elevada, fiebre y colección peripancreática de 7 cm. Está estable y sin sangrado. ¿Cuál es el siguiente paso?
+125: Imagenología -> Caso clínico | Día 8 tras gastrectomía en manga: taquicardia, fiebre y colección subfrénica de 6 cm comunicada con una fuga proximal de 8 mm. Está estable y sin peritonitis difusa. ¿Cuál es la es
+126: Imagenología -> Caso clínico | Mujer de 39 años, dos años después de bypass gástrico en Y de Roux, tiene dolor posprandial intenso y vómitos. Tomografía: signo de remolino mesentérico y congestión venosa. El dol
+127: Imagenología -> Caso clínico | Paciente tres años después de bypass gástrico en Y de Roux presenta peritonitis y aire libre junto a la gastro-yeyuno anastomosis. Es fumador y usa antiinflamatorios no esteroideos
+130: Imagenología -> Caso clínico | Paciente con manga gástrica hace tres años desarrolla reflujo severo, esofagitis Los Ángeles C y pequeña hernia hiatal. No tiene estenosis. ¿Cuál es la opción de revisión con mayor
+140: Imagenología -> Caso clínico | Varón de 42 años con fístula transesfintérica alta recurrente compromete gran proporción del esfínter externo. Continencia normal y resonancia sin absceso activo. ¿Qué principio de
+143: Imagenología -> Caso clínico | Varón de 74 años con aneurisma roto infrarrenal llega consciente con presión 88/56 mmHg tras reanimación limitada. Angiotomografía rápida muestra anatomía favorable para reparación
+161: Imagenología -> Caso clínico | Mujer de 44 años con carcinoma papilar de tiroides de 3,1 cm, unifocal, limitado al lóbulo derecho, sin extensión extratiroidea ni ganglios sospechosos. No hay nódulos contralatera
+162: Imagenología -> Caso clínico | Paciente de 39 años con carcinoma medular de tiroides y mutación germinal RET (protooncogén RET) será operado. Refiere cefalea, palpitaciones y sudoración episódica. ¿Qué debe reso
+164: Imagenología -> Teoría | Durante tiroidectomía se identifica el nervio laríngeo recurrente derecho. ¿Qué relación anatómica explica que su trayecto sea más oblicuo y variable que el izquierdo?
+165: Imagenología -> Caso clínico | Mujer de 56 años consulta por secreción sanguinolenta espontánea del pezón izquierdo, proveniente de un único conducto galactóforo. No hay masa palpable. Mamografía diagnóstica y e
+166: Imagenología -> Técnica | Paciente con cáncer de mama cT2N1 confirmado por biopsia recibe tratamiento neoadyuvante. El ganglio positivo fue marcado antes de tratar. Al finalizar está clínicamente cN0. ¿Qué 
+167: Imagenología -> Caso clínico | Mujer de 59 años con cáncer de mama T1c clínicamente N0 se somete a cirugía conservadora. Dos de tres ganglios centinela tienen macrometástasis, sin extensión extracapsular macrosc
+170: Imagenología -> Técnica | Paciente con carcinoma superficial de parótida no tiene parálisis facial. En cirugía el nervio facial está separado del tumor y sin invasión macroscópica. ¿Cuál es el principio téc
+181: Imagenología -> Caso clínico | Adulto de 80 kg presenta quemaduras térmicas de espesor parcial profundo y total que comprometen 35% de la superficie corporal total. Ingresa 2 horas después del accidente y no ha 
+193: Imagenología -> Caso clínico | Paciente de 70 kg de peso corporal predicho desarrolla síndrome de distrés respiratorio agudo moderado después de sepsis abdominal. Se ventila con 490 mL de volumen corriente y pre
+194: Imagenología -> Caso clínico | Paciente con síndrome de distrés respiratorio agudo grave mantiene hipoxemia refractaria pese a ventilación protectora, posición prona y tratamiento óptimo. La función ventricular 
+275: Teoría -> Caso clínico | Paciente con creatinina basal de 0,8 mg/dL (referencia aproximada 0,6–1,2 mg/dL) aumenta a 1,8 mg/dL en 36 horas después de shock hemorrágico. Mantiene diuresis de 0,7 mL/kg/h. ¿Có
+285: Teoría -> Caso clínico | Paciente con dehiscencia de laparotomía pregunta por qué la herida sigue vulnerable varias semanas después aunque la piel parezca cerrada. ¿Cuál afirmación describe mejor la recupe

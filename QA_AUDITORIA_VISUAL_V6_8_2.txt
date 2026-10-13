@@ -1,0 +1,47 @@
+SurgiPrep V6.8.2 — Auditoría visual
+
+Preguntas totales: 400
+Preguntas con imagen tras auditoría: 27
+Imágenes clínicas reales remotas: 27
+Esquemas SVG aún vinculados a preguntas: 0
+Imágenes decorativas/redundantes eliminadas: 31
+Reclasificaciones específicas: #376 y #400 de Imagenología a Técnica.
+Preguntas 291–300 reescritas para depender de la interpretación visual directa.
+Preguntas 312 y 360 ajustadas para reducir pistas textuales y aumentar dependencia de la imagen.
+
+Distribución por tipo tras auditoría:
+- Caso clínico: 285
+- Imagenología: 27
+- Teoría: 24
+- Técnica: 64
+
+Preguntas a las que se eliminó esquema decorativo:
+- #8: assets/reboa.svg (Técnica)
+- #11: assets/critical_view.svg (Técnica)
+- #26: assets/roux.svg (Caso clínico)
+- #37: assets/anal_fistula.svg (Caso clínico)
+- #101: assets/reboa.svg (Caso clínico)
+- #103: assets/retroperitoneo.svg (Técnica)
+- #104: assets/whipple.svg (Técnica)
+- #108: assets/neck.svg (Caso clínico)
+- #109: assets/reboa.svg (Caso clínico)
+- #111: assets/critical_view.svg (Técnica)
+- #112: assets/critical_view.svg (Caso clínico)
+- #116: assets/whipple.svg (Caso clínico)
+- #119: assets/whipple.svg (Caso clínico)
+- #125: assets/roux.svg (Caso clínico)
+- #126: assets/roux.svg (Caso clínico)
+- #127: assets/roux.svg (Caso clínico)
+- #130: assets/roux.svg (Caso clínico)
+- #140: assets/anal_fistula.svg (Caso clínico)
+- #143: assets/reboa.svg (Caso clínico)
+- #161: assets/neck.svg (Caso clínico)
+- #162: assets/neck.svg (Caso clínico)
+- #164: assets/neck.svg (Teoría)
+- #165: assets/breast_axilla.svg (Caso clínico)
+- #166: assets/breast_axilla.svg (Técnica)
+- #167: assets/breast_axilla.svg (Caso clínico)
+- #170: assets/neck.svg (Técnica)
+- #181: assets/burn_tbsa.svg (Caso clínico)
+- #193: assets/vent_loop.svg (Caso clínico)
+- #194: assets/ecmo.svg (Caso clínico)

@@ -1,0 +1,21 @@
+SurgiPrep V6.8 — Bloque 4
+
+Total banco: 400
+Bloque 4 nuevo: 100
+Dificultad Bloque 4: {'Fácil': 25, 'Intermedio': 25, 'Difícil': 25, 'Muy difícil': 25}
+Tipos Bloque 4: {'Teoría': 23, 'Caso clínico': 33, 'Técnica': 25, 'Imagenología': 19}
+Temas Bloque 4: {'Trauma y urgencias': 8, 'Hepatopancreatobiliar': 8, 'Digestivo alto y bariátrica': 8, 'Coloproctología': 8, 'Cirugía vascular': 8, 'Cirugía torácica': 8, 'Cabeza, cuello, endocrino y mama': 8, 'Pared abdominal y hernias': 8, 'Plástica, heridas y quemados': 8, 'Cuidados perioperatorios y paciente crítico': 8, 'Generalidades': 10, 'Imagenología': 10}
+Claves Bloque 4: {'A': 20, 'B': 20, 'C': 20, 'D': 20, 'E': 20}
+Enunciados exactos duplicados: 0
+Opciones duplicadas dentro de ítem: 0
+Todas las preguntas: 5 alternativas y 5 racionales
+Imágenes de Imagenología: estudios clínicos reales de Wikimedia Commons/licencia abierta, cacheables por PWA.
+
+Reglas editoriales aplicadas:
+- Enunciado autosuficiente y órgano/contexto explícito.
+- Distractores del mismo eje clínico/técnico.
+- Dificultad por razonamiento, no por distractores absurdos.
+- Teoría directa de nivel especialista incorporada.
+- Tipos visibles: Caso clínico, Teoría, Técnica, Imagenología.
+- Medidas incluidas cuando son criterio diagnóstico relevante.
+- Acrónimos expandidos en el texto de nuevas preguntas.

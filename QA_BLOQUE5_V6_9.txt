@@ -1,0 +1,10 @@
+SurgiPrep V6.9 — QA Bloque 5
+
+Total banco: 500
+Bloque 5: 100 preguntas (401–500)
+Tipos Bloque 5: {'Teoría': 45, 'Técnica': 45, 'Imagenología': 10}
+Dificultad Bloque 5: {'Fácil': 26, 'Intermedio': 26, 'Difícil': 24, 'Muy difícil': 24}
+Claves: {'A': 20, 'B': 20, 'C': 20, 'D': 20, 'E': 20}
+Temas: {'Trauma y urgencias': 8, 'Hepatopancreatobiliar': 8, 'Digestivo alto y bariátrica': 8, 'Coloproctología': 8, 'Cirugía vascular': 8, 'Cirugía torácica': 8, 'Cabeza, cuello, endocrino y mama': 8, 'Pared abdominal y hernias': 8, 'Plástica, heridas y quemados': 8, 'Cuidados perioperatorios y paciente crítico': 8, 'Generalidades': 10, 'Imagenología': 10}
+Casos clínicos en Bloque 5: 0
+Todas: 5 alternativas, 5 racionales, sin duplicados exactos.

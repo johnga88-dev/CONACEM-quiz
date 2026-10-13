@@ -1,5 +1,5 @@
-const CACHE='surgiprep-v67-intelligent-1';
-const ASSETS=["./", "./index.html", "./manifest.json", "./questions.json", "./icon-192.png", "./icon-512.png", "./apple-touch-icon.png", "./assets/breast_axilla.svg", "./assets/whipple.svg", "./assets/roux.svg", "./assets/ecmo.svg", "./assets/neck.svg", "./assets/vent_loop.svg", "./assets/burn_tbsa.svg", "./assets/anal_fistula.svg", "./assets/retroperitoneo.svg", "./assets/reboa.svg", "./assets/critical_view.svg"];
-self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(ASSETS))));
-self.addEventListener('activate',e=>e.waitUntil(caches.keys().then(k=>Promise.all(k.filter(x=>x!==CACHE).map(x=>caches.delete(x))))));
-self.addEventListener('fetch',e=>e.respondWith(fetch(e.request).then(r=>{let c=r.clone();caches.open(CACHE).then(x=>x.put(e.request,c));return r}).catch(()=>caches.match(e.request))));
+const CACHE='surgiprep-v682-visual-audit-1';
+const CORE=['./', './index.html', './questions.json', './manifest.json', './icon-192.png', './icon-512.png', './apple-touch-icon.png'];
+self.addEventListener('install',e=>e.waitUntil((async()=>{const c=await caches.open(CACHE);await c.addAll(CORE);try{const r=await fetch('./questions.json');const bank=await r.clone().json();const imgs=[...new Set(bank.map(q=>q.image).filter(x=>x&&/^https?:/.test(x)))];for(const u of imgs){try{const ir=await fetch(u,{mode:'no-cors'});await c.put(u,ir)}catch(_){}}}catch(_){}})()));
+self.addEventListener('activate',e=>e.waitUntil(caches.keys().then(ks=>Promise.all(ks.filter(k=>k!==CACHE).map(k=>caches.delete(k))))));
+self.addEventListener('fetch',e=>{if(e.request.method!=='GET')return;e.respondWith((async()=>{const c=await caches.open(CACHE);const hit=await c.match(e.request);try{const net=await fetch(e.request);if(net&& (net.ok||net.type==='opaque'))c.put(e.request,net.clone());return net}catch(_){return hit||Response.error()}})())});
