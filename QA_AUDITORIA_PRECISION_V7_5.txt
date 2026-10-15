@@ -1,0 +1,37 @@
+SurgiPrep V7.5 — Auditoría de precisión técnica
+Fecha: 2026-10-13
+
+OBJETIVO
+Revisar las 500 preguntas para reducir formulaciones vagas y aumentar especificidad técnica sin reescribir innecesariamente los enunciados.
+
+METODOLOGÍA
+- Se preservaron los stems salvo cuando un ajuste era necesario para coherencia.
+- Se auditaron alternativas y explicaciones buscando términos vagos y falta de parámetros concretos.
+- Se reforzaron especialmente preguntas de Técnica y Teoría.
+- Se añadieron cifras solo en conceptos con parámetros defendibles; no se inventaron valores en decisiones dependientes de dispositivo/anatomía/contexto.
+- Se mantuvo la regla de no redundancia semántica de V7.4.
+
+CAMBIOS
+Preguntas con cambios de contenido/redacción en alternativas o explicación: 20
+IDs modificados: 2, 15, 19, 28, 35, 47, 51, 60, 85, 199, 243, 246, 273, 284, 319, 390, 422, 445, 460, 486
+
+EJEMPLOS DE MAYOR PRECISIÓN
+- Small bites: 5–8 mm del borde, ~5 mm entre puntos, relación sutura/herida ≥4:1.
+- Asa de Roux postgastrectomía total: alternativas expresadas en rangos concretos, respuesta 40–60 cm.
+- Acalasia tipo III: cobertura del segmento espástico y extensión gástrica de ~2–3 cm.
+- Segmentectomía pulmonar: margen ≥2 cm o al menos igual al diámetro tumoral + estadificación ganglionar.
+- Fijación costal: se explicita ventana temprana, idealmente ≤72 h en paciente seleccionado.
+- Úlcera venosa: compresión ~30–40 mmHg si perfusión arterial lo permite.
+- Malla macroporosa: poros típicamente >1 mm.
+- Cierre con grapadora: selección por grosor real y rango validado de altura de grapa cerrada.
+
+CONTROL
+Total: 500
+Claves A-E: {0: 100, 1: 100, 2: 100, 3: 100, 4: 100}
+Dificultades: {'Fácil': 126, 'Intermedio': 126, 'Difícil': 124, 'Muy difícil': 124}
+Tipos: {'Caso clínico': 199, 'Técnica': 125, 'Teoría': 139, 'Imagenología': 37}
+Frases vagas prioritarias restantes en alternativas: 1
+[(73, ['solapamiento suficiente'])]
+
+NOTA
+Esta auditoría es editorial/técnica y programática con revisión dirigida de ítems de alto riesgo. No equivale a validación clínica externa individual de las 500 preguntas por un panel de especialistas.

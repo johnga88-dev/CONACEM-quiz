@@ -1,0 +1,41 @@
+SurgiPrep V7.6 — Auditoría de profundidad técnica y nomenclatura quirúrgica
+Fecha: 2026-10-13
+
+OBJETIVO
+Revisar nuevamente las 500 preguntas con el criterio de que toda técnica, procedimiento o manejo específico se exprese con profundidad de especialista y, cuando corresponda, incluya epónimo, acrónimo moderno, medidas, indicaciones, variantes y pasos técnicos relevantes.
+
+REGLAS APLICADAS
+- No se reescribió un ítem si la formulación ya era precisa y de nivel especialista.
+- Se conservaron los objetivos cognitivos y las claves correctas.
+- Se profundizaron alternativas y explicaciones cuando el manejo estaba expresado en términos genéricos.
+- Se incorporaron epónimos/nombres estandarizados cuando forman parte del lenguaje quirúrgico habitual.
+- No se inventaron cifras universales cuando el valor depende de dispositivo, anatomía o protocolo.
+- Se mantiene la prohibición de redundancia semántica.
+
+CAMBIOS
+Preguntas modificadas: 28
+IDs: 5, 6, 11, 28, 37, 38, 51, 60, 112, 129, 163, 166, 203, 217, 228, 230, 331, 345, 390, 415, 419, 421, 424, 425, 429, 455, 462, 471
+
+CAMBIOS DESTACADOS
+- Acalasia tipo III: Heller vs POEM (miotomía endoscópica peroral), longitud adaptada al segmento espástico y extensión gástrica aproximada 2–3 cm.
+- Hernia paraesofágica con esófago corto: gastroplastia de Collis y criterio de longitud intraabdominal.
+- Lesión biliar alta: hepaticoyeyunostomía en Y de Roux con variante de Hepp-Couinaud.
+- MEN1: paratiroidectomía subtotal ~3–3½ glándulas o total con autotrasplante en escenarios seleccionados.
+- Axila posneoadyuvancia: TAD (targeted axillary dissection, disección axilar dirigida).
+- Crohn: stricturoplastias de Heineke-Mikulicz, Finney y Michelassi según longitud.
+- Pancreatoduodenectomía: procedimiento de Whipple y orden reconstructivo.
+- Fundoplicatura: floppy Nissen 360°, corta (~2–3 cm) y sin tensión excesiva.
+- Recto: TME (total mesorectal excision, escisión total del mesorrecto).
+- Colon: CME (complete mesocolic excision, escisión mesocólica completa).
+- Tórax: VATS (video-assisted thoracoscopic surgery, cirugía toracoscópica videoasistida) y SSRF (surgical stabilization of rib fractures, estabilización quirúrgica de fracturas costales).
+- Quemados/síndrome compartimental: fasciotomía de cuatro compartimentos de la pierna.
+
+CONTROL
+Total de preguntas: 500
+Claves correctas A–E: 100 cada una
+Duplicados exactos de enunciado: 0
+5 alternativas y 5 racionales en todos los ítems: sí
+Marcadores de nomenclatura: {'POEM': 2, 'Whipple': 1, 'Miles': 3, 'Collis': 1, 'Hepp-Couinaud': 1, 'TAD': 1}
+
+NOTA
+La auditoría mantiene las fuentes ya asociadas a cada pregunta y no sustituye una revisión clínica externa individual por un panel de especialistas.

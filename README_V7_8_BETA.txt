@@ -1,0 +1,1 @@
+SurgiPrep V7.8 BETA. Contiene las 500 preguntas auditadas y conserva metadatos originales de V7.6. Las marcas ⚠ Revisión pendiente indican riesgos documentados, NO una segunda validación clínica. No publicar como banco definitivamente validado. Se mantiene toda pregunta, incluida la señalada como redundante.

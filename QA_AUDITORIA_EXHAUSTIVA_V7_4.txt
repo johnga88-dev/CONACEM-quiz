@@ -1,0 +1,72 @@
+SurgiPrep V7.4 — Auditoría exhaustiva de duplicación y redundancia
+
+Preguntas auditadas: 500
+Reemplazos en última pasada: 8
+IDs última pasada: 101, 206, 481, 353, 445, 147, 408, 411
+Duplicados exactos normalizados: 0
+Respuestas correctas exactamente repetidas: 0
+Pares same-topic con similitud lexical >=0.20: 4
+
+305-403: 0.278 | Acceso vascular para REBOA <> Contraindicaciones de REBOA
+92-193: 0.264 | Síndrome de dificultad respiratoria aguda <> Presión de distensión
+183-184: 0.222 | Intoxicación por cianuro en incendios <> Monóxido de carbono
+293-297: 0.212 | Apendicitis aguda <> Diverticulitis
+
+Método de auditoría:
+1. Búsqueda de duplicados exactos normalizados.
+2. Comparación de enunciado + respuesta correcta mediante TF-IDF con n-gramas.
+3. Revisión de grupos por tema y subtema.
+4. Comparación de objetivos cognitivos, no solo de redacción.
+5. Sustitución de ítems que evaluaban la misma decisión, clasificación, maniobra o criterio.
+6. Nueva pasada tras cada sustitución para detectar redundancias inducidas.
+
+Regla aplicada: dos preguntas pueden compartir una especialidad o enfermedad, pero no deben resolverse recordando el mismo punto decisional o la misma frase/concepto central.
+
+Cambios última pasada:
+#101
+Antes: Varón de 31 años con fractura pélvica inestable persiste con presión arterial 76/44 mmHg pese a cinturón pélvico y transfusión masiva. La evaluación ecográfica focalizada para trauma es negativa y no hay hemorragia torácica. Radiología intervencional demorará al menos 60 minutos. ¿Cuál es la estrategia inicial que mejor prioriza el control hemorrágico?
+Antes/respuesta: Empaquetamiento pélvico preperitoneal urgente y estabilización mecánica, reservando angiografía/embolización para sangrado arterial persistente
+Ahora: En una fractura pélvica por compresión anteroposterior con diástasis de la sínfisis, ¿qué efecto biomecánico busca el cinturón pélvico durante la reanimación inicial?
+Ahora/respuesta: Reducir el volumen pélvico y aproximar el anillo anterior para favorecer tamponamiento venoso y estabilidad temporal
+
+#206
+Antes: Varón de 39 años con politrauma cerrado está estable tras reanimación. La angiografía por tomografía computarizada demuestra lesión de aorta torácica descendente con pseudoaneurisma contenido distal a la arteria subclavia izquierda, sin ruptura libre. Tiene además contusión pulmonar bilateral importante. ¿Cuál estrategia es más apropiada?
+Antes/respuesta: Control estricto de frecuencia cardíaca y presión arterial seguido de reparación endovascular torácica planificada precozmente cuando la fisiología permita el procedimiento
+Ahora: En trauma aórtico torácico cerrado, ¿qué hallazgo de imagen corresponde a una lesión mínima que puede ser candidata a manejo no operatorio con vigilancia estricta en pacientes seleccionados?
+Ahora/respuesta: Irregularidad íntimal pequeña sin pseudoaneurisma ni alteración significativa del contorno aórtico
+
+#481
+Antes: ¿Cómo se clasifica una operación electiva que entra de forma controlada al tracto gastrointestinal sin contaminación inusual?
+Antes/respuesta: Limpia-contaminada
+Ahora: ¿Qué característica convierte una herida quirúrgica en 'contaminada' en lugar de limpia-contaminada según la clasificación tradicional?
+Ahora/respuesta: Derrame importante del tracto gastrointestinal o violación mayor de técnica estéril sin infección establecida
+
+#353
+Antes: En una paciente con cáncer de mama inicialmente cN1 confirmado por biopsia que se vuelve clínicamente node-negative después de tratamiento neoadyuvante, ¿qué estrategia puede disminuir la tasa de falso negativo de la estadificación axilar?
+Antes/respuesta: Retirar el ganglio previamente marcado junto con ganglios centinela utilizando una técnica de mapeo adecuada
+Ahora: Después de tratamiento neoadyuvante para cáncer de mama, ¿qué hallazgo obliga a considerar que la axila sigue siendo clínicamente positiva y evita tratarla como una axila convertida a cN0?
+Ahora/respuesta: Persistencia de un ganglio sospechoso confirmado como metastásico en la reevaluación
+
+#445
+Antes: En una lobectomía pulmonar anatómica, ¿qué principio distingue la resección anatómica de una resección en cuña?
+Antes/respuesta: Control y división de bronquio, arterias y venas lobares correspondientes
+Ahora: En resección pulmonar por cáncer, ¿qué principio de estadificación ganglionar debe acompañar una resección anatómica curativa?
+Ahora/respuesta: Evaluación sistemática de estaciones hiliares e intrapulmonares y del mediastino mediante muestreo o disección adecuada
+
+#147
+Antes: Mujer de 78 años con fibrilación auricular presenta dolor abdominal súbito. Angiotomografía: émbolo proximal de arteria mesentérica superior, sin neumatosis ni peritonitis. Lactato 2,3 mmol/L (normal 0,5–2,0). ¿Cuál es una estrategia apropiada en centro experto?
+Antes/respuesta: Revascularización endovascular urgente con vigilancia estrecha de viabilidad intestinal y bajo umbral para laparoscopia/laparotomía si aparecen signos de necrosis
+Ahora: En isquemia mesentérica no oclusiva asociada a shock y vasopresores, ¿qué principio terapéutico es central además de evaluar la viabilidad intestinal?
+Ahora/respuesta: Corregir la causa de bajo flujo y reducir vasoconstricción esplácnica cuando sea posible, considerando vasodilatación intraarterial selectiva en centros expertos
+
+#408
+Antes: ¿Cuál es la secuencia correcta de la maniobra de Pringle durante el control de hemorragia hepática?
+Antes/respuesta: Compresión o clampaje temporal del ligamento hepatoduodenal para interrumpir arteria hepática y vena porta
+Ahora: En trauma hepático grave con sangrado difuso de superficies parenquimatosas, ¿qué principio debe respetarse al realizar empaquetamiento perihepático de control de daños?
+Ahora/respuesta: Colocar compresas para comprimir el hígado contra estructuras estables sin introducirlas profundamente dentro de la laceración ni comprimir de forma excesiva la vena cava
+
+#411
+Antes: ¿Qué estructura forma el límite superior clásico del triángulo hepatocístico utilizado para la visión crítica de seguridad?
+Antes/respuesta: Borde inferior del hígado
+Ahora: Durante una colecistectomía difícil, ¿qué utilidad tiene identificar el surco de Rouvière antes de profundizar la disección?
+Ahora/respuesta: Proporciona una referencia para mantener la disección por encima de un plano seguro y disminuir el riesgo de entrar en la vía biliar principal

@@ -1,0 +1,1 @@
+SurgiPrep V7.1 — auditoría semántica profunda de las 500 preguntas. Se reemplazaron 121 ítems redundantes o solapados por objetivos cognitivos distintos. Duplicados exactos normalizados: 0. Ver QA_AUDITORIA_REDUNDANCIA_V7_1.txt.

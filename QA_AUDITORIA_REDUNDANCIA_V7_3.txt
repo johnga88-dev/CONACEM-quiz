@@ -1,0 +1,145 @@
+SurgiPrep V7.3 — Auditoría minuciosa de redundancia de 500 preguntas
+
+Preguntas: 500
+Reemplazos adicionales V7.3: 20
+IDs: 322, 403, 305, 401, 77, 462, 359, 373, 473, 409, 378, 240, 338, 413, 349, 425, 461, 113, 457, 418
+Duplicados exactos normalizados: 0
+Respuestas correctas exactamente repetidas: 0
+Pares lexicales same-topic TF-IDF >=0.20: 10
+
+305-403: 0.279 | Acceso vascular para REBOA <> Contraindicaciones de REBOA
+92-193: 0.264 | Síndrome de dificultad respiratoria aguda <> Presión de distensión
+151-445: 0.222 | Segmentectomía anatómica <> Lobectomía
+183-184: 0.222 | Intoxicación por cianuro en incendios <> Monóxido de carbono
+293-297: 0.212 | Apendicitis aguda <> Diverticulitis
+3-101: 0.208 | Trauma pélvico <> Fractura pélvica con shock
+10-206: 0.207 | Lesión aórtica torácica cerrada <> Trauma aórtico torácico
+381-481: 0.205 | Clasificación de heridas <> Heridas
+49-147: 0.203 | Isquemia mesentérica aguda <> Isquemia mesentérica aguda
+166-353: 0.201 | Axila después de neoadyuvancia <> Axila posneoadyuvancia
+
+Criterio editorial:
+- Se considera redundante cualquier ítem que evalúe esencialmente la misma decisión, definición, clasificación o maniobra aunque cambien edad, cifras, dificultad o redacción.
+- Se permiten preguntas del mismo tema solo si el objetivo cognitivo y la respuesta que se debe discriminar son diferentes.
+- Esta auditoría combinó revisión por subtema, comparación de respuesta correcta, similitud lexical y revisión manual de pares candidatos.
+
+Cambios V7.3:
+#322
+Antes: En el bypass gástrico en Y de Roux, ¿qué defecto mesentérico se crea entre el mesenterio de la rama alimentaria y el mesocolon transverso/retroperitoneo y puede originar una hernia interna?
+Respuesta/objetivo anterior: Espacio de Petersen
+Ahora: Después de un bypass gástrico en Y de Roux, ¿qué defecto mesentérico adicional al espacio de Petersen se crea en la yeyunoyeyunostomía y debe cerrarse para reducir hernias internas?
+Nueva respuesta/objetivo: El defecto del mesenterio en la yeyunoyeyunostomía
+
+#403
+Antes: En REBOA (oclusión resucitativa endovascular con balón de la aorta), ¿en qué escenario anatómico se utiliza clásicamente la zona III de oclusión?
+Respuesta/objetivo anterior: Hemorragia pélvica o de extremidades inferiores, colocando el balón por debajo de las arterias renales y por encima de la bifurcación aórtica
+Ahora: En el uso de REBOA (oclusión resucitativa endovascular con balón de la aorta), ¿qué situación constituye una contraindicación importante porque la oclusión aórtica puede agravar la hemorragia proximal?
+Nueva respuesta/objetivo: Hemorragia torácica no controlada o lesión aórtica torácica proximal
+
+#305
+Antes: En REBOA (oclusión resucitativa endovascular con balón de la aorta), ¿qué territorio corresponde a la zona I de oclusión?
+Respuesta/objetivo anterior: Aorta torácica descendente entre el origen de la arteria subclavia izquierda y el tronco celíaco
+Ahora: Para acceso de REBOA (oclusión resucitativa endovascular con balón de la aorta), ¿qué sitio arterial es preferido porque ofrece un trayecto directo y permite control proximal si aparecen complicaciones?
+Nueva respuesta/objetivo: Arteria femoral común
+
+#401
+Antes: Según la clasificación AAST (American Association for the Surgery of Trauma) de lesión renal, ¿qué hallazgo caracteriza una lesión grado IV por compromiso del sistema colector?
+Respuesta/objetivo anterior: Laceración parenquimatosa que se extiende al sistema colector con extravasación urinaria
+Ahora: Después de un trauma renal cerrado manejado inicialmente de forma no operatoria, ¿qué complicación vascular tardía debe sospecharse ante hematuria recurrente y caída de hemoglobina días después?
+Nueva respuesta/objetivo: Pseudoaneurisma o fístula arteriovenosa renal traumática
+
+#77
+Antes: En una reconstrucción de hernia ventral compleja se realiza liberación del músculo transverso del abdomen como parte de una separación posterior de componentes. ¿Cuál es el objetivo anatómico principal de esta maniobra?
+Respuesta/objetivo anterior: Ampliar el plano retromuscular lateral y permitir medialización fascial con una gran superficie extraperitoneal para malla
+Ahora: En una separación anterior de componentes para cierre de una hernia ventral compleja, ¿qué aponeurosis se libera típicamente para permitir medialización del complejo recto-oblicuo?
+Nueva respuesta/objetivo: Aponeurosis del oblicuo externo lateral a la línea semilunar
+
+#462
+Antes: En la separación posterior de componentes con TAR (transversus abdominis release, liberación del músculo transverso del abdomen), ¿qué estructura muscular se divide para ampliar el plano retromuscular?
+Respuesta/objetivo anterior: Transverso del abdomen medial a los paquetes neurovasculares
+Ahora: En una reparación retromuscular tipo Rives-Stoppa, ¿qué ventaja biomecánica ofrece el plano posterior al músculo recto para la colocación de una malla amplia?
+Nueva respuesta/objetivo: Permite una superficie protésica extensa con buena vascularización y transmisión de presión abdominal sobre la malla, separándola de las vísceras
+
+#359
+Antes: En una liberación del transverso del abdomen, ¿qué estructura neurovascular lateral debe evitarse para no denervar la pared abdominal?
+Respuesta/objetivo anterior: Los paquetes neurovasculares que penetran el recto y la pared lateral desde el plano entre oblicuo interno y transverso
+Ahora: ¿Qué estructura anatómica marca el límite inferior de la vaina posterior del recto y modifica los planos disponibles para una reparación retromuscular infraumbilical?
+Nueva respuesta/objetivo: La línea arcuata
+
+#373
+Antes: ¿Qué criterio corresponde a lesión renal aguda KDIGO (Kidney Disease: Improving Global Outcomes) estadio 3 en un adulto?
+Respuesta/objetivo anterior: Aumento de creatinina a ≥3 veces el basal, creatinina ≥4,0 mg/dL con incremento agudo apropiado, inicio de terapia de reemplazo renal o criterios severos de oliguria
+Ahora: En un paciente con lesión renal aguda después de shock, ¿qué hallazgo en el sedimento urinario apoya con mayor fuerza una lesión tubular aguda?
+Nueva respuesta/objetivo: Cilindros granulares pigmentados y células epiteliales tubulares
+
+#473
+Antes: Según KDIGO (Kidney Disease: Improving Global Outcomes), ¿qué duración de oliguria corresponde a lesión renal aguda estadio 3 por criterio de diuresis?
+Respuesta/objetivo anterior: Diuresis <0,3 mL/kg/h durante al menos 24 horas o anuria durante al menos 12 horas
+Ahora: En lesión renal aguda posoperatoria, ¿qué principio de dosificación farmacológica es especialmente importante cuando la función renal cambia rápidamente?
+Nueva respuesta/objetivo: Reevaluar de forma seriada la función renal y ajustar fármacos eliminados por riñón, evitando asumir que una creatinina estable representa equilibrio
+
+#409
+Antes: En la clasificación de Strasberg, ¿qué define una lesión tipo E3?
+Respuesta/objetivo anterior: Lesión hiliar con confluencia derecha-izquierda preservada pero sin muñón de hepático común útil
+Ahora: Durante una colecistectomía, ¿por qué una lesión térmica lateral del conducto hepático común puede evolucionar a estenosis aun cuando no exista una sección completa inmediata?
+Nueva respuesta/objetivo: Por daño microvascular y necrosis isquémica progresiva de la pared biliar
+
+#378
+Antes: Paciente con hemorragia masiva recibe transfusión rápida de múltiples hemoderivados. Desarrolla hipotensión persistente, prolongación de coagulación y calcio ionizado de 0,78 mmol/L (normal aproximado 1,12–1,32 mmol/L). ¿Qué corrección debe considerarse de forma prioritaria junto al control hemorrágico?
+Respuesta/objetivo anterior: Reposición intravenosa de calcio guiada por mediciones seriadas
+Ahora: Durante una transfusión masiva, ¿qué alteración metabólica puede producir el metabolismo del citrato una vez restaurada la perfusión y contribuir posteriormente a alcalosis metabólica?
+Nueva respuesta/objetivo: Conversión hepática del citrato a bicarbonato
+
+#240
+Antes: Paciente de 70 años presenta úlcera maleolar medial compatible con etiología venosa, edema y reflujo venoso. El índice tobillo-brazo es 0,55. ¿Cuál es el principio más apropiado antes de indicar compresión de alta intensidad?
+Respuesta/objetivo anterior: Reconocer enfermedad arterial concomitante, evaluar perfusión con mayor detalle y modificar o diferir la compresión intensa según severidad isquémica
+Ahora: En una úlcera venosa de extremidad inferior, ¿qué característica clínica favorece hipertensión venosa crónica sobre una úlcera arterial pura?
+Nueva respuesta/objetivo: Localización maleolar medial con edema, hiperpigmentación y lipodermatoesclerosis
+
+#338
+Antes: En un aneurisma poplíteo asintomático, ¿qué característica adicional aumenta la preocupación por eventos tromboembólicos además del diámetro aneurismático?
+Respuesta/objetivo anterior: Trombo mural y deterioro del lecho arterial distal
+Ahora: En un aneurisma poplíteo, ¿qué complicación explica con mayor frecuencia la presentación aguda con amenaza de la extremidad?
+Nueva respuesta/objetivo: Trombosis del aneurisma con embolización distal y deterioro del lecho tibial
+
+#413
+Antes: En una colecistectomía subtotal fenestrante, ¿qué característica técnica la diferencia de una subtotal reconstituyente?
+Respuesta/objetivo anterior: Se deja el remanente vesicular abierto o drenado en lugar de cerrarlo como un muñón vesicular
+Ahora: Después de una colecistectomía subtotal fenestrante, ¿qué complicación temprana es más frecuente que tras una subtotal reconstituyente y debe anticiparse con drenaje y seguimiento?
+Nueva respuesta/objetivo: Fuga biliar posoperatoria
+
+#349
+Antes: ¿Qué marcador sérico es especialmente útil en el diagnóstico y seguimiento del carcinoma medular de tiroides?
+Respuesta/objetivo anterior: Calcitonina
+Ahora: ¿Qué hallazgo histológico es característico del carcinoma medular de tiroides y refleja producción de péptidos por células C?
+Nueva respuesta/objetivo: Depósitos estromales de amiloide derivados de calcitonina
+
+#425
+Antes: ¿Qué estructura contiene principalmente el mesorrecto y debe incluirse íntegramente en una escisión total del mesorrecto oncológica?
+Respuesta/objetivo anterior: Tejido adiposo mesorrectal con vasos, linfáticos y ganglios dentro de su fascia propia
+Ahora: Durante una escisión total del mesorrecto, ¿qué estructuras autonómicas deben preservarse para disminuir disfunción urinaria y sexual posoperatoria?
+Nueva respuesta/objetivo: Plexos hipogástricos y nervios pélvicos autonómicos en sus planos laterales y posteriores
+
+#461
+Antes: En reparación TEP (totalmente extraperitoneal) de hernia inguinal, ¿en qué espacio se desarrolla la disección principal?
+Respuesta/objetivo anterior: Espacio preperitoneal sin entrar deliberadamente al peritoneo
+Ahora: En una reparación preperitoneal de hernia inguinal, ¿qué referencia ósea/ligamentaria medial sirve para orientar la disección y fijación en la región de Cooper?
+Nueva respuesta/objetivo: Ligamento pectíneo de Cooper sobre la rama superior del pubis
+
+#113
+Antes: Paciente de 74 años con coledocolitiasis presenta fiebre, ictericia, shock con noradrenalina y confusión. Tras antibióticos y reanimación persiste inestable; la vía biliar está dilatada por cálculo distal. ¿Qué intervención es prioritaria?
+Respuesta/objetivo anterior: Drenaje biliar endoscópico urgente mediante CPRE (colangiopancreatografía retrógrada endoscópica), realizando la mínima intervención necesaria para descompresión
+Ahora: ¿Qué característica define un síndrome de Mirizzi tipo I y lo diferencia de formas con fístula colecistobiliar?
+Nueva respuesta/objetivo: Compresión extrínseca del conducto hepático común por un cálculo impactado en cuello vesicular o conducto cístico, sin fístula
+
+#457
+Antes: ¿Qué relación anatómica distingue una hernia inguinal directa de una indirecta respecto de los vasos epigástricos inferiores?
+Respuesta/objetivo anterior: La directa es medial y la indirecta lateral
+Ahora: ¿Cuál estructura forma el límite posterior del triángulo de Hesselbach en la pared inguinal?
+Nueva respuesta/objetivo: Fascia transversalis
+
+#418
+Antes: En una gastrectomía oncológica D2, ¿qué describe mejor el concepto de linfadenectomía D2?
+Respuesta/objetivo anterior: Resección de ganglios perigástricos más estaciones de segundo nivel a lo largo de vasos principales según el tipo de gastrectomía
+Ahora: En gastrectomía oncológica, ¿cuándo está indicada una esplenectomía en lugar de realizarla de forma rutinaria como parte de una linfadenectomía?
+Nueva respuesta/objetivo: Cuando existe invasión directa del bazo o una indicación oncológica/anatómica específica, no de forma rutinaria para una D2 estándar

@@ -1,0 +1,156 @@
+SurgiPrep V7.2 — Auditoría semántica profunda de 500 preguntas
+
+Preguntas totales: 500
+Reemplazos adicionales en esta pasada: 28
+IDs reemplazados: 162, 250, 163, 158, 157, 148, 141, 233, 230, 195, 91, 128, 223, 386, 111, 119, 175, 364, 258, 362, 367, 471, 268, 109, 108, 306, 201, 393
+Duplicados exactos normalizados restantes: 0
+Pares lexicales residuales TF-IDF >= 0.28: 5
+  119-410: 0.429 | Hepatopancreatobiliar / Grados de fístula pancreática posoperatoria || Hepatopancreatobiliar / Fístula pancreática grado C
+  201-302: 0.371 | Trauma y urgencias / Colocación del cinturón pélvico || Trauma y urgencias / Cinturón pélvico
+  84-367: 0.347 | Plástica, heridas y quemados / Quemadura circunferencial || Plástica, heridas y quemados / Escarotomía torácica
+  393-500: 0.343 | Imagenología / Obstrucción en asa cerrada || Imagenología / TC de obstrucción en asa cerrada
+  223-321: 0.307 | Digestivo alto y bariátrica / Fisiopatología de úlcera marginal || Digestivo alto y bariátrica / Bypass gástrico
+
+Criterio: una reformulación del mismo objetivo cognitivo se consideró redundante aunque cambiara edad, cifras, viñeta o dificultad. Se preservaron preguntas del mismo tema solo cuando evalúan decisiones/conocimientos distintos.
+
+Cambios:
+#162 REEMPLAZADA
+  Antes: Paciente de 39 años con carcinoma medular de tiroides y mutación germinal RET (protooncogén RET) será operado. Refiere cefalea, palpitaciones y sudoración episódica. ¿Qué debe resolverse antes de la tiroidectomía?
+  Objetivo anterior/respuesta: Descartar y, si existe, tratar primero un feocromocitoma
+  Ahora: Después de una tiroidectomía total por carcinoma medular de tiroides, ¿qué patrón de los marcadores séricos tiene mayor valor pronóstico durante el seguimiento?
+  Nuevo objetivo/respuesta: El tiempo de duplicación de calcitonina y antígeno carcinoembrionario, especialmente cuando es corto
+#250 REEMPLAZADA
+  Antes: Paciente de 39 años tiene carcinoma medular de tiroides confirmado, calcitonina elevada y una mutación germinal del protooncogén RET (rearranged during transfection). Antes de programar tiroidectomía, ¿qué evaluación es especialmente importante por su impacto anestésico y quirúrgico inmediato?
+  Objetivo anterior/respuesta: Descartar feocromocitoma bioquímicamente antes de intervenir el tiroides
+  Ahora: En un paciente con carcinoma medular de tiroides y una variante germinal patogénica en RET (protooncogén RET), ¿qué medida debe formar parte del manejo familiar además del tratamiento del paciente índice?
+  Nuevo objetivo/respuesta: Ofrecer asesoramiento genético y estudio dirigido a familiares en riesgo según la variante identificada
+#163 REEMPLAZADA
+  Antes: Paciente con hiperparatiroidismo primario sintomático tiene ecografía y sestamibi discordantes y no ha sido operado previamente. Si no se logra localización concordante, ¿cuál es la estrategia quirúrgica más apropiada?
+  Objetivo anterior/respuesta: Exploración cervical bilateral por cirujano experimentado, identificando glándulas y usando criterios intraoperatorios adecuados
+  Ahora: En hiperparatiroidismo primario por neoplasia endocrina múltiple tipo 1 con enfermedad multiglandular demostrada, ¿qué principio quirúrgico difiere del abordaje enfocado de un adenoma esporádico único?
+  Nuevo objetivo/respuesta: Planificar una exploración bilateral con estrategia para enfermedad multiglandular, preservando suficiente tejido paratiroideo funcional
+#158 REEMPLAZADA
+  Antes: Mujer de 29 años con masa mediastínica anterior de 12 cm tiene ortopnea y compresión >50% de la tráquea distal. Se requiere biopsia. ¿Cuál es el principio anestésico más importante?
+  Objetivo anterior/respuesta: Evitar pérdida brusca de respiración espontánea y tono de vía aérea hasta asegurar una estrategia de rescate, usando el procedimiento menos invasivo posible
+  Ahora: Ante una masa mediastínica anterior en un adulto joven, ¿qué estudio bioquímico puede modificar de forma decisiva la necesidad y la vía de biopsia cuando se sospecha un tumor germinal?
+  Nuevo objetivo/respuesta: Alfa-fetoproteína y gonadotropina coriónica humana beta
+#157 REEMPLAZADA
+  Antes: Después de esofagectomía, paciente presenta drenaje pleural lechoso de 1.400 mL/día. Tras cinco días de manejo nutricional especializado, el débito sigue >1.000 mL/día y aparecen alteraciones electrolíticas. ¿Cuál es el siguiente paso razonable?
+  Objetivo anterior/respuesta: Intervención sobre el conducto torácico mediante embolización o ligadura, según experiencia y anatomía
+  Ahora: ¿Qué hallazgo de laboratorio en líquido pleural confirma con mayor especificidad un quilotórax cuando el aspecto macroscópico y los triglicéridos no son concluyentes?
+  Nuevo objetivo/respuesta: Demostración de quilomicrones en el líquido pleural
+#148 REEMPLAZADA
+  Antes: Varón de 61 años con disección tipo B en tratamiento médico desarrolla dolor recurrente, creatinina en ascenso y malperfusión renal izquierda por compresión dinámica de la luz verdadera. ¿Cuál es la estrategia preferida?
+  Objetivo anterior/respuesta: TEVAR (reparación aórtica torácica endovascular) para cubrir la entrada proximal y restaurar flujo, con tratamiento de ramas si persiste malperfusión
+  Ahora: En una disección aórtica tipo B con malperfusión renal, ¿qué hallazgo sugiere un mecanismo dinámico de obstrucción de rama en lugar de una obstrucción estática?
+  Nuevo objetivo/respuesta: Compresión intermitente de la luz verdadera por el flap, con la rama naciendo de la luz verdadera y sin extensión fija de la disección dentro de la rama
+#141 REEMPLAZADA
+  Antes: Paciente de 71 años con fibrilación auricular presenta 6 horas de dolor súbito en la pierna, frialdad, ausencia de Doppler arterial, hipoestesia del antepié y debilidad leve de los dedos, aunque aún mueve el tobillo. ¿Cuál es la prioridad?
+  Objetivo anterior/respuesta: Heparinización inmediata si no está contraindicada y revascularización urgente sin demoras diagnósticas innecesarias
+  Ahora: En isquemia aguda de una extremidad, ¿qué dato favorece una embolia arterial aguda sobre una trombosis in situ de enfermedad arterial periférica crónica?
+  Nuevo objetivo/respuesta: Inicio súbito en una extremidad previamente asintomática, pulsos normales en la extremidad contralateral y una fuente embólica plausible como fibrilación auricular
+#233 REEMPLAZADA
+  Antes: Paciente de 74 años con fibrilación auricular no anticoagulada presenta seis horas de dolor súbito en pierna izquierda, palidez, ausencia de pulsos y déficit motor leve. La extremidad conserva sensibilidad parcial y señal venosa Doppler. ¿Cuál es la prioridad terapéutica?
+  Objetivo anterior/respuesta: Iniciar heparina intravenosa y realizar revascularización urgente porque corresponde a una extremidad inmediatamente amenazada
+  Ahora: Tras revascularizar una extremidad con isquemia aguda prolongada, ¿qué hallazgo debe hacer sospechar síndrome compartimental por reperfusión y motivar evaluación urgente para fasciotomía?
+  Nuevo objetivo/respuesta: Dolor desproporcionado con compartimentos tensos y dolor con estiramiento pasivo, especialmente si progresa tras recuperar flujo arterial
+#230 REEMPLAZADA
+  Antes: Paciente con carcinoma escamoso de canal anal recibió quimiorradioterapia definitiva. A las 10 semanas persiste una lesión palpable, pero ha disminuido de tamaño de forma progresiva, no existen metástasis y no hay evidencia de progresión. ¿Cuál es la conducta más apropiada?
+  Objetivo anterior/respuesta: Continuar vigilancia estrecha y permitir una ventana adicional de regresión antes de indicar cirugía de rescate, siempre que la lesión siga respondiendo y no progrese
+  Ahora: En carcinoma escamoso del canal anal tratado con quimiorradioterapia, ¿qué situación obliga a obtener confirmación histológica antes de planificar una amputación abdominoperineal de rescate?
+  Nuevo objetivo/respuesta: Una lesión residual o recurrente clínicamente sospechosa cuando el resultado de la biopsia cambiará una cirugía mutilante
+#195 REEMPLAZADA
+  Antes: Paciente posoperatorio séptico presenta creatinina que aumenta de 0,9 mg/dL (rango habitual 0,6–1,3 mg/dL) a 2,0 mg/dL en 48 horas y diuresis de 0,4 mL/kg/h durante 14 horas. Según KDIGO (Kidney Disease: Improving Global Outcomes), ¿qué estadio de lesión renal aguda corresponde por el criterio más grave?
+  Objetivo anterior/respuesta: Estadio 2, porque la creatinina supera 2 veces el basal y la oliguria se mantiene entre 12 y 24 horas
+  Ahora: En un paciente quirúrgico con lesión renal aguda, ¿cuál de los siguientes constituye una indicación clásica para iniciar terapia de reemplazo renal urgente independientemente del valor aislado de creatinina?
+  Nuevo objetivo/respuesta: Hiperpotasemia grave refractaria con cambios electrocardiográficos o arritmia
+#91 REEMPLAZADA
+  Antes: Paciente de 67 años fue reoperado por dehiscencia de anastomosis colónica con peritonitis fecal y tiene control de foco adecuado. Después de reanimación con cristaloides balanceados mantiene presión arterial media de 58 mmHg y signos de hipoperfusión. ¿Cuál es el vasopresor de primera elección para alcanzar una presión arterial media inicial cercana a 65 mmHg?
+  Objetivo anterior/respuesta: Vasopresina como agente adicional, manteniendo norepinefrina como vasopresor principal
+  Ahora: En shock séptico con hipotensión persistente después de una reanimación inicial adecuada con cristaloides, ¿qué vasopresor se recomienda como primera elección?
+  Nuevo objetivo/respuesta: Norepinefrina
+#128 REEMPLAZADA
+  Antes: Varón de 48 años con acalasia tipo III tiene espasmo que se extiende 9 cm por encima de la unión esofagogástrica. ¿Qué tratamiento permite adaptar mejor la longitud de la miotomía?
+  Objetivo anterior/respuesta: Miotomía endoscópica por vía oral (POEM (miotomía endoscópica por vía oral)) con extensión proximal según el segmento espástico
+  Ahora: Después del tratamiento de una acalasia, ¿qué estudio objetivo es especialmente útil para cuantificar vaciamiento esofágico y detectar retención persistente cuando los síntomas son discordantes con la evolución esperada?
+  Nuevo objetivo/respuesta: Esofagograma baritado cronometrado
+#223 REEMPLAZADA
+  Antes: Paciente de 50 años con bypass gástrico en Y de Roux consulta por epigastralgia. La endoscopia muestra úlcera marginal en la anastomosis gastroyeyunal sin perforación. Fuma y usa antiinflamatorios no esteroideos con frecuencia. ¿Cuál intervención inicial aborda mejor los factores de persistencia?
+  Objetivo anterior/respuesta: Inhibidor de bomba de protones en dosis terapéutica, suspensión estricta de tabaco y antiinflamatorios no esteroideos, y búsqueda/tratamiento de factores asociados
+  Ahora: ¿Qué mecanismo anatómico favorece la aparición de una úlcera marginal después de bypass gástrico en Y de Roux cuando existe una fístula gastrogástrica?
+  Nuevo objetivo/respuesta: Exposición de la anastomosis gastroyeyunal a una mayor carga ácida proveniente del estómago excluido
+#386 REEMPLAZADA
+  Antes: ¿Cuál situación exige especial precaución o protección antes de aplicar terapia de presión negativa sobre una herida?
+  Objetivo anterior/respuesta: Vaso sanguíneo, anastomosis u órgano expuesto en contacto directo con la espuma
+  Ahora: En terapia de presión negativa para una herida cavitada, ¿qué efecto fisiológico local se busca además de evacuar exudado?
+  Nuevo objetivo/respuesta: Reducir edema intersticial y favorecer perfusión/granulación mediante microdeformación controlada del lecho
+#111 REEMPLAZADA
+  Antes: Durante colecistectomía laparoscópica por colecistitis gangrenosa no es posible identificar con seguridad conducto y arteria cística, y la pared posterior está fusionada al lecho hepático. ¿Cuál es la estrategia más segura?
+  Objetivo anterior/respuesta: Abandonar la disección peligrosa del triángulo hepatocístico y realizar colecistectomía subtotal como procedimiento de rescate
+  Ahora: En una colecistectomía subtotal por inflamación severa, ¿qué diferencia caracteriza a la variante reconstituyente respecto de la fenestrante?
+  Nuevo objetivo/respuesta: La reconstituyente cierra el remanente vesicular creando un pequeño reservorio, mientras la fenestrante deja el remanente abierto y controla el conducto cístico desde dentro cuando es posible
+#119 REEMPLAZADA
+  Antes: Día 6 tras duodenopancreatectomía: drenaje con amilasa elevada, fiebre y colección peripancreática de 7 cm. Está estable y sin sangrado. ¿Cuál es el siguiente paso?
+  Objetivo anterior/respuesta: Antibióticos y drenaje dirigido de la colección, preservando la anastomosis si es posible
+  Ahora: Según la clasificación actual de fístula pancreática posoperatoria, ¿qué característica distingue una fístula grado C de una grado B?
+  Nuevo objetivo/respuesta: Falla orgánica atribuible a la fístula, reoperación o consecuencias graves que amenazan la vida
+#175 REEMPLAZADA
+  Antes: Paciente con colostomía terminal presenta hernia paraestomal sintomática con episodios de obstrucción parcial. Se decide reparación electiva y no existe contaminación. ¿Qué principio técnico reduce el riesgo de recurrencia respecto de una simple sutura del defecto?
+  Objetivo anterior/respuesta: Utilizar refuerzo protésico con una técnica que cubra ampliamente el defecto paraestomal, seleccionando configuración y plano según anatomía y experiencia
+  Ahora: En una hernia paraestomal sintomática, ¿qué circunstancia constituye una razón particularmente fuerte para considerar relocalización del estoma en lugar de limitarse a una reparación local?
+  Nuevo objetivo/respuesta: Necesidad concomitante de revisar o reconstruir el estoma por estenosis, retracción o segmento intestinal inadecuado
+#364 REEMPLAZADA
+  Antes: Paciente con colostomía terminal presenta hernia paraestomal sintomática y se decide reparación laparoscópica con malla intraperitoneal. ¿Qué configuración se caracteriza por cubrir ampliamente el defecto y lateralizar el asa intestinal bajo la prótesis, sin crear un orificio circular en la malla alrededor del estoma?
+  Objetivo anterior/respuesta: Técnica de Sugarbaker modificada
+  Ahora: En la creación electiva de una colostomía terminal, ¿qué estrategia puede considerarse para reducir el riesgo posterior de hernia paraestomal en pacientes seleccionados?
+  Nuevo objetivo/respuesta: Colocación profiláctica de una malla en un plano apropiado alrededor del estoma cuando el balance riesgo-beneficio y la técnica lo justifican
+#258 REEMPLAZADA
+  Antes: Paciente requiere reparación de hernia ventral compleja durante una cirugía con contaminación controlada por resección intestinal, sin peritonitis fecal difusa y con posibilidad de cierre fascial primario. ¿Cuál principio actual es más razonable respecto del refuerzo protésico?
+  Objetivo anterior/respuesta: Individualizar el uso de malla; en escenarios seleccionados una malla sintética macroporosa en plano retromuscular puede utilizarse con resultados aceptables si existe buen control de contaminación y tejidos viables
+  Ahora: En una reconstrucción compleja de pared abdominal, ¿qué plano describe correctamente una liberación del músculo transverso del abdomen como componente posterior?
+  Nuevo objetivo/respuesta: Acceso retromuscular con incisión de la lámina posterior y liberación del transverso para ampliar el espacio extraperitoneal y permitir medialización fascial
+#362 REEMPLAZADA
+  Antes: Paciente con hernia incisional grande requiere laparotomía por fístula enterocutánea. Tras resecar el segmento fistulizado queda un defecto fascial que puede cerrarse sin tensión excesiva, pero el campo es contaminado. ¿Qué principio reconstructivo es preferible?
+  Objetivo anterior/respuesta: Priorizar cierre fascial primario y, si se decide refuerzo protésico, seleccionar material y plano extraperitoneal según riesgo individual
+  Ahora: En la reconstrucción de pared abdominal después de una fístula enterocutánea compleja, ¿qué condición debe estar optimizada antes de intentar una reparación definitiva electiva?
+  Nuevo objetivo/respuesta: Control de sepsis, recuperación nutricional y definición anatómica de la fístula y del defecto de pared
+#367 REEMPLAZADA
+  Antes: En una quemadura circunferencial de espesor total de antebrazo con deterioro progresivo de perfusión distal pese a reanimación adecuada, ¿cuál es el objetivo técnico de la escarotomía?
+  Objetivo anterior/respuesta: Dividir longitudinalmente la escara inelástica hasta liberar la constricción y restaurar expansión/perfusión, evitando lesionar estructuras neurovasculares
+  Ahora: En una quemadura circunferencial de espesor total del tórax que produce aumento progresivo de presiones ventilatorias y excursión torácica muy limitada, ¿qué intervención sobre la escara puede mejorar inmediatamente la mecánica respiratoria?
+  Nuevo objetivo/respuesta: Escarotomías torácicas longitudinales conectadas según necesidad para liberar la restricción de la pared
+#471 REEMPLAZADA
+  Antes: En una escarotomía de extremidad por quemadura circunferencial, ¿qué principio técnico debe respetarse?
+  Objetivo anterior/respuesta: Incisiones a través de la escara hasta tejido subcutáneo viable, evitando trayectos neurovasculares mayores
+  Ahora: Después de una escarotomía adecuada de una extremidad quemada, persisten compartimentos tensos, dolor con movilización pasiva y presión compartimental elevada. ¿Qué procedimiento está indicado si se confirma síndrome compartimental profundo?
+  Nuevo objetivo/respuesta: Fasciotomía de los compartimentos afectados
+#268 REEMPLAZADA
+  Antes: Paciente de 28 años presenta herida limpia de mano con sección completa reciente de los tendones flexores del segundo dedo en zona II, sin lesión vascular y con sensibilidad conservada. ¿Cuál es el principio de tratamiento que ofrece mejor función?
+  Objetivo anterior/respuesta: Reparación primaria multihilo con técnica que permita movilización protegida precoz bajo protocolo de terapia de mano
+  Ahora: En la reparación de tendones flexores en zona II, ¿qué poleas anulares son especialmente importantes para conservar o reconstruir con el fin de evitar bowstringing significativo?
+  Nuevo objetivo/respuesta: Las poleas A2 y A4
+#109 REEMPLAZADA
+  Antes: Varón de 24 años con herida por arma blanca precordial pierde signos vitales en traslado. Llega tras 6 minutos de reanimación cardiopulmonar, con actividad eléctrica organizada y signos previos de vida documentados. ¿Cuál es la conducta de rescate?
+  Objetivo anterior/respuesta: Toracotomía de resucitación inmediata en urgencias
+  Ahora: ¿Qué característica del trauma cerrado hace que la toracotomía de resucitación tenga un rendimiento extremadamente bajo y generalmente no esté indicada?
+  Nuevo objetivo/respuesta: Ausencia prolongada de signos de vida y reanimación cardiopulmonar prehospitalaria prolongada sin respuesta
+#108 REEMPLAZADA
+  Antes: Paciente estable con herida cervical que atraviesa platisma no tiene signos duros. Angiotomografía sin lesión vascular, pero la trayectoria pasa junto al esófago y hay aire paraesofágico. ¿Cuál es el siguiente paso?
+  Objetivo anterior/respuesta: Evaluación dirigida del esófago con endoscopia y/o esofagografía según experiencia
+  Ahora: En trauma cervical penetrante, ¿cuál de los siguientes constituye un signo duro que obliga a control inmediato de vía aérea/hemorragia y exploración o intervención urgente, sin demorar por estudios diagnósticos electivos?
+  Nuevo objetivo/respuesta: Hemorragia activa pulsátil o hematoma cervical expansivo
+#306 REEMPLAZADA
+  Antes: Paciente hemodinámicamente estable con herida penetrante cervical que atraviesa el platisma presenta enfisema subcutáneo leve, sin hemorragia activa, sin hematemesis y sin déficit neurológico. ¿Cuál es el enfoque diagnóstico inicial más apropiado en un centro con disponibilidad completa?
+  Objetivo anterior/respuesta: Angio-TC (angiotomografía computarizada) cervical con evaluación dirigida adicional de vía aerodigestiva según hallazgos y síntomas
+  Ahora: En el enfoque moderno 'no-zone' del trauma cervical penetrante en un paciente estable, ¿qué principio reemplaza la exploración obligatoria basada solo en la zona anatómica?
+  Nuevo objetivo/respuesta: Seleccionar estudios e intervención según signos duros/blandos y trayecto anatómico, utilizando angiotomografía como herramienta central en pacientes estables
+#201 REEMPLAZADA
+  Antes: Varón de 42 años politraumatizado por colisión de alta energía presenta presión arterial 72/40 mmHg, pelvis inestable al examen y evaluación ecográfica focalizada para trauma sin líquido intraperitoneal. Se coloca cinturón pélvico y se inicia transfusión masiva, pero persiste en shock. El centro dispone de radiología intervencional y quirófano. ¿Cuál estrategia ofrece el mejor control inicial de una probable hemorragia pélvica según la fisiología del paciente?
+  Objetivo anterior/respuesta: Continuar reanimación hemostática y realizar control hemorrágico pélvico inmediato mediante empaquetamiento preperitoneal o embolización, seleccionando la secuencia según disponibilidad y sospecha de fuente arterial
+  Ahora: En la estabilización inicial de una fractura pélvica inestable, ¿dónde debe colocarse correctamente un cinturón pélvico para lograr compresión eficaz del anillo?
+  Nuevo objetivo/respuesta: A nivel de los trocánteres mayores
+#393 REEMPLAZADA
+  Antes: En TC (tomografía computarizada), ¿qué hallazgo sugiere compromiso vascular del intestino en un vólvulo además del signo de remolino?
+  Objetivo anterior/respuesta: Disminución del realce mural, edema mesentérico o congestión venosa del asa comprometida
+  Ahora: En obstrucción intestinal mecánica, ¿qué hallazgo en TC (tomografía computarizada) sugiere con mayor fuerza una obstrucción en asa cerrada y aumenta la preocupación por estrangulación?
+  Nuevo objetivo/respuesta: Dos puntos de transición próximos con un segmento intestinal aislado y convergencia radial de vasos mesentéricos

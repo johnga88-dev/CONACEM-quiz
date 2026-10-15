@@ -1,0 +1,824 @@
+[
+  {
+    "id": 3,
+    "tema": "Trauma y urgencias",
+    "estado_editorial": "E — REESCRITURA COMPLETA",
+    "motivos": "Ambigüedad clínica o editorial"
+  },
+  {
+    "id": 8,
+    "tema": "Trauma y urgencias",
+    "estado_editorial": "E — REESCRITURA COMPLETA",
+    "motivos": "Actualización de evidencia pendiente"
+  },
+  {
+    "id": 19,
+    "tema": "Hepatopancreatobiliar",
+    "estado_editorial": "F — ELIMINAR / REEMPLAZAR POR REDUNDANCIA",
+    "motivos": "Redundancia o concepto cuestionado en auditoría; Posible duplicación del objetivo cognitivo"
+  },
+  {
+    "id": 35,
+    "tema": "Coloproctología",
+    "estado_editorial": "F — ELIMINAR / REEMPLAZAR POR REDUNDANCIA",
+    "motivos": "Redundancia o concepto cuestionado en auditoría; Posible duplicación del objetivo cognitivo"
+  },
+  {
+    "id": 36,
+    "tema": "Coloproctología",
+    "estado_editorial": "C — REESCRITURA DE ALTERNATIVAS",
+    "motivos": "Posible duplicación del objetivo cognitivo"
+  },
+  {
+    "id": 39,
+    "tema": "Coloproctología",
+    "estado_editorial": "E — REESCRITURA COMPLETA",
+    "motivos": "Ambigüedad clínica o editorial"
+  },
+  {
+    "id": 41,
+    "tema": "Cirugía vascular",
+    "estado_editorial": "E — REESCRITURA COMPLETA",
+    "motivos": "Posible duplicación del objetivo cognitivo"
+  },
+  {
+    "id": 45,
+    "tema": "Cirugía vascular",
+    "estado_editorial": "F — ELIMINAR / REEMPLAZAR POR REDUNDANCIA",
+    "motivos": "Redundancia o concepto cuestionado en auditoría; Posible duplicación del objetivo cognitivo"
+  },
+  {
+    "id": 53,
+    "tema": "Cirugía torácica",
+    "estado_editorial": "E — REESCRITURA COMPLETA",
+    "motivos": "Ambigüedad clínica o editorial"
+  },
+  {
+    "id": 65,
+    "tema": "Cabeza, cuello, endocrino y mama",
+    "estado_editorial": "C — REESCRITURA DE ALTERNATIVAS",
+    "motivos": "Sin referencias declaradas"
+  },
+  {
+    "id": 77,
+    "tema": "Pared abdominal y hernias",
+    "estado_editorial": "C — REESCRITURA DE ALTERNATIVAS",
+    "motivos": "Sin referencias declaradas"
+  },
+  {
+    "id": 80,
+    "tema": "Pared abdominal y hernias",
+    "estado_editorial": "C — REESCRITURA DE ALTERNATIVAS",
+    "motivos": "Sin referencias declaradas"
+  },
+  {
+    "id": 81,
+    "tema": "Plástica, heridas y quemados",
+    "estado_editorial": "E — REESCRITURA COMPLETA",
+    "motivos": "Ambigüedad clínica o editorial"
+  },
+  {
+    "id": 84,
+    "tema": "Plástica, heridas y quemados",
+    "estado_editorial": "C — REESCRITURA DE ALTERNATIVAS",
+    "motivos": "Sin referencias declaradas"
+  },
+  {
+    "id": 89,
+    "tema": "Plástica, heridas y quemados",
+    "estado_editorial": "C — REESCRITURA DE ALTERNATIVAS",
+    "motivos": "Sin referencias declaradas"
+  },
+  {
+    "id": 94,
+    "tema": "Cuidados perioperatorios y paciente crítico",
+    "estado_editorial": "E — REESCRITURA COMPLETA",
+    "motivos": "Clave clínica pendiente de verificación; Ambigüedad clínica o editorial"
+  },
+  {
+    "id": 95,
+    "tema": "Cuidados perioperatorios y paciente crítico",
+    "estado_editorial": "C — REESCRITURA DE ALTERNATIVAS",
+    "motivos": "Actualización de evidencia pendiente"
+  },
+  {
+    "id": 100,
+    "tema": "Cuidados perioperatorios y paciente crítico",
+    "estado_editorial": "E — REESCRITURA COMPLETA",
+    "motivos": "Clave clínica pendiente de verificación; Ambigüedad clínica o editorial"
+  },
+  {
+    "id": 116,
+    "tema": "Hepatopancreatobiliar",
+    "estado_editorial": "E — REESCRITURA COMPLETA",
+    "motivos": "Actualización de evidencia pendiente; Verificar tabla contemporánea de resecabilidad"
+  },
+  {
+    "id": 118,
+    "tema": "Hepatopancreatobiliar",
+    "estado_editorial": "E — REESCRITURA COMPLETA",
+    "motivos": "Ambigüedad clínica o editorial"
+  },
+  {
+    "id": 122,
+    "tema": "Digestivo alto y bariátrica",
+    "estado_editorial": "E — REESCRITURA COMPLETA",
+    "motivos": "Ambigüedad clínica o editorial"
+  },
+  {
+    "id": 130,
+    "tema": "Digestivo alto y bariátrica",
+    "estado_editorial": "E — REESCRITURA COMPLETA",
+    "motivos": "Ambigüedad clínica o editorial"
+  },
+  {
+    "id": 144,
+    "tema": "Cirugía vascular",
+    "estado_editorial": "E — REESCRITURA COMPLETA",
+    "motivos": "Sin referencias declaradas"
+  },
+  {
+    "id": 152,
+    "tema": "Cirugía torácica",
+    "estado_editorial": "E — REESCRITURA COMPLETA",
+    "motivos": "Ambigüedad clínica o editorial; Actualización de evidencia pendiente"
+  },
+  {
+    "id": 157,
+    "tema": "Cirugía torácica",
+    "estado_editorial": "C — REESCRITURA DE ALTERNATIVAS",
+    "motivos": "Sin referencias declaradas"
+  },
+  {
+    "id": 163,
+    "tema": "Cabeza, cuello, endocrino y mama",
+    "estado_editorial": "E — REESCRITURA COMPLETA",
+    "motivos": "Clave clínica pendiente de verificación"
+  },
+  {
+    "id": 164,
+    "tema": "Cabeza, cuello, endocrino y mama",
+    "estado_editorial": "C — REESCRITURA DE ALTERNATIVAS",
+    "motivos": "Sin referencias declaradas"
+  },
+  {
+    "id": 166,
+    "tema": "Cabeza, cuello, endocrino y mama",
+    "estado_editorial": "E — REESCRITURA COMPLETA",
+    "motivos": "Clave clínica pendiente de verificación"
+  },
+  {
+    "id": 171,
+    "tema": "Pared abdominal y hernias",
+    "estado_editorial": "E — REESCRITURA COMPLETA",
+    "motivos": "Clave clínica pendiente de verificación; Ambigüedad clínica o editorial"
+  },
+  {
+    "id": 176,
+    "tema": "Pared abdominal y hernias",
+    "estado_editorial": "E — REESCRITURA COMPLETA",
+    "motivos": "Sin referencias declaradas"
+  },
+  {
+    "id": 177,
+    "tema": "Pared abdominal y hernias",
+    "estado_editorial": "E — REESCRITURA COMPLETA",
+    "motivos": "Actualización de evidencia pendiente"
+  },
+  {
+    "id": 178,
+    "tema": "Pared abdominal y hernias",
+    "estado_editorial": "E — REESCRITURA COMPLETA",
+    "motivos": "Sin referencias declaradas"
+  },
+  {
+    "id": 183,
+    "tema": "Plástica, heridas y quemados",
+    "estado_editorial": "E — REESCRITURA COMPLETA",
+    "motivos": "Sin referencias declaradas"
+  },
+  {
+    "id": 185,
+    "tema": "Plástica, heridas y quemados",
+    "estado_editorial": "E — REESCRITURA COMPLETA",
+    "motivos": "Sin referencias declaradas"
+  },
+  {
+    "id": 186,
+    "tema": "Plástica, heridas y quemados",
+    "estado_editorial": "E — REESCRITURA COMPLETA",
+    "motivos": "Sin referencias declaradas"
+  },
+  {
+    "id": 190,
+    "tema": "Plástica, heridas y quemados",
+    "estado_editorial": "E — REESCRITURA COMPLETA",
+    "motivos": "Sin referencias declaradas"
+  },
+  {
+    "id": 206,
+    "tema": "Trauma y urgencias",
+    "estado_editorial": "E — REESCRITURA COMPLETA",
+    "motivos": "Actualización de evidencia pendiente"
+  },
+  {
+    "id": 220,
+    "tema": "Digestivo alto y bariátrica",
+    "estado_editorial": "E — REESCRITURA COMPLETA",
+    "motivos": "Posible duplicación del objetivo cognitivo"
+  },
+  {
+    "id": 224,
+    "tema": "Digestivo alto y bariátrica",
+    "estado_editorial": "F — ELIMINAR / REEMPLAZAR POR REDUNDANCIA",
+    "motivos": "Redundancia o concepto cuestionado en auditoría; Posible duplicación del objetivo cognitivo"
+  },
+  {
+    "id": 226,
+    "tema": "Coloproctología",
+    "estado_editorial": "E — REESCRITURA COMPLETA",
+    "motivos": "Sin referencias declaradas"
+  },
+  {
+    "id": 228,
+    "tema": "Coloproctología",
+    "estado_editorial": "E — REESCRITURA COMPLETA",
+    "motivos": "Clave clínica pendiente de verificación; Ambigüedad clínica o editorial"
+  },
+  {
+    "id": 232,
+    "tema": "Coloproctología",
+    "estado_editorial": "C — REESCRITURA DE ALTERNATIVAS",
+    "motivos": "Sin referencias declaradas"
+  },
+  {
+    "id": 236,
+    "tema": "Cirugía vascular",
+    "estado_editorial": "C — REESCRITURA DE ALTERNATIVAS",
+    "motivos": "Sin referencias declaradas"
+  },
+  {
+    "id": 240,
+    "tema": "Cirugía vascular",
+    "estado_editorial": "C — REESCRITURA DE ALTERNATIVAS",
+    "motivos": "Sin referencias declaradas"
+  },
+  {
+    "id": 246,
+    "tema": "Cirugía torácica",
+    "estado_editorial": "E — REESCRITURA COMPLETA",
+    "motivos": "Ambigüedad clínica o editorial"
+  },
+  {
+    "id": 251,
+    "tema": "Cabeza, cuello, endocrino y mama",
+    "estado_editorial": "E — REESCRITURA COMPLETA",
+    "motivos": "Sin referencias declaradas"
+  },
+  {
+    "id": 255,
+    "tema": "Cabeza, cuello, endocrino y mama",
+    "estado_editorial": "C — REESCRITURA DE ALTERNATIVAS",
+    "motivos": "Sin referencias declaradas"
+  },
+  {
+    "id": 256,
+    "tema": "Cabeza, cuello, endocrino y mama",
+    "estado_editorial": "C — REESCRITURA DE ALTERNATIVAS",
+    "motivos": "Sin referencias declaradas"
+  },
+  {
+    "id": 257,
+    "tema": "Pared abdominal y hernias",
+    "estado_editorial": "C — REESCRITURA DE ALTERNATIVAS",
+    "motivos": "Sin referencias declaradas"
+  },
+  {
+    "id": 259,
+    "tema": "Pared abdominal y hernias",
+    "estado_editorial": "E — REESCRITURA COMPLETA",
+    "motivos": "Clave clínica pendiente de verificación; Ambigüedad clínica o editorial; Sin referencias declaradas"
+  },
+  {
+    "id": 263,
+    "tema": "Pared abdominal y hernias",
+    "estado_editorial": "C — REESCRITURA DE ALTERNATIVAS",
+    "motivos": "Sin referencias declaradas"
+  },
+  {
+    "id": 264,
+    "tema": "Pared abdominal y hernias",
+    "estado_editorial": "C — REESCRITURA DE ALTERNATIVAS",
+    "motivos": "Sin referencias declaradas"
+  },
+  {
+    "id": 265,
+    "tema": "Plástica, heridas y quemados",
+    "estado_editorial": "E — REESCRITURA COMPLETA",
+    "motivos": "Sin referencias declaradas"
+  },
+  {
+    "id": 267,
+    "tema": "Plástica, heridas y quemados",
+    "estado_editorial": "C — REESCRITURA DE ALTERNATIVAS",
+    "motivos": "Sin referencias declaradas"
+  },
+  {
+    "id": 269,
+    "tema": "Plástica, heridas y quemados",
+    "estado_editorial": "E — REESCRITURA COMPLETA",
+    "motivos": "Sin referencias declaradas"
+  },
+  {
+    "id": 278,
+    "tema": "Cuidados perioperatorios y paciente crítico",
+    "estado_editorial": "E — REESCRITURA COMPLETA",
+    "motivos": "Ambigüedad clínica o editorial; Actualización de evidencia pendiente"
+  },
+  {
+    "id": 283,
+    "tema": "Generalidades",
+    "estado_editorial": "C — REESCRITURA DE ALTERNATIVAS",
+    "motivos": "Sin referencias declaradas"
+  },
+  {
+    "id": 284,
+    "tema": "Generalidades",
+    "estado_editorial": "E — REESCRITURA COMPLETA",
+    "motivos": "Sin referencias declaradas"
+  },
+  {
+    "id": 285,
+    "tema": "Generalidades",
+    "estado_editorial": "C — REESCRITURA DE ALTERNATIVAS",
+    "motivos": "Sin referencias declaradas"
+  },
+  {
+    "id": 288,
+    "tema": "Generalidades",
+    "estado_editorial": "C — REESCRITURA DE ALTERNATIVAS",
+    "motivos": "Sin referencias declaradas"
+  },
+  {
+    "id": 289,
+    "tema": "Generalidades",
+    "estado_editorial": "C — REESCRITURA DE ALTERNATIVAS",
+    "motivos": "Sin referencias declaradas"
+  },
+  {
+    "id": 296,
+    "tema": "Imagenología",
+    "estado_editorial": "D — REESCRITURA DEL ENUNCIADO",
+    "motivos": "Ambigüedad clínica o editorial"
+  },
+  {
+    "id": 297,
+    "tema": "Imagenología",
+    "estado_editorial": "E — REESCRITURA COMPLETA",
+    "motivos": "Clave clínica pendiente de verificación; Ambigüedad clínica o editorial"
+  },
+  {
+    "id": 299,
+    "tema": "Imagenología",
+    "estado_editorial": "E — REESCRITURA COMPLETA",
+    "motivos": "Ambigüedad clínica o editorial"
+  },
+  {
+    "id": 300,
+    "tema": "Imagenología",
+    "estado_editorial": "E — REESCRITURA COMPLETA",
+    "motivos": "Ambigüedad clínica o editorial"
+  },
+  {
+    "id": 301,
+    "tema": "Trauma y urgencias",
+    "estado_editorial": "E — REESCRITURA COMPLETA",
+    "motivos": "Clave clínica pendiente de verificación; Ambigüedad clínica o editorial; Actualización de evidencia pendiente"
+  },
+  {
+    "id": 316,
+    "tema": "Hepatopancreatobiliar",
+    "estado_editorial": "E — REESCRITURA COMPLETA",
+    "motivos": "Ambigüedad clínica o editorial"
+  },
+  {
+    "id": 319,
+    "tema": "Digestivo alto y bariátrica",
+    "estado_editorial": "E — REESCRITURA COMPLETA",
+    "motivos": "Actualización de evidencia pendiente"
+  },
+  {
+    "id": 323,
+    "tema": "Digestivo alto y bariátrica",
+    "estado_editorial": "C — REESCRITURA DE ALTERNATIVAS",
+    "motivos": "Sin referencias declaradas"
+  },
+  {
+    "id": 324,
+    "tema": "Digestivo alto y bariátrica",
+    "estado_editorial": "C — REESCRITURA DE ALTERNATIVAS",
+    "motivos": "Posible duplicación del objetivo cognitivo"
+  },
+  {
+    "id": 325,
+    "tema": "Coloproctología",
+    "estado_editorial": "C — REESCRITURA DE ALTERNATIVAS",
+    "motivos": "Sin referencias declaradas"
+  },
+  {
+    "id": 327,
+    "tema": "Coloproctología",
+    "estado_editorial": "E — REESCRITURA COMPLETA",
+    "motivos": "Sin referencias declaradas"
+  },
+  {
+    "id": 347,
+    "tema": "Cirugía torácica",
+    "estado_editorial": "F — ELIMINAR / REEMPLAZAR POR REDUNDANCIA",
+    "motivos": "Redundancia o concepto cuestionado en auditoría; Posible duplicación del objetivo cognitivo"
+  },
+  {
+    "id": 349,
+    "tema": "Cabeza, cuello, endocrino y mama",
+    "estado_editorial": "C — REESCRITURA DE ALTERNATIVAS",
+    "motivos": "Sin referencias declaradas"
+  },
+  {
+    "id": 351,
+    "tema": "Cabeza, cuello, endocrino y mama",
+    "estado_editorial": "C — REESCRITURA DE ALTERNATIVAS",
+    "motivos": "Sin referencias declaradas"
+  },
+  {
+    "id": 352,
+    "tema": "Cabeza, cuello, endocrino y mama",
+    "estado_editorial": "E — REESCRITURA COMPLETA",
+    "motivos": "Clave clínica pendiente de verificación; Ambigüedad clínica o editorial"
+  },
+  {
+    "id": 357,
+    "tema": "Pared abdominal y hernias",
+    "estado_editorial": "A — APROBADA",
+    "motivos": "Sin referencias declaradas"
+  },
+  {
+    "id": 359,
+    "tema": "Pared abdominal y hernias",
+    "estado_editorial": "B — AJUSTE MENOR",
+    "motivos": "Sin referencias declaradas"
+  },
+  {
+    "id": 362,
+    "tema": "Pared abdominal y hernias",
+    "estado_editorial": "C — REESCRITURA DE ALTERNATIVAS",
+    "motivos": "Sin referencias declaradas"
+  },
+  {
+    "id": 363,
+    "tema": "Pared abdominal y hernias",
+    "estado_editorial": "E — REESCRITURA COMPLETA",
+    "motivos": "Clave clínica pendiente de verificación; Ambigüedad clínica o editorial; Sin referencias declaradas"
+  },
+  {
+    "id": 367,
+    "tema": "Plástica, heridas y quemados",
+    "estado_editorial": "E — REESCRITURA COMPLETA",
+    "motivos": "Sin referencias declaradas"
+  },
+  {
+    "id": 371,
+    "tema": "Plástica, heridas y quemados",
+    "estado_editorial": "E — REESCRITURA COMPLETA",
+    "motivos": "Sin referencias declaradas"
+  },
+  {
+    "id": 373,
+    "tema": "Cuidados perioperatorios y paciente crítico",
+    "estado_editorial": "C — REESCRITURA DE ALTERNATIVAS",
+    "motivos": "Sin referencias declaradas"
+  },
+  {
+    "id": 376,
+    "tema": "Cuidados perioperatorios y paciente crítico",
+    "estado_editorial": "E — REESCRITURA COMPLETA",
+    "motivos": "Actualización de evidencia pendiente; Posible duplicación del objetivo cognitivo; Verificar errata BTS (British Thoracic Society, Sociedad Torácica Británica) de 2026"
+  },
+  {
+    "id": 378,
+    "tema": "Cuidados perioperatorios y paciente crítico",
+    "estado_editorial": "C — REESCRITURA DE ALTERNATIVAS",
+    "motivos": "Sin referencias declaradas"
+  },
+  {
+    "id": 381,
+    "tema": "Generalidades",
+    "estado_editorial": "E — REESCRITURA COMPLETA",
+    "motivos": "Sin referencias declaradas"
+  },
+  {
+    "id": 384,
+    "tema": "Generalidades",
+    "estado_editorial": "C — REESCRITURA DE ALTERNATIVAS",
+    "motivos": "Sin referencias declaradas"
+  },
+  {
+    "id": 388,
+    "tema": "Generalidades",
+    "estado_editorial": "D — REESCRITURA DEL ENUNCIADO",
+    "motivos": "Sin referencias declaradas"
+  },
+  {
+    "id": 391,
+    "tema": "Imagenología",
+    "estado_editorial": "C — REESCRITURA DE ALTERNATIVAS",
+    "motivos": "Sin referencias declaradas"
+  },
+  {
+    "id": 393,
+    "tema": "Imagenología",
+    "estado_editorial": "C — REESCRITURA DE ALTERNATIVAS",
+    "motivos": "Sin referencias declaradas"
+  },
+  {
+    "id": 400,
+    "tema": "Cirugía torácica",
+    "estado_editorial": "F — ELIMINAR / REEMPLAZAR POR REDUNDANCIA",
+    "motivos": "Redundancia o concepto cuestionado en auditoría; Actualización de evidencia pendiente; Posible duplicación del objetivo cognitivo; Verificar errata BTS (British Thoracic Society, Sociedad Torácica Británica) de 2026"
+  },
+  {
+    "id": 403,
+    "tema": "Trauma y urgencias",
+    "estado_editorial": "E — REESCRITURA COMPLETA",
+    "motivos": "Actualización de evidencia pendiente"
+  },
+  {
+    "id": 404,
+    "tema": "Trauma y urgencias",
+    "estado_editorial": "E — REESCRITURA COMPLETA",
+    "motivos": "Sin referencias declaradas"
+  },
+  {
+    "id": 405,
+    "tema": "Trauma y urgencias",
+    "estado_editorial": "E — REESCRITURA COMPLETA",
+    "motivos": "Sin referencias declaradas"
+  },
+  {
+    "id": 406,
+    "tema": "Trauma y urgencias",
+    "estado_editorial": "E — REESCRITURA COMPLETA",
+    "motivos": "Sin referencias declaradas"
+  },
+  {
+    "id": 412,
+    "tema": "Hepatopancreatobiliar",
+    "estado_editorial": "C — REESCRITURA DE ALTERNATIVAS",
+    "motivos": "Posible duplicación del objetivo cognitivo; Sin referencias declaradas"
+  },
+  {
+    "id": 414,
+    "tema": "Hepatopancreatobiliar",
+    "estado_editorial": "F — ELIMINAR / REEMPLAZAR POR REDUNDANCIA",
+    "motivos": "Redundancia o concepto cuestionado en auditoría; Posible duplicación del objetivo cognitivo"
+  },
+  {
+    "id": 415,
+    "tema": "Hepatopancreatobiliar",
+    "estado_editorial": "E — REESCRITURA COMPLETA",
+    "motivos": "Ambigüedad clínica o editorial; Sin referencias declaradas"
+  },
+  {
+    "id": 417,
+    "tema": "Digestivo alto y bariátrica",
+    "estado_editorial": "E — REESCRITURA COMPLETA",
+    "motivos": "Sin referencias declaradas"
+  },
+  {
+    "id": 420,
+    "tema": "Digestivo alto y bariátrica",
+    "estado_editorial": "E — REESCRITURA COMPLETA",
+    "motivos": "Ambigüedad clínica o editorial"
+  },
+  {
+    "id": 421,
+    "tema": "Digestivo alto y bariátrica",
+    "estado_editorial": "E — REESCRITURA COMPLETA",
+    "motivos": "Sin referencias declaradas"
+  },
+  {
+    "id": 422,
+    "tema": "Digestivo alto y bariátrica",
+    "estado_editorial": "E — REESCRITURA COMPLETA",
+    "motivos": "Sin referencias declaradas"
+  },
+  {
+    "id": 424,
+    "tema": "Digestivo alto y bariátrica",
+    "estado_editorial": "E — REESCRITURA COMPLETA",
+    "motivos": "Sin referencias declaradas"
+  },
+  {
+    "id": 428,
+    "tema": "Coloproctología",
+    "estado_editorial": "E — REESCRITURA COMPLETA",
+    "motivos": "Clave clínica pendiente de verificación; Ambigüedad clínica o editorial"
+  },
+  {
+    "id": 429,
+    "tema": "Coloproctología",
+    "estado_editorial": "E — REESCRITURA COMPLETA",
+    "motivos": "Clave clínica pendiente de verificación"
+  },
+  {
+    "id": 430,
+    "tema": "Coloproctología",
+    "estado_editorial": "E — REESCRITURA COMPLETA",
+    "motivos": "Sin referencias declaradas"
+  },
+  {
+    "id": 431,
+    "tema": "Coloproctología",
+    "estado_editorial": "C — REESCRITURA DE ALTERNATIVAS",
+    "motivos": "Sin referencias declaradas"
+  },
+  {
+    "id": 435,
+    "tema": "Cirugía vascular",
+    "estado_editorial": "B — AJUSTE MENOR",
+    "motivos": "Sin referencias declaradas"
+  },
+  {
+    "id": 438,
+    "tema": "Cirugía vascular",
+    "estado_editorial": "C — REESCRITURA DE ALTERNATIVAS",
+    "motivos": "Sin referencias declaradas"
+  },
+  {
+    "id": 440,
+    "tema": "Cirugía vascular",
+    "estado_editorial": "E — REESCRITURA COMPLETA",
+    "motivos": "Sin referencias declaradas"
+  },
+  {
+    "id": 441,
+    "tema": "Cirugía torácica",
+    "estado_editorial": "C — REESCRITURA DE ALTERNATIVAS",
+    "motivos": "Sin referencias declaradas"
+  },
+  {
+    "id": 448,
+    "tema": "Cirugía torácica",
+    "estado_editorial": "E — REESCRITURA COMPLETA",
+    "motivos": "Sin referencias declaradas"
+  },
+  {
+    "id": 449,
+    "tema": "Cabeza, cuello, endocrino y mama",
+    "estado_editorial": "C — REESCRITURA DE ALTERNATIVAS",
+    "motivos": "Sin referencias declaradas"
+  },
+  {
+    "id": 450,
+    "tema": "Cabeza, cuello, endocrino y mama",
+    "estado_editorial": "C — REESCRITURA DE ALTERNATIVAS",
+    "motivos": "Sin referencias declaradas"
+  },
+  {
+    "id": 452,
+    "tema": "Cabeza, cuello, endocrino y mama",
+    "estado_editorial": "B — AJUSTE MENOR",
+    "motivos": "Sin referencias declaradas"
+  },
+  {
+    "id": 453,
+    "tema": "Cabeza, cuello, endocrino y mama",
+    "estado_editorial": "C — REESCRITURA DE ALTERNATIVAS",
+    "motivos": "Sin referencias declaradas"
+  },
+  {
+    "id": 456,
+    "tema": "Cabeza, cuello, endocrino y mama",
+    "estado_editorial": "E — REESCRITURA COMPLETA",
+    "motivos": "Sin referencias declaradas"
+  },
+  {
+    "id": 457,
+    "tema": "Pared abdominal y hernias",
+    "estado_editorial": "E — REESCRITURA COMPLETA",
+    "motivos": "Sin referencias declaradas"
+  },
+  {
+    "id": 458,
+    "tema": "Pared abdominal y hernias",
+    "estado_editorial": "E — REESCRITURA COMPLETA",
+    "motivos": "Sin referencias declaradas"
+  },
+  {
+    "id": 461,
+    "tema": "Pared abdominal y hernias",
+    "estado_editorial": "E — REESCRITURA COMPLETA",
+    "motivos": "Sin referencias declaradas"
+  },
+  {
+    "id": 462,
+    "tema": "Pared abdominal y hernias",
+    "estado_editorial": "E — REESCRITURA COMPLETA",
+    "motivos": "Posible duplicación del objetivo cognitivo"
+  },
+  {
+    "id": 463,
+    "tema": "Pared abdominal y hernias",
+    "estado_editorial": "F — ELIMINAR / REEMPLAZAR POR REDUNDANCIA",
+    "motivos": "Redundancia o concepto cuestionado en auditoría; Posible duplicación del objetivo cognitivo"
+  },
+  {
+    "id": 465,
+    "tema": "Plástica, heridas y quemados",
+    "estado_editorial": "C — REESCRITURA DE ALTERNATIVAS",
+    "motivos": "Sin referencias declaradas"
+  },
+  {
+    "id": 466,
+    "tema": "Plástica, heridas y quemados",
+    "estado_editorial": "C — REESCRITURA DE ALTERNATIVAS",
+    "motivos": "Sin referencias declaradas"
+  },
+  {
+    "id": 469,
+    "tema": "Plástica, heridas y quemados",
+    "estado_editorial": "E — REESCRITURA COMPLETA",
+    "motivos": "Sin referencias declaradas"
+  },
+  {
+    "id": 470,
+    "tema": "Plástica, heridas y quemados",
+    "estado_editorial": "E — REESCRITURA COMPLETA",
+    "motivos": "Sin referencias declaradas"
+  },
+  {
+    "id": 471,
+    "tema": "Plástica, heridas y quemados",
+    "estado_editorial": "E — REESCRITURA COMPLETA",
+    "motivos": "Clave clínica pendiente de verificación"
+  },
+  {
+    "id": 478,
+    "tema": "Cuidados perioperatorios y paciente crítico",
+    "estado_editorial": "C — REESCRITURA DE ALTERNATIVAS",
+    "motivos": "Sin referencias declaradas"
+  },
+  {
+    "id": 480,
+    "tema": "Cuidados perioperatorios y paciente crítico",
+    "estado_editorial": "E — REESCRITURA COMPLETA",
+    "motivos": "Sin referencias declaradas"
+  },
+  {
+    "id": 481,
+    "tema": "Generalidades",
+    "estado_editorial": "C — REESCRITURA DE ALTERNATIVAS",
+    "motivos": "Sin referencias declaradas"
+  },
+  {
+    "id": 484,
+    "tema": "Generalidades",
+    "estado_editorial": "C — REESCRITURA DE ALTERNATIVAS",
+    "motivos": "Sin referencias declaradas"
+  },
+  {
+    "id": 485,
+    "tema": "Generalidades",
+    "estado_editorial": "E — REESCRITURA COMPLETA",
+    "motivos": "Sin referencias declaradas"
+  },
+  {
+    "id": 488,
+    "tema": "Generalidades",
+    "estado_editorial": "E — REESCRITURA COMPLETA",
+    "motivos": "Sin referencias declaradas"
+  },
+  {
+    "id": 489,
+    "tema": "Generalidades",
+    "estado_editorial": "E — REESCRITURA COMPLETA",
+    "motivos": "Sin referencias declaradas"
+  },
+  {
+    "id": 492,
+    "tema": "Imagenología",
+    "estado_editorial": "E — REESCRITURA COMPLETA",
+    "motivos": "Sin referencias declaradas"
+  },
+  {
+    "id": 494,
+    "tema": "Imagenología",
+    "estado_editorial": "E — REESCRITURA COMPLETA",
+    "motivos": "Ambigüedad clínica o editorial; Actualización de evidencia pendiente; Confirmar interpretación de imagen y criterio dimensional"
+  },
+  {
+    "id": 495,
+    "tema": "Imagenología",
+    "estado_editorial": "E — REESCRITURA COMPLETA",
+    "motivos": "Sin referencias declaradas"
+  }
+]

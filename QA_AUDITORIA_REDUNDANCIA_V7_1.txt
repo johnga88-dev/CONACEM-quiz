@@ -1,0 +1,16 @@
+SurgiPrep V7.1 — Auditoría semántica de duplicación
+
+Preguntas auditadas: 500
+Ítems reemplazados por redundancia/solapamiento: 62
+IDs reemplazados: 32, 105, 129, 132, 134, 150, 154, 156, 165, 167, 168, 196, 203, 209, 210, 212, 217, 218, 221, 236, 237, 239, 247, 249, 251, 255, 256, 259, 260, 275, 276, 302, 322, 327, 332, 338, 339, 354, 358, 363, 370, 375, 391, 401, 403, 413, 425, 429, 442, 446, 453, 454, 458, 473, 476, 482, 484, 492, 495, 497, 498, 500
+Duplicados exactos normalizados restantes: 0
+Pares con similitud TF-IDF >=0.35 tras reemplazo: 1
+  295-443: 0.411 | Imagenología / Cirugía torácica
+
+Nota: la similitud lexical alta no implica necesariamente duplicación conceptual; los pares residuales se revisaron como control secundario.
+
+Segunda pasada manual adicional: se reemplazaron también 117, 168, 226, 337, 443, 458 y 464 por solapamiento conceptual residual. Total reemplazado: 69/500.
+Tercera pasada manual: 15 ítems adicionales sustituidos por objetivos cognitivos distintos. Total acumulado sustituido por redundancia/solapamiento: 84/500.
+Cuarta pasada manual profunda: 14 ítems adicionales sustituidos. Total acumulado reemplazado: 98/500. Umbral lexical residual >=0.25: 0 pares.
+Quinta pasada: 20 ítems adicionales sustituidos por solapamiento cognitivo. Total acumulado reemplazado: 118/500. No quedan pares con similitud lexical >=0.23.
+Sexta pasada final: 3 ítems adicionales sustituidos (416, 470, 273). Total reemplazado: 121/500. Duplicados exactos: 0. Pares con similitud lexical >=0.25: 0.
