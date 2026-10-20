@@ -1,0 +1,14 @@
+SurgiPrep V5.0 — Banco de 3.000 preguntas nuevas
+
+Contenido primario:
+- Resumen Cirugía Digestivo Alto — Hospital del Salvador 2019
+- Resumen Cirugía Digestivo Bajo — Hospital del Salvador 2019
+- Resumen Cirugía Hepatobiliopáncreas — Hospital del Salvador 2019
+- Resumen Cirugía Tórax — Hospital del Salvador 2019
+- Resumen Cirugía Vascular — Hospital del Salvador 2019
+- Resumen Cirugía Plástica y Reconstructiva — Hospital del Salvador 2019
+- Resumen Cirugía Cabeza y Cuello — Hospital del Salvador 2019
+
+Las reconstrucciones CONACEM 2019, 2021, 2022 y 2023 se usaron como modelo de estilo, densidad y tipo de distractores, no como fuente para copiar preguntas.
+
+The Washington Manual of Surgery, 8.ª y 9.ª ediciones: se utilizó únicamente información pública del editor para orientar alcance y estilo de aprendizaje. No se reprodujo contenido protegido no aportado por el usuario.

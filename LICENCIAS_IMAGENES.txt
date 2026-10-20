@@ -1,0 +1,70 @@
+SURGIPREP V6.6 — IMÁGENES CLÍNICAS REALES DEL BLOQUE 3
+Las imágenes de la categoría Imagenología son estudios clínicos reales, no generados.
+Se enlazan desde Wikimedia Commons y requieren conexión a Internet la primera vez que se cargan.
+La aplicación puede almacenarlas en caché después de su visualización.
+
+1. Pneumoperitoneum chest X-ray.jpg
+Autor: Bill Rhodes
+Licencia: Creative Commons Attribution 2.0
+Fuente: https://commons.wikimedia.org/wiki/File:Pneumoperitoneum_chest_X-ray.jpg
+
+2. Upright X-ray demonstrating small bowel obstruction.jpg
+Autor: James Heilman, MD
+Licencia: Creative Commons Attribution-ShareAlike 3.0
+Fuente: https://commons.wikimedia.org/wiki/File:Upright_X-ray_demonstrating_small_bowel_obstruction.jpg
+
+3. Appendicitis.png
+Autor: James Heilman, MD
+Licencia: Creative Commons Attribution-ShareAlike 4.0
+Fuente: https://commons.wikimedia.org/wiki/File:Appendicitis.png
+
+4. Ultrasonography of cholecystitis.jpg
+Autor: Mikael Häggström, MD
+Licencia: Creative Commons CC0 1.0
+Fuente: https://commons.wikimedia.org/wiki/File:Ultrasonography_of_cholecystitis.jpg
+
+5. 09-01-Pneumothorax.png
+Autor: Hellerhoff
+Licencia: Creative Commons Attribution-ShareAlike 3.0
+Fuente: https://commons.wikimedia.org/wiki/File:09-01-Pneumothorax.png
+
+6. Contrast-enhanced CT scan demonstrating abdominal aortic aneurysm.jpg
+Autor: James Heilman, MD
+Licencia: Creative Commons Attribution-ShareAlike 3.0
+Fuente: https://commons.wikimedia.org/wiki/File:Contrast-enhanced_CT_scan_demonstrating_abdominal_aortic_aneurysm.jpg
+
+7. Diverticulitis.png
+Autor: James Heilman, MD
+Licencia: Creative Commons Attribution-ShareAlike 3.0
+Fuente: https://commons.wikimedia.org/wiki/File:Diverticulitis.png
+
+8. ColonCancer-LiverMeta.jpg
+Autor: 邱鈺鋒
+Licencia: Creative Commons Attribution-ShareAlike 4.0
+Fuente: https://commons.wikimedia.org/wiki/File:ColonCancer-LiverMeta.jpg
+
+9. Pancreatic Pseudocyst.PNG
+Autor: JasonRobertYoungMD
+Licencia: Creative Commons Attribution-ShareAlike 4.0
+Fuente: https://commons.wikimedia.org/wiki/File:Pancreatic_Pseudocyst.PNG
+
+10. Ischemicbowel.PNG
+Autor: James Heilman, MD
+Licencia: Creative Commons Attribution-ShareAlike 3.0
+Fuente: https://commons.wikimedia.org/wiki/File:Ischemicbowel.PNG
+
+Nota: conservar atribuciones y condiciones de licencia si se redistribuyen las imágenes o una copia local de ellas.
+
+
+=== Imágenes adicionales / reutilizadas en Bloque 4 V6.8 ===
+AcuteChol.png | James Heilman, MD | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:AcuteChol.png
+CT of small bowel volvulus.jpg | James Heilman, MD / source clinical | licencia indicada en Commons | https://commons.wikimedia.org/wiki/File:CT_of_small_bowel_volvulus.jpg
+DissectionCT.png | James Heilman, MD | CC BY-SA | https://commons.wikimedia.org/wiki/File:DissectionCT.png
+CT Spleen Rupture.jpg | Hellerhoff | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:CT_Spleen_Rupture.jpg
+01-Sigmadivertikulitis CT ax 001 Perforation.png | Hellerhoff | Creative Commons | https://commons.wikimedia.org/wiki/File:01-Sigmadivertikulitis_CT_ax_001_Perforation.png
+HerniaresultingBowelObstruction.jpg | Doc James | Creative Commons | https://commons.wikimedia.org/wiki/File:HerniaresultingBowelObstruction.jpg
+FreeairCT.png | James Heilman, MD | CC BY-SA 3.0 | https://commons.wikimedia.org/wiki/File:FreeairCT.png
+Mesenteriale Ischaemie mit Pneumatosis intestinalis und Gas in Mesenterial- und Lebervenen 80M - CT - 001.jpg | Hellerhoff | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Mesenteriale_Ischaemie_mit_Pneumatosis_intestinalis_und_Gas_in_Mesenterial-_und_Lebervenen_80M_-_CT_-_001.jpg
+Pankreatitis exsudativ CT axial.jpg | Hellerhoff | Creative Commons | https://commons.wikimedia.org/wiki/File:Pankreatitis_exsudativ_CT_axial.jpg
+Pleural effusion.jpg | Wikimedia Commons / original clinical source | licencia indicada en Commons | https://commons.wikimedia.org/wiki/File:Pleural_effusion.jpg
+Mammogram showing cancer.jpg | National Cancer Institute / Commons | public domain / licencia indicada en Commons | https://commons.wikimedia.org/wiki/File:Mammogram_showing_cancer.jpg
