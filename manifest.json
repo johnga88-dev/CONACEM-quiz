@@ -1,7 +1,7 @@
 {
   "name": "SurgiPrep",
   "short_name": "SurgiPrep",
-  "description": "Interfaz de entrenamiento en cirugía general con 1500 preguntas, quince bloques completos y avisos de revisión pendiente.",
+  "description": "Interfaz de entrenamiento en cirugía general con 2000 preguntas, veinte bloques completos y avisos de revisión pendiente.",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#101827",

@@ -1,4 +1,4 @@
-const CACHE='surgiprep-v7-22-3-revision-1500-1';
+const CACHE='surgiprep-v7-23-0-banco2000-1';
 const CORE=['./','./index.html','./app.js','./settings.js','./appearance.js','./style.css','./questions.json','./manifest.json','./icon-192.png','./icon-512.png','./apple-touch-icon.png','./icons/apple-touch-icon-180.png','./assets/brand/logo-header.png'];
 // Con red lenta o inestable no se espera indefinidamente: si hay copia guardada, se usa tras este plazo.
 const NETWORK_TIMEOUT_MS=4000;

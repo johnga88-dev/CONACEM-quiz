@@ -1,3 +1,5 @@
-# SurgiPrep 7.22.3 Beta
+# SurgiPrep 7.23.0 Beta
 
-Revisión de código: correcciones de seguridad, robustez y rendimiento sin cambios en el banco de 1.500 preguntas ni en la interfaz. Consulte LEEME_REVISION_V7_22_3.md.
+2.000 preguntas · 20 bloques. Aplicación completa para GitHub Pages basada en 7.22.3 y banco R06.
+
+Consulta LEEME_V7_23_0.md para cambios, publicación, continuidad y limitaciones.

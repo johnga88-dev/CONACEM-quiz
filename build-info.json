@@ -1,22 +1,24 @@
 {
-  "version": "7.22.3-beta-1500",
-  "date": "2026-10-19",
-  "questions": 1500,
-  "blocks": 15,
+  "version": "7.23.0-beta-2000",
+  "date": "2026-10-20",
+  "questions": 2000,
+  "blocks": 20,
   "questions_per_block": 100,
-  "pending": 1138,
+  "pending": 1643,
   "clinical_status": "Pendiente de validación clínica definitiva",
-  "previous_version": "7.22.2-beta-1500",
-  "bank_changed": false,
-  "existing_questions_modified": 0,
-  "added_questions": 0,
+  "previous_version": "7.22.3-beta-1500",
+  "bank_changed": true,
+  "existing_questions_modified": 26,
+  "added_questions": 500,
   "added_ids": [
-    1420,
-    1500
+    1501,
+    2000
   ],
   "physical_ios_voice_tested": false,
   "logo_icon": "icon-512.png",
   "logo_header": "assets/brand/logo-header.png",
-  "changes": "Revisión de código: escape HTML, validación de respaldo, almacenamiento robusto, rendimiento de ordenamientos, service worker y logo optimizado.",
-  "creator": "Editable por el usuario en ajustes; nombre no suministrado."
+  "changes": "Integración íntegra del banco R06: 2.000 preguntas, veinte bloques, correcciones previas e imágenes. Compatibilidad del valor Intermedia con el filtro Intermedio, sin alterar questions.json.",
+  "creator": "Editable por el usuario en ajustes; nombre no suministrado.",
+  "bank_revision": "R06",
+  "bank_sha256": "4941825126e4301509dd65287ad08e3fdecda2513760c622da1edd6db1a87286"
 }
