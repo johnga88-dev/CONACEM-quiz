@@ -82,3 +82,33 @@ header .logo{width:96px;height:96px;object-fit:contain;border-radius:12px}
 .audioMenu button{width:48px;min-height:48px;height:48px;gap:0;padding:0;background:#243246;color:#fff;border:1px solid var(--control-border);border-radius:9px}
 .audioMenu button>span:first-child{display:grid;place-items:center;line-height:1}
 .audioMenu svg{display:block;width:22px;height:22px}
+
+/* Individual rationales slide out below the main explanation. */
+.alternativeAnalysis{margin-top:14px;border:1px solid var(--line);border-radius:9px;background:var(--soft);color:var(--text);min-width:0;overflow:hidden}
+.analysisToggle{display:flex;align-items:center;justify-content:space-between;gap:12px;width:100%;min-height:44px;padding:10px 12px;border:0;border-radius:8px;background:transparent;color:var(--link);font-size:13px;font-weight:600;text-align:left;line-height:1.5;touch-action:manipulation}
+.analysisToggle:focus-visible{outline:3px solid var(--focus);outline-offset:-3px}
+.analysisChevron{flex:none;transition:transform .22s ease}
+.alternativeAnalysis.is-open .analysisChevron{transform:rotate(180deg)}
+.analysisPanel{display:grid;grid-template-rows:0fr;opacity:0;visibility:hidden;transition:grid-template-rows .22s ease,opacity .22s ease,visibility 0s linear .22s}
+.alternativeAnalysis.is-open .analysisPanel{grid-template-rows:1fr;opacity:1;visibility:visible;transition-delay:0s}
+.analysisClip{min-height:0;overflow:hidden}
+#qcard #feedback .analysisContent{padding:0 12px 12px;font-size:var(--reading-body);line-height:1.65;white-space:pre-line;overflow-wrap:anywhere}
+@media(prefers-reduced-motion:reduce){.analysisPanel,.analysisChevron{transition:none}}
+
+/* Keep the answer result and main explanation clear of the top safe area. */
+#feedback{scroll-margin-top:calc(env(safe-area-inset-top, 0px) + 16px)}
+
+/* Thumb-reachable navigation stays available throughout the question and feedback. */
+#quiz{padding-bottom:calc(80px + env(safe-area-inset-bottom, 0px))}
+.questionNav{position:fixed;left:0;right:0;bottom:0;z-index:10;padding:10px max(12px,env(safe-area-inset-right,0px)) calc(10px + env(safe-area-inset-bottom,0px)) max(12px,env(safe-area-inset-left,0px));background:var(--bg);border-top:1px solid var(--line)}
+.questionNavInner{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;max-width:880px;margin:0 auto}
+.questionNav button{display:flex;align-items:center;justify-content:center;gap:9px;min-width:0;min-height:50px;padding:11px 14px;border:1px solid var(--blue);border-radius:12px;background:var(--blue);color:#fff;font-size:15px;font-weight:650;line-height:1.4;touch-action:manipulation}
+.questionNav button.secondary{background:var(--card);border-color:var(--control-border);color:var(--text)}
+.questionNav button:disabled{opacity:.45;cursor:default}
+.questionNav svg{flex:none}
+#qcard{scroll-margin-top:calc(env(safe-area-inset-top,0px) + 12px)}
+body.settingsOpen .questionNav,body:has(.modal.show,.imageModal.show) .questionNav{visibility:hidden;pointer-events:none}
+@media(max-height:549px) and (orientation:landscape){.questionNav{padding-top:6px;padding-bottom:calc(6px + env(safe-area-inset-bottom,0px))}.questionNav button{min-height:44px;padding:8px 14px}}
+
+/* Keep vertical reading and pinch zoom native while recognizing deliberate horizontal swipes. */
+#qcard{touch-action:pan-y pinch-zoom}

@@ -1,17 +1,13 @@
-# SurgiPrep 7.23.1 Beta — corrección de actualización
+# SurgiPrep 7.23.1 Beta — Análisis de alternativas desplegable
 
-Banco, preguntas, imágenes y progreso sin cambios respecto de 7.23.0.
+Basada en 7.23.0 con el mismo banco de 2.000 preguntas, idéntico byte por byte. No se integran otros cambios de contenido en esta edición.
 
-## Problema
-Tras publicar en GitHub Pages seguía apareciendo la versión anterior. El service worker:
-- guardaba los archivos nuevos sin saltarse la caché HTTP de GitHub Pages (hasta 10 min), por lo que la caché "nueva" podía contener archivos viejos;
-- entregaba la copia guardada si la red tardaba más de 4 s (questions.json pesa 8,5 MB);
-- no recargaba la página al activarse una versión nueva.
+- La explicación principal permanece visible tras contestar en Estudio o finalizar el Examen.
+- «Análisis de alternativas» aparece justo debajo, inicialmente plegado. Tócalo para deslizar los cinco fundamentos hacia abajo; vuelve a tocarlo para plegarlos.
+- Botón accesible mediante teclado, estado expandido anunciado, área táctil mínima de 44 px y animación desactivada con reducción de movimiento.
+- El tamaño de letra del contenido se aplica a los fundamentos; el botón conserva su tamaño.
+- Abrir el análisis no activa lectura ni micrófono. La lectura por toque de la explicación principal se conserva.
+- El análisis vuelve a quedar plegado al mostrar otra pregunta. En Examen permanece oculto hasta finalizar, junto con el resto de la corrección.
+- Versión, caché, tutorial y documentación actualizados. Misma dirección de publicación y mismas claves de progreso.
 
-## Corrección
-- sw.js: descarga inicial con `cache: 'reload'`; páginas, JS, CSS y JSON se piden primero a la red y la copia guardada solo se usa sin conexión; imágenes siguen cargándose desde la copia guardada.
-- app.js: registro con `updateViaCache: 'none'`, comprobación de actualización en cada apertura y recarga automática única cuando se activa una versión nueva.
-- `.nojekyll` en la raíz.
-
-## Primera actualización desde 7.23.0 o anterior
-Los dispositivos aún tienen el service worker antiguo. Abre la app, espera unos 30 s con conexión, ciérrala por completo y vuelve a abrirla. En Ajustes debe verse «Versión 7.23.1 Beta». Desde esta versión, las siguientes actualizaciones se aplican solas.
+Paquete completo para GitHub Pages, sin desplegar. Consultar auditoria/PRUEBAS_V7_23_1.json para alcance y límites. Comprobaciones automáticas con DOM simulado; sin navegador ni dispositivo físico. Validación clínica independiente del banco pendiente.
