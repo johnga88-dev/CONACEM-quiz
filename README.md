@@ -1,5 +1,7 @@
-# SurgiPrep 7.23.4 Beta
+# SurgiPrep 7.23.8 Beta — 2.146 preguntas
 
-1.888 preguntas · banco R07. Gestos táctiles horizontales y navegación fija inferior con Anterior y Siguiente.
+22 bloques: los veinte anteriores de 100 preguntas y dos nuevos OPE de 73.
 
-Leer LEEME_V7_23_4.md. Paquete completo para GitHub Pages.
+Aplicación completa para GitHub Pages basada en 7.23.7. Se conservan las 2.000 preguntas previas, los gestos, la navegación inferior, la explicación automática, el análisis desplegable, audio y progreso.
+
+Leer LEEME_V7_23_8.md. Lectura sin instalar: LECTURA_BANCO/INDICE.html.
