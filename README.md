@@ -1,7 +1,7 @@
-# SurgiPrep 7.23.8 Beta — 2.146 preguntas
+# SurgiPrep 7.23.14 Beta
 
-22 bloques: los veinte anteriores de 100 preguntas y dos nuevos OPE de 73.
+2.600 preguntas · 26 bloques de 100. Edición corregida basada en el paquete 7.23.12 auditado.
 
-Aplicación completa para GitHub Pages basada en 7.23.7. Se conservan las 2.000 preguntas previas, los gestos, la navegación inferior, la explicación automática, el análisis desplegable, audio y progreso.
+Leer LEEME_V7_23_14.md para cambios, actualización y límites de pruebas. Informes nuevos en auditoria/. Los LEEME históricos son antecedentes de otras ediciones.
 
-Leer LEEME_V7_23_8.md. Lectura sin instalar: LECTURA_BANCO/INDICE.html.
+Paquete completo para GitHub Pages; no desplegado.
