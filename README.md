@@ -1,7 +1,5 @@
-# SurgiPrep 7.23.14 Beta
+# SurgiPrep 7.23.15 Beta — Bloques con numeración consecutiva
 
-2.600 preguntas · 26 bloques de 100. Edición corregida basada en el paquete 7.23.12 auditado.
+2.600 preguntas: 26 bloques de 100. Bloque 1: 1–100; bloque 2: 101–200; hasta bloque 26: 2501–2600.
 
-Leer LEEME_V7_23_14.md para cambios, actualización y límites de pruebas. Informes nuevos en auditoria/. Los LEEME históricos son antecedentes de otras ediciones.
-
-Paquete completo para GitHub Pages; no desplegado.
+Numeración visible separada del ID interno para conservar el progreso. Leer LEEME_V7_23_15.md. Paquete completo para GitHub Pages, sin despliegue automático.

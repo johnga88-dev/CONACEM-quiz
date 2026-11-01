@@ -127,3 +127,5 @@ body.settingsOpen .questionNav,body:has(.modal.show,.imageModal.show) .questionN
  #examConfig .filterField>span{font-size:clamp(10px,2.8vw,12px);line-height:1.4}
  #examConfig select{padding:8px 18px 8px 6px;font-size:clamp(11px,2.8vw,13px)}
 }
+
+.questionOrdinal{display:inline-block;margin-right:8px;color:var(--muted);font-weight:600}
