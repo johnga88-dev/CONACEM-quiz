@@ -1,7 +1,7 @@
 {
   "name": "SurgiPrep",
   "short_name": "SurgiPrep",
-  "description": "Entrenamiento en cirugía general con 2.600 preguntas: 26 bloques de 100, sin ginecología, urología ni ortopedia.",
+  "description": "Entrenamiento en cirugía general con 2.500 preguntas: 25 bloques de 100, sin cirugía pediátrica ni cardíaca, ginecología, urología u ortopedia; se conserva trauma cardíaco.",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#101827",
