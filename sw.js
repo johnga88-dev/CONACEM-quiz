@@ -1,4 +1,4 @@
-const CACHE='surgiprep-v7-23-15-numeracion-2600-1';
+const CACHE='surgiprep-v7-23-16-bloques-2600-1';
 const CORE=['./','./index.html','./app.js','./settings.js','./appearance.js','./style.css','./questions.json','./manifest.json','./icon-192.png','./icon-512.png','./apple-touch-icon.png','./icons/apple-touch-icon-180.png','./assets/brand/logo-header.png'];
 
 self.addEventListener('install',event=>event.waitUntil((async()=>{
