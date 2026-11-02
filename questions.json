@@ -51199,7 +51199,7 @@
     "cognitive_objective": "Síndrome compartimental",
     "difficulty": "Fácil",
     "type": "Teoría",
-    "question": "El diagnóstico de síndrome de compartimiento de la pierna en un paciente obnubilado se hace al medir una diferencia de menos de 30 mm Hg entre la presión del compartimiento y la:",
+    "question": "En un paciente obnubilado con sospecha de síndrome compartimental agudo de la pierna, se calcula la presión diferencial (ΔP). ¿De cuál de las siguientes presiones se resta la presión intracompartimental para obtener ese gradiente?",
     "options": [
       "Presión sanguínea sistólica",
       "Presión sanguínea diastólica",
@@ -51208,13 +51208,13 @@
       "Presión venosa central (PVC)"
     ],
     "answer": 1,
-    "explanation": "Para descomprimir de manera adecuada el compartimiento posterior profundo, el cirujano debe visualizar y cortar la fascia a todo lo largo del compartimiento. Para lograr esto en la parte proximal, el origen del sóleo debe desprenderse de manera parcial para tener acceso a la parte proximal del compartimiento posterior profundo.",
+    "explanation": "La respuesta correcta es B: presión arterial diastólica. La presión diferencial se calcula como ΔP = presión arterial diastólica − presión intracompartimental. Un ΔP menor de 30 mmHg indica mayor riesgo de síndrome compartimental por perfusión tisular comprometida. No debe interpretarse una medición aislada como diagnóstico automático: se integra con el contexto clínico, la evaluación quirúrgica y mediciones repetidas o continuas cuando la exploración no es fiable, como en un paciente obnubilado.",
     "rationales": [
-      "Razonamiento individual pendiente de revisión clínica.",
-      "Razonamiento individual pendiente de revisión clínica.",
-      "Razonamiento individual pendiente de revisión clínica.",
-      "Razonamiento individual pendiente de revisión clínica.",
-      "La diferencia de presión utilizada como apoyo diagnóstico se calcula con la presión arterial diastólica y la presión intracompartimental, no con la presión venosa central (PVC). La valoración no depende exclusivamente de una medición aislada."
+      "La presión sistólica no es la presión de referencia del gradiente diferencial definido en esta pregunta.",
+      "Es la referencia correcta: ΔP = presión arterial diastólica − presión intracompartimental.",
+      "La presión arterial media no sustituye a la diastólica en este criterio diferencial.",
+      "La presión de perfusión cerebral corresponde a otro territorio; no define este gradiente de una extremidad.",
+      "La presión venosa central no es la referencia utilizada para calcular este ΔP."
     ],
     "sources": [
       {
@@ -51229,18 +51229,28 @@
         "name": "Academia Estadounidense de Cirujanos Ortopédicos: corrección sobre presión diferencial",
         "url": "https://new.aaos.org/aaosnow/2019/sep/commentary/commentary04/",
         "excerpt": "Apoyo específico para la alternativa E añadida; no valida el conjunto de la pregunta. Consulta: 18 de octubre de 2026."
+      },
+      {
+        "code": "BOAST-ACS-2025",
+        "title": "BOASt — Diagnosis and Management of Compartment Syndrome of the Extremities",
+        "society": "British Orthopaedic Association / BAPRAS",
+        "year": 2025,
+        "url": "https://www.boa.ac.uk/resource/boast-10-pdf.html",
+        "section": "Estándar 8 y nota sobre presión diferencial; actualización de julio de 2025",
+        "verified_on": "2026-11-01",
+        "access": "Consulta directa de los apartados indicados de la fuente oficial; no cotejo con el libro original."
       }
     ],
     "labs": null,
     "image": null,
     "origin": "Manual Washington de Cirugía, 8.ª edición — exportación aportada de Claude",
-    "updated": "2026-10-18",
+    "updated": "2026-11-01",
     "source_number": 87,
     "source_chapter": 13,
     "source_chapter_question": 1,
     "source_original_option_count": 4,
     "source_context": [],
-    "source_explanation_authorship": "Atribuida al libro por el archivo aportado; no cotejada",
+    "source_explanation_authorship": "Explicación actual redactada por SurgiPrep y cotejada de forma dirigida con BOASt 2025; la explicación de la exportación se conserva solo en source_original como registro histórico.",
     "source_original": {
       "question": "El diagnóstico de síndrome de compartimiento de la pierna en un paciente obnubilado se hace al medir una diferencia de menos de 30 mm Hg entre la presión del compartimiento y la:",
       "options": [
@@ -51252,22 +51262,21 @@
       "answer": 1,
       "explanation": "Para descomprimir de manera adecuada el compartimiento posterior profundo, el cirujano debe visualizar y cortar la fascia a todo lo largo del compartimiento. Para lograr esto en la parte proximal, el origen del sóleo debe desprenderse de manera parcial para tener acceso a la parte proximal del compartimiento posterior profundo."
     },
-    "review_status": "Pendiente de cotejo con fuente y validación clínica definitiva",
+    "review_status": "Enunciado precisado, explicación y cinco fundamentos corregidos con cotejo dirigido de fuente oficial; validación clínica independiente pendiente",
     "review_notes": [
-      "Se conserva la clave del archivo exportado de Claude; no equivale a una verificación independiente contra las páginas del libro.",
-      "La dificultad es una clasificación editorial provisional; no ha sido calibrada con resultados de usuarios.",
-      "La explicación original aborda una técnica de fasciotomía y no desarrolla directamente el umbral diagnóstico que pregunta el enunciado.",
-      "La alternativa E y su fundamento fueron añadidos por SurgiPrep; las alternativas A–D y la clave proceden de la exportación. No se atribuye la alternativa E al libro."
+      "Corrección 7.23.19: la explicación previa describía una fasciotomía del compartimento posterior profundo y no respondía la pregunta diagnóstica. Se reemplazó por el fundamento del ΔP y se completaron los cinco análisis de alternativas.",
+      "Se precisó el enunciado para preguntar cómo se calcula el gradiente, sin presentar un valor aislado como diagnóstico automático. La clave B no cambia.",
+      "Cotejo dirigido con la fuente oficial BOASt, actualizada en julio de 2025. El texto de la exportación histórica se conserva en source_original; no se afirma haber cotejado el Manual Washington.",
+      "Revisión clínica independiente pendiente; dificultad editorial sin calibración empírica."
     ],
     "audit_flag": {
       "pending": true,
       "reasons": [
-        "Cotejo de transcripción con el libro original pendiente",
-        "Validación clínica y actualización de evidencia pendientes",
-        "Clave o criterio clínico de revisión prioritaria",
-        "Quinta alternativa añadida: revisión editorial y clínica pendiente"
+        "Validación clínica independiente pendiente",
+        "Cotejo con el libro original pendiente",
+        "Dificultad editorial sin calibración empírica"
       ],
-      "source": "Clasificación e integración documental del archivo aportado",
+      "source": "Corrección dirigida SurgiPrep 7.23.19; BOASt 2025",
       "clinical_validation_complete": false
     },
     "number": 870
@@ -57161,7 +57170,7 @@
     "cognitive_objective": "Hallazgo de ileítis durante apendicectomía",
     "difficulty": "Intermedio",
     "type": "Caso clínico",
-    "question": "Le llaman de la sala de urgencias para evaluar a un varón de 19 años con dolor abdominal agudo. El paciente reporta que el dolor comenzó alrededor de su ombligo hace casi 12 horas, y ahora es más fuerte en el CID (coagulación intravascular diseminada). Usted sospecha apendicitis aguda y decide llevarlo al quirófano para apendicectomía laparoscópica, sin hacerle pruebas de imagen. Al entrar al abdomen, aprecia que el apéndice parece normal en general; sin embargo, ciego y íleo terminal están muy inflamados, y el abdomen se ve normal. ¿Cuál es el siguiente paso más apropiado?",
+    "question": "Le llaman de la sala de urgencias para evaluar a un varón de 19 años con dolor abdominal agudo. El paciente reporta que el dolor comenzó alrededor de su ombligo hace casi 12 horas, y ahora es más fuerte en el cuadrante inferior derecho (CID). Usted sospecha apendicitis aguda y decide llevarlo al quirófano para apendicectomía laparoscópica, sin hacerle pruebas de imagen. Al entrar al abdomen, aprecia que el apéndice parece normal en general; sin embargo, ciego y íleo terminal están muy inflamados, y el abdomen se ve normal. ¿Cuál es el siguiente paso más apropiado?",
     "options": [
       "Continuar con la apendicectomía y referir al paciente a un gastroenterólogo",
       "Dejar el apéndice, cerrar el abdomen y referir al paciente a un gastroenterólogo",
@@ -62798,22 +62807,22 @@
     "cognitive_objective": "Estadificación ganglionar pulmonar",
     "difficulty": "Intermedio",
     "type": "Caso clínico",
-    "question": "Un varón de 65 años padece tos crónica con el antecedente de fumar 40 paquetes anuales de cigarrillos. La radiografía demuestra una masa en el lóbulo inferior derecho (LID), que con la estadificación por PET (tomografía por emisión de positrones)/TC (tomografía computarizada) demuestra ser una lesión T1 (octava raíz cervical y primera torácica), N2 (ganglios mediastínicos ipsilaterales/subcarinales), M0. Una biopsia percutánea indica que el paciente tiene un adenocarcinoma pulmonar. ¿Cuál es el tratamiento apropiado?",
+    "question": "Un varón de 65 años, con antecedente de tabaquismo de 40 paquetes-año, tiene un adenocarcinoma pulmonar confirmado por biopsia de una lesión del lóbulo inferior derecho. El tumor primario corresponde a T1 (categoría de tamaño y extensión local del tumor). La PET-TC muestra ganglios mediastínicos ipsilaterales hipercaptantes, sospechosos de afectación N2, sin metástasis a distancia. No se ha obtenido tejido ganglionar. El paciente puede recibir tratamiento con intención curativa y confirmar el estado mediastínico cambiará el plan. Hay endosonografía disponible. ¿Cuál es el siguiente paso para la estadificación ganglionar antes de decidir el tratamiento?",
     "options": [
-      "Mediastinoscopia o ultrasonografía endobronquial",
+      "Muestreo ganglionar mediastínico mediante EBUS-TBNA, complementado con EUS si procede.",
       "Resección quirúrgica sola",
       "Resección quirúrgica seguida por quimioterapia",
       "Quimioterapia neoadyuvante",
       "Radioterapia definitiva sin confirmación ganglionar"
     ],
     "answer": 0,
-    "explanation": "El paciente requiere mediastinoscopia o EEB (ecografía endobronquial) para confirmar la enfermedad de N2 (ganglios mediastínicos ipsilaterales/subcarinales). Si los ganglios del nivel N2 resultan positivos, se trata de cáncer en etapa IIIA, que debe tratarse en un principio con tratamiento neoadyuvante.",
+    "explanation": "La respuesta es A: obtener tejido ganglionar mediante endosonografía para la estadificación mediastínica. La hipercaptación por PET-TC sugiere afectación N2, pero no constituye confirmación histológica; la biopsia del tumor primario tampoco confirma los ganglios. La guía ERS/ESGE/ESTS 2026 recomienda endosonografía sobre mediastinoscopia como evaluación inicial cuando está indicado obtener tejido mediastínico, con muestreo sistemático e idealmente combinado. La pregunta solicita estadificación, no tratamiento. Si se confirma N2, el equipo multidisciplinario define la estrategia según resecabilidad, distribución ganglionar, perfil tumoral y condición del paciente; no existe un tratamiento único aplicable a todo N2.",
     "rationales": [
-      "Razonamiento individual pendiente de revisión clínica.",
-      "Razonamiento individual pendiente de revisión clínica.",
-      "Razonamiento individual pendiente de revisión clínica.",
-      "Razonamiento individual pendiente de revisión clínica.",
-      "La sospecha de afectación mediastínica en la imagen requiere establecer su extensión y, cuando corresponde, confirmación tisular antes de decidir una estrategia definitiva. No equivale a demostrar por sí sola la afectación ganglionar."
+      "Confirma el estado ganglionar mediastínico mediante toma de muestra; es la respuesta al paso de estadificación solicitado.",
+      "La resección aislada no resuelve la incertidumbre mediastínica antes de definir el plan oncológico.",
+      "Indicar cirugía seguida de quimioterapia presupone una estrategia terapéutica sin completar la estadificación que cambiará la conducta.",
+      "La neoadyuvancia puede formar parte del tratamiento de N2 confirmado y resecable seleccionado, pero no sustituye la confirmación ganglionar solicitada en este caso.",
+      "La radioterapia definitiva no es una prueba de estadificación y esta opción omite la confirmación ganglionar relevante para el plan."
     ],
     "sources": [
       {
@@ -62828,18 +62837,27 @@
         "name": "Instituto Nacional del Cáncer: cáncer pulmonar de células no pequeñas",
         "url": "https://www.cancer.gov/types/lung/hp/non-small-cell-lung-treatment-pdq",
         "excerpt": "Apoyo específico para la alternativa E añadida; no valida el conjunto de la pregunta. Consulta: 18 de octubre de 2026."
+      },
+      {
+        "code": "ERS-ESGE-ESTS-2026",
+        "title": "ERS/ESGE/ESTS clinical practice guidelines on endobronchial and oesophageal endosonography for the diagnosis and staging of lung cancer",
+        "year": 2026,
+        "url": "https://doi.org/10.1183/13993003.00097-2026",
+        "section": "Preguntas PICO 1–3: endosonografía inicial y muestreo sistemático",
+        "verified_on": "2026-11-02",
+        "access": "Consulta dirigida del resumen y recomendaciones indexadas de la publicación primaria. Acceso directo al texto completo bloqueado; no se declara lectura íntegra."
       }
     ],
     "labs": null,
     "image": null,
     "origin": "Manual Washington de Cirugía, 8.ª edición — exportación aportada de Claude",
-    "updated": "2026-10-18",
+    "updated": "2026-11-02",
     "source_number": 241,
     "source_chapter": 35,
     "source_chapter_question": 6,
     "source_original_option_count": 4,
     "source_context": [],
-    "source_explanation_authorship": "Atribuida al libro por el archivo aportado; no cotejada",
+    "source_explanation_authorship": "Explicación actual redactada por SurgiPrep con cotejo dirigido de recomendaciones primarias; el registro source_original se conserva como histórico y no se valida como transcripción del libro.",
     "source_original": {
       "question": "Un varón de 65 años padece tos crónica con el antecedente de fumar 40 paquetes anuales de cigarrillos. La radiografía demuestra una masa en el lóbulo inferior derecho (LID), que con la estadificación por PET/TC demuestra ser una lesión T1, N2, M0. Una biopsia percutánea indica que el paciente tiene un adenocarcinoma pulmonar. ¿Cuál es el tratamiento apropiado?",
       "options": [
@@ -62851,22 +62869,21 @@
       "answer": 0,
       "explanation": "El paciente requiere mediastinoscopia o EEB para confirmar la enfermedad de N2. Si los ganglios del nivel N2 resultan positivos, se trata de cáncer en etapa IIIA, que debe tratarse en un principio con tratamiento neoadyuvante. *Véase* la Sección V. E.3."
     },
-    "review_status": "Pendiente de cotejo con fuente y validación clínica definitiva",
+    "review_status": "Reformulación dirigida de estadificación frente a tratamiento, corrección de T1 y análisis de cinco alternativas; revisión clínica independiente pendiente",
     "review_notes": [
-      "Se conserva la clave del archivo exportado de Claude; no equivale a una verificación independiente contra las páginas del libro.",
-      "La dificultad es una clasificación editorial provisional; no ha sido calibrada con resultados de usuarios.",
-      "La alternativa E y su fundamento fueron añadidos por SurgiPrep; las alternativas A–D y la clave proceden de la exportación. No se atribuye la alternativa E al libro."
+      "Corrección 7.23.20: la pregunta pide explícitamente estadificación ganglionar, no tratamiento. N2 se describe como sospecha por imagen sin confirmación tisular.",
+      "Se elimina la expansión errónea de T1 como raíces nerviosas y se aclara su significado oncológico.",
+      "La clave A y el objetivo de estadificación se conservan. La opción A especifica toma de tejido mediante endosonografía según la guía primaria de 2026; ya no se presentan mediastinoscopia y EBUS como opciones iniciales indistintas.",
+      "Se conservan los datos históricos en source_original; cotejo con el libro y revisión clínica independiente pendientes. Dificultad editorial sin calibración empírica."
     ],
     "audit_flag": {
       "pending": true,
       "reasons": [
-        "Cotejo de transcripción con el libro original pendiente",
-        "Validación clínica y actualización de evidencia pendientes",
-        "Revisión de siglas del texto original pendiente",
-        "Explicación dependiente de material del libro por completar",
-        "Quinta alternativa añadida: revisión editorial y clínica pendiente"
+        "Revisión clínica independiente pendiente",
+        "Cotejo con el libro original pendiente",
+        "Dificultad editorial sin calibración empírica"
       ],
-      "source": "Clasificación e integración documental del archivo aportado",
+      "source": "SurgiPrep 7.23.20, cotejo dirigido ERS/ESGE/ESTS 2026",
       "clinical_validation_complete": false
     },
     "number": 1021

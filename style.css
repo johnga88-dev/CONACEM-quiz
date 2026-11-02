@@ -129,3 +129,11 @@ body.settingsOpen .questionNav,body:has(.modal.show,.imageModal.show) .questionN
 }
 
 .questionOrdinal{display:inline-block;margin-right:8px;color:var(--muted);font-weight:600}
+
+/* Exam outcomes appear only after finalisation; icons and labels supplement colour. */
+.gridnav button{display:flex;align-items:center;justify-content:center;gap:4px;min-width:0}
+.gridnav button.examCorrect{background:#166534;border-color:#166534;color:#fff}
+.gridnav button.examIncorrect{background:#991b1b;border-color:#991b1b;color:#fff}
+.gridnav button.examOmitted{background:#475569;border-color:#475569;color:#fff}
+.gridnav button .navOutcome{font-size:11px;font-weight:700;line-height:1}
+.gridnav button.cur{box-shadow:0 0 0 2px var(--focus),inset 0 0 0 2px var(--bg)}
