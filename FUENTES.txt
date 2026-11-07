@@ -1,2 +1,5 @@
 Fuentes de actualización: guías internacionales vigentes citadas dentro de cada pregunta; ACR Appropriateness Criteria; guías de sociedades quirúrgicas; bibliografía personal del usuario.
 Imagenología: imágenes clínicas reales alojadas en Wikimedia Commons. Cada pregunta visual incluye la página de origen/licencia correspondiente.
+
+
+Versión 7.23.22: referencias de las 100 nuevas preguntas incluidas en cada pregunta y en auditoria/ORIGEN_BLOQUE_26/REFERENCIAS.md. Revisión documental; segunda validación clínica independiente pendiente.
